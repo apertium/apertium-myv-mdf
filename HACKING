@@ -1,0 +1,100 @@
+# -*- mode:org -*-
+#+STARTUP: showall
+
+
+This document describes how to get set up for working on
+apertium-myv-mdf.
+
+
+* Prerequisites
+
+Apart than apertium/vislcg3/hfst, this package depends on two
+monolingual packages:
+
+- giella-myv
+- giella-mdf
+
+If you want to do development, you'll most likely want them checked
+out from SVN, and compiled with support for Apertium.
+
+
+** If you've got the Giellatekno setup already
+
+If you've already got the full Giellatekno setup as described at
+http://giellatekno.uit.no/doc/infra/GettingStarted.html you just need
+to compile langs/myv and langs/mdf with apertium-support, so do:
+
+  cd $GTHOME/langs/myv
+  ./configure --enable-apertium --with-hfst
+  make
+  cd $GTHOME/langs/mdf
+  ./configure --enable-apertium --with-hfst
+  make
+
+
+** If you only want the minimal bits
+
+If you don't have the Xerox tools installed, or you don't want all of
+Giellatekno SVN installed, you can check out and compile only the
+minimal bits you need from SVN. First, put
+
+  GTHOME=$HOME/gt
+  GTCORE=$GTHOME/gtcore
+  export GTHOME
+  export GTCORE
+
+in the file ~/.bashrc, then open a new terminal and do
+
+  mkdir $GTHOME
+  cd $GTHOME
+  svn checkout https://victorio.uit.no/langtech/trunk/gtcore
+  cd $GTCORE
+  ./configure
+  make
+
+  mkdir $GTHOME/langs
+  cd $GTHOME/langs
+  svn checkout https://victorio.uit.no/langtech/trunk/langs/myv
+  svn checkout https://victorio.uit.no/langtech/trunk/langs/mdf
+
+  cd $GTHOME/langs/myv
+  ./autogen.sh
+  ./configure --enable-apertium --with-hfst --without-xfst  --disable-spellers --disable-analysers --disable-generators
+  make
+
+  cd $GTHOME/langs/mdf
+  ./autogen.sh
+  ./configure --enable-apertium --with-hfst --without-xfst  --disable-spellers --disable-analysers --disable-generators
+  make
+
+* Compiling
+
+Before compiling, you need to configure it to know where myv and mdf
+are. This should work if you've got the regular GTHOME svn setup (as
+described above, or using the regular Giellatekno setup):
+
+  ./autogen.sh --with-lang1=$GTHOME/langs/myv/tools/mt/apertium --with-lang2=$GTHOME/langs/mdf/tools/mt/apertium
+
+Then do
+
+  make
+
+and check that it works with
+
+  make test
+
+* Regression tests
+
+To run the regression tests, do
+
+  t/update-latest
+
+This will overwrite the files named t/latest-pending.results and
+t/latest-regression.results. You can view the differences with
+
+  svn diff
+
+Test results are kept in SVN since that means we don't have to keep
+moving things back and forth between "Pending" and "Regression" in the
+wiki whenever we pass a new test (or fail an old one), and we get a
+nice log of our progression.

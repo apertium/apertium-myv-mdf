@@ -1,0 +1,70 @@
+Revision: 62271
+AP_SRC1 Revision: 122300
+AP_SRC2 Revision: 122300
+Running Regression-tests with mode "sme-smn" with updated tests ...
+
+sme-smn	  Leat guokte guoli.
+WORKS	  Láá kyehti kyellid.
+
+
+sme-smn	  Mii illudit ovtta beaivái.
+	- Mij ilosmep oovtâ piäiván.
+	+ Mij ilosmep #ohtâ piäiván.
+
+
+sme-smn	  Mii illudit guovtti beaivái.
+	- Mij ilosmep kyevti piäiván.
+	+ Mij ilosmep #kyehti piäiván.
+
+
+sme-smn	  Mii dagaimet dan ovtta beaivvis.
+	- Mij toovâim tom oovtâ peeivist.
+	+ Mij toovâim tom #ohtâ peeivist.
+
+
+sme-smn	  Mii dagaimet dan vuosttaš beaivvis.
+	- Mij toovâim tom vuosmuu peeivist.
+	+ Mij toovâim tom #vuosmuš peeivist.
+
+
+sme-smn	  Mii birgiimet bures vuosttaš niibbiin.
+	- Mij piergijm pyereest vuosmuin nijbijn.
+	+ Mij piergijm pyereest #vuosmuš nijbijn.
+
+
+sme-smn	  Mun human nieidda birra.
+	- Mun sáárnum nieidâst.
+	+ Mun sáárnum nieidâst #.
+
+
+sme-smn	  Mun human dávjá nieidda birra.
+	- Mun sáárnum *dávjá nieidâst .
+	+ Mun sáárnum *dávjá nieidâst #.
+
+
+sme-smn	  Mun áiggun dávjá hupmat nieidda birra.
+	- Mun ááigum *dávjá sárnuđ nieidâst .
+	+ Mun ááigum *dávjá sárnuđ nieidâst #.
+
+
+sme-smn	  Mun human su birra.
+	- Mun sáárnum suu pirrâ.
+	+ Mun sáárnum sust/suste #.
+
+
+sme-smn	  Mun váccán nieidda birra.
+	- Mun váázám nieidâ pirrâ.
+	+ Mun váázám nieidâ #pirrâ.
+
+
+sme-smn	  Mun human Suoma birra.
+	- Mun sáármum Suomâst.
+	+ Mun sáárnum Suomâst #.
+
+
+sme-smn	  Ja​.
+	- Já.
+	+ Já​.
+
+
+1 / 13, 7.69%

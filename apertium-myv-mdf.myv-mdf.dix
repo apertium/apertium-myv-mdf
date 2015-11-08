@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+   <!-- Define the alphabet below. -->
+  <alphabet></alphabet>
+
+  <sdefs>
+    <sdef n="n"        c="Noun"/>
+    <sdef n="neg"      c="Negative"/>
+    <sdef n="np"      c="Proper noun"/>
+    <sdef n="cnjcoo"   c="Conjunction"/>
+    <sdef n="cnjsub"   c="Subjunction"/>
+    <sdef n="post"    c="Postposition"/>
+    <sdef n="num"    c="Numeral"/>
+    <sdef n="ij"    c="Interjection"/>
+    <sdef n="det"    c="Determiner"/>
+    <sdef n="adj"     c="Adjective"/>
+    <sdef n="def"     c=""/>
+    <sdef n="prn"     c="Pronouns"/>
+    <sdef n="vblex"     c="Verb"/>
+    <sdef n="iv"     c="Intransitive"/>
+    <sdef n="tv"     c="Transitive"/>
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="cop"     c="Copula"/>
+
+    <sdef n="guio" 	c=""/> 
+    <sdef n="cm" 	c=""/> 
+    <sdef n="sent" 	c=""/> 
+    <sdef n="lpar" 	c=""/> 
+    <sdef n="rpar" 	c=""/> 
+    <sdef n="lquot" 	c=""/> 
+    <sdef n="quot" 	c=""/> 
+    <sdef n="rquot" 	c=""/> 
+    <sdef n="apos" 	c=""/> 
+
+  </sdefs>
+
+   <section id="main" type="standard">
+      <!-- SECTION: Miscellaneous -->
+      <e><p><l>э<s n="cop"/></l><r>э<s n="cop"/></r></p></e>
+      <e><p><l>а<s n="neg"/></l><r>аф<s n="neg"/></r></p></e>
+      <e><p><l>как<s n="adv"/></l><r>вок<s n="adv"/></r></p></e>
+
+      <!-- SECTION: Conjunctions -->
+      <e><p><l>марто<s n="cnjcoo"/></l><r>мархта<s n="cnjcoo"/></r></p></e>
+      <e><p><l>а<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ды<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
+      <e><p><l>зярдо<s n="cnjsub"/></l><r>мзярда<s n="cnjsub"/></r></p></e>
+
+      <!-- SECTION: Postpositions -->
+      <e><p><l>марто<s n="post"/></l><r>мархта<s n="post"/></r></p></e>
+      <e><p><l>малас<s n="post"/></l><r>малас<s n="post"/></r></p></e>
+      <e><p><l>икеле<s n="post"/></l><r>инголе<s n="post"/></r></p></e>
+      <e><p><l>потсо<s n="post"/></l><r>потса<s n="post"/></r></p></e>
+      <e><p><l>эйстэ<s n="post"/></l><r>эзда<s n="post"/></r></p></e>
+      <e><p><l>вакссо<s n="post"/></l><r>ваксса<s n="post"/></r></p></e>
+      <e><p><l>ваксс<s n="post"/></l><r>ваксс<s n="post"/></r></p></e>
+      <e><p><l>алов<s n="post"/></l><r>алу<s n="post"/></r></p></e>
+      <e><p><l>таркас<s n="post"/></l><r>вастс<s n="post"/></r></p></e>
+      <e><p><l>удалдо<s n="post"/></l><r>фталда<s n="post"/></r></p></e>
+      <e><p><l>пачк<s n="post"/></l><r>пачк<s n="post"/></r></p></e>
+
+      <!-- SECTION: Determiners -->
+      <e><p><l>лия<s n="det"/></l><r>иля<s n="det"/></r></p></e>
+
+      <!-- SECTION: Pronouns -->
+      <e><p><l>мезеяк<s n="prn"/></l><r>мезевок<s n="prn"/></r></p></e>
+      <e><p><l>мезе<s n="prn"/></l><r>мезе<s n="prn"/></r></p></e>
+      <e><p><l>мон<s n="prn"/></l><r>мон<s n="prn"/></r></p></e>
+      <e><p><l>сон<s n="prn"/></l><r>сон<s n="prn"/></r></p></e>
+      <e><p><l>сынь<s n="prn"/></l><r>синь<s n="prn"/></r></p></e>
+      <e><p><l>те<s n="prn"/></l><r>тя<s n="prn"/></r></p></e>
+      <e><p><l>тон<s n="prn"/></l><r>тон<s n="prn"/></r></p></e>
+      <e><p><l>тона<s n="prn"/></l><r>тона<s n="prn"/></r></p></e>
+  
+      <!-- SECTION: Nouns -->
+      <e><p><l>кавто<s n="num"/></l><r>кафта<s n="num"/></r></p></e>
+      <e><p><l>кото<s n="num"/></l><r>кота<s n="num"/></r></p></e>
+      <e><p><l>вете<s n="num"/></l><r>вете<s n="num"/></r></p></e>
+   
+      <!-- SECTION: Nouns -->
+      <e><p><l>кудо<s n="n"/></l><r>куд<s n="n"/></r></p></e>
+      <e><p><l>ава<s n="n"/></l><r>тядя<s n="n"/></r></p></e> <!-- mother -->
+      <e><p><l>ава<s n="n"/></l><r>ава<s n="n"/></r></p></e> <!-- woman -->
+      <e><p><l>вальма<s n="n"/></l><r>вальма<s n="n"/></r></p></e>
+      <e><p><l>ведне<s n="n"/></l><r>ведня<s n="n"/></r></p></e>
+      <e><p><l>ие<s n="n"/></l><r>киза<s n="n"/></r></p></e>
+      <e><p><l>кашторкс<s n="n"/></l><r>кашторф<s n="n"/></r></p></e>
+      <e><p><l>кевкстема<s n="n"/></l><r>кизевфкс<s n="n"/></r></p></e>
+      <e><p><l>кедне<s n="n"/></l><r>кядня<s n="n"/></r></p></e>
+      <e><p><l>кедь<s n="n"/></l><r>кядь<s n="n"/></r></p></e>
+      <e><p><l>киска<s n="n"/></l><r>пине<s n="n"/></r></p></e>
+      <e><p><l>кискине<s n="n"/></l><r>пиненя<s n="n"/></r></p></e>
+      <e><p><l>ломань<s n="n"/></l><r>ломань<s n="n"/></r></p></e>
+      <e><p><l>мель<s n="n"/></l><r>мяль<s n="n"/></r></p></e>
+      <e><p><l>налксема<s n="n"/></l><r>налхкема<s n="n"/></r></p></e>
+      <e><p><l>нармунь<s n="n"/></l><r>нармонь<s n="n"/></r></p></e>
+      <e><p><l>пире<s n="n"/></l><r>пере<s n="n"/></r></p></e>
+      <e><p><l>пря<s n="n"/></l><r>пря<s n="n"/></r></p></e>
+      <e><p><l>псака<s n="n"/></l><r>киска<s n="n"/></r></p></e>
+      <e><p><l>ракша<s n="n"/></l><r>ракша<s n="n"/></r></p></e>
+      <e><p><l>садпире<s n="n"/></l><r>садбере<s n="n"/></r></p></e>
+      <e><p><l>сазорка<s n="n"/></l><r>сазорня<s n="n"/></r></p></e>
+      <e><p><l>сельме<s n="n"/></l><r>сельме<s n="n"/></r></p></e>
+      <e><p><l>сод<s n="n"/></l><r>сод<s n="n"/></r></p></e>
+      <e><p><l>столь<s n="n"/></l><r>шра<s n="n"/></r></p></e>
+      <e><p><l>стул<s n="n"/></l><r>стул<s n="n"/></r></p></e>
+      <e><p><l>тейтерне<s n="n"/></l><r>стирь<s n="n"/></r></p></e>
+      <e><p><l>цёрынька<s n="n"/></l><r>цёраня<s n="n"/></r></p></e>
+      <e><p><l>чи<s n="n"/></l><r>ши<s n="n"/></r></p></e>
+      <e><p><l>чувто<s n="n"/></l><r>шувта<s n="n"/></r></p></e>
+      <e><p><l>шка<s n="n"/></l><r>пинге<s n="n"/></r></p></e>
+      <e><p><l>эйкакш<s n="n"/></l><r>шаба<s n="n"/></r></p></e>
+
+      <!-- SECTION: Adjectives -->
+      <e><p><l>Ваня<s n="np"/></l><r>Ваня<s n="np"/></r></p></e>
+      <e><p><l>Маря<s n="np"/></l><r>Маря<s n="np"/></r></p></e>
+
+      <!-- SECTION: Adjectives -->
+      <e><p><l>вадря<s n="adj"/></l><r>пара<s n="adj"/></r></p></e>
+      <e><p><l>лембе<s n="adj"/></l><r>лембе<s n="adj"/></r></p></e>
+      <e><p><l>кельме<s n="adj"/></l><r>кельме<s n="adj"/></r></p></e>
+      <e><p><l>покш<s n="adj"/></l><r>оцю<s n="adj"/></r></p></e>
+      <e><p><l>вишка<s n="adj"/></l><r>ёмла<s n="adj"/></r></p></e>
+      <e><p><l>сыре<s n="adj"/></l><r>сире<s n="adj"/></r></p></e>
+      <e><p><l>паро<s n="adj"/></l><r>пара<s n="adj"/></r></p></e>
+
+      <!-- SECTION: Adverbs -->
+
+      <e><p><l>кода<s n="adv"/></l><r>кода<s n="adv"/></r></p></e>
+      <e><p><l>ков<s n="adv"/></l><r>ков<s n="adv"/></r></p></e>
+      <e><p><l>косо<s n="adv"/></l><r>коса<s n="adv"/></r></p></e>
+      <e><p><l>мекс<s n="adv"/></l><r>мес<s n="adv"/></r></p></e>
+      <e><p><l>кува<s n="adv"/></l><r>кува<s n="adv"/></r></p></e>
+      <e><p><l>зярдо<s n="adv"/></l><r>мзярда<s n="adv"/></r></p></e>
+      <e><p><l>мейсь<s n="adv"/></l><r>мекс<s n="adv"/></r></p></e>
+
+      <e><p><l>и<s n="adv"/></l><r>и<s n="adv"/></r></p></e>
+
+      <e><p><l>течи<s n="adv"/></l><r>тячи<s n="adv"/></r></p></e>
+      <e><p><l>пек<s n="adv"/></l><r>пяк<s n="adv"/></r></p></e>
+      <e><p><l>исяк<s n="adv"/></l><r>исяк<s n="adv"/></r></p></e>
+      <e><p><l>сестэ<s n="adv"/></l><r>сельде<s n="adv"/></r></p></e>
+      <e><p><l>ушов<s n="adv"/></l><r>ушу<s n="adv"/></r></p></e>
+      <e><p><l>свал<s n="adv"/></l><r>фалу<s n="adv"/></r></p></e>
+      <e><p><l>вейсэ<s n="adv"/></l><r>марса<s n="adv"/></r></p></e>
+      <e><p><l>ней<s n="adv"/></l><r>тяни<s n="adv"/></r></p></e> 
+      <e><p><l>бойкасто<s n="adv"/></l><r>вишкста<s n="adv"/></r></p></e>
+      <e><p><l>озадо<s n="adv"/></l><r>озада<s n="adv"/></r></p></e>
+      <e><p><l>истя<s n="adv"/></l><r>тяфта<s n="adv"/></r></p></e>
+      <e><p><l>паряк<s n="adv"/></l><r>щять<s n="adv"/></r></p></e>
+      <e><p><l>арась<s n="adv"/></l><r>аш<s n="adv"/></r></p></e>
+      <e><p><l>тосо<s n="adv"/></l><r>тоса<s n="adv"/></r></p></e>
+      <e><p><l>аволь<s n="adv"/></l><r>аф<s n="adv"/></r></p></e>
+      <e><p><l>вадрясто<s n="adv"/></l><r>парсте<s n="adv"/></r></p></e>
+      <e><p><l>малас<s n="adv"/></l><r>малас<s n="adv"/></r></p></e>
+      <e><p><l>мейле<s n="adv"/></l><r>меле<s n="adv"/></r></p></e>
+      <e><p><l>аламошка<s n="adv"/></l><r>аф<b/>ламня<s n="adv"/></r></p></e>
+      <e><p><l>таго<s n="adv"/></l><r>тага<s n="adv"/></r></p></e>
+      <e><p><l>састо<s n="adv"/></l><r>сяворня<s n="adv"/></r></p></e>
+      <e><p><l>ансяк<s n="adv"/></l><r>аньцек<s n="adv"/></r></p></e> 
+      <e><p><l>пертьпелев<s n="adv"/></l><r>пярьфпяли<s n="adv"/></r></p></e> 
+      <e><p><l>парсте<s n="adv"/></l><r>лац<s n="adv"/></r></p></e> 
+      <e><p><l>икеле<s n="adv"/></l><r>инголе<s n="adv"/></r></p></e>
+      <e><p><l>потсо<s n="adv"/></l><r>потса<s n="adv"/></r></p></e>
+      <e><p><l>алов<s n="adv"/></l><r>алу<s n="adv"/></r></p></e>
+      <e><p><l>удалдо<s n="adv"/></l><r>фталда<s n="adv"/></r></p></e>
+      <e><p><l>пачк<s n="adv"/></l><r>пачк<s n="adv"/></r></p></e>
+
+
+      <!-- SECTION: Verbs -->
+      <e><p><l>эзь<s n="vblex"/><s n="neg"/></l><r>ашизь<s n="vblex"/><s n="neg"/></r></p></e>
+
+      <e><p><l>арсемс<s n="vblex"/><s n="tv"/></l><r>арьсемс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>арсемс<s n="vblex"/><s n="iv"/></l><r>арьсемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>аштемс<s n="vblex"/><s n="iv"/></l><r>аштемс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>аштемс<s n="vblex"/><s n="iv"/></l><r>аштемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>ваномс<s n="vblex"/><s n="tv"/></l><r>ваномс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>ваномс<s n="vblex"/><s n="iv"/></l><r>ванондомс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>варштамс<s n="vblex"/><s n="tv"/></l><r>варжакстамс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>варштамс<s n="vblex"/><s n="iv"/></l><r>варжакстамс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>вечкемс<s n="vblex"/><s n="tv"/></l><r>кельгемс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>вечкемс<s n="vblex"/><s n="iv"/></l><r>кельгемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>вешнемс<s n="vblex"/><s n="tv"/></l><r>вешендомс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>вешнемс<s n="vblex"/><s n="iv"/></l><r>вешендомс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>ёвтамс<s n="vblex"/><s n="tv"/></l><r>азомс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>каятомс<s n="vblex"/><s n="iv"/></l><r>эрьхтемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>кевкстнемс<s n="vblex"/><s n="tv"/></l><r>кизефтнемс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>кевкстнемс<s n="vblex"/><s n="iv"/></l><r>кизефтнемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>кекшемс<s n="vblex"/><s n="tv"/></l><r>кешемс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>кекшемс<s n="vblex"/><s n="iv"/></l><r>кешемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>кенярдомс<s n="vblex"/><s n="iv"/></l><r>кенярдемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>кецямс<s n="vblex"/><s n="iv"/></l><r>кенярдемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>кортамс<s n="vblex"/><s n="tv"/></l><r>корхтамс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>кортамс<s n="vblex"/><s n="iv"/></l><r>корхтамс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>кунсоломс<s n="vblex"/><s n="tv"/></l><r>кулцондомс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>кунсоломс<s n="vblex"/><s n="iv"/></l><r>кулцондомс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>лисевемс<s n="vblex"/><s n="iv"/></l><r>лисевомс<s n="vblex"/><s n="iv"/></r></p></e><!--XX-->
+      <e><p><l>лиядомс<s n="vblex"/><s n="iv"/></l><r>лядомс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>ловомс<s n="vblex"/><s n="tv"/></l><r>ловомс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>марямс<s n="vblex"/><s n="tv"/></l><r>марямс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>марямс<s n="vblex"/><s n="iv"/></l><r>марямс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>марявомс<s n="vblex"/><s n="iv"/></l><r>марявомс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>маштовомс<s n="vblex"/><s n="iv"/></l><r>маштовомс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>маштомс¹<s n="vblex"/><s n="iv"/></l><r>маштомс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>маштомс²<s n="vblex"/><s n="tv"/></l><r>машфтомс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>меремс<s n="vblex"/><s n="tv"/></l><r>мярьгомс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>меремс<s n="vblex"/><s n="iv"/></l><r>мярьгoмс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>молемс<s n="vblex"/><s n="tv"/></l><r>молемс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>молемс<s n="vblex"/><s n="iv"/></l><r>молемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>муевемс<s n="vblex"/><s n="iv"/></l><r>мувoмс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>муемс<s n="vblex"/><s n="tv"/></l><r>мумс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>налксемс<s n="vblex"/><s n="tv"/></l><r>налхкемс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>налксемс<s n="vblex"/><s n="iv"/></l><r>налхкемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>неемс<s n="vblex"/><s n="tv"/></l><r>няемс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>неемс<s n="vblex"/><s n="iv"/></l><r>няемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>пандомс<s n="vblex"/><s n="tv"/></l><r>пандомс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>пандомс<s n="vblex"/><s n="iv"/></l><r>пандомс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>пекстамс<s n="vblex"/><s n="tv"/></l><r>пякстамс<s n="vblex"/><s n="tv"/></r></p></e><!--XX-->
+      <e><p><l>прядомс<s n="vblex"/><s n="tv"/></l><r>прядомс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>прядомс<s n="vblex"/><s n="iv"/></l><r>прядомс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>пшкадемс<s n="vblex"/><s n="iv"/></l><r>пшкадемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>раказевемс<s n="vblex"/><s n="iv"/></l><r>рахазевомс<s n="vblex"/><s n="iv"/></r></p></e><!--XX-->
+      <e><p><l>ракамс<s n="vblex"/><s n="tv"/></l><r>рахамс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>ракамс<s n="vblex"/><s n="iv"/></l><r>рахамс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>самс<s n="vblex"/><s n="iv"/></l><r>самс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>симемс<s n="vblex"/><s n="tv"/></l><r>симомс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>симемс<s n="vblex"/><s n="iv"/></l><r>симомс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>содамс<s n="vblex"/><s n="tv"/></l><r>содамс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>содамс<s n="vblex"/><s n="iv"/></l><r>содамс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>теемс<s n="vblex"/><s n="tv"/></l><r>тиемс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>теемс<s n="vblex"/><s n="iv"/></l><r>тиемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>туемс¹<s n="vblex"/><s n="tv"/></l><r>тумс¹<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>туемс²<s n="vblex"/><s n="iv"/></l><r>тумс²<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>удомс<s n="vblex"/><s n="tv"/></l><r>удомс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>удомс<s n="vblex"/><s n="iv"/></l><r>удомс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>улемс<s n="vblex"/><s n="iv"/></l><r>улемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>чиемс<s n="vblex"/><s n="tv"/></l><r>ласькондомс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>чиемс<s n="vblex"/><s n="iv"/></l><r>ласькондомс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>ярсамс<s n="vblex"/><s n="iv"/></l><r>ярхцамс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>ютамс<s n="vblex"/><s n="tv"/></l><r>ётамс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>ютамс<s n="vblex"/><s n="iv"/></l><r>ётамс<s n="vblex"/><s n="iv"/></r></p></e>
+
+      <!-- SECTION: Interjections -->
+      <e><p><l>арась<s n="ij"/></l><r>аяф<s n="ij"/></r></p></e>
+
+      <!-- SECTION: Punctuation -->
+      <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+      <e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
+      <e><p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
+      <e><p><l>[<s n="lpar"/></l><r>[<s n="lpar"/></r></p></e>
+      <e><p><l>]<s n="rpar"/></l><r>]<s n="rpar"/></r></p></e>
+      <e><p><l>«<s n="lquot"/></l><r>«<s n="lquot"/></r></p></e>
+      <e><p><l>»<s n="rquot"/></l><r>»<s n="rquot"/></r></p></e>
+      <e><p><l>“<s n="lquot"/></l><r>“<s n="lquot"/></r></p></e>
+      <e><p><l>”<s n="rquot"/></l><r>”<s n="rquot"/></r></p></e>
+      <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+      <e><p><l>—<s n="guio"/></l><r>—<s n="guio"/></r></p></e>
+      <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
+      <e><p><l>"<s n="sent"/></l><r>"<s n="sent"/></r></p></e>
+      <e><re>[.\?;:!]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+      <e><re>[№%]?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+      
+
+   </section>
+</dictionary>
+
+<!-- 
+Resources: 
+    http://wiki.apertium.org/wiki/Bilingual_dictionary
+    http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Bilingual_dictionary
+-->
+

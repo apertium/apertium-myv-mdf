@@ -1,0 +1,28 @@
+<rules>
+  <!-- 
+    This rule chooses "energía" as the translation of "power" when it is preceded by "wind". 
+    Add your own rules within <rule> here, using the resources below as a guide 
+  -->
+<!-- ава<n><sg><gen><px3pl>/ава<n><sg><gen><px3pl>/тядя<n><sg><gen><px3pl> -->
+
+  <rule weight="0.2">
+    <match lemma="ава" tags="n.*.*.px3pl">
+      <select lemma="ава" tags="n.*"/>
+    </match>
+  </rule>
+  <rule weight="0.9">
+    <match lemma="ава" tags="n.*.*.px3pl">
+      <select lemma="тядя" tags="n.*"/>
+    </match>
+  </rule>
+
+</rules>
+
+<!-- 
+Resources: 
+    http://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
+    http://wiki.apertium.org/wiki/Constraint-based_lexical_selection
+    http://wiki.apertium.org/wiki/Lexical_selection
+    http://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
+-->
+
