@@ -3,8 +3,8 @@
 ###############################################################################
 
 VERSION=0.1.0
-LANG1=sme
-LANG2=smn
+LANG1=myv
+LANG2=mdf
 PREFIX1=$(LANG1)-$(LANG2)
 PREFIX2=$(LANG2)-$(LANG1)
 
@@ -182,10 +182,10 @@ EXTRA_DIST=					\
 ## Installation
 ###############################################################################
 
-apertium_sme_smndir=$(prefix)/share/apertium/$(BASENAME)/
+apertium_myv_mdfdir=$(prefix)/share/apertium/$(BASENAME)/
 
 # Files which should be installed to $(prefix)/share/apertium/$(BASENAME)/:
-apertium_sme_smn_DATA=	\
+apertium_myv_mdf_DATA=	\
 	$(TARGETS_COMMON)				\
 	$(BASENAME).$(PREFIX1).t1x			\
 	$(BASENAME).$(PREFIX1).t2x			\
@@ -212,10 +212,10 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "ja" | apertium -d . sme-smn | tee .test-mt
+	echo "ja" | apertium -d . myv-mdf | tee .test-mt
 	@echo "já" > .test-ref
 	@diff .test-ref .test-mt
-	echo "já" | apertium -d . smn-sme | tee .test-mt
+	echo "já" | apertium -d . mdf-myv | tee .test-mt
 	@echo "ja" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt

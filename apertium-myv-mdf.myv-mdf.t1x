@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transfer default="chunk">
   <section-def-cats>
+    <def-cat n="default">
+      <cat-item tags="*"/>
+    </def-cat>
     <def-cat n="cop">
       <cat-item tags="cop.*"/>
     </def-cat>
@@ -20,6 +23,82 @@
   <section-def-attrs>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
+    </def-attr>
+    <def-attr n="a_func">
+      <attr-item tags="@→A"/>
+      <attr-item tags="@A←"/>
+      <attr-item tags="@←ADVL"/>
+      <attr-item tags="@→ADVL"/>
+      <attr-item tags="@ADVL"/>
+      <attr-item tags="@ADVL←"/>
+      <attr-item tags="@ADVL→"/>
+      <attr-item tags="@ADVL→CS"/>
+      <attr-item tags="@ADVL←OBJ"/>
+      <attr-item tags="@ADVL→SUBJ"/>
+      <attr-item tags="@APP"/>
+      <attr-item tags="@APP-ADVL←"/>
+      <attr-item tags="@APP-N←"/>
+      <attr-item tags="@APP-Num←"/>
+      <attr-item tags="@APP-Pron←"/>
+      <attr-item tags="@APP→Pron"/>
+      <attr-item tags="@→CC"/>
+      <attr-item tags="@CNP"/>
+      <attr-item tags="@COMP-CS←"/>
+      <attr-item tags="@CVP"/>
+      <attr-item tags="@-F←ADVL"/>
+      <attr-item tags="@-FADVL"/>
+      <attr-item tags="@-FADVL→"/>
+      <attr-item tags="@-FAUXV"/>
+      <attr-item tags="@\+FAUXV"/>
+      <attr-item tags="@+FAUXV"/>
+      <attr-item tags="@-FMAINV"/>
+      <attr-item tags="@\+FMAINV"/>
+      <attr-item tags="@+FMAINV"/>
+      <attr-item tags="@-F←OBJ"/>
+      <attr-item tags="@-FOBJ"/>
+      <attr-item tags="@-FOBJ→"/>
+      <attr-item tags="@-F←OPRED"/>
+      <attr-item tags="@-FOPRED→"/>
+      <attr-item tags="@-F←SPRED"/>
+      <attr-item tags="@-FSPRED→"/>
+      <attr-item tags="@-FSUBJ→"/>
+      <attr-item tags="@HAB"/>
+      <attr-item tags="@HNOUN"/>
+      <attr-item tags="@INTERJ"/>
+      <attr-item tags="@→N"/>
+      <attr-item tags="@N"/>
+      <attr-item tags="@N←"/>
+      <attr-item tags="@→Num;"/>
+      <attr-item tags="@→Num"/>
+      <attr-item tags="@Num←"/>
+      <attr-item tags="@←OBJ"/>
+      <attr-item tags="@OBJ"/>
+      <attr-item tags="@OBJ→"/>
+      <attr-item tags="@OBJ→SPRED"/>
+      <attr-item tags="@-OPRED→"/>
+      <attr-item tags="@←OPRED"/>
+      <attr-item tags="@OPRED"/>
+      <attr-item tags="@OPRED→"/>
+      <attr-item tags="@→P"/>
+      <attr-item tags="@P←"/>
+      <attr-item tags="@PCLE"/>
+      <attr-item tags="@←PPRED"/>
+      <attr-item tags="@PPRED"/>
+      <attr-item tags="@→Pron"/>
+      <attr-item tags="@Pron←"/>
+      <attr-item tags="@-SPRED→"/>
+      <attr-item tags="@←SPRED"/>
+      <attr-item tags="@SPRED"/>
+      <attr-item tags="@SPRED→"/>
+      <attr-item tags="@SPRED←OBJ"/>
+      <attr-item tags="@←SUBJ"/>
+      <attr-item tags="@SUBJ"/>
+      <attr-item tags="@SUBJ→"/>
+      <attr-item tags="@SUBJ←ADVL"/>
+      <attr-item tags="@SUBJ←OBJ"/>
+      <attr-item tags="@VOC"/>
+      <attr-item tags="@X"/>
+
     </def-attr>
   </section-def-attrs>
 
@@ -56,6 +135,28 @@
               <clip pos="2" side="tl" part="whole"/>
             </lu>
             </mlu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: DEFAULT">
+      <pattern>
+        <pattern-item n="default"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_sem"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="x_func"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+        <out>
+          <chunk name="default" case="caseFirstWord">
+            <tags>
+              <tag><clip pos="1" side="sl" part="a_func"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
           </chunk>
         </out>
       </action>

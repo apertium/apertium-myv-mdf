@@ -1,587 +1,587 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
-  <!-- sme→smn direction: -->
+  <!-- myv→mdf direction: -->
 
-  <mode name="sme-smn" install="yes">
+  <mode name="myv-mdf" install="yes">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf.hfst"/>
+        <file name="myv-mdf.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -n -1 -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.syn.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="sme-smn.autobil.bin"/>
+        <file name="myv-mdf.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="sme-smn.autolex.bin"/>
+        <file name="myv-mdf.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-sme-smn.sme-smn.t1x"/>
-        <file name="sme-smn.t1x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t1x"/>
+        <file name="myv-mdf.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-sme-smn.sme-smn.t2x"/>
-        <file name="sme-smn.t2x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t2x"/>
+        <file name="myv-mdf.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-sme-smn.sme-smn.t3x"/>
-        <file name="sme-smn.t3x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t3x"/>
+        <file name="myv-mdf.t3x.bin"/>
       </program>
       <program name="hfst-proc $1">
-        <file name="sme-smn.autogen.hfst"/>
+        <file name="myv-mdf.autogen.hfst"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="sme-smn-debug" install="yes">
+  <mode name="myv-mdf-debug" install="yes">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf.hfst"/>
+        <file name="myv-mdf.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -n -1 -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.syn.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="sme-smn.autobil.bin"/>
+        <file name="myv-mdf.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="sme-smn.autolex.bin"/>
+        <file name="myv-mdf.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-sme-smn.sme-smn.t1x"/>
-        <file name="sme-smn.t1x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t1x"/>
+        <file name="myv-mdf.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-sme-smn.sme-smn.t2x"/>
-        <file name="sme-smn.t2x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t2x"/>
+        <file name="myv-mdf.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-sme-smn.sme-smn.t3x"/>
-        <file name="sme-smn.t3x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t3x"/>
+        <file name="myv-mdf.t3x.bin"/>
       </program>
       <program name="hfst-proc -d">
-        <file name="sme-smn.autogen.hfst"/>
+        <file name="myv-mdf.autogen.hfst"/>
       </program>
     </pipeline>
   </mode>
 
 
 
-  <mode name="sme-smn-morph" install="no">
+  <mode name="myv-mdf-morph" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf.hfst"/>
+        <file name="myv-mdf.automorf.hfst"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="sme-smn-disam" install="no">
+  <mode name="myv-mdf-disam" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf.hfst"/>
+        <file name="myv-mdf.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-
-
-  <mode name="sme-smn-syntax" install="no">
-    <pipeline>
-      <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
 
 
 
-  <mode name="sme-smn-tagger" install="no">
+  <mode name="myv-mdf-syntax" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf.hfst"/>
+        <file name="myv-mdf.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.syn.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
 
 
 
-  <mode name="sme-smn-biltrans" install="no">
+  <mode name="myv-mdf-tagger" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf.hfst"/>
+        <file name="myv-mdf.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="myv-mdf.syn.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
+  <mode name="myv-mdf-biltrans" install="no">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e">
+        <file name="myv-mdf.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -n -1 -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.syn.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="sme-smn.autobil.bin"/>
+        <file name="myv-mdf.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <mode name="sme-smn-lextor" install="no">
+  <mode name="myv-mdf-lextor" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf.hfst"/>
+        <file name="myv-mdf.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -n -1 -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.syn.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="sme-smn.autobil.bin"/>
+        <file name="myv-mdf.autobil.bin"/>
       </program>
       <program name="lrx-proc -m -t">
-        <file name="sme-smn.autolex.bin"/>
+        <file name="myv-mdf.autolex.bin"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <mode name="sme-smn-chunker" install="no">
+  <mode name="myv-mdf-chunker" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf.hfst"/>
+        <file name="myv-mdf.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -n -1 -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.syn.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="sme-smn.autobil.bin"/>
+        <file name="myv-mdf.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="sme-smn.autolex.bin"/>
+        <file name="myv-mdf.autolex.bin"/>
       </program>
       <program name="apertium-transfer -t -b">
-        <file name="apertium-sme-smn.sme-smn.t1x"/>
-        <file name="sme-smn.t1x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t1x"/>
+        <file name="myv-mdf.t1x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="sme-smn-interchunk" install="no">
+  <mode name="myv-mdf-interchunk" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf.hfst"/>
+        <file name="myv-mdf.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -n -1 -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.syn.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-sme-smn.sme-smn.t1x"/>
-        <file name="sme-smn.t1x.bin"/>
-        <file name="sme-smn.autobil.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t1x"/>
+        <file name="myv-mdf.t1x.bin"/>
+        <file name="myv-mdf.autobil.bin"/>
       </program>
       <program name="apertium-interchunk -t">
-        <file name="apertium-sme-smn.sme-smn.t2x"/>
-        <file name="sme-smn.t2x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t2x"/>
+        <file name="myv-mdf.t2x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="sme-smn-postchunk" install="no">
+  <mode name="myv-mdf-postchunk" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf.hfst"/>
+        <file name="myv-mdf.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -n -1 -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.syn.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="sme-smn.autobil.bin"/>
+        <file name="myv-mdf.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="sme-smn.autolex.bin"/>
+        <file name="myv-mdf.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-sme-smn.sme-smn.t1x"/>
-        <file name="sme-smn.t1x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t1x"/>
+        <file name="myv-mdf.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-sme-smn.sme-smn.t2x"/>
-        <file name="sme-smn.t2x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t2x"/>
+        <file name="myv-mdf.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-sme-smn.sme-smn.t3x"/>
-        <file name="sme-smn.t3x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t3x"/>
+        <file name="myv-mdf.t3x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="sme-smn-dgen">
+  <mode name="myv-mdf-dgen">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf.hfst"/>
+        <file name="myv-mdf.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -n -1 -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.syn.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="sme-smn.autobil.bin"/>
+        <file name="myv-mdf.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="sme-smn.autolex.bin"/>
+        <file name="myv-mdf.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-sme-smn.sme-smn.t1x"/>
-        <file name="sme-smn.t1x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t1x"/>
+        <file name="myv-mdf.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-sme-smn.sme-smn.t2x"/>
-        <file name="sme-smn.t2x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t2x"/>
+        <file name="myv-mdf.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-sme-smn.sme-smn.t3x"/>
-        <file name="sme-smn.t3x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t3x"/>
+        <file name="myv-mdf.t3x.bin"/>
       </program>
       <program name="hfst-proc -d">
-        <file name="sme-smn.autogen.hfst"/>
+        <file name="myv-mdf.autogen.hfst"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <!-- untrimmed sme-smn, for debug: -->
-  <mode name="usme-smn" install="no">
+  <!-- untrimmed myv-mdf, for debug: -->
+  <mode name="umyv-mdf" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf-untrimmed.hfst"/>
+        <file name="myv-mdf.automorf-untrimmed.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -n -1 -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.syn.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="sme-smn.autobil.bin"/>
+        <file name="myv-mdf.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="sme-smn.autolex.bin"/>
+        <file name="myv-mdf.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-sme-smn.sme-smn.t1x"/>
-        <file name="sme-smn.t1x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t1x"/>
+        <file name="myv-mdf.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-sme-smn.sme-smn.t2x"/>
-        <file name="sme-smn.t2x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t2x"/>
+        <file name="myv-mdf.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-sme-smn.sme-smn.t3x"/>
-        <file name="sme-smn.t3x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t3x"/>
+        <file name="myv-mdf.t3x.bin"/>
       </program>
       <program name="hfst-proc $1">
-        <file name="sme-smn.autogen.hfst"/>
+        <file name="myv-mdf.autogen.hfst"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <mode name="usme-smn-morph" install="no">
+  <mode name="umyv-mdf-morph" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf-untrimmed.hfst"/>
+        <file name="myv-mdf.automorf-untrimmed.hfst"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="usme-smn-disam" install="no">
+  <mode name="umyv-mdf-disam" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf-untrimmed.hfst"/>
+        <file name="myv-mdf.automorf-untrimmed.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="usme-smn-syntax" install="no">
+  <mode name="umyv-mdf-syntax" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf-untrimmed.hfst"/>
+        <file name="myv-mdf.automorf-untrimmed.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.syn.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="usme-smn-tagger" install="no">
+  <mode name="umyv-mdf-tagger" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf-untrimmed.hfst"/>
+        <file name="myv-mdf.automorf-untrimmed.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.syn.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="usme-smn-biltrans" install="no">
+  <mode name="umyv-mdf-biltrans" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf-untrimmed.hfst"/>
+        <file name="myv-mdf.automorf-untrimmed.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -n -1 -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.syn.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="sme-smn.autobil.bin"/>
+        <file name="myv-mdf.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="usme-smn-lextor" install="no">
+  <mode name="umyv-mdf-lextor" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf-untrimmed.hfst"/>
+        <file name="myv-mdf.automorf-untrimmed.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -n -1 -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.syn.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="sme-smn.autobil.bin"/>
+        <file name="myv-mdf.autobil.bin"/>
       </program>
       <program name="lrx-proc -m -t">
-        <file name="sme-smn.autolex.bin"/>
+        <file name="myv-mdf.autolex.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="usme-smn-chunker" install="no">
+  <mode name="umyv-mdf-chunker" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf-untrimmed.hfst"/>
+        <file name="myv-mdf.automorf-untrimmed.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -n -1 -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.syn.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="sme-smn.autobil.bin"/>
+        <file name="myv-mdf.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="sme-smn.autolex.bin"/>
+        <file name="myv-mdf.autolex.bin"/>
       </program>
       <program name="apertium-transfer -t -b">
-        <file name="apertium-sme-smn.sme-smn.t1x"/>
-        <file name="sme-smn.t1x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t1x"/>
+        <file name="myv-mdf.t1x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="usme-smn-interchunk" install="no">
+  <mode name="umyv-mdf-interchunk" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf-untrimmed.hfst"/>
+        <file name="myv-mdf.automorf-untrimmed.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -n -1 -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.syn.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-sme-smn.sme-smn.t1x"/>
-        <file name="sme-smn.t1x.bin"/>
-        <file name="sme-smn.autobil.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t1x"/>
+        <file name="myv-mdf.t1x.bin"/>
+        <file name="myv-mdf.autobil.bin"/>
       </program>
       <program name="apertium-interchunk -t">
-        <file name="apertium-sme-smn.sme-smn.t2x"/>
-        <file name="sme-smn.t2x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t2x"/>
+        <file name="myv-mdf.t2x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="usme-smn-postchunk" install="no">
+  <mode name="umyv-mdf-postchunk" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf-untrimmed.hfst"/>
+        <file name="myv-mdf.automorf-untrimmed.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -n -1 -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.syn.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="sme-smn.autobil.bin"/>
+        <file name="myv-mdf.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="sme-smn.autolex.bin"/>
+        <file name="myv-mdf.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-sme-smn.sme-smn.t1x"/>
-        <file name="sme-smn.t1x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t1x"/>
+        <file name="myv-mdf.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-sme-smn.sme-smn.t2x"/>
-        <file name="sme-smn.t2x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t2x"/>
+        <file name="myv-mdf.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-sme-smn.sme-smn.t3x"/>
-        <file name="sme-smn.t3x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t3x"/>
+        <file name="myv-mdf.t3x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="usme-smn-dgen">
+  <mode name="umyv-mdf-dgen">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="sme-smn.automorf-untrimmed.hfst"/>
+        <file name="myv-mdf.automorf-untrimmed.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="sme-smn.mor.rlx.bin"/>
+        <file name="myv-mdf.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -n -1 -w">
-        <file name="sme-smn.syn.rlx.bin"/>
+        <file name="myv-mdf.syn.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="sme-smn.autobil.bin"/>
+        <file name="myv-mdf.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="sme-smn.autolex.bin"/>
+        <file name="myv-mdf.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-sme-smn.sme-smn.t1x"/>
-        <file name="sme-smn.t1x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t1x"/>
+        <file name="myv-mdf.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-sme-smn.sme-smn.t2x"/>
-        <file name="sme-smn.t2x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t2x"/>
+        <file name="myv-mdf.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-sme-smn.sme-smn.t3x"/>
-        <file name="sme-smn.t3x.bin"/>
+        <file name="apertium-myv-mdf.myv-mdf.t3x"/>
+        <file name="myv-mdf.t3x.bin"/>
       </program>
       <program name="hfst-proc -d">
-        <file name="sme-smn.autogen.hfst"/>
+        <file name="myv-mdf.autogen.hfst"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <!-- smn→sme direction: -->
+  <!-- mdf→myv direction: -->
 
-  <mode name="smn-sme-morph" install="no">
+  <mode name="mdf-myv-morph" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="smn-sme.automorf.hfst"/>
+        <file name="mdf-myv.automorf.hfst"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="usmn-sme-morph" install="no">
+  <mode name="umdf-myv-morph" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="smn-sme.automorf-untrimmed.hfst"/>
+        <file name="mdf-myv.automorf-untrimmed.hfst"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="smn-sme" install="no">
+  <mode name="mdf-myv" install="no">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e">
-        <file name="smn-sme.automorf.hfst"/>
+        <file name="mdf-myv.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
-        <file name="smn-sme.mor.rlx.bin"/>
+        <file name="mdf-myv.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -n -1 -w">
-        <file name="smn-sme.syn.rlx.bin"/>
+        <file name="mdf-myv.syn.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="smn-sme.autobil.bin"/>
+        <file name="mdf-myv.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="smn-sme.autolex.bin"/>
+        <file name="mdf-myv.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-sme-smn.smn-sme.t1x"/>
-        <file name="smn-sme.t1x.bin"/>
+        <file name="apertium-myv-mdf.mdf-myv.t1x"/>
+        <file name="mdf-myv.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-sme-smn.smn-sme.t2x"/>
-        <file name="smn-sme.t2x.bin"/>
+        <file name="apertium-myv-mdf.mdf-myv.t2x"/>
+        <file name="mdf-myv.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-sme-smn.smn-sme.t3x"/>
-        <file name="smn-sme.t3x.bin"/>
+        <file name="apertium-myv-mdf.mdf-myv.t3x"/>
+        <file name="mdf-myv.t3x.bin"/>
       </program>
       <program name="hfst-proc $1">
-        <file name="smn-sme.autogen.hfst"/>
+        <file name="mdf-myv.autogen.hfst"/>
       </program>
     </pipeline>
   </mode>
