@@ -28,3 +28,5 @@ t/pending-tests -text
 t/regression-tests -text
 t/update-latest -text
 t/wiki-tests -text
+texts/story.mdf.txt -text svneol=unset#application/octet-stream
+texts/story.myv.txt -text svneol=unset#application/octet-stream
