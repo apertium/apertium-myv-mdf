@@ -42,7 +42,7 @@ TARGETS_COMMON =			\
 
 .deps/%.autobil.prefixes: %.autobil.bin .deps/.d
 	lt-print $< | sed 's/ /@_SPACE_@/g' > .deps/$*.autobil.att
-	hfst-txt2fst -e �� <  .deps/$*.autobil.att > .deps/$*.autobil.hfst
+	hfst-txt2fst -e ε <  .deps/$*.autobil.att > .deps/$*.autobil.hfst
 	hfst-project -p upper .deps/$*.autobil.hfst > .deps/$*.autobil.upper                                   # bidix
 	echo ' [ ? - %+ ]* ' | hfst-regexp2fst > .deps/$*.any-nonplus.hfst                                                        # [^+]*
 	hfst-concatenate -1 .deps/$*.autobil.upper -2 .deps/$*.any-nonplus.hfst -o .deps/$*.autobil.nonplussed    # bidix [^+]*
