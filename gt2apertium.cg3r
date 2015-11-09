@@ -1,4 +1,5 @@
 # Exceptional relabellings (incomplete):
+MAP (Der/goahti) ("goahti");
 MAP (Ind) (indic);
 MAP (Pron) (prn);
 MAP (V) (vblex);
@@ -13,7 +14,6 @@ MAP (<hom6>) (⁶);
 MAP (<hom7>) (⁷);
 MAP (<hom8>) (⁸);
 MAP (<hom9>) (⁹);
-MAP (Der/goahti) ("goahti");
 MAP (Foc/ba) ("ba" pcle);
 MAP (Foc/bat) ("bat" pcle);
 MAP (Foc/be) ("be" pcle);
@@ -474,3 +474,4 @@ MAP (Dial) (dial);
 MAP (Der/MWN) (der_mwn);
 MAP (Prt1) (pret1);
 MAP (Prt2) (pret2);
+MAP (Der/кой) (der_кой);
