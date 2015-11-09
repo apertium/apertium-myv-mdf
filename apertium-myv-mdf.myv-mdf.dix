@@ -61,6 +61,7 @@
 
       <!-- SECTION: Determiners -->
       <e><p><l>лия<s n="det"/></l><r>иля<s n="det"/></r></p></e>
+      <e><p><l>те<s n="det"/></l><r>тя<s n="det"/></r></p></e>
 
       <!-- SECTION: Pronouns -->
       <e><p><l>мезеяк<s n="prn"/></l><r>мезевок<s n="prn"/></r></p></e>
@@ -136,34 +137,40 @@
 
       <e><p><l>и<s n="adv"/></l><r>и<s n="adv"/></r></p></e>
 
+      <e><p><l>арась<s n="adv"/></l><r>аш<s n="adv"/></r></p></e>
+      <e><p><l>аволь<s n="adv"/></l><r>аф<s n="adv"/></r></p></e>
+
       <e><p><l>течи<s n="adv"/></l><r>тячи<s n="adv"/></r></p></e>
-      <e><p><l>пек<s n="adv"/></l><r>пяк<s n="adv"/></r></p></e>
+      <e><p><l>свал<s n="adv"/></l><r>фалу<s n="adv"/></r></p></e>
       <e><p><l>исяк<s n="adv"/></l><r>исяк<s n="adv"/></r></p></e>
       <e><p><l>сестэ<s n="adv"/></l><r>сельде<s n="adv"/></r></p></e>
-      <e><p><l>ушов<s n="adv"/></l><r>ушу<s n="adv"/></r></p></e>
-      <e><p><l>свал<s n="adv"/></l><r>фалу<s n="adv"/></r></p></e>
-      <e><p><l>вейсэ<s n="adv"/></l><r>марса<s n="adv"/></r></p></e>
       <e><p><l>ней<s n="adv"/></l><r>тяни<s n="adv"/></r></p></e> 
-      <e><p><l>бойкасто<s n="adv"/></l><r>вишкста<s n="adv"/></r></p></e>
-      <e><p><l>озадо<s n="adv"/></l><r>озада<s n="adv"/></r></p></e>
-      <e><p><l>истя<s n="adv"/></l><r>тяфта<s n="adv"/></r></p></e>
-      <e><p><l>паряк<s n="adv"/></l><r>щять<s n="adv"/></r></p></e>
-      <e><p><l>арась<s n="adv"/></l><r>аш<s n="adv"/></r></p></e>
-      <e><p><l>тосо<s n="adv"/></l><r>тоса<s n="adv"/></r></p></e>
-      <e><p><l>аволь<s n="adv"/></l><r>аф<s n="adv"/></r></p></e>
-      <e><p><l>вадрясто<s n="adv"/></l><r>парсте<s n="adv"/></r></p></e>
-      <e><p><l>малас<s n="adv"/></l><r>малас<s n="adv"/></r></p></e>
       <e><p><l>мейле<s n="adv"/></l><r>меле<s n="adv"/></r></p></e>
-      <e><p><l>аламошка<s n="adv"/></l><r>аф<b/>ламня<s n="adv"/></r></p></e>
       <e><p><l>таго<s n="adv"/></l><r>тага<s n="adv"/></r></p></e>
-      <e><p><l>састо<s n="adv"/></l><r>сяворня<s n="adv"/></r></p></e>
-      <e><p><l>ансяк<s n="adv"/></l><r>аньцек<s n="adv"/></r></p></e> 
-      <e><p><l>пертьпелев<s n="adv"/></l><r>пярьфпяли<s n="adv"/></r></p></e> 
-      <e><p><l>парсте<s n="adv"/></l><r>лац<s n="adv"/></r></p></e> 
+
+      <e><p><l>пек<s n="adv"/></l><r>пяк<s n="adv"/></r></p></e>
+
+      <e><p><l>ушов<s n="adv"/></l><r>ушу<s n="adv"/></r></p></e>
       <e><p><l>икеле<s n="adv"/></l><r>инголе<s n="adv"/></r></p></e>
       <e><p><l>потсо<s n="adv"/></l><r>потса<s n="adv"/></r></p></e>
       <e><p><l>алов<s n="adv"/></l><r>алу<s n="adv"/></r></p></e>
       <e><p><l>удалдо<s n="adv"/></l><r>фталда<s n="adv"/></r></p></e>
+      <e><p><l>тосо<s n="adv"/></l><r>тоса<s n="adv"/></r></p></e>
+      <e><p><l>малас<s n="adv"/></l><r>малас<s n="adv"/></r></p></e>
+      <e><p><l>пертьпелев<s n="adv"/></l><r>пярьфпяли<s n="adv"/></r></p></e> 
+
+      <e><p><l>вейсэ<s n="adv"/></l><r>марса<s n="adv"/></r></p></e>
+
+      <e><p><l>бойкасто<s n="adv"/></l><r>вишкста<s n="adv"/></r></p></e>
+      <e><p><l>истя<s n="adv"/></l><r>тяфта<s n="adv"/></r></p></e>
+      <e><p><l>вадрясто<s n="adv"/></l><r>лац<s n="adv"/></r></p></e>
+      <e><p><l>састо<s n="adv"/></l><r>сяворня<s n="adv"/></r></p></e>
+      <e><p><l>парсте<s n="adv"/></l><r>лац<s n="adv"/></r></p></e> 
+
+      <e><p><l>озадо<s n="adv"/></l><r>озада<s n="adv"/></r></p></e>
+      <e><p><l>паряк<s n="adv"/></l><r>щять<s n="adv"/></r></p></e>
+      <e><p><l>аламошка<s n="adv"/></l><r>аф<b/>ламня<s n="adv"/></r></p></e>
+      <e><p><l>ансяк<s n="adv"/></l><r>аньцек<s n="adv"/></r></p></e> 
       <e><p><l>пачк<s n="adv"/></l><r>пачк<s n="adv"/></r></p></e>
 
 
