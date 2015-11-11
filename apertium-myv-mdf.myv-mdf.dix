@@ -15,12 +15,16 @@
     <sdef n="det"    c="Determiner"/>
     <sdef n="adj"     c="Adjective"/>
     <sdef n="def"     c=""/>
+    <sdef n="ind"     c="Indefinite"/>
+    <sdef n="indic"     c="Indicative"/>
+    <sdef n="qnt"     c="Quantifier"/>
     <sdef n="prn"     c="Pronouns"/>
     <sdef n="vblex"     c="Verb"/>
     <sdef n="iv"     c="Intransitive"/>
     <sdef n="tv"     c="Transitive"/>
     <sdef n="adv"     c="Adverb"/>
     <sdef n="cop"     c="Copula"/>
+    <sdef n="pcle"     c="Particle"/>
 
     <sdef n="guio" 	c=""/> 
     <sdef n="cm" 	c=""/> 
