@@ -41,7 +41,8 @@
    <section id="main" type="standard">
       <!-- SECTION: Miscellaneous -->
       <e><p><l>э<s n="cop"/></l><r>э<s n="cop"/></r></p></e>
-      <e><p><l>а<s n="neg"/></l><r>аф<s n="neg"/></r></p></e>
+      <e><p><l>а<s n="pcle"/></l><r>аф<s n="pcle"/></r></p></e>
+      <e><p><l>ды<s n="pcle"/></l><r>и<s n="pcle"/></r></p></e>
       <e><p><l>как<s n="adv"/></l><r>вок<s n="adv"/></r></p></e>
 
       <!-- SECTION: Conjunctions -->
@@ -66,8 +67,11 @@
       <!-- SECTION: Determiners -->
       <e><p><l>лия<s n="det"/></l><r>иля<s n="det"/></r></p></e>
       <e><p><l>те<s n="det"/></l><r>тя<s n="det"/></r></p></e>
+      <e><p><l>эрьва<s n="det"/></l><r>эрь<s n="det"/></r></p></e>
+      <e><p><l>аламошка<s n="det"/></l><r>аф<b/>ламня<s n="det"/></r></p></e>
 
       <!-- SECTION: Pronouns -->
+      <e><p><l>кодамояк<s n="prn"/></l><r>кодамавок<s n="prn"/></r></p></e>
       <e><p><l>мезеяк<s n="prn"/></l><r>мезевок<s n="prn"/></r></p></e>
       <e><p><l>мезе<s n="prn"/></l><r>мезе<s n="prn"/></r></p></e>
       <e><p><l>мон<s n="prn"/></l><r>мон<s n="prn"/></r></p></e>
@@ -77,11 +81,16 @@
       <e><p><l>тон<s n="prn"/></l><r>тон<s n="prn"/></r></p></e>
       <e><p><l>тона<s n="prn"/></l><r>тона<s n="prn"/></r></p></e>
   
-      <!-- SECTION: Nouns -->
+      <!-- SECTION: Numerals -->
+      <e><p><l>ве<s n="num"/></l><r>фкя<s n="num"/></r></p></e>
+      <e><p><l>вейке<s n="num"/></l><r>фкя<s n="num"/></r></p></e>
       <e><p><l>кавто<s n="num"/></l><r>кафта<s n="num"/></r></p></e>
-      <e><p><l>кото<s n="num"/></l><r>кота<s n="num"/></r></p></e>
+      <e><p><l>колмо<s n="num"/></l><r>колма<s n="num"/></r></p></e>
+      <e><p><l>ниле<s n="num"/></l><r>ниле<s n="num"/></r></p></e>
       <e><p><l>вете<s n="num"/></l><r>вете<s n="num"/></r></p></e>
-   
+      <e><p><l>кото<s n="num"/></l><r>кота<s n="num"/></r></p></e>
+      <e><p><l>кемень<s n="num"/></l><r>кемонь<s n="num"/></r></p></e>
+
       <!-- SECTION: Nouns -->
       <e><p><l>кудо<s n="n"/></l><r>куд<s n="n"/></r></p></e>
       <e><p><l>ава<s n="n"/></l><r>тядя<s n="n"/></r></p></e> <!-- mother -->
@@ -95,6 +104,7 @@
       <e><p><l>кедь<s n="n"/></l><r>кядь<s n="n"/></r></p></e>
       <e><p><l>киска<s n="n"/></l><r>пине<s n="n"/></r></p></e>
       <e><p><l>кискине<s n="n"/></l><r>пиненя<s n="n"/></r></p></e>
+      <e><p><l>лем<s n="n"/></l><r>лем<s n="n"/></r></p></e>
       <e><p><l>ломань<s n="n"/></l><r>ломань<s n="n"/></r></p></e>
       <e><p><l>мель<s n="n"/></l><r>мяль<s n="n"/></r></p></e>
       <e><p><l>налксема<s n="n"/></l><r>налхкема<s n="n"/></r></p></e>
@@ -116,7 +126,7 @@
       <e><p><l>шка<s n="n"/></l><r>пинге<s n="n"/></r></p></e>
       <e><p><l>эйкакш<s n="n"/></l><r>шаба<s n="n"/></r></p></e>
 
-      <!-- SECTION: Adjectives -->
+      <!-- SECTION: Proper nouns -->
       <e><p><l>Ваня<s n="np"/></l><r>Ваня<s n="np"/></r></p></e>
       <e><p><l>Маря<s n="np"/></l><r>Маря<s n="np"/></r></p></e>
 
@@ -154,14 +164,16 @@
 
       <e><p><l>пек<s n="adv"/></l><r>пяк<s n="adv"/></r></p></e>
 
-      <e><p><l>ушов<s n="adv"/></l><r>ушу<s n="adv"/></r></p></e>
-      <e><p><l>икеле<s n="adv"/></l><r>инголе<s n="adv"/></r></p></e>
-      <e><p><l>потсо<s n="adv"/></l><r>потса<s n="adv"/></r></p></e>
       <e><p><l>алов<s n="adv"/></l><r>алу<s n="adv"/></r></p></e>
-      <e><p><l>удалдо<s n="adv"/></l><r>фталда<s n="adv"/></r></p></e>
-      <e><p><l>тосо<s n="adv"/></l><r>тоса<s n="adv"/></r></p></e>
+      <e><p><l>ушов<s n="adv"/></l><r>ушу<s n="adv"/></r></p></e>
       <e><p><l>малас<s n="adv"/></l><r>малас<s n="adv"/></r></p></e>
       <e><p><l>пертьпелев<s n="adv"/></l><r>пярьфпяли<s n="adv"/></r></p></e> 
+
+      <e><p><l>икеле<s n="adv"/></l><r>инголе<s n="adv"/></r></p></e>
+      <e><p><l>потсо<s n="adv"/></l><r>потса<s n="adv"/></r></p></e>
+      <e><p><l>тосо<s n="adv"/></l><r>тоса<s n="adv"/></r></p></e>
+
+      <e><p><l>удалдо<s n="adv"/></l><r>фталда<s n="adv"/></r></p></e>
 
       <e><p><l>вейсэ<s n="adv"/></l><r>марса<s n="adv"/></r></p></e>
 
@@ -173,7 +185,6 @@
 
       <e><p><l>озадо<s n="adv"/></l><r>озада<s n="adv"/></r></p></e>
       <e><p><l>паряк<s n="adv"/></l><r>щять<s n="adv"/></r></p></e>
-      <e><p><l>аламошка<s n="adv"/></l><r>аф<b/>ламня<s n="adv"/></r></p></e>
       <e><p><l>ансяк<s n="adv"/></l><r>аньцек<s n="adv"/></r></p></e> 
       <e><p><l>пачк<s n="adv"/></l><r>пачк<s n="adv"/></r></p></e>
 
