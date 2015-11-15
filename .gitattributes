@@ -18,8 +18,10 @@
 /autogen.sh -text
 /configure.ac -text
 dev/ambiguousNominalDecl.myv.regex -text
+dev/ambiguousVerbConj.mdf.regex -text
 dev/ambiguousVerbConj.myv.regex -text
 dev/unambiguousNominalDecl.myv.regex -text
+dev/unambiguousVerbConj.mdf.regex -text
 dev/unambiguousVerbConj.myv.regex -text
 /gt2apertium.cg3r -text
 inc/parallell-text-not-bidix.freq -text
