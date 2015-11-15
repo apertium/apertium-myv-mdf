@@ -17,7 +17,9 @@
 /apertium-myv-mdf.myv-mdf.t3x -text
 /autogen.sh -text
 /configure.ac -text
+dev/ambiguousNominalDecl.myv.regex -text
 dev/ambiguousVerbConj.myv.regex -text
+dev/unambiguousNominalDecl.myv.regex -text
 dev/unambiguousVerbConj.myv.regex -text
 /gt2apertium.cg3r -text
 inc/parallell-text-not-bidix.freq -text
