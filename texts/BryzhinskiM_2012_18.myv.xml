@@ -1828,7 +1828,7 @@
  <parse id="кода">+Adv+Interr+Manner</parse>
 </const>
 <const wordForm="маштат">
- <parse id="маштомс">+V+IV+IV+Ind+Prs+ScSg2</parse>
+ <parse id="маштомс">+V+IV+Ind+Prs+ScSg2</parse>
 </const>
 <const wordForm=".">
 </const>
