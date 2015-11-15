@@ -1,0 +1,3235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE novel SYSTEM "erz-novel-parsed.dtd">
+<!--
+<?xml-stylesheet type="text/xsl" href="http://www.ling.helsinki.fi/~rueter/MYV/FST/Corpus/Corpus_c1/novel.xsl"?>
+-->
+<novel>
+  <!-- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="novel.xsd.xml"> -->
+
+  <bookTitle lang="erz">
+<const wordForm="Кирдажт">
+ <parse id="кирдаж">+Sem/Inanim_Cnt+N+Pl+Nom+Indef</parse>
+</const>
+
+      </bookTitle>
+
+  <genre>
+<const wordForm="Этнофантастикань">
+ <parse id="этнофантастика">+Sem/Inanim_Cnt+N+SP+Gen+Indef</parse>
+</const>
+<const wordForm="повесть">
+ <parse id="повесть">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+
+      </genre>
+
+  <authors>
+    <author>
+      <firstName>Михаил</firstName>
+
+      <surname>Брыжинский</surname>
+    </author>
+  </authors>
+
+  <publication>
+    <publisher></publisher>
+
+    <publicationPlace>Саранск</publicationPlace>
+
+    <year>2007</year>
+
+    <numberOfPages><firstPage>1</firstPage> <lastPage>376</lastPage><!-- This assumes that there are 1800 symbols on each page, which would leave room for spaces between words. Hyphens have been removed from pair words --></numberOfPages>
+
+    <wordCount>52004</wordCount>
+<!-- wordForms 51695 2011-09-23 -->
+<!-- unique word forms 14186 2011-09-23 -->
+    <characterCount>676729</characterCount>
+  </publication>
+
+  <correction>
+    <corrector>
+      <firstName>Jack</firstName>
+
+      <surname>Rueter</surname>
+
+      <year>2007</year>
+    </corrector>
+  </correction>
+
+  <access>
+    <status value="scientific"></status>
+  </access>
+
+  <section>
+    <parts>
+      <part>
+        <partTitle></partTitle>
+
+        <story>
+          <storyTitle></storyTitle>
+
+
+          <chap>
+            <chapNo>18</chapNo>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="Зярдо">
+ <parse id="зярдо">+Adv+Interr+Temp</parse>
+</const>
+<const wordForm="сась">
+ <parse id="самс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="ёжос">
+ <parse id="ёжо">+Sem/Inanim_Cnt+N+SP+Ill+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="сон">
+ <parse id="сон">+Pron+Pers+Sg3+Nom</parse>
+</const>
+<const wordForm="уш">
+ <parse id="уш">+Adv+Temp</parse>
+</const>
+<const wordForm="аволь">
+ <parse id="аволь">+Pcle+Neg+Emph</parse>
+</const>
+<const wordForm="кудынесэль">
+ <parse id="кудыне">+Sem/Inanim_Cnt+N+SP+Ine+Indef+Der/Pr+Prt2+Sg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Кувать">
+ <parse id="кувать">+Adv+Temp</parse>
+</const>
+<const wordForm="вансь">
+ <parse id="ваномс">+V+TV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="велькссэнзэ">
+ <parse id="велькс">+Po+SP+Ine+PxSg3</parse>
+</const>
+<const wordForm="сэнь">
+ <parse id="сэнь">+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="менельсэнть">
+ <parse id="менель">+Sem/Inanim_Cnt+N+Sg+Ine+Def</parse>
+</const>
+<const wordForm="уиця">
+ <parse id="уемс">+V+IV+Der/ця+PrsPrc+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="пельтнень">
+ <parse id="пель">+Sem/Inanim_Cnt+N+Pl+Gen+Def</parse>
+</const>
+<const wordForm="лангс">
+ <parse id="ланго">+Po+SP+Ill+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="марясь">
+ <parse id="марямс">+V+TV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="нармунень">
+ <parse id="нармунь">+Sem/Anim_Cnt+N+SP+Gen+Indef</parse>
+</const>
+<const wordForm="чоледема">
+ <parse id="чоледемс">+V+IV+Der/ОмА+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="кодамо-бути">
+ <parse id="кодамо-бути">+Pron+Indef+Nom+Sg+Indef</parse>
+</const>
+<const wordForm="лашт">
+ <parse id="лашт">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="ды">
+ <parse id="ды">+CC</parse>
+</const>
+<const wordForm="эзь">
+ <parse id="эзь">+V+Neg+Prt1+ScSg3</parse>
+</const>
+<const wordForm="чарькоде">
+ <parse id="чарькодемс">+V+TV+ConNeg</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="мезть">
+ <parse id="мезе">+Pron+Interr+Nom+Pl</parse>
+</const>
+<const wordForm="весе">
+ <parse id="весе">+Det+Indef+Sg+Nom</parse>
+</const>
+<const wordForm="неть">
+ <parse id="не">+Det+Dem+Pl+Nom+Indef</parse>
+</const>
+<const wordForm="истятнэ">
+ <parse id="истямо">+Pron+Dem+Pl+Nom+Def</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="косо">
+ <parse id="ко">+Adv+Interr+Ine</parse>
+</const>
+<const wordForm="сон">
+ <parse id="сон">+Pron+Pers+Sg3+Nom</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="мезе">
+ <parse id="мезе">+Pron+Interr+Sg+Nom</parse>
+</const>
+<const wordForm="мартонзо">
+ <parse id="марто">+Po+Cx+NonNomSg+PxSg3</parse>
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="превензэ">
+ <parse id="прев">+Sem/Inanim_Cnt+N+Pl+Nom+PxSg3</parse>
+</const>
+<const wordForm="допрок">
+ <parse id="допрок">+Adv</parse>
+</const>
+<const wordForm="човоргадозельть">
+ <parse id="човоргадомс">+V+IV+Der/Озь+Ger+Der/Pr+Prt2+ScPl3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Аштесь">
+ <parse id="аштемс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="истя">
+ <parse id="истя">+Adv</parse>
+</const>
+<const wordForm="семс">
+ <parse id="семс">+Adv+Temp+Ill</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="зярс">
+ <parse id="зярс">+Adv+Interr+Ill</parse>
+</const>
+<const wordForm="эзь">
+ <parse id="эзь">+V+Neg+Prt1+ScSg3</parse>
+</const>
+<const wordForm="матра">
+ <parse id="матрамс">+V+IV+ConNeg</parse>
+</const>
+<const wordForm="кутьмерезэ">
+ <parse id="кутьмере">+Sem/Inanim_Cnt+N+Sg+Nom+PxSg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Сестэ">
+ <parse id="сестэ">+Adv+Dem+Temp</parse>
+</const>
+<const wordForm="сон">
+ <parse id="сон">+Pron+Pers+Sg3+Nom</parse>
+</const>
+<const wordForm="озась">
+ <parse id="озамс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="Велявтызе">
+ <parse id="велявтомс">+Der/V_ОвтОмс+V+TV+Ind+Prt1+ScSg3+OcSg3</parse>
+</const>
+<const wordForm="прянзо">
+ <parse id="пря">+Sem/Inanim_Cnt+N+Sg+Gen+PxSg3</parse>
+</const>
+<const wordForm="ве">
+ <parse id="ве">+Num</parse>
+</const>
+<const wordForm="ёнов">
+ <parse id="ёно">+Der/Spat+N+Sg+Lat+Indef</parse>
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="несь">
+ <parse id="неемс">+V+TV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="сэрей">
+ <parse id="сэрей">+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="здый">
+ <parse id="здый">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="конань">
+ <parse id="кона">+Pron+Relat+Gen</parse>
+</const>
+<const wordForm="эйсэ">
+ <parse id="эйсэ">+Po+Ine</parse>
+</const>
+<const wordForm="мекс-бути">
+ <parse id="мекс">+Pron+Interr+Tra+Indef+ClitButi</parse>
+</const>
+<const wordForm="аволь">
+ <parse id="аволь">+CC+Neg+Emph</parse>
+</const>
+<const wordForm="ало">
+ <parse id="ало">+Sem/Spat+Po+Indef+Loc+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="но">
+ <parse id="но">+CC</parse>
+</const>
+<const wordForm="вере">
+ <parse id="вере">+Sem/Spat+Adv+Indef+Loc+Indef</parse>
+</const>
+<const wordForm="керязель">
+ <parse id="керямс">+V+Der/Озь+Ger+Der/Pr+Prt2+ScSg3</parse>
+</const>
+<const wordForm="кенкш">
+ <parse id="кенкш">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="конантень">
+ <parse id="кона">+Pron+Relat+Sg+Dat+Def</parse>
+</const>
+<const wordForm="ветясь">
+ <parse id="ветямс">+V+TV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="сэрей">
+ <parse id="сэрей">+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="кузтема">
+ <parse id="кузтема">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Чаравтызе">
+ <parse id="чаравтомс">+Der/V_ОвтОмс+V+TV+Ind+Prt1+ScSg3+OcSg3</parse>
+</const>
+<const wordForm="лия">
+ <parse id="лия">+Det+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="ёнов">
+ <parse id="ёно">+Sem/Spat+N+SP+Lat+Indef</parse>
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="а">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="васолдо">
+ <parse id="васоло">+Sem/Spat+Adv+Abl</parse>
+</const>
+<const wordForm="эсензэ">
+ <parse id="эсь">+Pron+Refl+Gen+PxSg3+Abs</parse>
+</const>
+<const wordForm="эйстэ">
+ <parse id="эйстэ">+Po+Ela</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="чувттнэнь">
+ <parse id="чувто">+Sem/Inanim_Cnt+N+Pl+Gen+Def</parse>
+</const>
+<const wordForm="алдо">
+ <parse id="ало">+Sem/Spat+Po+Abl</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="косо">
+ <parse id="ко">+Adv+Rel+Ine</parse>
+</const>
+<const wordForm="прядовиль">
+ <parse id="прядовомс">+Der/ОвОмс+V+IV+Ind+Prt2+ScSg3</parse>
+</const>
+<const wordForm="кужось">
+ <parse id="кужо">+Sem/Inanim_Cnt+N+Sg+Nom+Def</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="несь">
+ <parse id="неемс">+V+TV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="толбандя">
+ <parse id="толбандя">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="ды">
+ <parse id="ды">+CC</parse>
+</const>
+<const wordForm="велькссэнзэ">
+ <parse id="велькс">+Sem/RelSpat+N+SP+Ine+PxSg3</parse>
+</const>
+<const wordForm="поводезь">
+ <parse id="поводемс">+V+TV+Der/Озь+Ger</parse>
+</const>
+<const wordForm="покш">
+ <parse id="покш">+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="соргавкс">
+ <parse id="соргавкс">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Толбандянть">
+ <parse id="толбандя">+Sem/Inanim_Cnt+N+Sg+Gen+Def</parse>
+</const>
+<const wordForm="вакссо">
+ <parse id="вакссо">+Sem/RelSpat+Po+Ine</parse>
+</const>
+<const wordForm="аштесть">
+ <parse id="аштемс">+V+IV+Ind+Prt1+ScPl3</parse>
+</const>
+<const wordForm="дюм">
+ <parse id="дюм">+Ad-A</parse>
+</const>
+<const wordForm="ашосо">
+ <parse id="ашо">+Sem/Inanim_Cnt+N+SP+Ine+Indef</parse>
+</const>
+<const wordForm="оршазь">
+ <parse id="оршамс">+V+TV+Der/Озь+Ger</parse>
+</const>
+<const wordForm="hyphen" type="wb">
+</const>
+<const wordForm="карсезь">
+ <parse id="карсемс">+V+TV+Der/Озь+Ger</parse>
+</const>
+<const wordForm="кавто">
+ <parse id="кавто">+Num+Indef+Sg+Nom</parse>
+</const>
+<const wordForm="ломанть">
+ <parse id="ломань">+Sem/Anim_Cnt+N+Pl+Nom+Indef</parse>
+</const>
+<const wordForm="ды">
+ <parse id="ды">+CC</parse>
+</const>
+<const wordForm="вансть">
+ <parse id="ваномс">+V+IV+Ind+Prt1+ScPl3</parse>
+</const>
+<const wordForm="сонзэ">
+ <parse id="сон">+Pron+Pers+Sg3+Gen+PxSg3</parse>
+</const>
+<const wordForm="ёнов">
+ <parse id="ёно">+Sem/Spat+N+SP+Lat+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="Стясь">
+ <parse id="стямс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="ды">
+ <parse id="ды">+CC</parse>
+</const>
+<const wordForm="аймельдезь">
+ <parse id="аймельдемс">+V+IV+Der/Озь+Ger</parse>
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="пильгтне">
+ <parse id="пильге">+Sem/Inanim_Cnt+N+Pl+Nom+Def</parse>
+</const>
+<const wordForm="беряньстэ">
+ <parse id="беряньстэ">+Der/A_стО+Adv</parse>
+</const>
+<const wordForm="кунсолость">
+ <parse id="кунсоломс">+V+TV+Ind+Prt1+ScPl3</parse>
+</const>
+<const wordForm="эйсэнзэ">
+ <parse id="эйсэ">+Pron+Relational+Ine+PxSg3</parse>
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="сыргась">
+ <parse id="сыргамс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="сынст">
+ <parse id="сынь">+Pron+Pers+Pl3+Gen+PxPl3</parse>
+</const>
+<const wordForm="пелев">
+ <parse id="пеле">+Sem/Spat+N+SP+Lat+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Рунгозояк">
+ <parse id="рунго">+Sem/Inanim_Cnt+N+Sg+Nom+PxSg3+CltGak</parse>
+</const>
+<const wordForm="ульнесь">
+ <parse id="ульнемс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="буто">
+ <parse id="буто">+Adv</parse>
+</const>
+<const wordForm="а">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="сонсензэ">
+ <parse id="сон">+Pron+Pers+Sg3+Refl+Gen+PxSg3+Abs</parse>
+</const>
+<const wordForm=":">
+</const>
+<const wordForm="весе">
+ <parse id="весе">+Pron+Indef+Sg+Nom</parse>
+</const>
+<const wordForm="матразель">
+ <parse id="матрамс">+V+IV+Der/Озь+Ger+Der/Pr+Prt2+ScSg3</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="усксь">
+ <parse id="ускомс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="hyphen" type="wb">
+</const>
+<const wordForm="таргатотсь">
+ <parse id="таргатомс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="теке">
+ <parse id="теке">+Adv</parse>
+</const>
+<const wordForm="аштесь">
+ <parse id="аштемс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="стамо">
+ <parse id="стамс">+V+IV+Der/ОмА+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="таркатнесэ">
+ <parse id="тарка">+Sem/Inanim_Cnt+N+Pl+Ine+Def</parse>
+</const>
+<const wordForm="пурнавозь">
+ <parse id="пурнавомс">+Der/ОвОмс+V+IV+Der/Озь+Ger</parse>
+</const>
+<const wordForm="hyphen" type="wb">
+</const>
+<const wordForm="кирьмицявозь">
+ <parse id="кирьмицявомс">+Der/ОвОмс+V+IV+Der/Озь+Ger</parse>
+</const>
+<const wordForm="ёроктомо">
+ <parse id="ёрок">+Der/N_Abe+Adv</parse>
+</const>
+<const wordForm="педявтозь">
+ <parse id="педявтомс">+Der/V_ОвтОмс+V+TV+Der/Озь+Ger</parse>
+</const>
+<const wordForm="панкссто">
+ <parse id="панкс">+Sem/Inanim_Cnt+N+SP+Ela+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="Толбандянть">
+ <parse id="толбандя">+Sem/Inanim_Cnt+N+Sg+Gen+Def</parse>
+</const>
+<const wordForm="вакссто">
+ <parse id="вакссто">+Sem/Spat_Ela+Po</parse>
+</const>
+<const wordForm="мастордо">
+ <parse id="мастор">+Sem/Spat+Adv+Abl</parse>
+</const>
+<const wordForm="редясь">
+ <parse id="редямс">+V+TV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="эчке">
+ <parse id="эчке">+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="уськень">
+ <parse id="уське">+Sem/Inanim_Cnt+N+SP+Gen+Indef</parse>
+</const>
+<const wordForm="покш">
+ <parse id="покш">+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="кечказ">
+ <parse id="кечказ">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="чувтонь">
+ <parse id="чувто">+Sem/Inanim_Cnt+N+SP+Gen+Indef</parse>
+</const>
+<const wordForm="петькель">
+ <parse id="петькель">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="соргавкссонть">
+ <parse id="соргавкс">+Sem/Inanim_Cnt+N+Sg+Ine+Def</parse>
+</const>
+<const wordForm="жо">
+ <parse id="жо">+Pcle+Emph</parse>
+</const>
+<const wordForm="булдордсь">
+ <parse id="булдордомс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="ведь">
+ <parse id="ведь">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="“">
+</const>
+<const wordForm="Вана">
+ <parse id="вана">+Pcle</parse>
+</const>
+<const wordForm="тесэ">
+ <parse id="тесэ">+Sem/Spat+Adv+Dem+Ine</parse>
+</const>
+<const wordForm="монь">
+ <parse id="мон">+Pron+Pers+1Sg+PxSg1+Gen+Abs</parse>
+</const>
+<const wordForm="лакавтстькак">
+ <parse id="лакавтомс">+Der/V_ОвтОмс+V+TV+Ind+Prt1+ScPl3+ClitGak</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="те">
+  <parse id="те">+Det+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="петькельсэнть">
+ <parse id="петькель">+Sem/Inanim_Cnt+N+Sg+Ine+Def</parse>
+</const>
+<const wordForm="нерьгсть">
+ <parse id="нерьгемс">+V+IV+Ind+Prt1+ScPl3</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="те">
+  <parse id="те">+Det+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="кечказсонть">
+ <parse id="кечказ">+Sem/Inanim_Cnt+N+Sg+Ine+Def</parse>
+</const>
+<const wordForm="тарксесть">
+ <parse id="таргсемс">+V+TV+Ind+Prt1+ScPl3</parse>
+</const>
+<const wordForm="сывелем">
+ <parse id="сывель">+Sem/Inanim_Cnt+N+Sg+Gen+PxSg1</parse>
+</const>
+<const wordForm="”">
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="ледстизе">
+ <parse id="ледстямс">+V+TV+Ind+Prt1+ScSg3+OcSg3</parse>
+</const>
+<const wordForm="Кечай">
+ <parse id="Кечай">+Sem/Ant_Mal+N+Prop+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="но">
+ <parse id="но">+CC</parse>
+</const>
+<const wordForm="неть">
+ <parse id="не">+Pron+Dem+Pl+Nom+Indef</parse>
+</const>
+<const wordForm="ломантнеде">
+ <parse id="ломань">+Sem/Anim_Cnt+N+Pl+Abl+Def</parse>
+</const>
+<const wordForm="тандадома">
+ <parse id="тандадомс">+V+IV+Der/ОмА+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="арасель">
+ <parse id="арась">+V+IV+Neg+Ind+Prt2+ScSg3</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="кода">
+ <parse id="кода">+Adv+Interr</parse>
+</const>
+<const wordForm="арасель">
+ <parse id="арась">+V+IV+Neg+Ind+Prt2+ScSg3</parse>
+</const>
+<const wordForm="лангозост">
+ <parse id="ланго">+Sem/RelSpat+N+SP+Ill+PxPl3</parse>
+</const>
+<const wordForm="кежень">
+ <parse id="кеж">+Sem/Inanim_Cnt+N+SP+Gen+Indef</parse>
+</const>
+<const wordForm="самояк">
+ <parse id="самс">+V+IV+Der/ОмА+N+Sg+Nom+Indef+CliticGak</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Потмозо">
+ <parse id="потмо">+Sem/Inanim_Cnt+N+Sg+Nom+PxSg3</parse>
+</const>
+<const wordForm="ульнесь">
+ <parse id="ульнемс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="овсе">
+ <parse id="овсе">+Adv</parse>
+</const>
+<const wordForm="чаво">
+ <parse id="чаво">+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Ломанень">
+ <parse id="ломань">+Sem/Anim_Cnt+N+SP+Gen+Indef</parse>
+</const>
+<const wordForm="кодаткак">
+ <parse id="кодамояк">+A+Indef+Pl+Nom+Indef</parse>
+</const>
+<const wordForm="ёжот">
+ <parse id="ёжо">+Sem/Inanim_Cnt+N+Pl+Nom+Indef</parse>
+</const>
+<const wordForm="эйсэнзэ">
+ <parse id="эйсэ">+Pron+Relational+Ine+PxSg3</parse>
+</const>
+<const wordForm="арасельть">
+ <parse id="арась">+V+IV+Neg+Ind+Prt2+ScPl3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="Каштмолезь">
+ <parse id="каштмолемс">+V+IV+Der/Озь+Ger</parse>
+</const>
+<const wordForm="вансь">
+ <parse id="ваномс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="потмура">
+ <parse id="потмура">+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="чама">
+ <parse id="чама">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="марто">
+ <parse id="марто">+Po+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="ашосо">
+ <parse id="ашо">+Sem/Inanim_Cnt+N+SP+Ine+Indef</parse>
+</const>
+<const wordForm="оршазь">
+ <parse id="оршамс">+V+TV+Der/Озь+Ger</parse>
+</const>
+<const wordForm="цёратнень">
+ <parse id="цёра">+Sem/Anim_Cnt+N+Pl+Gen+Def</parse>
+</const>
+<const wordForm="ёнов">
+ <parse id="ёно">+Sem/RelSpat+N+SP+Lat+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="тонат">
+ <parse id="тона">+Pron+Dem+Pl+Nom+Indef</parse>
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="сонзэ">
+ <parse id="сон">+Pron+Pers+Sg3+Gen+PxSg3</parse>
+</const>
+<const wordForm="лангс">
+ <parse id="ланго">+Sem/RelSpat+N+SP+Ill+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="истя">
+ <parse id="истя">+Adv</parse>
+</const>
+<const wordForm="жо">
+ <parse id="жо">+Pcle+Emph</parse>
+</const>
+<const wordForm="чатьмонезь">
+ <parse id="чатьмонемс">+V+IV+Der/Озь+Ger</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Окойники">
+ <parse id="окойники">+Adv+Temp</parse>
+</const>
+<const wordForm="вейкесь">
+ <parse id="вейке">+Num+Sg+Nom+Def</parse>
+</const>
+<const wordForm="кевкстсь">
+ <parse id="кевкстемс">+V+TV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="казямо">
+ <parse id="казямо">+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="вайгельсэ">
+ <parse id="вайгель">+Sem/Inanim_Cnt+N+SP+Ine+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="—">
+</const>
+<const wordForm="Тон">
+ <parse id="тон">+Pron+Pers+2Sg+Nom</parse>
+</const>
+<const wordForm="кият">
+ <parse id="кий">+Sem/Inanim_Cnt+N+Sg+Nom+Indef+Der/Pr+Prs+2Sg</parse>
+</const>
+<const wordForm="?">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="Арсезевсь">
+ <parse id="арсезевемс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="мезе">
+ <parse id="мезе">+Pron+Interr+Sg+Nom</parse>
+</const>
+<const wordForm="меремс">
+ <parse id="меремс">+V+TV+Inf</parse>
+</const>
+<const wordForm="тень">
+ <parse id="те">+Pron+Dem+Gen+Indef</parse>
+</const>
+<const wordForm="каршо">
+ <parse id="каршо">+Po+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="ды">
+ <parse id="ды">+CC</parse>
+</const>
+<const wordForm="эзь">
+ <parse id="эзь">+V+Neg+Prt1+ScSg3</parse>
+</const>
+<const wordForm="муе">
+ <parse id="муемс">+V+TV+ConNeg</parse>
+</const>
+<const wordForm="вал">
+ <parse id="вал">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="—">
+</const>
+<const wordForm="А">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="содан">
+ <parse id="содамс">+V+IV+Ind+Prs+ScSg1</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="кепединзе">
+ <parse id="кепедемс">+V+TV+Ind+Prt1+ScSg3+OcPl3</parse>
+</const>
+<const wordForm="лавтовонзо">
+ <parse id="лавтов">+Sem/Inanim_Cnt+N+Pl+Gen+PxSg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="—">
+</const>
+<const wordForm="Кода">
+ <parse id="кода">+Adv+Interr+Manner</parse>
+</const>
+<const wordForm="леметь">
+ <parse id="лем">+Sem/Inanim_Cnt+N+Sg+Nom+PxSg2</parse>
+</const>
+<const wordForm="?">
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="кевкстизе">
+ <parse id="кевкстемс">+V+TV+Ind+Prt1+ScSg3+OcSg3</parse>
+</const>
+<const wordForm="омбоцесь">
+ <parse id="омбоце">+Qnt+Sg+Nom+Def</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="истя">
+ <parse id="истя">+Adv</parse>
+</const>
+<const wordForm="жо">
+ <parse id="жо">+Pcle+Emph</parse>
+</const>
+<const wordForm="казямосто">
+ <parse id="казямосто">+Der/A_стО+Adv</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="Сон">
+ <parse id="сон">+Pron+Pers+Sg3+Nom</parse>
+</const>
+<const wordForm="таго">
+ <parse id="таго">+Adv+Temp</parse>
+</const>
+<const wordForm="зярыя">
+ <parse id="зярыя">+Det+Qnt+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="шка">
+ <parse id="шка">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="чатьмонсь">
+ <parse id="чатьмонемс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="яла">
+ <parse id="яла">+Adv+Temp</parse>
+</const>
+<const wordForm="ледстнесь">
+ <parse id="ледстнемс">+V+TV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="лемензэ">
+ <parse id="лем">+Sem/Inanim_Cnt+N+Sg+Gen+PxSg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Марявсь">
+ <parse id="марявомс">+Der/ОвОмс+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="тензэ">
+ <parse id="тензэ">+Short+Pron+Pers+Dat+PxSg3</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="вана">
+ <parse id="вана">+Pcle</parse>
+</const>
+<const wordForm="hyphen" type="wb">
+</const>
+<const wordForm="вана">
+ <parse id="вана">+Pcle</parse>
+</const>
+<const wordForm="ледстясы">
+ <parse id="ледстямс">+V+TV+Ind+Prs+ScSg3+OcSg3</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="но">
+ <parse id="но">+CC</parse>
+</const>
+<const wordForm="лемесь">
+ <parse id="лем">+Sem/Inanim_Cnt+N+Sg+Nom+Def</parse>
+</const>
+<const wordForm="яла">
+ <parse id="яла">+Adv+Temp</parse>
+</const>
+<const wordForm="а">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="сыль">
+ <parse id="самс">+V+IV+Ind+Prt2+ScSg3</parse>
+</const>
+<const wordForm="превезэнзэ">
+ <parse id="прев">+Sem/Inanim_Cnt+N+SP+Ill+PxSg3</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="чеернекс">
+ <parse id="чеерне">+Sem/Inanim_Cnt+N+SP+Tra+Indef</parse>
+</const>
+<const wordForm="оргодиль">
+ <parse id="оргодемс">+V+IV+Ind+Prt2+ScSg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Окойники">
+ <parse id="окойники">+Adv+Temp</parse>
+</const>
+<const wordForm="видькстась">
+ <parse id="видькстамс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="—">
+</const>
+<const wordForm="Арась">
+ <parse id="арась">+V+IV+Neg+Prs+ScSg3</parse>
+</const>
+<const wordForm="лемем">
+ <parse id="лем">+Sem/Inanim_Cnt+N+Sg+Nom+PxSg1</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Кодаяк">
+ <parse id="кода">+Adv+Indef+Manner</parse>
+</const>
+<const wordForm="а">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="муеви">
+ <parse id="муевемс">+Der/ОвОмс+V+IV+Ind+Prs+ScSg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="—">
+</const>
+<const wordForm="Виде">
+ <parse id="виде">+Interj</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="мерсь">
+ <parse id="меремс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="кевкстницясь">
+ <parse id="кевкстнемс">+V+IV+Der/ця+PrsPrc+Sg+Nom+Def</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="—">
+</const>
+<const wordForm="А">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="муевияк">
+ <parse id="муевемс">+Der/ОвОмс+V+IV+Ind+Prs+ScSg3+ClitGak</parse>
+</const>
+<const wordForm=":">
+</const>
+<const wordForm="ёмась">
+ <parse id="ёмамс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="леметь">
+ <parse id="лем">+Sem/Inanim_Cnt+N+Sg+Nom+PxSg2</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Сонгак">
+ <parse id="сон">+Pron+Pers+Sg3+Nom+CliticGak</parse>
+</const>
+<const wordForm="кулось">
+ <parse id="куломс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="мартот">
+ <parse id="марто">+Po+Com+PxSg2</parse>
+</const>
+<const wordForm="вейсэ">
+ <parse id="вейсэ">+Adv+Ine+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Тон">
+ <parse id="тон">+Pron+Pers+2Sg+Nom</parse>
+</const>
+<const wordForm="понгить">
+ <parse id="понгомс">+V+IV+Ind+Prt1+ScSg2</parse>
+</const>
+<const wordForm="миненек">
+ <parse id="минь">+Pron+Pers+Pl1+Dat</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="Тона">
+ <parse id="тона">+Det+Dem+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="Чинть">
+ <parse id="чи">+Sem/Inanim_Cnt+N+Sg+Gen+Def</parse>
+</const>
+<const wordForm="алов">
+ <parse id="ало">+Sem/RelSpat+Po+Lat+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Тесэ">
+ <parse id="тесэ">+Sem/Spat+Adv+Dem+Ine</parse>
+</const>
+<const wordForm="лемтне">
+ <parse id="лем">+Sem/Inanim_Cnt+N+Pl+Nom+Def</parse>
+</const>
+<const wordForm="лият">
+ <parse id="лия">+Det+Pl+Nom+Indef+Der/Pr+Prs+ScPl3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Тоньгак">
+ <parse id="тон">+Pron+Pers+2Sg+Gen+CliticGak</parse>
+</const>
+<const wordForm="карми">
+ <parse id="кармамс">+V+IV+Ind+Prs+ScSg3</parse>
+</const>
+<const wordForm="лия">
+ <parse id="лия">+Det+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Но">
+ <parse id="но">+CC</parse>
+</const>
+<const wordForm="а">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="сеске">
+ <parse id="сеске">+Der/DimKE+Adv+Temp+Dem</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Васня">
+ <parse id="васня">+Adv+Temp+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="ютавтык">
+ <parse id="ютавтомс">+Der/V_ОвтОмс+V+TV+Imp+ScSg2+OcSg3</parse>
+</const>
+<const wordForm="эриксэнь">
+ <parse id="эрикс">+A+SP+Gen+Indef</parse>
+</const>
+<const wordForm="чинеть">
+ <parse id="чине">+Sem/Inanim_Cnt+N+Sg+Gen+PxSg2</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Минь">
+ <parse id="минь">+Pron+Pers+1Pl+Nom</parse>
+</const>
+<const wordForm="тонь">
+ <parse id="тон">+Pron+Pers+Sg2+Gen</parse>
+</const>
+<const wordForm="лакавтыдизь">
+ <parse id="лакавтомс">+Der/V_ОвтОмс+V+TV+Ind+Prt1+Obj2</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="шлидизь">
+ <parse id="шлямс">+V+TV+Ind+Prt1+Obj2</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="сюлот">
+ <parse id="сюло">+Sem/Inanim_Cnt+N+Pl+Gen+PxSg2</parse>
+</const>
+<const wordForm="урадынек">
+ <parse id="урадомс">+V+TV+Ind+Prt1+ScPl1+OcPl3</parse>
+</const>
+<const wordForm="hyphen" type="wb">
+</const>
+<const wordForm="ванськавтынек">
+ <parse id="ванськавтомс">+Der/V_ОвтОмс+V+TV+Ind+Prt1+ScPl1+OcPl3</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="эрикс">
+ <parse id="эрикс">+Der/V_Ыкс+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="чинесь">
+ <parse id="чине">+Sem/Inanim_Cnt+N+Sg+Nom+Def</parse>
+</const>
+<const wordForm="жо">
+ <parse id="жо">+Pcle+Emph</parse>
+</const>
+<const wordForm="эйстэть">
+ <parse id="эйстэ">+Pron+Relational+Ela+PxSg2</parse>
+</const>
+<const wordForm="педе">
+ <parse id="пе">+Sem/Inanim_Cnt+N+SP+Abl+Indef</parse>
+</const>
+<const wordForm="hyphen" type="wb">
+</const>
+<const wordForm="пес">
+ <parse id="пе">+Sem/Inanim_Cnt+N+SP+Ill+Indef</parse>
+</const>
+<const wordForm="эзь">
+ <parse id="эзь">+V+Neg+Prt1+ScSg3</parse>
+</const>
+<const wordForm="юта">
+ <parse id="ютамс">+V+IV+ConNeg</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Верце">
+ <parse id="верце">+Det+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="качамосо">
+ <parse id="качамо">+Sem/Inanim_Cnt+N+SP+Ine+Indef</parse>
+</const>
+<const wordForm="эйстэть">
+ <parse id="эйстэ">+Pron+Relational+Ela+PxSg2</parse>
+</const>
+<const wordForm="яла">
+ <parse id="яла">+Adv+Temp</parse>
+</const>
+<const wordForm="качады">
+ <parse id="качадомс">+V+IV+Ind+Prs+ScSg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Сон">
+ <parse id="сон">+Pron+Pers+Sg3+Nom</parse>
+</const>
+<const wordForm="пек">
+ <parse id="пек">+Ad-A</parse>
+</const>
+<const wordForm="а">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="вечкеви">
+ <parse id="вечкевемс">+Der/ОвОмс+V+IV+Ind+Prs+ScSg3</parse>
+</const>
+<const wordForm="тесэнь">
+ <parse id="тесэнь">+Der/IneAdv_Онь+A+SP+Gen+Indef</parse>
+</const>
+<const wordForm="эрицятненень">
+ <parse id="эрямс">+V+IV+Der/ця+PrsPrc+Pl+Dat+Def</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Минек">
+ <parse id="минь">+Pron+Pers+1Pl+PxPl1+Gen+Abs</parse>
+</const>
+<const wordForm="качамонть">
+ <parse id="качамо">+Sem/Inanim_NCnt+N+Sg+Gen+Def</parse>
+</const>
+<const wordForm="лия">
+ <parse id="лия">+Det+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="чинезэ">
+ <parse id="чине">+Sem/Inanim_Cnt+N+Sg+Nom+PxSg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="Омбоцесь">
+ <parse id="омбоце">+Qnt+Sg+Nom+Def</parse>
+</const>
+<const wordForm="мастордо">
+ <parse id="мастор">+Sem/Spat+Adv+Abl</parse>
+</const>
+<const wordForm="кепедсь">
+ <parse id="кепедемс">+V+TV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="налчирьке">
+ <parse id="налчирьке">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="вейке">
+ <parse id="вейке">+Num+Indef+Sg+Nom</parse>
+</const>
+<const wordForm="нал">
+ <parse id="нал">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="ды">
+ <parse id="ды">+CC</parse>
+</const>
+<const wordForm="венстинзе">
+ <parse id="венстямс">+V+TV+Ind+Prt1+ScSg3+OcPl3</parse>
+</const>
+<const wordForm="цёрынентень">
+ <parse id="цёрыне">+Sem/Anim_Cnt+N+Sg+Dat+Def</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Савсь">
+ <parse id="савомс">+Der/ОвОмс+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="саемс">
+ <parse id="саемс">+V+IV+Inf</parse>
+</const>
+<const wordForm="тензэ">
+ <parse id="тензэ">+Short+Pron+Pers+Dat+PxSg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="—">
+</const>
+<const wordForm="Якак">
+ <parse id="якамс">+V+IV+Imp+ScSg2</parse>
+</const>
+<const wordForm="вирьга">
+ <parse id="вирь">+Sem/Inanim_Cnt+N+SP+Prl+Indef</parse>
+</const>
+<const wordForm="колмо">
+ <parse id="колмо">+Num+Indef+Sg+Nom</parse>
+</const>
+<const wordForm="чить">
+ <parse id="чи">+Sem/Inanim_Cnt+N+Pl+Nom+Indef</parse>
+</const>
+<const wordForm="ды">
+ <parse id="ды">+CC</parse>
+</const>
+<const wordForm="колмо">
+ <parse id="колмо">+Num+Indef+Sg+Nom</parse>
+</const>
+<const wordForm="веть">
+ <parse id="ве">+Sem/Inanim_Cnt+N+Pl+Nom+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Ютавтык">
+ <parse id="ютавтомс">+Der/V_ОвтОмс+V+TV+Imp+ScSg2+OcSg3</parse>
+</const>
+<const wordForm="эрикс">
+ <parse id="эрикс">+Der/V_Ыкс+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="ломанень">
+ <parse id="ломань">+Sem/Anim_Cnt+N+SP+Gen+Indef</parse>
+</const>
+<const wordForm="кадовикс">
+ <parse id="кадовикс">+Der/V_Ыкс+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="чинеть">
+ <parse id="чине">+Sem/Inanim_Cnt+N+Sg+Gen+PxSg2</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Мейле">
+ <parse id="мейле">+Adv+Temp</parse>
+</const>
+<const wordForm="сат">
+ <parse id="самс">+V+IV+Ind+Prs+ScSg2</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Минь">
+ <parse id="минь">+Pron+Pers+1Pl+Nom</parse>
+</const>
+<const wordForm="зярс">
+ <parse id="зярс">+Der/Ill+Adv+Temp</parse>
+</const>
+<const wordForm="лем">
+ <parse id="лем">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="тонеть">
+ <parse id="тон">+Pron+Pers+2Sg+Dat+PxSg2</parse>
+</const>
+<const wordForm="карматано">
+ <parse id="кармамс">+V+IV+Ind+Prs+ScPl1</parse>
+</const>
+<const wordForm="вешнеме">
+ <parse id="вешнемс">+V+TV+Der/ОмОInf+Loc+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Седе">
+ <parse id="седе">+Pcle+Comp</parse>
+</const>
+<const wordForm="икеле">
+ <parse id="икеле">+Adv+Temp</parse>
+</const>
+<const wordForm="тей">
+ <parse id="тей">+Sem/Spat+Adv+Lat</parse>
+</const>
+<const wordForm="прят">
+ <parse id="пря">+Sem/Inanim_Cnt+N+Sg+Gen+PxSg2</parse>
+</const>
+<const wordForm="иляк">
+ <parse id="иля">+V+Neg+Imp+ScSg2+OcSg3</parse>
+</const>
+<const wordForm="невтнеяк">
+ <parse id="невтнемс">+V+TV+ConNeg+CliticGak</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Берянь">
+ <parse id="берянь">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="теть">
+ <parse id="тензэ">+Short+Pron+Pers+Sg2+Dat</parse>
+</const>
+<const wordForm="карми">
+ <parse id="кармамс">+V+IV+Ind+Prs+ScSg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="—">
+</const>
+<const wordForm="Несак">
+ <parse id="неемс">+V+TV+Ind+Prs+ScSg2+OcSg3</parse>
+</const>
+<const wordForm="соргавксонть">
+ <parse id="соргавкс">+Sem/Inanim_Cnt+N+Sg+Gen+Def</parse>
+</const>
+<const wordForm="?">
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="венстизе">
+ <parse id="венстямс">+V+TV+Ind+Prt1+ScSg3+OcSg3</parse>
+</const>
+<const wordForm="кедензэ">
+ <parse id="кедь">+Sem/Inanim_Cnt+N+Sg+Gen+PxSg3</parse>
+</const>
+<const wordForm="толбандянть">
+ <parse id="толбандя">+Sem/Inanim_Cnt+N+Sg+Gen+Def</parse>
+</const>
+<const wordForm="ёнов">
+ <parse id="ёно">+Sem/RelSpat+N+SP+Lat+Indef</parse>
+</const>
+<const wordForm="васенцесь">
+ <parse id="васенце">+Det+Qnt+Sg+Nom+Def</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="—">
+</const>
+<const wordForm="Колмо">
+ <parse id="колмо">+Num+Indef+Sg+Nom</parse>
+</const>
+<const wordForm="чить">
+ <parse id="чи">+Sem/Inanim_Cnt+N+Pl+Nom+Indef</parse>
+</const>
+<const wordForm="ды">
+ <parse id="ды">+CC</parse>
+</const>
+<const wordForm="колмо">
+ <parse id="колмо">+Num+Indef+Sg+Nom</parse>
+</const>
+<const wordForm="веть">
+ <parse id="ве">+Sem/Inanim_Cnt+N+Pl+Nom+Indef</parse>
+</const>
+<const wordForm="карми">
+ <parse id="кармамс">+V+IV+Ind+Prs+ScSg3</parse>
+</const>
+<const wordForm="лакамо">
+ <parse id="лакамо">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="тесэ">
+ <parse id="тесэ">+Sem/Spat+Adv+Dem+Ine</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Шкадонзо">
+ <parse id="шка">+Sem/Inanim_Cnt+N+SP+Abl+PxSg3</parse>
+</const>
+<const wordForm="икеле">
+ <parse id="икеле">+Adv+Temp</parse>
+</const>
+<const wordForm="сат">
+ <parse id="самс">+V+IV+Ind+Prs+ScSg2</parse>
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="прянек">
+ <parse id="пря">+Sem/Inanim_Cnt+N+SP+Com+Indef</parse>
+</const>
+<const wordForm="hyphen" type="wb">
+</const>
+<const wordForm="серьканек">
+ <parse id="серька">+Sem/Inanim_Cnt+N+SP+Com+Indef</parse>
+</const>
+<const wordForm="лакиця">
+ <parse id="лакамс">+V+IV+Der/ця+PrsPrc+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="ведьс">
+ <parse id="ведь">+Sem/Inanim_Cnt+N+SP+Ill+Indef</parse>
+</const>
+<const wordForm="ёрттадызь">
+ <parse id="ёртомс">+V+TV+Ind+Prs+Obj2</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="—">
+</const>
+<const wordForm="Тряк">
+ <parse id="трямс">+V+TV+Imp+ScSg2</parse>
+</const>
+<const wordForm="эсь">
+ <parse id="эсь">+Det+Refl</parse>
+</const>
+<const wordForm="прят">
+ <parse id="пря">+Sem/Inanim_Cnt+N+Sg+Gen+PxSg2</parse>
+</const>
+<const wordForm="максозь">
+ <parse id="максомс">+V+TV+Der/Озь+Ger</parse>
+</const>
+<const wordForm="налсонть">
+ <parse id="нал">+Sem/Inanim_Cnt+N+Sg+Ine+Def</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Колмонест">
+ <parse id="колмо">+Num+Coll+PxPl3</parse>
+</const>
+<const wordForm="читнень">
+ <parse id="чи">+Sem/Inanim_Cnt+N+Pl+Gen+Def</parse>
+</const>
+<const wordForm="перть">
+ <parse id="перть">+Po</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="таго">
+ <parse id="таго">+Adv+Temp</parse>
+</const>
+<const wordForm="пшкадсь">
+ <parse id="пшкадемс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="кедьёнксонь">
+ <parse id="кедьёнкс">+Sem/Inanim_Cnt+N+SP+Gen+Indef</parse>
+</const>
+<const wordForm="максыцясь">
+ <parse id="максомс">+V+TV+Der/ця+PrsPrc+Sg+Nom+Def</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="—">
+</const>
+<const wordForm="Кода">
+ <parse id="кода">+Adv+Interr+Manner</parse>
+</const>
+<const wordForm="маштат">
+ <parse id="маштомс">+V+IV+IV+Ind+Prs+ScSg2</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Нолдасак">
+ <parse id="нолдамс">+V+TV+Ind+Prs+ScSg2+OcSg3</parse>
+</const>
+<const wordForm="стяко">
+ <parse id="стяко">+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="чумось">
+ <parse id="чумо">+Sem/Inanim_Cnt+N+Sg+Nom+Def</parse>
+</const>
+<const wordForm="тонсь">
+ <parse id="тон">+Pron+Pers+2Sg+Refl+Nom</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="Буто">
+ <parse id="буто">+Adv</parse>
+</const>
+<const wordForm="арсеманзо">
+ <parse id="арсема">+Sem/Inanim_Cnt+N+Sg+Gen+PxSg3</parse>
+</const>
+<const wordForm="чарькодезь">
+ <parse id="чарькодемс">+V+TV+Der/Озь+Ger</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="омбоцесь">
+ <parse id="омбоце">+Qnt+Sg+Nom+Def</parse>
+</const>
+<const wordForm="оймавтызе">
+ <parse id="оймавтомс">+Der/V_ОвтОмс+V+TV+Ind+Prt1+ScSg3+OcSg3</parse>
+</const>
+<const wordForm="сеелень">
+ <parse id="сеель">+Sem/Inanim_Cnt+N+SP+Gen+Indef</parse>
+</const>
+<const wordForm="кедень">
+ <parse id="кедь">+Sem/Inanim_Cnt+N+SP+Gen+Indef</parse>
+</const>
+<const wordForm="кондямо">
+ <parse id="кондямо">+Po+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="казямо">
+ <parse id="казямо">+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="вайгельсэнзэ">
+ <parse id="вайгель">+Sem/Inanim_Cnt+N+SP+Ine+PxSg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="—">
+</const>
+<const wordForm="Иля">
+ <parse id="иля">+V+Neg+Imp+ScSg2</parse>
+</const>
+<const wordForm="пеле">
+ <parse id="пелемс">+V+IV+ConNeg</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Минек">
+ <parse id="минь">+Pron+Pers+1Pl+PxPl1+Gen+Abs</parse>
+</const>
+<const wordForm="виртнес">
+ <parse id="вирь">+Sem/Inanim_Cnt+N+Pl+Ill+Def</parse>
+</const>
+<const wordForm="а">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="ёмсить">
+ <parse id="ёмсемс">+V+IV+Ind+Prs+ScPl3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Тесэнь">
+ <parse id="тесэнь">+Der/IneAdv_Онь+A+SP+Gen+Indef</parse>
+</const>
+<const wordForm="янтнэ">
+ <parse id="ян">+Sem/Inanim_Cnt+N+Pl+Nom+Def</parse>
+</const>
+<const wordForm="сынсь">
+ <parse id="сынь">+Pron+Pers+Pl3+Refl+Nom</parse>
+</const>
+<const wordForm="ветятадызь">
+ <parse id="ветямс">+V+TV+Ind+Prs+Obj2</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="ков">
+ <parse id="ков">+Adv+Interr+Lat</parse>
+</const>
+<const wordForm="эряви">
+ <parse id="эрявомс">+Der/ОвОмс+V+IV+Ind+Prs+ScSg3</parse>
+</const>
+<const wordForm="...">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Ней">
+ <parse id="ней">+Adv+Temp</parse>
+</const>
+<const wordForm="азё">
+ <parse id="азё">+V+IV+Imp+ScSg2</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="панизе">
+ <parse id="панемс">+V+TV+Ind+Prt1+ScSg3+OcSg3</parse>
+</const>
+<const wordForm="сон">
+ <parse id="сон">+Pron+Pers+Sg3+Nom</parse>
+</const>
+<const wordForm="цёрыненть">
+ <parse id="цёрыне">+Sem/Anim_Cnt+N+Sg+Gen+Def</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="кедьсэнзэ">
+ <parse id="кедь">+Sem/Inanim_Cnt+N+SP+Ine+PxSg3</parse>
+</const>
+<const wordForm="ахолдазь">
+ <parse id="ахолдамс">+V+IV+Der/Озь+Ger</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="—">
+</const>
+<const wordForm="Пек">
+ <parse id="пек">+Ad-A</parse>
+</const>
+<const wordForm="уш">
+ <parse id="уш">+Adv+Temp</parse>
+</const>
+<const wordForm="а">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="тантей">
+ <parse id="тантей">+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="чинесь">
+ <parse id="чине">+Sem/Inanim_Cnt+N+Sg+Nom+Def</parse>
+</const>
+<const wordForm="эйстэть">
+ <parse id="эйстэ">+Pron+Relational+Ela+PxSg2</parse>
+</const>
+<const wordForm="качады">
+ <parse id="качадомс">+V+IV+Ind+Prs+ScSg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Уксномам">
+ <parse id="уксномс">+V+IV+Der/ОмА+N+Pl+Nom+PxSg1</parse>
+</const>
+<const wordForm="натой">
+ <parse id="натой">+Adv</parse>
+</const>
+<const wordForm="кептетсть">
+ <parse id="кептемс">+V+IV+Ind+Prt1+ScPl3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="Пильгень">
+ <parse id="пильге">+Sem/Inanim_Cnt+N+SP+Gen+Indef</parse>
+</const>
+<const wordForm="ускозь">
+ <parse id="ускомс">+V+TV+Der/Озь+Ger</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="Кечай">
+ <parse id="Кечай">+Sem/Ant_Mal+N+Prop+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="нусманясто">
+ <parse id="нусманясто">+Der/A_стО+Adv</parse>
+</const>
+<const wordForm="такшардозевсь">
+ <parse id="такшардозевемс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="неть">
+ <parse id="не">+Pron+Dem+Pl+Nom+Indef</parse>
+</const>
+<const wordForm="казямо">
+ <parse id="казямо">+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="ломантнень">
+ <parse id="ломань">+Sem/Anim_Cnt+N+Pl+Gen+Def</parse>
+</const>
+<const wordForm="эйстэ">
+ <parse id="эйстэ">+Po+Ela</parse>
+</const>
+<const wordForm="ве">
+ <parse id="ве">+Num</parse>
+</const>
+<const wordForm="ёнов">
+ <parse id="ёно">+Der/Spat+N+Sg+Lat+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="ков">
+ <parse id="ков">+Adv+Interr+Lat</parse>
+</const>
+<const wordForm="тензэ">
+ <parse id="тензэ">+Short+Pron+Pers+Dat+PxSg3</parse>
+</const>
+<const wordForm="невтезель">
+ <parse id="невтемс">+Der/V_ОвтОмс+V+IV+Der/Озь+Ger+Der/Pr+Prt2+ScSg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Ютызе">
+ <parse id="ютамс">+V+TV+Ind+Prt1+ScSg3+OcSg3</parse>
+</const>
+<const wordForm="кужонть">
+ <parse id="кужо">+Sem/Inanim_Cnt+N+Sg+Gen+Def</parse>
+</const>
+<const wordForm="ды">
+ <parse id="ды">+CC</parse>
+</const>
+<const wordForm="совась">
+ <parse id="совамс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="вирь">
+ <parse id="вирь">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="потс">
+ <parse id="потмо">+Sem/Inanim_Cnt+N+SP+Ill+Indef</parse>
+</const>
+<const wordForm="...">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="Кечай">
+ <parse id="Кечай">+Sem/Ant_Mal+N+Prop+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="сонськак">
+ <parse id="сон">+Pron+Pers+Sg3+Refl+Nom+CliticGak</parse>
+</const>
+<const wordForm="эзь">
+ <parse id="эзь">+V+Neg+Prt1+ScSg3</parse>
+</const>
+<const wordForm="сода">
+ <parse id="содамс">+V+IV+ConNeg</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="ков">
+ <parse id="ков">+Adv+Interr+Lat</parse>
+</const>
+<const wordForm="эскели">
+ <parse id="эскелямс">+V+IV+Ind+Prs+ScSg3</parse>
+</const>
+<const wordForm="вирьганть">
+ <parse id="вирь">+Sem/Inanim_Cnt+N+Sg+Prl+Def</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="сэрей">
+ <parse id="сэрей">+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="ды">
+ <parse id="ды">+CC</parse>
+</const>
+<const wordForm="вете">
+ <parse id="вете">+Num+Indef+Sg+Nom</parse>
+</const>
+<const wordForm="hyphen" type="wb">
+</const>
+<const wordForm="кото">
+ <parse id="кото">+Num+Indef+Sg+Nom</parse>
+</const>
+<const wordForm="сэлень">
+ <parse id="сэль">+Sem/Inanim_Cnt+N+SP+Gen+Indef</parse>
+</const>
+<const wordForm="эчкелмасо">
+ <parse id="эчкелма">+Sem/Inanim_Cnt+N+SP+Ine+Indef</parse>
+</const>
+<const wordForm="сядо">
+ <parse id="сядо">+Num+NMixedStem+Indef+Sg+Nom</parse>
+</const>
+<const wordForm="иень">
+ <parse id="ие">+Sem/Inanim_Cnt+N+SP+Gen+Indef</parse>
+</const>
+<const wordForm="чувттнэнь">
+ <parse id="чувто">+Sem/Inanim_Cnt+N+Pl+Gen+Def</parse>
+</const>
+<const wordForm="юткова">
+ <parse id="ютко">+Sem/RelSpat+N+SP+Prl+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Но">
+ <parse id="но">+CC</parse>
+</const>
+<const wordForm="аламонь">
+ <parse id="аламо+Pron">+Qnt+Gen</parse>
+</const>
+<const wordForm="hyphen" type="wb">
+</const>
+<const wordForm="аламонь">
+ <parse id="аламо+Pron">+Qnt+Gen</parse>
+</const>
+<const wordForm="кармась">
+ <parse id="кармамс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="совамо">
+ <parse id="совамс">+V+IV+Der/ОмОInf+Loc+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="чарьксчис">
+ <parse id="чарьксчи">+Sem/Inanim_Cnt+N+SP+Ill+Indef</parse>
+</const>
+<const wordForm=":">
+</const>
+<const wordForm="прястонзо">
+ <parse id="пря">+Sem/Inanim_Cnt+N+SP+Ela+PxSg3</parse>
+</const>
+<const wordForm="ламо">
+ <parse id="ламо+Pron">+Qnt+Indef+Sg+Nom</parse>
+</const>
+<const wordForm="тюсонь">
+ <parse id="тюс">+Sem/Inanim_Cnt+N+SP+Gen+Indef</parse>
+</const>
+<const wordForm="сувось">
+ <parse id="сув">+Sem/Inanim_Cnt+N+Sg+Nom+Def</parse>
+</const>
+<const wordForm="пувсевсь">
+ <parse id="пувсевемс">+Der/ОвОмс+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="ды">
+ <parse id="ды">+CC</parse>
+</const>
+<const wordForm="удемезэ">
+ <parse id="удем">+Sem/Inanim_Cnt+N+Sg+Nom+PxSg3</parse>
+</const>
+<const wordForm="ванськадсь">
+ <parse id="ванськадомс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Молевтезэ">
+ <parse id="молевть">+Sem/Inanim_Cnt+N+Sg+Nom+PxSg3</parse>
+</const>
+<const wordForm="теевсь">
+ <parse id="теевемс">+Der/ОвОмс+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="седе">
+ <parse id="седе">+Pcle+Comp</parse>
+</const>
+<const wordForm="кемекс">
+ <parse id="кеме">+A+SP+Tra+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="ды">
+ <parse id="ды">+CC</parse>
+</const>
+<const wordForm="рунгоськак">
+ <parse id="рунго">+Sem/Inanim_Cnt+N+Sg+Nom+Def+CltGak</parse>
+</const>
+<const wordForm="чияк">
+ <parse id="чияк">+Adv+Temp</parse>
+</const>
+<const wordForm="ладсо">
+ <parse id="лад">+Sem/Inanim_Cnt+N+SP+Ine+Indef</parse>
+</const>
+<const wordForm="эзь">
+ <parse id="эзь">+V+Neg+Prt1+ScSg3</parse>
+</const>
+<const wordForm="уско">
+ <parse id="ускомс">+V+IV+ConNeg</parse>
+</const>
+<const wordForm="hyphen" type="wb">
+</const>
+<const wordForm="таргато">
+ <parse id="таргатомс">+V+IV+ConNeg</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Ансяк">
+ <parse id="ансяк">+Adv</parse>
+</const>
+<const wordForm="ней">
+ <parse id="ней">+Adv+Temp</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="зярсыя">
+ <parse id="зярсыя">+Det+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="шкань">
+ <parse id="шка">+Sem/Inanim_Cnt+N+SP+Gen+Indef</parse>
+</const>
+<const wordForm="ютазь">
+ <parse id="ютамс">+V+TV+Der/Озь+Ger</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="фатясь">
+ <parse id="фатямс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm=":">
+</const>
+<const wordForm="оршазь">
+ <parse id="оршамс">+V+TV+Der/Озь+Ger</parse>
+</const>
+<const wordForm="а">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="эсензэ">
+ <parse id="эсь">+Pron+Refl+Gen+PxSg3+Abs</parse>
+</const>
+<const wordForm="оршамопельсэ">
+ <parse id="оршамопель">+Sem/Inanim_Cnt+N+SP+Ine+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Лангсонзо">
+ <parse id="ланго">+Sem/RelSpat+N+SP+Ine+PxSg3</parse>
+</const>
+<const wordForm="истямо">
+ <parse id="истямо">+Det+Dem+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="жо">
+ <parse id="жо">+Pcle+Emph</parse>
+</const>
+<const wordForm="парцунонь">
+ <parse id="парцун">+Sem/Inanim_Cnt+N+SP+Gen+Indef</parse>
+</const>
+<const wordForm="ашо">
+ <parse id="ашо">+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="панар">
+ <parse id="панар">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="ды">
+ <parse id="ды">+CC</parse>
+</const>
+<const wordForm="ашо">
+ <parse id="ашо">+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="понкст">
+ <parse id="понкс">+Sem/Inanim_Cnt+N+Pl+Nom+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="кодат">
+ <parse id="кодамо">+Pron+Interr+Nom+Pl</parse>
+</const>
+<const wordForm="ульнесть">
+ <parse id="ульнемс">+V+IV+Ind+Prt1+ScPl3</parse>
+</const>
+<const wordForm="толбандя">
+ <parse id="толбандя">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="вакссотнень">
+ <parse id="вакссо">+Sem/RelSpat+Po+Ine+Indef+Der/MWN+N+Def+Pl+Gen</parse>
+</const>
+<const wordForm="лангсо">
+ <parse id="ланго">+Sem/RelSpat+N+SP+Ine+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Ансяк">
+ <parse id="ансяк">+Adv</parse>
+</const>
+<const wordForm="пильгензэ">
+ <parse id="пильге">+Sem/Inanim_Cnt+N+Pl+Nom+PxSg3</parse>
+</const>
+<const wordForm="кепеть">
+ <parse id="кепе">+A+Pl+Nom+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Те">
+ <parse id="те">+Pron+Dem+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="эно">
+ <parse id="эно">+Pcle</parse>
+</const>
+<const wordForm="а">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="дива">
+ <parse id="дива">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="дива">
+ <parse id="дива">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="се">
+ <parse id="се">+Pron+Dem+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="мекс">
+ <parse id="мекс">+Pron+Interr+Tra</parse>
+</const>
+<const wordForm="оршамотне">
+ <parse id="оршамо">+Sem/Inanim_Cnt+N+Pl+Nom+Def</parse>
+</const>
+<const wordForm="повтомот">
+ <parse id="пов">+Sem/Inanim_Cnt+N+SP+Abe+Indef+Der/MWN+N+Pl+Nom+Indef</parse>
+</const>
+<const wordForm="hyphen" type="wb">
+</const>
+<const wordForm="плаштявтомот">
+ <parse id="плаштя">+Sem/Inanim_Cnt+N+SP+Abe+Indef+Der/MWN+N+Pl+Nom+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="А">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="сивесэ">
+ <parse id="сиве">+Sem/Inanim_Cnt+N+SP+Ine+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="а">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="ожа">
+ <parse id="ожа">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="песэ">
+ <parse id="пе">+Sem/Inanim_Cnt+N+SP+Ine+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="а">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="понкстнэсэ">
+ <parse id="понкс">+Sem/Inanim_Cnt+N+Pl+Ine+Def</parse>
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="косояк">
+ <parse id="ко">+Pron+Interr+Ine+Indef+CliticGak</parse>
+</const>
+<const wordForm="арасель">
+ <parse id="арась">+V+IV+Neg+Ind+Prt2+ScSg3</parse>
+</const>
+<const wordForm="ве">
+ <parse id="ве">+Num</parse>
+</const>
+<const wordForm="повнеяк">
+ <parse id="повне">+Sem/Inanim_Cnt+N+Sg+Nom+Indef+CltGak</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Кечай">
+ <parse id="Кечай">+Sem/Ant_Mal+N+Prop+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="штюпинзе">
+ <parse id="штюпамс">+V+TV+Ind+Prt1+ScSg3+OcPl3</parse>
+</const>
+<const wordForm="hyphen" type="wb">
+</const>
+<const wordForm="капинзе">
+ <parse id="капамс">+V+TV+Ind+Prt1+ScSg3+OcPl3</parse>
+</const>
+<const wordForm="ды">
+ <parse id="ды">+CC</parse>
+</const>
+<const wordForm="неизе">
+ <parse id="неемс">+V+TV+Ind+Prt1+ScSg3+OcSg3</parse>
+</const>
+<const wordForm=":">
+</const>
+<const wordForm="оршавтомадост">
+ <parse id="оршавтомс">+Der/V_ОвтОмс+V+TV+Noun+Cx+Abl+PxPl3</parse>
+</const>
+<const wordForm="мейле">
+ <parse id="мейле">+Adv+Temp</parse>
+</const>
+<const wordForm="сынь">
+ <parse id="сынь">+Pron+Pers+Pl3+Nom</parse>
+</const>
+<const wordForm="аволь">
+ <parse id="аволь">+Pcle+Neg+Emph</parse>
+</const>
+<const wordForm="чочнезельть">
+ <parse id="чочнемс">+V+TV+Der/Озь+Ger+Der/Pr+Prt2+ScPl3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Повтнень">
+ <parse id="пов">+Sem/Inanim_Cnt+N+Pl+Gen+Def</parse>
+</const>
+<const wordForm="таркас">
+ <parse id="тарка">+Sem/Inanim_Cnt+N+SP+Ill+Indef</parse>
+</const>
+<const wordForm="ульнесть">
+ <parse id="ульнемс">+V+IV+Ind+Prt1+ScPl3</parse>
+</const>
+<const wordForm="ставкст">
+ <parse id="ставкс">+Sem/Inanim_Cnt+N+Pl+Nom+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Сынст">
+ <parse id="сынь">+Pron+Pers+Pl3+Gen+PxPl3</parse>
+</const>
+<const wordForm="апак">
+ <parse id="апак">+Pcle+Neg</parse>
+</const>
+<const wordForm="разде">
+ <parse id="раздемс">+V+TV+ConNeg</parse>
+</const>
+<const wordForm="панарось">
+ <parse id="панар">+Sem/Inanim_Cnt+N+Sg+Nom+Def</parse>
+</const>
+<const wordForm="лангстот">
+ <parse id="ланго">+Sem/RelSpat+N+SP+Ela+PxSg2</parse>
+</const>
+<const wordForm="а">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="каяви">
+ <parse id="каявомс">+Der/ОвОмс+V+IV+Ind+Prs+ScSg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Понкстнэяк">
+ <parse id="понкс">+Sem/Inanim_Cnt+N+Pl+Nom+Def+CltGak</parse>
+</const>
+<const wordForm="ульнесть">
+ <parse id="ульнемс">+V+IV+Ind+Prt1+ScPl3</parse>
+</const>
+<const wordForm="башка">
+ <parse id="башка">+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="парцунсот">
+ <parse id="парцун">+Sem/Inanim_Cnt+N+SP+Ine+Indef+Der/MWN+N+Indef+Nom+Pl</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Понкс">
+ <parse id="понкс">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="пильгетне">
+ <parse id="пильге">+Sem/Inanim_Cnt+N+Pl+Nom+Def</parse>
+</const>
+<const wordForm="ды">
+ <parse id="ды">+CC</parse>
+</const>
+<const wordForm="карксамось">
+ <parse id="карксамо">+Sem/Inanim_Cnt+N+Sg+Nom+Def</parse>
+</const>
+<const wordForm="истя">
+ <parse id="истя">+Adv</parse>
+</const>
+<const wordForm="жо">
+ <parse id="жо">+Pcle+Emph</parse>
+</const>
+<const wordForm="кеместэ">
+ <parse id="кеместэ">+Der/A_стО+Adv</parse>
+</const>
+<const wordForm="стазельть">
+ <parse id="стамс">+V+TV+Der/Озь+Ger+Der/Pr+Prt2+ScPl3</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="кавто">
+ <parse id="кавто">+Num+Indef+Sg+Nom</parse>
+</const>
+<const wordForm="ёнга">
+ <parse id="ёно">+Sem/RelSpat+N+SP+Prl+Indef</parse>
+</const>
+<const wordForm="жо">
+ <parse id="жо">+Pcle+Emph</parse>
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="удало">
+ <parse id="удало">+Sem/Spat+Po+Indef+Loc+Indef</parse>
+</const>
+<const wordForm="ды">
+ <parse id="ды">+CC</parse>
+</const>
+<const wordForm="икеле">
+ <parse id="икеле">+Sem/RelSpat+Po+Loc+Indef</parse>
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="кадозельть">
+ <parse id="кадомс">+V+TV+Der/Озь+Ger+Der/Pr+Prt2+ScPl3</parse>
+</const>
+<const wordForm="варят">
+ <parse id="варя">+Sem/Inanim_Cnt+N+Pl+Nom+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="конат">
+ <parse id="кона">+Pron+Rel+Pl+Nom+Indef</parse>
+</const>
+<const wordForm="вельтязельть">
+ <parse id="вельтямс">+V+TV+Der/Озь+Ger+Der/Pr+Prt2+ScPl3</parse>
+</const>
+<const wordForm="запоннэсэ">
+ <parse id="запоннэ">+Sem/Inanim_Cnt+N+SP+Ine+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Неть">
+ <parse id="не">+Pron+Dem+Pl+Nom+Indef</parse>
+</const>
+<const wordForm="запоннэтне">
+ <parse id="запоннэ">+Sem/Inanim_Cnt+N+Pl+Nom+Def</parse>
+</const>
+<const wordForm="молемстэ">
+ <parse id="молемс">+V+IV+mstOInf+Ela+Indef</parse>
+</const>
+<const wordForm="лыйнесть">
+ <parse id="лыйнемс">+V+IV+Ind+Prt1+ScPl3</parse>
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="сон">
+ <parse id="сон">+Pron+Pers+Sg3+Nom</parse>
+</const>
+<const wordForm="васня">
+ <parse id="васня">+Adv+Temp+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="фатяськак">
+ <parse id="фатямс">+V+IV+Ind+Prt1+ScSg3+ClitGak</parse>
+</const>
+<const wordForm="сыненст">
+ <parse id="сынь">+Pron+Pers+Pl3+Dat+Dial+PxPl3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="Те">
+ <parse id="те">+Pron+Dem+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="таго">
+ <parse id="таго">+Adv+Temp</parse>
+</const>
+<const wordForm="кармавтызе">
+ <parse id="кармавтомс">+Der/V_ОвтОмс+V+TV+Ind+Prt1+ScSg3+OcSg3</parse>
+</const>
+<const wordForm="арсеме">
+ <parse id="арсемс">+V+IV+Der/ОмОInf+Loc+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Тесэ">
+ <parse id="тесэ">+Sem/Spat+Adv+Dem+Ine</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="ков">
+ <parse id="ков">+Adv+Interr+Lat</parse>
+</const>
+<const wordForm="понгсь">
+ <parse id="понгомс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="весемесь">
+ <parse id="весеме">+Pron+Sg+Nom+Def</parse>
+</const>
+<const wordForm="лияталь">
+ <parse id="лията">+Det+Sg+Nom+Indef+Der/Pr+Prt2+Sg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Оршамоськак">
+ <parse id="оршамо">+Sem/Inanim_Cnt+N+Sg+Nom+Def+CltGak</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="прянь">
+ <parse id="пря">+Sem/Inanim_Cnt+N+SP+Gen+Indef</parse>
+</const>
+<const wordForm="чаракавтыця">
+ <parse id="чаракавтомс">+Der/V_ОвтОмс+V+TV+PrcPrsL+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="ярсамось">
+ <parse id="ярсамо">+Sem/Inanim_Cnt+N+Sg+Nom+Def</parse>
+</const>
+<const wordForm="hyphen" type="wb">
+</const>
+<const wordForm="симемаськак">
+ <parse id="симема">+Sem/Inanim_Cnt+N+Sg+Nom+Def+CltGak</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Рунгонзо">
+ <parse id="рунго">+Sem/Inanim_Cnt+N+Sg+Gen+PxSg3</parse>
+</const>
+<const wordForm="керсемась">
+ <parse id="керсемс">+V+TV+Der/ОмА+N+Sg+Nom+Def</parse>
+</const>
+<const wordForm="hyphen" type="wb">
+</const>
+<const wordForm="лакавтомась">
+ <parse id="лакавтомс">+Der/V_ОвтОмс+V+TV+Noun+Sg+Nom+Def</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="мейле">
+ <parse id="мейле">+Adv+Temp</parse>
+</const>
+<const wordForm="жо">
+ <parse id="жо">+Pcle+Emph</parse>
+</const>
+<const wordForm="мекев">
+ <parse id="мекев">+Adv+Lat+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="вельмевтемась">
+ <parse id="вельмевтемс">+Der/V_ОвтОмс+V+TV+Noun+Sg+Nom+Def</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Те">
+ <parse id="те">+Pron+Dem+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="ульнесь">
+ <parse id="ульнемс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="алкукс">
+ <parse id="алкукс">+Adv</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="сон">
+ <parse id="сон">+Pron+Pers+Sg3+Nom</parse>
+</const>
+<const wordForm="эдь">
+ <parse id="эдь">+Pcle+Emph</parse>
+</const>
+<const wordForm="эсь">
+ <parse id="эсь">+Det+Refl</parse>
+</const>
+<const wordForm="сельмсэ">
+ <parse id="сельме">+Sem/Inanim_Cnt+N+SP+Ine+Indef</parse>
+</const>
+<const wordForm="кода-бути">
+ <parse id="кода">+Adv+Interr+Indef+ClitButi</parse>
+</const>
+<const wordForm="ве">
+ <parse id="ве">+Num</parse>
+</const>
+<const wordForm="ёндо">
+ <parse id="ёно">+Sem/RelSpat+N+SP+Abl+Indef</parse>
+</const>
+<const wordForm="неизе">
+ <parse id="неемс">+V+TV+Ind+Prt1+ScSg3+OcSg3</parse>
+</const>
+<const wordForm="тень">
+ <parse id="те">+Pron+Dem+Gen+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="сонсь">
+ <parse id="сон">+Pron+Pers+Sg3+Refl+Nom</parse>
+</const>
+<const wordForm="маризе">
+ <parse id="марямс">+V+TV+Ind+Prt1+ScSg3+OcSg3</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="кода">
+ <parse id="кода">+Adv+Interr+Manner</parse>
+</const>
+<const wordForm="невельди">
+ <parse id="невельдемс">+V+IV+Ind+Prs+ScSg3</parse>
+</const>
+<const wordForm="hyphen" type="wb">
+</const>
+<const wordForm="путкоти">
+ <parse id="путкотемс">+V+IV+Ind+Prs+ScSg3</parse>
+</const>
+<const wordForm="киськезэ">
+ <parse id="киське">+Sem/Inanim_Cnt+N+Sg+Nom+PxSg3</parse>
+</const>
+<const wordForm="лаки">
+ <parse id="лакамс">+V+IV+Der/и+PrsPrc+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="ведтенть">
+ <parse id="ведь">+Sem/Inanim_Cnt+N+Sg+Abl+Def</parse>
+</const>
+<const wordForm="ды">
+ <parse id="ды">+CC</parse>
+</const>
+<const wordForm="кода">
+ <parse id="кода">+Adv+Interr+Manner</parse>
+</const>
+<const wordForm="эензы">
+ <parse id="эензамс">+V+IV+Ind+Prs+ScSg3</parse>
+</const>
+<const wordForm="ловонть">
+ <parse id="лов">+Sem/Inanim_Cnt+N+Sg+Gen+Def</parse>
+</const>
+<const wordForm="лангсо">
+ <parse id="ланго">+Sem/RelSpat+N+SP+Ine+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="Ней">
+ <parse id="ней">+Adv+Temp</parse>
+</const>
+<const wordForm="вана">
+ <parse id="вана">+Pcle</parse>
+</const>
+<const wordForm="таго">
+ <parse id="таго">+Adv+Temp</parse>
+</const>
+<const wordForm="од">
+ <parse id="од">+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="тамаша">
+ <parse id="тамаша">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=":">
+</const>
+<const wordForm="азё">
+ <parse id="азё">+V+IV+Imp+ScSg2</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="келя">
+ <parse id="келя">+Pcle+Epist</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="трик">
+ <parse id="трямс">+V+TV+Imp+ScSg2+OcSg3</parse>
+</const>
+<const wordForm="прят">
+ <parse id="пря">+Sem/Inanim_Cnt+N+Sg+Gen+PxSg2</parse>
+</const>
+<const wordForm="вейке">
+ <parse id="вейке">+Num+Indef+Sg+Nom</parse>
+</const>
+<const wordForm="налсо">
+ <parse id="нал">+Sem/Inanim_Cnt+N+SP+Ine+Indef</parse>
+</const>
+<const wordForm="колмо">
+ <parse id="колмо">+Num+Indef+Sg+Nom</parse>
+</const>
+<const wordForm="чить">
+ <parse id="чи">+Sem/Inanim_Cnt+N+Pl+Nom+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="А">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="марсевикс">
+ <parse id="марсевикс">+Der/V_Ыкс+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="тев">
+ <parse id="тев">+Sem/Inanim_Cnt+N+Sg+Nom+Indef</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Мекс">
+ <parse id="мекс">+Pron+Interr+Tra</parse>
+</const>
+<const wordForm="эно">
+ <parse id="эно">+Pcle</parse>
+</const>
+<const wordForm="а">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="марсевикс">
+ <parse id="марсевикс">+Der/V_Ыкс+A+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="?">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Те">
+ <parse id="те">+Pron+Dem+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="—">
+</const>
+<const wordForm="тона">
+ <parse id="тона">+Det+Dem+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="эрямосонть">
+ <parse id="эрямо">+Sem/Inanim_Cnt+N+Sg+Ine+Def</parse>
+</const>
+<const wordForm="истя">
+ <parse id="истя">+Adv</parse>
+</const>
+<const wordForm="а">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="эрси">
+ <parse id="эрсемс">+V+IV+Ind+Prs+ScSg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Тесэ">
+ <parse id="тесэ">+Sem/Spat+Adv+Dem+Ine</parse>
+</const>
+<const wordForm="жо">
+ <parse id="жо">+Pcle+Emph</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="Тоначисэ">
+ <parse id="тоначи">+Sem/Inanim_Cnt+N+SP+Ine+Indef</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="ков">
+ <parse id="ков">+Adv+Interr+Lat</parse>
+</const>
+<const wordForm="сон">
+ <parse id="сон">+Pron+Pers+Sg3+Nom</parse>
+</const>
+<const wordForm="овсе">
+ <parse id="овсе">+Adv</parse>
+</const>
+<const wordForm="апак">
+ <parse id="апак">+Pcle+Neg</parse>
+</const>
+<const wordForm="учо">
+ <parse id="учомс">+V+IV+ConNeg</parse>
+</const>
+<const wordForm="понгсь">
+ <parse id="понгомс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="паряк">
+ <parse id="паряк">+Adv+Mod</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="ве">
+ <parse id="ве">+Num</parse>
+</const>
+<const wordForm="налоськак">
+ <parse id="нал">+Sem/Inanim_Cnt+N+Sg+Nom+Def+CltGak</parse>
+</const>
+<const wordForm="куватьс">
+ <parse id="куватьс">+Adv+Temp+Ill</parse>
+</const>
+<const wordForm="саты">
+ <parse id="сатомс">+V+IV+Ind+Prs+ScSg3</parse>
+</const>
+<const wordForm=".">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Паряк">
+ <parse id="паряк">+Adv+Mod</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="карми">
+ <parse id="кармамс">+V+IV+Ind+Prs+ScSg3</parse>
+</const>
+<const wordForm="мекев">
+ <parse id="мекев">+Adv+Lat+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="велявтомо">
+ <parse id="велявтомс">+Der/V_ОвтОмс+V+IV+Der/ОмОInf+Loc+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="азоронстэнь">
+ <parse id="азор">+Sem/Anim_Cnt+N+Sg+Dat+PxSg3</parse>
+</const>
+<const wordForm="?">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+
+            <p>
+              <sent>
+                <txt>
+<const wordForm="Ды">
+ <parse id="ды">+CC</parse>
+</const>
+<const wordForm="ялатеке">
+ <parse id="ялатеке">+Adv</parse>
+</const>
+<const wordForm=",">
+</const>
+<const wordForm="кода">
+ <parse id="кода">+Adv+Interr+Manner</parse>
+</const>
+<const wordForm="сонзэ">
+ <parse id="сон">+Pron+Pers+Sg3+Gen+PxSg3</parse>
+</const>
+<const wordForm="лемезэ">
+ <parse id="лем">+Sem/Inanim_Cnt+N+Sg+Nom+PxSg3</parse>
+</const>
+<const wordForm="?">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Мекс">
+ <parse id="мекс">+Pron+Interr+Tra</parse>
+</const>
+<const wordForm="а">
+ <parse id="а">+Pcle+Neg</parse>
+</const>
+<const wordForm="ледстяви">
+ <parse id="ледстявомс">+Der/ОвОмс+V+IV+Ind+Prs+ScSg3</parse>
+</const>
+<const wordForm="?">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+
+              <sent>
+                <txt>
+<const wordForm="Эдь">
+ <parse id="эдь">+Pcle+Epist</parse>
+</const>
+<const wordForm="ульнесь">
+ <parse id="ульнемс">+V+IV+Ind+Prt1+ScSg3</parse>
+</const>
+<const wordForm="жо">
+ <parse id="жо">+Pcle+Emph</parse>
+</const>
+<const wordForm="кодамояк">
+ <parse id="кодамояк">+A+Indef+Sg+Nom+Indef</parse>
+</const>
+<const wordForm="...">
+</const>
+                </txt>
+
+                <t xml:lang="eng"></t>
+              </sent>
+            </p>
+          </chap>
+	</story>
+      </part>
+    </parts>
+  </section>
+</novel>

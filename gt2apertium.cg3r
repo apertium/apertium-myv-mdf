@@ -480,3 +480,6 @@ MAP (Der/кой) (der_кой);
 MAP (Der/НЕ) (der_не);
 MAP (Der/нЕ) (der_не);
 MAP (Der/Pr) (der_pr);
+MAP (Der/Ы) (der_ы);
+MAP (Aux) (aux);
+MAP (Dimin) (dimin);
