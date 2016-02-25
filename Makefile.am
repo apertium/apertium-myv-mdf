@@ -83,7 +83,7 @@ $(PREFIX2).autogen.hfst: .deps/$(LANG1).autogen.hfst
 # Inari Saami analysis:
 # -------------------
 
-.deps/$(LANG2).automorf.hfst: $(AP_SRC2)/$(BASENAME).$(PREFIX2).LR.att.gz .deps/.d
+.deps/$(LANG2).automorf.hfst: $(AP_SRC2)/apertium-und.$(LANG2)-und.LR.att.gz .deps/.d
 	$(ZCAT) $< | hfst-txt2fst > $@
 
 .deps/$(PREFIX2).automorf-trimmed.hfst: .deps/$(LANG2).automorf.hfst .deps/$(PREFIX2).autobil.prefixes
