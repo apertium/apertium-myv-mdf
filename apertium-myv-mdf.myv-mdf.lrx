@@ -7,44 +7,44 @@
 
   <rule weight="0.2">
   <or>
-    <match lemma="ава" tags="n.*.*.px1sg.*">
+    <match lemma="ава" tags="n.*.*.*.px1sg.*">
       <select lemma="ава" tags="n.*"/>
     </match>
-    <match lemma="ава" tags="n.*.*.px2sg.*">
+    <match lemma="ава" tags="n.*.*.*.px2sg.*">
       <select lemma="ава" tags="n.*"/>
     </match>
-    <match lemma="ава" tags="n.*.*.px3sg.*">
+    <match lemma="ава" tags="n.*.*.*.px3sg.*">
       <select lemma="ава" tags="n.*"/>
     </match>
-    <match lemma="ава" tags="n.*.*.px1pl.*">
+    <match lemma="ава" tags="n.*.*.*.px1pl.*">
       <select lemma="ава" tags="n.*"/>
     </match>
-    <match lemma="ава" tags="n.*.*.px2pl.*">
+    <match lemma="ава" tags="n.*.*.*.px2pl.*">
       <select lemma="ава" tags="n.*"/>
     </match>
-    <match lemma="ава" tags="n.*.*.px3pl.*">
+    <match lemma="ава" tags="n.*.*.*.px3pl.*">
       <select lemma="ава" tags="n.*"/>
     </match>
   </or>
   </rule>
   <rule weight="0.9">
   <or>
-	<match lemma="ава" tags="n.*.*.px1sg.*">
+	<match lemma="ава" tags="n.*.*.*.px1sg.*">
 	       <select lemma="тядя" tags="n.*"/>
 	</match>
-	<match lemma="ава" tags="n.*.*.px2sg.*">
+	<match lemma="ава" tags="n.*.*.*.px2sg.*">
 	<select lemma="тядя" tags="n.*"/>
 	</match>
-    <match lemma="ава" tags="n.*.*.px3sg.*">
+    <match lemma="ава" tags="n.*.*.*.px3sg.*">
       <select lemma="тядя" tags="n.*"/>
     </match>
-	<match lemma="ава" tags="n.*.*.px1pl.*">
+	<match lemma="ава" tags="n.*.*.*.px1pl.*">
 	       <select lemma="тядя" tags="n.*"/>
 	</match>
-	<match lemma="ава" tags="n.*.*.px2pl.*">
+	<match lemma="ава" tags="n.*.*.*.px2pl.*">
 	<select lemma="тядя" tags="n.*"/>
 	</match>
-    <match lemma="ава" tags="n.*.*.px3pl.*">
+    <match lemma="ава" tags="n.*.*.*.px3pl.*">
       <select lemma="тядя" tags="n.*"/>
     </match>
  </or>
