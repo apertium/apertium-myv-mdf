@@ -80,19 +80,25 @@
       <e><p><l>велькска<s n="post"/></l><r>вельхкска<s n="post"/></r></p></e>
       <e><p><l>видьс<s n="post"/></l><r>видес<s n="post"/></r></p></e>
       <e><p><l>икеле<s n="post"/></l><r>инголе<s n="post"/></r></p></e>
+      <e><p><l>лангс<s n="post"/></l><r>лангс<s n="post"/></r></p></e>
       <e><p><l>лангсо<s n="post"/></l><r>лангса<s n="post"/></r></p></e>
       <e><p><l>лангсто<s n="post"/></l><r>лангста<s n="post"/></r></p></e>
       <e><p><l>малас<s n="post"/></l><r>малас<s n="post"/></r></p></e>
       <e><p><l>марто<s n="post"/></l><r>мархта<s n="post"/></r></p></e>
+      <e><p><l>мельга<s n="post"/></l><r>мельге<s n="post"/></r></p></e>
       <e><p><l>нучк<s n="post"/></l><r>нучк<s n="post"/></r></p></e>
       <e><p><l>нучк<s n="post"/></l><r>туркс<s n="post"/></r></p></e>
       <e><p><l>пачк<s n="post"/></l><r>пачк<s n="post"/></r></p></e>
       <e><p><l>перть<s n="post"/></l><r>перьф<s n="post"/></r></p></e>
       <e><p><l>потсо<s n="post"/></l><r>потса<s n="post"/></r></p></e>
       <e><p><l>таркас<s n="post"/></l><r>вастс<s n="post"/></r></p></e>
+      <e><p><l>удалга<s n="post"/></l><r>фталга<s n="post"/></r></p></e>
       <e><p><l>удалдо<s n="post"/></l><r>фталда<s n="post"/></r></p></e>
+      <e><p><l>удало<s n="post"/></l><r>фтала<s n="post"/></r></p></e>
+      <e><p><l>удалов<s n="post"/></l><r>фталу<s n="post"/></r></p></e>
       <e><p><l>эзга<s n="post"/></l><r>эзга<s n="post"/></r></p></e>
       <e><p><l>эйстэ<s n="post"/></l><r>эзда<s n="post"/></r></p></e>
+      <e><p><l>эйсэ<s n="post"/></l><r>эса<s n="post"/></r></p></e>
       <e><p><l>юткова<s n="post"/></l><r>ёткова<s n="post"/></r></p></e>
       <e><p><l>ютксо<s n="post"/></l><r>ёткса<s n="post"/></r></p></e>
 
@@ -2573,6 +2579,7 @@
       <e><p><l>састо<s n="adv"/></l><r>састоня<s n="adv"/></r></p></e>
       <e><p><l>састынестэ<s n="adv"/></l><r>валом-валом<s n="adv"/></r></p></e>
       <e><p><l>свал<s n="adv"/></l><r>фалу<s n="adv"/></r></p></e>
+      <e><p><l>седейшкава<s n="adv"/></l><r>седишкада<s n="adv"/></r></p></e>
       <e><p><l>седикеле<s n="adv"/></l><r>сяда<b/>инголя<s n="adv"/></r></p></e>
       <e><p><l>седикеле<s n="adv"/></l><r>сядонголя<s n="adv"/></r></p></e>
       <e><p><l>сеедьстэ<s n="adv"/></l><r>сидеста<s n="adv"/></r></p></e>
@@ -2684,6 +2691,7 @@
       <e><p><l>аштемс<s n="vblex"/><s n="iv"/></l><r>аштемс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>аштемс<s n="vblex"/><s n="iv"/></l><r>аштемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>ваномс<s n="vblex"/><s n="tv"/></l><r>ваномс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>ваномс<s n="vblex"/><s n="tv"/></l><r>ванондомс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>ваномс<s n="vblex"/><s n="iv"/></l><r>ванондомс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>варштамс<s n="vblex"/><s n="tv"/></l><r>варжакстамс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>варштамс<s n="vblex"/><s n="iv"/></l><r>варжакстамс<s n="vblex"/><s n="iv"/></r></p></e>
@@ -2703,7 +2711,8 @@
       <e><p><l>кортамс<s n="vblex"/><s n="iv"/></l><r>корхтамс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>кунсоломс<s n="vblex"/><s n="tv"/></l><r>кулцондомс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>кунсоломс<s n="vblex"/><s n="iv"/></l><r>кулцондомс<s n="vblex"/><s n="iv"/></r></p></e>
-      <e><p><l>лисевемс<s n="vblex"/><s n="iv"/></l><r>лисевомс<s n="vblex"/><s n="iv"/></r></p></e><!--XX-->
+      <e><p><l>ливтнемс<s n="vblex"/><s n="iv"/></l><r>лиендемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>лисевемс<s n="vblex"/><s n="iv"/></l><r>лисевомс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>лиядомс<s n="vblex"/><s n="iv"/></l><r>лядомс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>ловомс<s n="vblex"/><s n="tv"/></l><r>ловомс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>марямс<s n="vblex"/><s n="tv"/></l><r>марямс<s n="vblex"/><s n="tv"/></r></p></e>
