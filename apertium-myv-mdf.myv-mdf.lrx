@@ -6,14 +6,48 @@
 <!-- ава<n><sg><gen><px3pl>/ава<n><sg><gen><px3pl>/тядя<n><sg><gen><px3pl> -->
 
   <rule weight="0.2">
-    <match lemma="ава" tags="n.*.*.px3pl">
+  <or>
+    <match lemma="ава" tags="n.*.*.px1sg.*">
       <select lemma="ава" tags="n.*"/>
     </match>
+    <match lemma="ава" tags="n.*.*.px2sg.*">
+      <select lemma="ава" tags="n.*"/>
+    </match>
+    <match lemma="ава" tags="n.*.*.px3sg.*">
+      <select lemma="ава" tags="n.*"/>
+    </match>
+    <match lemma="ава" tags="n.*.*.px1pl.*">
+      <select lemma="ава" tags="n.*"/>
+    </match>
+    <match lemma="ава" tags="n.*.*.px2pl.*">
+      <select lemma="ава" tags="n.*"/>
+    </match>
+    <match lemma="ава" tags="n.*.*.px3pl.*">
+      <select lemma="ава" tags="n.*"/>
+    </match>
+  </or>
   </rule>
   <rule weight="0.9">
-    <match lemma="ава" tags="n.*.*.px3pl">
+  <or>
+	<match lemma="ава" tags="n.*.*.px1sg.*">
+	       <select lemma="тядя" tags="n.*"/>
+	</match>
+	<match lemma="ава" tags="n.*.*.px2sg.*">
+	<select lemma="тядя" tags="n.*"/>
+	</match>
+    <match lemma="ава" tags="n.*.*.px3sg.*">
       <select lemma="тядя" tags="n.*"/>
     </match>
+	<match lemma="ава" tags="n.*.*.px1pl.*">
+	       <select lemma="тядя" tags="n.*"/>
+	</match>
+	<match lemma="ава" tags="n.*.*.px2pl.*">
+	<select lemma="тядя" tags="n.*"/>
+	</match>
+    <match lemma="ава" tags="n.*.*.px3pl.*">
+      <select lemma="тядя" tags="n.*"/>
+    </match>
+ </or>
   </rule>
 
 </rules>
