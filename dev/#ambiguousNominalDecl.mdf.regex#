@@ -1,15 +1,11 @@
 # mdf ambiguous nominal declension tags
-\+Pl\+Dat\+Def
-\+Pl\+Dat\+PxSg2
-\+Pl\+Gen\+Def
-\+Pl\+Gen\+PxSg2
 \+Pl\+Nom\+Def
 \+Pl\+Nom\+PxSg2
-\+SP\+Abe\+PxSg2
-\+SP\+Cmpr\+PxSg1
-\+SP\+Cmpr\+PxSg2
 \+SP\+Ela\+PxSg2
 \+SP\+Ine\+PxSg2
 \+SP\+Prl\+PxSg1
 \+SP\+Prl\+PxSg2
+\+SP\+Cmpr\+PxSg1
+\+SP\+Cmpr\+PxSg2
+\+SP\+Abe\+PxSg2
 \+SP\+Prl\+Indef
