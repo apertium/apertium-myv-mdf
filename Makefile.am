@@ -2,7 +2,6 @@
 ## Makefile for Northern Saami--Inari Saami
 ###############################################################################
 
-VERSION=0.1.0
 LANG1=myv
 LANG2=mdf
 PREFIX1=$(LANG1)-$(LANG2)
@@ -231,4 +230,3 @@ test: all
 	@echo "таркас" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
-
