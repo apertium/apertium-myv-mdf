@@ -1,3 +1,6 @@
 *~
+*.mode
+*.hfst
+*.bin
 *.pl
 .DS_Store
