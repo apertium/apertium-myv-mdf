@@ -5,7 +5,6 @@
 
   <sdefs>
     <sdef n="n"        c="Noun"/>
-    <sdef n="neg"      c="Negative"/>
     <sdef n="np"      c="Proper noun"/>
     <sdef n="cnjcoo"   c="Conjunction"/>
     <sdef n="cnjsub"   c="Subjunction"/>
@@ -14,9 +13,8 @@
     <sdef n="ij"    c="Interjection"/>
     <sdef n="det"    c="Determiner"/>
     <sdef n="adj"     c="Adjective"/>
-    <sdef n="def"     c=""/>
+    <sdef n="def"     c="Definite"/>
     <sdef n="ind"     c="Indefinite"/>
-    <sdef n="indic"     c="Indicative"/>
     <sdef n="qnt"     c="Quantifier"/>
     <sdef n="prn"     c="Pronouns"/>
     <sdef n="vblex"     c="Verb"/>
@@ -26,14 +24,96 @@
     <sdef n="cop"     c="Copula"/>
     <sdef n="pcle"     c="Particle"/>
 
-    <sdef n="guio" 	c=""/> 
-    <sdef n="cm" 	c=""/> 
-    <sdef n="sent" 	c=""/> 
+    <sdef n="rel"      c="Relative"/>
+    <sdef n="ref"     c="Reflexive"/>
+    <sdef n="res"      c="Reciprocal"/>
+    <sdef n="itg"      c="Interrogative"/>
+    <sdef n="dem"      c="Demonstrative"/>
+
+    <sdef n="p1"       c="First person"/>
+    <sdef n="p2"       c="Second person"/>
+    <sdef n="p3"       c="Third person"/>
+
+    <sdef n="sg1"      c="First-person singular"/>
+    <sdef n="sg2"      c="Second-person singular"/>
+    <sdef n="sg3"      c="Third-person singular"/>
+    <sdef n="pl1"      c="First-person plural"/>
+    <sdef n="pl2"      c="Second-person plural"/>
+    <sdef n="pl3"      c="Third-person plural"/>
+
+    <sdef n="pxsg1"    c="First-person singular possessive suffix"/>
+    <sdef n="pxsg2"    c="Second-person singular possessive suffix"/>
+    <sdef n="pxsg3"    c="Third-person singular possessive suffix"/>
+    <sdef n="pxpl1"    c="First-person plural possessive suffix"/>
+    <sdef n="pxpl2"    c="Second-person plural possessive suffix"/>
+    <sdef n="pxpl3"    c="Third-person plural possessive suffix"/>
+
+    <sdef n="s_sg1"    c="First-person singular subject marker"/>
+    <sdef n="s_sg2"    c="Second-person singular subject marker"/>
+    <sdef n="s_sg3"    c="Third-person singular subject marker"/>
+    <sdef n="s_pl1"    c="First-person plural subject marker"/>
+    <sdef n="s_pl2"    c="Second-person plural subject marker"/>
+    <sdef n="s_pl3"    c="Third-person plural subject marker"/>
+
+    <sdef n="o_sg1"    c="First-person singular object marker"/>
+    <sdef n="o_sg2"    c="Second-person singular object marker"/>
+    <sdef n="o_sg3"    c="Third-person singular object marker"/>
+    <sdef n="o_pl1"    c="First-person plural object marker"/>
+    <sdef n="o_pl2"    c="Second-person plural object marker"/>
+    <sdef n="o_pl3"    c="Third-person plural object marker"/>
+
+    <sdef n="sg"       c="Singular"/>
+    <sdef n="pl"       c="Plural"/>
+    <sdef n="sp"      c="Singular/Plural"/>
+
+    <sdef n="abe"      c="Abessive"/>
+    <sdef n="abl"      c="Ablative"/>
+    <sdef n="caus"      c="Causative"/>
+    <sdef n="com"      c="Comitative"/>
+    <sdef n="cmpr"     c="Comparative"/>
+    <sdef n="gen"      c="Genitive"/>
+    <sdef n="ela"      c="Elative"/>
+    <sdef n="ill"      c="Illative"/>
+    <sdef n="ine"      c="Inessive"/>
+    <sdef n="lat"      c="Lative"/>
+    <sdef n="loc"      c="Locative"/>
+    <sdef n="nom"      c="Nominative"/>
+    <sdef n="prl"      c="Prolative"/>
+    <sdef n="tra"      c="Translative"/>
+
+    <sdef n="conneg"  c="Negation form"/>
+    <sdef n="neg"     c="Negation verb 'ii'"/>
+
+    <sdef n="inf"     c="infinitive"/>
+    <sdef n="pres"     c="Present"/>
+    <sdef n="pret1"     c="First Preterite"/>
+    <sdef n="pret2"     c="Second Preterite"/>
+    <sdef n="prfprc"  c="Perfect participle"/>
+    <sdef n="prsprc"  c="Present participle"/>
+
+    <sdef n="cond"     c="Conditional"/>
+    <sdef n="conj"     c="Conditional"/>
+    <sdef n="imprt"   c="Imperative"/>
+    <sdef n="imp"     c="Imperative"/>
+    <sdef n="indic"    c="Indicative"/>
+
+    <sdef n="clt_cop"  c="Copula clitic"/>
+    <sdef n="clt_gak"  c="Additive clitic -Гак"/>
+
+    <sdef n="cmp"      c="Compound"/>
+    <sdef n="guio" 	c="Dash in split- or numeral compounds"/> 
+
+    <sdef n="punct"   c="Punctuation"/>
+    <sdef n="cm" 	c="Comma"/> 
+    <sdef n="sent" 	c="Sentence boundary"/> 
     <sdef n="lpar" 	c=""/> 
     <sdef n="rpar" 	c=""/> 
-    <sdef n="lquot" 	c=""/> 
+    <sdef n="left"    c="Left quotation mark"/>
+    <sdef n="lquot"   c="Left quotation mark"/>
+    <sdef n="right"   c="Right quotation mark"/>
+    <sdef n="rquot"   c="Right quotation mark"/>
+    <sdef n="clb"     c="Clause boundary"/>
     <sdef n="quot" 	c=""/> 
-    <sdef n="rquot" 	c=""/> 
     <sdef n="apos" 	c=""/> 
 
   </sdefs>
