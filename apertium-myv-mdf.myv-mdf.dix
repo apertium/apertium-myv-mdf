@@ -55,6 +55,13 @@
     <sdef n="s_pl2"    c="Second-person plural subject marker"/>
     <sdef n="s_pl3"    c="Third-person plural subject marker"/>
 
+    <sdef n="a_sg1"    c="First-person singular agent marker"/>
+    <sdef n="a_sg2"    c="Second-person singular agent marker"/>
+    <sdef n="a_sg3"    c="Third-person singular agent marker"/>
+    <sdef n="a_pl1"    c="First-person plural agent marker"/>
+    <sdef n="a_pl2"    c="Second-person plural agent marker"/>
+    <sdef n="a_pl3"    c="Third-person plural agent marker"/>
+
     <sdef n="o_sg1"    c="First-person singular object marker"/>
     <sdef n="o_sg2"    c="Second-person singular object marker"/>
     <sdef n="o_sg3"    c="Third-person singular object marker"/>
@@ -68,9 +75,10 @@
 
     <sdef n="abe"      c="Abessive"/>
     <sdef n="abl"      c="Ablative"/>
-    <sdef n="caus"      c="Causative"/>
+    <sdef n="caus"     c="Causative"/>
     <sdef n="com"      c="Comitative"/>
     <sdef n="cmpr"     c="Comparative"/>
+    <sdef n="dat"      c="Dative"/>
     <sdef n="gen"      c="Genitive"/>
     <sdef n="ela"      c="Elative"/>
     <sdef n="ill"      c="Illative"/>
@@ -81,8 +89,9 @@
     <sdef n="prl"      c="Prolative"/>
     <sdef n="tra"      c="Translative"/>
 
-    <sdef n="conneg"  c="Negation form"/>
-    <sdef n="neg"     c="Negation verb 'ii'"/>
+    <sdef n="conneg"  c="Negation form of verb"/>
+    <sdef n="connegii"  c="Negation form of verb"/>
+    <sdef n="neg"     c="Negation verb 'а, эзь, аволь'"/>
 
     <sdef n="inf"     c="infinitive"/>
     <sdef n="pres"     c="Present"/>
@@ -93,9 +102,11 @@
 
     <sdef n="cond"     c="Conditional"/>
     <sdef n="conj"     c="Conditional"/>
+    <sdef n="des"     c="Desiderative"/>
     <sdef n="imprt"   c="Imperative"/>
     <sdef n="imp"     c="Imperative"/>
     <sdef n="indic"    c="Indicative"/>
+    <sdef n="opt"   c="Optative"/>
 
     <sdef n="clt_cop"  c="Copula clitic"/>
     <sdef n="clt_gak"  c="Additive clitic -Гак"/>
