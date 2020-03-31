@@ -22,8 +22,32 @@
 
   <section-def-attrs>
     <def-attr n="a_cas">
+      <attr-item tags="abe"/>
+      <attr-item tags="abl"/>
+      <attr-item tags="com"/>
+      <attr-item tags="cau"/>
+      <attr-item tags="cmpr"/>
+      <attr-item tags="com"/>
+      <attr-item tags="dat"/>
+      <attr-item tags="ela"/>
+      <attr-item tags="gen"/>
+      <attr-item tags="ill"/>
+      <attr-item tags="ine"/>
+      <attr-item tags="lat"/>
+      <attr-item tags="loc"/>
       <attr-item tags="nom"/>
+      <attr-item tags="temp"/>
+      <attr-item tags="prl"/>
+      <attr-item tags="tra"/>
     </def-attr>
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+    </def-attr>
+    <def-attr n="a_nom">
+      <attr-item tags="n"/>
+    </def-attr>
+    
     <def-attr n="a_sem">
       <attr-item tags="sem_act"/>
       <attr-item tags="sem_act_group"/>

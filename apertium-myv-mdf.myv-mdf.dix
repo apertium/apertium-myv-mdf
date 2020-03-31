@@ -89,6 +89,44 @@
     <sdef n="prl"      c="Prolative"/>
     <sdef n="tra"      c="Translative"/>
 
+    <sdef n="der"      c="Any derivation (just listed here for completeness)"/>
+    <sdef n="der_y"    c="Agent short derivation"/>
+    <sdef n="der_yj"   c="Agent long derivation"/>
+    <sdef n="der_ycja" c="Agent with determiner derivation"/>
+    <sdef n="der_cond"  c=""/>
+    <sdef n="der_dimin" c="Diminutive"/>
+    <sdef n="der_gak"    c=""/>
+    <sdef n="der_genattr" c="Genitive attribute"/>
+    <sdef n="der_mwn"    c="Modifier without noun"/>
+    <sdef n="der_nomact"    c="Deverbal noun"/>
+    <sdef n="der_nomag"    c="Actor noun (also deverbal agent/actor)"/>
+    <sdef n="nomag"    c="Actor noun (also deverbal agent/actor)"/>
+    <sdef n="der_ovt"    c=""/>
+    <sdef n="der_oma"    c=""/>
+    <sdef n="der_omka"    c=""/>
+    <sdef n="der_ozj"    c=""/>
+    <sdef n="der_okshnoms"    c=""/>
+    <sdef n="der_ovoms"    c=""/>
+    <sdef n="der_ovkshnoms"    c=""/>
+    <sdef n="der_ovtoms"    c=""/>
+    <sdef n="der_ovtnjems"    c=""/>
+    <sdef n="der_ozevems"    c=""/>
+    <sdef n="der_ozevkshnems"    c=""/>
+    <sdef n="der_ozevtnjems"    c=""/>
+    <sdef n="der_njems"    c=""/>
+    <sdef n="der_v2a"    c=""/>
+    <sdef n="der_aj"    c="Vocative"/>
+    <sdef n="der_kaj"    c="Vocative"/>
+    <sdef n="der_buti"    c=""/>
+    <sdef n="der_cje"    c=""/>
+    <sdef n="der_ke"    c=""/>
+    <sdef n="der_ks"    c=""/>
+    <sdef n="der_nje"    c=""/>
+    <sdef n="der_sje"    c=""/>
+    <sdef n="der_sto"    c=""/>
+    <sdef n="der_tjks"    c=""/>
+
+    
     <sdef n="conneg"  c="Negation form of verb"/>
     <sdef n="connegii"  c="Negation form of verb"/>
     <sdef n="neg"     c="Negation verb 'а, эзь, аволь'"/>
