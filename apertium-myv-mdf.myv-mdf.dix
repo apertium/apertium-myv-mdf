@@ -2777,8 +2777,11 @@
       <!-- SECTION: Verbs -->
       <e><p><l>эзь<s n="vblex"/><s n="neg"/></l><r>ашизь<s n="vblex"/><s n="neg"/></r></p></e>
 
-      <e><p><l>арсемс<s n="vblex"/><s n="tv"/></l><r>арьсемс<s n="vblex"/><s n="tv"/></r></p></e>
-      <e><p><l>арсемс<s n="vblex"/><s n="iv"/></l><r>арьсемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>андомс<s n="vblex"/><s n="tv"/></l><r>андомс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>андомс<s n="vblex"/><s n="iv"/></l><r>андомс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>арсемс¹<s n="vblex"/><s n="tv"/></l><r>арьсемс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>арсемс¹<s n="vblex"/><s n="iv"/></l><r>арьсемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>арсемс²<s n="vblex"/><s n="iv"/></l><r>арсемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>аштемс<s n="vblex"/><s n="iv"/></l><r>аштемс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>аштемс<s n="vblex"/><s n="iv"/></l><r>аштемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>ваномс<s n="vblex"/><s n="tv"/></l><r>ваномс<s n="vblex"/><s n="tv"/></r></p></e>
@@ -2792,10 +2795,12 @@
       <e><p><l>вешнемс<s n="vblex"/><s n="iv"/></l><r>вешендомс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>ёвтамс<s n="vblex"/><s n="tv"/></l><r>азомс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>каятомс<s n="vblex"/><s n="iv"/></l><r>эрьхтемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>кандомс<s n="vblex"/><s n="tv"/></l><r>кандомс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>кандомс<s n="vblex"/><s n="iv"/></l><r>кандомс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>кевкстнемс<s n="vblex"/><s n="tv"/></l><r>кизефтнемс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>кевкстнемс<s n="vblex"/><s n="iv"/></l><r>кизефтнемс<s n="vblex"/><s n="iv"/></r></p></e>
-      <e><p><l>кекшемс<s n="vblex"/><s n="tv"/></l><r>кешемс<s n="vblex"/><s n="tv"/></r></p></e>
-      <e><p><l>кекшемс<s n="vblex"/><s n="iv"/></l><r>кешемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>кекшемс<s n="vblex"/><s n="tv"/></l><r>кяшемс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>кекшемс<s n="vblex"/><s n="iv"/></l><r>кяшемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>кенярдомс<s n="vblex"/><s n="iv"/></l><r>кенярдемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>кецямс<s n="vblex"/><s n="iv"/></l><r>кенярдемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>кортамс<s n="vblex"/><s n="tv"/></l><r>корхтамс<s n="vblex"/><s n="tv"/></r></p></e>
@@ -2818,8 +2823,8 @@
       <e><p><l>молемс<s n="vblex"/><s n="iv"/></l><r>молемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>муевемс<s n="vblex"/><s n="iv"/></l><r>мувoмс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>муемс<s n="vblex"/><s n="tv"/></l><r>мумс<s n="vblex"/><s n="tv"/></r></p></e>
-      <e><p><l>налксемс<s n="vblex"/><s n="tv"/></l><r>налхкемс<s n="vblex"/><s n="tv"/></r></p></e>
-      <e><p><l>налксемс<s n="vblex"/><s n="iv"/></l><r>налхкемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>налксемс<s n="vblex"/><s n="tv"/></l><r>налхкомс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>налксемс<s n="vblex"/><s n="iv"/></l><r>налхкомс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>неемс<s n="vblex"/><s n="tv"/></l><r>няемс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>неемс<s n="vblex"/><s n="iv"/></l><r>няемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>пандомс<s n="vblex"/><s n="tv"/></l><r>пандомс<s n="vblex"/><s n="tv"/></r></p></e>
@@ -2832,11 +2837,13 @@
       <e><p><l>ракамс<s n="vblex"/><s n="tv"/></l><r>рахамс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>ракамс<s n="vblex"/><s n="iv"/></l><r>рахамс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>самс<s n="vblex"/><s n="iv"/></l><r>самс<s n="vblex"/><s n="iv"/></r></p></e>
-      <e><p><l>сиядомс<s n="vblex"/><s n="iv"/></l><r>сельмотькшнемс<s n="vblex"/><s n="iv"/></r></p></e><!--myv: сельмем сияди = mdf: сельмотькшнян-->
+      <e><p><l>сиядомс<s n="vblex"/><s n="iv"/></l><r>сельмотькшнемс<s n="vblex"/><s n="iv"/></r></p></e><!--myv: сельмем сияды = mdf: сельмотькшнян-->
       <e><p><l>симемс<s n="vblex"/><s n="tv"/></l><r>симомс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>симемс<s n="vblex"/><s n="iv"/></l><r>симомс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>содамс<s n="vblex"/><s n="tv"/></l><r>содамс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>содамс<s n="vblex"/><s n="iv"/></l><r>содамс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>сэвемс<s n="vblex"/><s n="tv"/></l><r>сивемс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>теевемс<s n="vblex"/><s n="iv"/></l><r>арамс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>теемс<s n="vblex"/><s n="tv"/></l><r>тиемс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>теемс<s n="vblex"/><s n="iv"/></l><r>тиемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>туемс¹<s n="vblex"/><s n="tv"/></l><r>тумс¹<s n="vblex"/><s n="tv"/></r></p></e>
@@ -2847,6 +2854,7 @@
       <e><p><l>ульнемс<s n="vblex"/><s n="iv"/></l><r>улемс²<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>чиемс<s n="vblex"/><s n="tv"/></l><r>ласькондомс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>чиемс<s n="vblex"/><s n="iv"/></l><r>ласькондомс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>эрсемс<s n="vblex"/><s n="iv"/></l><r>улендемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>ярсамс<s n="vblex"/><s n="iv"/></l><r>ярхцамс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>ютамс<s n="vblex"/><s n="tv"/></l><r>ётамс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>ютамс<s n="vblex"/><s n="iv"/></l><r>ётамс<s n="vblex"/><s n="iv"/></r></p></e>
