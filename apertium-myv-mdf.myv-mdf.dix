@@ -20,6 +20,7 @@
     <sdef n="vblex"     c="Verb"/>
     <sdef n="iv"     c="Intransitive"/>
     <sdef n="tv"     c="Transitive"/>
+    <sdef n="adp"     c="Adposition"/>
     <sdef n="adv"     c="Adverb"/>
     <sdef n="cop"     c="Copula"/>
     <sdef n="pcle"     c="Particle"/>
@@ -199,37 +200,37 @@
       <e><p><l>зярдо<s n="cnjsub"/></l><r>мзярда<s n="cnjsub"/></r></p></e>
 
       
-      <!-- SECTION: Postpositions -->
-      <e><p><l>алов<s n="post"/></l><r>алу<s n="post"/></r></p></e>
-      <e><p><l>вакска<s n="post"/></l><r>вакска<s n="post"/></r></p></e>
-      <e><p><l>ваксс<s n="post"/></l><r>ваксс<s n="post"/></r></p></e>
-      <e><p><l>вакссо<s n="post"/></l><r>ваксса<s n="post"/></r></p></e>
-      <e><p><l>вакссто<s n="post"/></l><r>ваксста<s n="post"/></r></p></e>
-      <e><p><l>вельде<s n="post"/></l><r>вельде<s n="post"/></r></p></e>
-      <e><p><l>велькска<s n="post"/></l><r>вельхкска<s n="post"/></r></p></e>
-      <e><p><l>видьс<s n="post"/></l><r>видес<s n="post"/></r></p></e>
-      <e><p><l>икеле<s n="post"/></l><r>инголе<s n="post"/></r></p></e>
-      <e><p><l>лангс<s n="post"/></l><r>лангс<s n="post"/></r></p></e>
-      <e><p><l>лангсо<s n="post"/></l><r>лангса<s n="post"/></r></p></e>
-      <e><p><l>лангсто<s n="post"/></l><r>лангста<s n="post"/></r></p></e>
-      <e><p><l>малас<s n="post"/></l><r>малас<s n="post"/></r></p></e>
-      <e><p><l>марто<s n="post"/></l><r>мархта<s n="post"/></r></p></e>
-      <e><p><l>мельга<s n="post"/></l><r>мельге<s n="post"/></r></p></e>
-      <e><p><l>нучк<s n="post"/></l><r>нучк<s n="post"/></r></p></e>
-      <e><p><l>нучк<s n="post"/></l><r>туркс<s n="post"/></r></p></e>
-      <e><p><l>пачк<s n="post"/></l><r>пачк<s n="post"/></r></p></e>
-      <e><p><l>перть<s n="post"/></l><r>перьф<s n="post"/></r></p></e>
-      <e><p><l>потсо<s n="post"/></l><r>потса<s n="post"/></r></p></e>
-      <e><p><l>таркас<s n="post"/></l><r>вастс<s n="post"/></r></p></e>
-      <e><p><l>удалга<s n="post"/></l><r>фталга<s n="post"/></r></p></e>
-      <e><p><l>удалдо<s n="post"/></l><r>фталда<s n="post"/></r></p></e>
-      <e><p><l>удало<s n="post"/></l><r>фтала<s n="post"/></r></p></e>
-      <e><p><l>удалов<s n="post"/></l><r>фталу<s n="post"/></r></p></e>
-      <e><p><l>эзга<s n="post"/></l><r>эзга<s n="post"/></r></p></e>
-      <e><p><l>эйстэ<s n="post"/></l><r>эзда<s n="post"/></r></p></e>
-      <e><p><l>эйсэ<s n="post"/></l><r>эса<s n="post"/></r></p></e>
-      <e><p><l>юткова<s n="post"/></l><r>ёткова<s n="post"/></r></p></e>
-      <e><p><l>ютксо<s n="post"/></l><r>ёткса<s n="post"/></r></p></e>
+      <!-- SECTION: Adpositions -->
+      <e><p><l>алов<s n="adp"/></l><r>алу<s n="adp"/></r></p></e>
+      <e><p><l>вакска<s n="adp"/></l><r>вакска<s n="adp"/></r></p></e>
+      <e><p><l>ваксс<s n="adp"/></l><r>ваксс<s n="adp"/></r></p></e>
+      <e><p><l>вакссо<s n="adp"/></l><r>ваксса<s n="adp"/></r></p></e>
+      <e><p><l>вакссто<s n="adp"/></l><r>ваксста<s n="adp"/></r></p></e>
+      <e><p><l>вельде<s n="adp"/></l><r>вельде<s n="adp"/></r></p></e>
+      <e><p><l>велькска<s n="adp"/></l><r>вельхкска<s n="adp"/></r></p></e>
+      <e><p><l>видьс<s n="adp"/></l><r>видес<s n="adp"/></r></p></e>
+      <e><p><l>икеле<s n="adp"/></l><r>инголе<s n="adp"/></r></p></e>
+      <e><p><l>лангс<s n="adp"/></l><r>лангс<s n="adp"/></r></p></e>
+      <e><p><l>лангсо<s n="adp"/></l><r>лангса<s n="adp"/></r></p></e>
+      <e><p><l>лангсто<s n="adp"/></l><r>лангста<s n="adp"/></r></p></e>
+      <e><p><l>малас<s n="adp"/></l><r>малас<s n="adp"/></r></p></e>
+      <e><p><l>марто<s n="adp"/></l><r>мархта<s n="adp"/></r></p></e>
+      <e><p><l>мельга<s n="adp"/></l><r>мельге<s n="adp"/></r></p></e>
+      <e><p><l>нучк<s n="adp"/></l><r>нучк<s n="adp"/></r></p></e>
+      <e><p><l>нучк<s n="adp"/></l><r>туркс<s n="adp"/></r></p></e>
+      <e><p><l>пачк<s n="adp"/></l><r>пачк<s n="adp"/></r></p></e>
+      <e><p><l>перть<s n="adp"/></l><r>перьф<s n="adp"/></r></p></e>
+      <e><p><l>потсо<s n="adp"/></l><r>потса<s n="adp"/></r></p></e>
+      <e><p><l>таркас<s n="adp"/></l><r>вастс<s n="adp"/></r></p></e>
+      <e><p><l>удалга<s n="adp"/></l><r>фталга<s n="adp"/></r></p></e>
+      <e><p><l>удалдо<s n="adp"/></l><r>фталда<s n="adp"/></r></p></e>
+      <e><p><l>удало<s n="adp"/></l><r>фтала<s n="adp"/></r></p></e>
+      <e><p><l>удалов<s n="adp"/></l><r>фталу<s n="adp"/></r></p></e>
+      <e><p><l>эзга<s n="adp"/></l><r>эзга<s n="adp"/></r></p></e>
+      <e><p><l>эйстэ<s n="adp"/></l><r>эзда<s n="adp"/></r></p></e>
+      <e><p><l>эйсэ<s n="adp"/></l><r>эса<s n="adp"/></r></p></e>
+      <e><p><l>юткова<s n="adp"/></l><r>ёткова<s n="adp"/></r></p></e>
+      <e><p><l>ютксо<s n="adp"/></l><r>ёткса<s n="adp"/></r></p></e>
 
       <!-- SECTION: Determiners -->
       <e><p><l>аламошка<s n="det"/></l><r>аф<b/>ламня<s n="det"/></r></p></e>
@@ -2770,6 +2771,7 @@
       <e><p><l>улко<s n="adv"/></l><r>улхка<s n="adv"/></r></p></e>
       <e><p><l>улко<s n="adv"/></l><r>улхкомба<s n="adv"/></r></p></e>
       <e><p><l>умок<s n="adv"/></l><r>кунара<s n="adv"/></r></p></e>
+      <e><p><l>уш<s n="adv"/></l><r>нинге<s n="adv"/></r></p></e>
       <e><p><l>ушов<s n="adv"/></l><r>ушу<s n="adv"/></r></p></e>
       <e><p><l>ушосо<s n="adv"/></l><r>ушеса<s n="adv"/></r></p></e>
       <e><p><l>целанек<s n="adv"/></l><r>марнек<s n="adv"/></r></p></e>
