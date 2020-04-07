@@ -1,0 +1,1110 @@
+using hfst-optimized-lookup
+... pos tagging ...
+"<1>"
+	"1" ?
+"<КОСА>"
+	"КОСА" N ACR Sg Nom Indef
+"<ВАНЯ>"
+	"ВАНЯ" N ACR Sg Nom Indef
+"<?>"
+	"?" CLB
+"<2>"
+	"2" ?
+"<Ваня>"
+	"Ваня" N Prop Sem/Mal Sg Nom Indef
+	"Ваня" N Prop Sg Nom Indef
+"<мархта>"
+	"мархта" Adp
+"<Марят>"
+	"Маря" N Prop Sem/Fem Sg Nom Indef Clt/Cop Prs ScSg2
+	"марямс" V IV Ind Prs ScSg2
+	"марямс" V TV Ind Prs ScSg2
+	"марь" N Sg Nom Indef Clt/Cop Prs ScSg2
+	"Маря" N Prop Sem/Fem Pl Nom Indef
+"<садбересот>"
+	"садбересот" ?
+"<.>"
+	"." CLB
+"<Тячи>"
+	"тячи" Adv Temp
+"<шиц>"
+	"ши" N Sg Nom PxSg3
+"<пара>"
+	"пара" Adv
+	"парамс" V IV ConNeg
+	"пара" N Sg Nom Indef
+	"пара" A Sg Nom Indef
+"<,>"
+	"," CLB
+"<пяк>"
+	"пяк" Adv Deg
+"<лямбе>"
+	"лямбе" A Sg Nom Indef
+	"лямбе" N Sg Nom Indef
+"<.>"
+	"." CLB
+"<Исяк>"
+	"исяк" Adv Temp
+"<мондейне>"
+	"мон" Pron Pers Sg1 Dat
+"<вастс>"
+	"васта" N SP Ill Indef
+"<пяк>"
+	"пяк" Adv Deg
+"<кельмоль>"
+	"кельме" N Sg Nom Indef Clt/Cop Prt2 ScSg3
+	"кельмомс" V IV Ind Prt2 ScSg3
+	"кельме" A Sg Nom Indef Clt/Cop Prt2 ScSg3
+	"кельмомс" V IV Conj ScSg3
+"<!>"
+	"!" CLB
+"<Сяльде>"
+	"сяльде" Adv Temp
+"<Ванят-Марят>"
+	"Ванят-Марят" ?
+"<ашесть>"
+	"ашезь" V Aux Neg Ind Prt1 ScPl3
+	"ашезь" V Aux Neg Ind Prt1 ScPl2 OcPl3
+	"ашезь" V Aux Neg Ind Prt1 ScPl2 OcSg3
+"<лисеве>"
+	"лисеве" ?
+"<ушу>"
+	"ушу" ?
+"<налхкома>"
+	"налхкомс" V IV NomAct Sg Nom Indef
+	"налхкомс" V IV Inf Loc
+	"налхкомс" V TV NomAct Sg Nom Indef
+	"налхкомс" V TV Inf Loc
+	"налхкома" N Sg Nom Indef
+"<.>"
+	"." CLB
+"<Синь>"
+	"сон" Pron Pers Pl3 Nom
+	"сон" Pron Pers Pl3 Gen
+	"Сий" N Prop Sem/Mal-Sur SP Gen Indef
+	"си" N SP Gen Indef
+"<пяк>"
+	"пяк" Adv Deg
+"<кельгихть>"
+	"кельгомс" V IV Ind Prs ScPl3
+	"кельгомс" V TV Ind Prs ScPl3
+"<налхкомс>"
+	"налхкомс" V TV Inf
+	"налхкомс" V IV Inf
+"<,>"
+	"," CLB
+"<налхкихть>"
+	"налхкомс" V TV Ind Prs ScPl3
+	"налхкомс" V IV Ind Prs ScPl3
+	"налхки" N Pl Nom Indef
+"<фалу>"
+	"фалу" Adv Temp
+"<марса>"
+	"мар" N SP Ine Indef
+	"марса" Adv
+"<переса>"
+	"пере" N SP Ine Indef
+"<оцю>"
+	"оцю" N Sg Nom Indef
+	"оцю" A Sg Nom Indef
+"<кудть>"
+	"куд" N Sg Gen Def
+"<инголе>"
+	"инголе" Adv
+	"инголе" Adp Loc
+"<.>"
+	"." CLB
+"<3>"
+	"3" ?
+"<Ваня>"
+	"Ваня" N Prop Sg Nom Indef
+	"Ваня" N Prop Sem/Mal Sg Nom Indef
+"<-->"
+	"--" PUNCT
+"<кота>"
+	"кота" Num Card Sg Nom Indef
+"<кизоса>"
+	"киза" N SP Ine Indef
+"<ёмла>"
+	"ёмла" A Sg Nom Indef
+"<цёраня>"
+	"цёраня" N Sg Nom Indef
+	"цёра" Ex/N Der/Dimin N Sg Nom Indef
+"<.>"
+	"." CLB
+"<Стирсь>"
+	"стирь" N Sg Nom Def
+"<сазорняц>"
+	"сазор" Ex/N Der/Dimin N Sg Nom PxSg3
+"<,>"
+	"," CLB
+"<сонь>"
+	"сон" Pron Pers Sg3 Gen
+"<вете>"
+	"вете" Num Card Sg Nom Indef
+"<кизонц>"
+	"киза" N Sg Gen PxSg3
+"<.>"
+	"." CLB
+"<Ванянь>"
+	"Ваня" N Prop SP Gen Indef
+	"Ваня" N Prop Sem/Mal SP Gen Indef
+"<ули>"
+	"улемс" V IV NomAg Sg Nom Indef
+	"улемс" V IV Ind Prs ScSg3
+	"улемс" V IV Act PrsPrc
+	"ули" N Sg Nom Indef
+	"уле" A SP Lat Indef
+"<ёмла>"
+	"ёмла" A Sg Nom Indef
+"<пинец>"
+	"пине" N Sg Nom PxSg3
+"<,>"
+	"," CLB
+"<сонга>"
+	"сон" Pron Pers Sg3 Nom Clt/Add
+"<тяни>"
+	"тяни" Adv Temp
+"<переса>"
+	"пере" N SP Ine Indef
+"<.>"
+	"." CLB
+"<Пиненять>"
+	"пине" Ex/N Der/Dimin N Sg Gen Def
+"<мяльс>"
+	"мяль" N SP Ill Indef
+"<туй>"
+	"туй" Pcle
+"<нят>"
+	"нят" ?
+"<ийттнень>"
+	"ийттнень" ?
+"<мархта>"
+	"мархта" Adp
+"<налхкомась>"
+	"налхкомс" V TV NomAct Sg Nom Def
+	"налхкомс" V IV NomAct Sg Nom Def
+	"налхкома" N Sg Nom Def
+"<.>"
+	"." CLB
+"<Сонга>"
+	"сон" Pron Pers Sg3 Nom Clt/Add
+"<тяни>"
+	"тяни" Adv Temp
+"<пяк>"
+	"пяк" Adv Deg
+"<кенярди>"
+	"кенярдемс" V IV Ind Prs ScSg3
+	"кенярдемс" V IV Act PrsPrc
+	"кенярдемс" V IV NomAg Sg Nom Indef
+"<.>"
+	"." CLB
+"<4>"
+	"4" ?
+"<Маряньге>"
+	"марямс" V TV Der/Onj VGen Clt/Add
+	"марямс" V TV Ind Prt1 ScSg1 Clt/Add
+	"марямс" V TV NomAg SP Gen Indef Clt/Add
+	"марямс" V IV NomAg SP Gen Indef Clt/Add
+	"марямс" V IV Ind Prt1 ScSg1 Clt/Add
+	"марямс" V IV Der/Onj VGen Clt/Add
+	"Маря" N Prop Sem/Fem SP Gen Indef Clt/Add
+"<пинец>"
+	"пине" N Sg Nom PxSg3
+"<ули>"
+	"уле" A SP Lat Indef
+	"ули" N Sg Nom Indef
+	"улемс" V IV Act PrsPrc
+	"улемс" V IV Ind Prs ScSg3
+	"улемс" V IV NomAg Sg Nom Indef
+"<?>"
+	"?" CLB
+"<Аяф>"
+	"Аяф" ?
+"<,>"
+	"," CLB
+"<Марянь>"
+	"Маря" N Prop Sem/Fem SP Gen Indef
+	"марямс" V TV Ind Prt1 ScSg1
+	"марямс" V TV NomAg SP Gen Indef
+	"марямс" V IV Der/Onj VGen
+	"марямс" V IV NomAg SP Gen Indef
+	"марямс" V TV Der/Onj VGen
+	"марямс" V IV Ind Prt1 ScSg1
+"<пинец>"
+	"пине" N Sg Nom PxSg3
+"<аяф>"
+	"аяф" ?
+"<,>"
+	"," CLB
+"<сонь>"
+	"сон" Pron Pers Sg3 Gen
+"<ули>"
+	"улемс" V IV Act PrsPrc
+	"ули" N Sg Nom Indef
+	"уле" A SP Lat Indef
+	"улемс" V IV NomAg Sg Nom Indef
+	"улемс" V IV Ind Prs ScSg3
+"<кискац>"
+	"киска" N Sg Nom PxSg3
+"<.>"
+	"." CLB
+"<Кудса>"
+	"куд" N SP Ine Indef
+"<тяни>"
+	"тяни" Adv Temp
+"<кискась>"
+	"киска" N Sg Nom Def
+"<,>"
+	"," CLB
+"<уды>"
+	"уды" ?
+"<.>"
+	"." CLB
+"<5>"
+	"5" ?
+"<Ванянь-Марянь>"
+	"Ванянь-Марянь" ?
+"<тядяснон>"
+	"тядя" N Sem/Kin SP Gen PxPl3
+"<куд>"
+	"куд" N Sg Nom Indef
+"<потса>"
+	"потса" ?
+"<кискать>"
+	"киска" N Sg Gen Def
+"<мархта>"
+	"мархта" Adp
+"<,>"
+	"," CLB
+"<тядяснон>"
+	"тядя" N Sem/Kin SP Gen PxPl3
+"<вальмава>"
+	"вальмя" N SP Prl Indef
+"<няй>"
+	"няй" ?
+"<кода>"
+	"кодамс" V IV ConNeg
+	"кода" Adv
+	"кодамс" V TV ConNeg
+"<Ванят-Марят>"
+	"Ванят-Марят" ?
+"<налхкихть>"
+	"налхкомс" V IV Ind Prs ScPl3
+	"налхки" N Pl Nom Indef
+	"налхкомс" V TV Ind Prs ScPl3
+"<.>"
+	"." CLB
+"<Ваня>"
+	"Ваня" N Prop Sem/Mal Sg Nom Indef
+	"Ваня" N Prop Sg Nom Indef
+"<ласьконды>"
+	"ласьконды" ?
+"<вишкста>"
+	"вишке" N SP Ela Indef
+	"вишкста" Adv
+"<сире>"
+	"сире" A Sg Nom Indef
+"<,>"
+	"," CLB
+"<оцю>"
+	"оцю" A Sg Nom Indef
+	"оцю" N Sg Nom Indef
+"<шувта>"
+	"шувта" ?
+"<ваксс>"
+	"вакс" N SP Ill Indef
+	"ваксс" Adp Ill
+"<,>"
+	"," CLB
+"<сон>"
+	"сон" Pron Pers Sg3 Nom
+"<кяши>"
+	"кяшемс" V IV NomAg Sg Nom Indef
+	"кяшемс" V IV Ind Prs ScSg3
+	"кяшемс" V TV Act PrsPrc
+	"кяшемс" V TV NomAg Sg Nom Indef
+	"кяшемс" V TV Ind Prs ScSg3
+	"кяше" N SP Lat Indef
+	"кяшемс" V IV Act PrsPrc
+"<Марянь>"
+	"марямс" V TV Der/Onj VGen
+	"марямс" V IV Ind Prt1 ScSg1
+	"марямс" V IV NomAg SP Gen Indef
+	"марямс" V IV Der/Onj VGen
+	"марямс" V TV NomAg SP Gen Indef
+	"марямс" V TV Ind Prt1 ScSg1
+	"Маря" N Prop Sem/Fem SP Gen Indef
+"<эзда>"
+	"эзда" Adp Abl
+"<.>"
+	"." CLB
+"<Содат>"
+	"содамс" V TV Ind Prs ScSg2
+	"сод" N Sg Nom Indef Clt/Cop Prs ScSg2
+	"содамс" V IV Ind Prs ScSg2
+"<мекс>"
+	"мекс" ?
+"<?>"
+	"?" CLB
+"<Маря>"
+	"марямс" V TV ConNeg
+	"Маря" N Prop Sem/Fem Sg Nom Indef
+	"марямс" V IV ConNeg
+"<ащи>"
+	"ащемс" V IV NomAg Sg Nom Indef
+	"ащи" N Sg Nom Indef
+	"ащемс" V IV Ind Prs ScSg3
+	"ащи" Adv
+	"ащемс" V IV Act PrsPrc
+"<озада>"
+	"озада" Adv
+	"озамс" V IV Imprt ScPl2
+"<,>"
+	"," CLB
+"<и>"
+	"и" N ABBR
+	"и" Interj
+	"и" Pcle
+	"и" CC
+"<кядьсонза>"
+	"кедь" N SP Ine PxSg3
+	"кядь" N SP Ine PxSg3
+"<пякстазень>"
+	"пякстамс" V TV Ind Prt1 ScSg3 OcPl3
+	"пякстай" N Sg Gen PxSg1
+"<сельмонц>"
+	"сельме" N Sg Gen PxSg3
+"<.>"
+	"." CLB
+"<Сон>"
+	"сон" Pron Pers Sg3 Nom
+"<мезьге>"
+	"мезевок" Pron Indef Sg Nom
+	"мезе" Pron SP Prl Indef Sg Nom Clt/Add
+"<аф>"
+	"аф" Pcle Neg
+	"аф" Interj Neg
+"<няй>"
+	"няй" ?
+"<,>"
+	"," CLB
+"<луви>"
+	"лувомс" V TV NomAg Sg Nom Indef
+	"лувомс" V IV Ind Prs ScSg3
+	"лувомс" V IV Act PrsPrc
+	"лувомс" V TV Act PrsPrc
+	"лувомс" V IV NomAg Sg Nom Indef
+	"лувомс" V TV Ind Prs ScSg3
+"<.>"
+	"." CLB
+"<Мес>"
+	"мес" Adv
+	"мес" Adv Interr Ill
+"<тяфтя>"
+	"тяфтя" ?
+"<тий>"
+	"тий" ?
+"<?>"
+	"?" CLB
+"<Аф>"
+	"аф" Interj Neg
+	"аф" Pcle Neg
+"<Ваня>"
+	"Ваня" N Prop Sg Nom Indef
+	"Ваня" N Prop Sem/Mal Sg Nom Indef
+"<мезе>"
+	"мезе" Pron Interr Sg Nom
+	"мезе" Pron SP Prl Indef Sg Nom
+"<тий>"
+	"тий" ?
+"<шувтть>"
+	"шувтть" ?
+"<ваксса>"
+	"вакс" N SP Ine Indef
+	"ваксса" Adp Ine
+"<?>"
+	"?" CLB
+"<6>"
+	"6" ?
+"<Налхкома>"
+	"налхкомс" V IV NomAct Sg Nom Indef
+	"налхкомс" V IV Inf Loc
+	"налхкомс" V TV NomAct Sg Nom Indef
+	"налхкомс" V TV Inf Loc
+	"налхкома" N Sg Nom Indef
+"<.>"
+	"." CLB
+"<Мзярда>"
+	"мзярда" Adv
+	"мзярда" Adv Temp
+"<Маря>"
+	"марямс" V IV ConNeg
+	"Маря" N Prop Sem/Fem Sg Nom Indef
+	"марямс" V TV ConNeg
+"<прядсыне>"
+	"прядсыне" ?
+"<лувоманц>"
+	"лувомс" V IV NomAct Sg Gen PxSg3
+	"лувомс" V TV NomAct Sg Gen PxSg3
+"<,>"
+	"," CLB
+"<сон>"
+	"сон" Pron Pers Sg3 Nom
+"<варжакстай>"
+	"варжакстай" ?
+"<пярьфпяли>"
+	"пярьфпяли" ?
+"<.>"
+	"." CLB
+"<Вешенды>"
+	"Вешенды" ?
+"<Ванянь>"
+	"Ваня" N Prop SP Gen Indef
+	"Ваня" N Prop Sem/Mal SP Gen Indef
+"<:>"
+	":" CLB
+"<ков>"
+	"ков" N Sg Nom Indef
+	"ков" Adv Spat
+"<тусь>"
+	"тумс" V IV Ind Prt1 ScSg3
+	"тумс" V TV Ind Prt1 ScSg3
+"<?>"
+	"?" CLB
+"<Няйть>"
+	"няемс" V IV Ind Prt1 ScSg2
+	"няемс" V TV Ind Prt1 ScSg2
+"<сонь>"
+	"сон" Pron Pers Sg3 Gen
+"<?>"
+	"?" CLB
+"<7>"
+	"#" N Symbol
+"<Маря>"
+	"марямс" V IV ConNeg
+	"Маря" N Prop Sem/Fem Sg Nom Indef
+	"марямс" V TV ConNeg
+"<аф>"
+	"аф" Interj Neg
+	"аф" Pcle Neg
+"<содасы>"
+	"содамс" V TV Ind Prs ScSg3 OcSg3
+"<коса>"
+	"коса" Adv Interr Ine
+	"коса" Adv Rel Ine
+"<Ваня>"
+	"Ваня" N Prop Sem/Mal Sg Nom Indef
+	"Ваня" N Prop Sg Nom Indef
+"<.>"
+	"." CLB
+"<Кизефтни>"
+	"Кизефтни" ?
+"<пинеть>"
+	"пине" N Sg Gen Def
+"<:>"
+	":" CLB
+"<Тон>"
+	"тон" Pron Pers Sg2 Nom
+	"тон" N Sg Nom Indef
+"<Ванянь>"
+	"Ваня" N Prop Sem/Mal SP Gen Indef
+	"Ваня" N Prop SP Gen Indef
+"<няйть>"
+	"няемс" V TV Ind Prt1 ScSg2
+	"няемс" V IV Ind Prt1 ScSg2
+"<?>"
+	"?" CLB
+"<.>"
+	"." CLB
+"<Аф>"
+	"аф" Interj Neg
+	"аф" Pcle Neg
+"<пинесь>"
+	"пине" N Sg Nom Def
+"<,>"
+	"," CLB
+"<кода>"
+	"кодамс" V IV ConNeg
+	"кода" Adv
+	"кодамс" V TV ConNeg
+"<содатама>"
+	"содамс" V IV Ind Prs ScPl1
+	"содамс" V TV Ind Prs ScPl1
+"<,>"
+	"," CLB
+"<аф>"
+	"аф" Interj Neg
+	"аф" Pcle Neg
+"<машты>"
+	"маштомс" V IV Act PrsPrc
+	"маштомс" V TV Ind Prs ScSg3
+	"маштомс" V TV Act PrsPrc
+	"машты" A Sg Nom Indef
+	"маштомс" V TV NomAg Sg Nom Indef
+	"маштомс" V IV NomAg Sg Nom Indef
+	"маштомс" V IV Ind Prs ScSg3
+"<корхтама>"
+	"корхтама" N Sg Nom Indef
+	"корхтамс" V TV Inf Loc
+	"корхтамс" V IV Inf Loc
+	"кор" N Pl Nom Indef Clt/Cop Prs ScPl1
+	"корхтамс" V TV NomAct Sg Nom Indef
+	"корхтамс" V IV NomAct Sg Nom Indef
+"<!>"
+	"!" CLB
+"<Тяфтя>"
+	"Тяфтя" ?
+"<Марянь>"
+	"марямс" V IV Der/Onj VGen
+	"марямс" V IV NomAg SP Gen Indef
+	"марямс" V IV Ind Prt1 ScSg1
+	"марямс" V TV Der/Onj VGen
+	"Маря" N Prop Sem/Fem SP Gen Indef
+	"марямс" V TV Ind Prt1 ScSg1
+	"марямс" V TV NomAg SP Gen Indef
+"<кизевфксоц>"
+	"кизевфксоц" ?
+"<ляды>"
+	"илядомс" V IV NomAg Sg Nom Indef
+	"ляды" A Sg Nom Indef
+	"илядомс" V IV Ind Prs ScSg3
+	"лядомс" V IV NomAg Sg Nom Indef
+	"лядомс" V IV Ind Prs ScSg3
+	"лядомс" V IV Act PrsPrc
+	"илядомс" V IV Act PrsPrc
+"<апак>"
+	"абамс" V IV Imprt ScSg2 OcSg3
+	"апак" Pcle Neg
+	"абамс" V IV ConNegII
+	"абамс" V IV Imprt ScSg2
+"<пандть>"
+	"панда" N Sg Gen Def
+	"панде" N Sg Gen Def
+	"панде" N Pl Nom Indef
+"<.>"
+	"." CLB
+"<Ломанень>"
+	"ломанень" A Gen Attr
+	"ломань" N SP Gen Indef
+"<кизевфксонц>"
+	"кизевфксонц" ?
+"<фалу>"
+	"фалу" Adv Temp
+"<лядыхть>"
+	"илядомс" V IV Ind Prs ScPl3
+	"ляды" A Pl Nom Indef
+	"лядомс" V IV Ind Prs ScPl3
+"<апак>"
+	"абамс" V IV Imprt ScSg2 OcSg3
+	"апак" Pcle Neg
+	"абамс" V IV ConNegII
+	"абамс" V IV Imprt ScSg2
+"<пандть>"
+	"панде" N Pl Nom Indef
+	"панде" N Sg Gen Def
+	"панда" N Sg Gen Def
+"<,>"
+	"," CLB
+"<мзярда>"
+	"мзярда" Adv
+	"мзярда" Adv Temp
+"<корхтайхть>"
+	"корхтай" N Pl Nom Indef
+	"корхтамс" V TV NomAg Pl Nom Indef
+	"корхтамс" V IV NomAg Pl Nom Indef
+	"корхтамс" V IV Ind Prs ScPl3
+	"корхтамс" V TV Ind Prs ScPl3
+"<пине>"
+	"пине" N Sg Nom Indef
+"<мархта>"
+	"мархта" Adp
+"<!>"
+	"!" CLB
+"<8>"
+	"8" ?
+"<Маря>"
+	"марямс" V TV ConNeg
+	"Маря" N Prop Sem/Fem Sg Nom Indef
+	"марямс" V IV ConNeg
+"<ванонды>"
+	"ванондомс" V TV Act PrsPrc
+	"ванондомс" V IV Ind Prs ScSg3
+	"ванондомс" V TV NomAg Sg Nom Indef
+	"ванондомс" V IV Act PrsPrc
+	"ванондомс" V TV Ind Prs ScSg3
+	"ванондомс" V IV NomAg Sg Nom Indef
+"<тядянц>"
+	"тядя" N Sem/Kin Sg Gen PxSg3
+"<вальмянь>"
+	"вальмянь" A Gen Attr
+	"вальмя" N SP Gen Indef
+"<пачк>"
+	"пачк" Adv
+	"пачк" Po
+"<,>"
+	"," CLB
+"<тядяц>"
+	"тядя" N Sem/Kin Sg Nom PxSg3
+"<рахай>"
+	"рахамс" V IV Act PrsPrc
+	"рахамс" V TV NomAg Sg Nom Indef
+	"рахамс" V IV Ind Prs ScSg3
+	"рахамс" V IV NomAg Sg Nom Indef
+	"рахамс" V TV Ind Prs ScSg3
+	"рахамс" V TV Act PrsPrc
+"<.>"
+	"." CLB
+"<Маря>"
+	"марямс" V IV ConNeg
+	"Маря" N Prop Sem/Fem Sg Nom Indef
+	"марямс" V TV ConNeg
+"<арьси>"
+	"арьсемс" V IV Ind Prs ScSg3
+	"арьсемс" V TV Ind Prs ScSg3
+	"арьсемс" V TV Act PrsPrc
+	"арьсемс" V TV NomAg Sg Nom Indef
+	"арьсемс" V IV NomAg Sg Nom Indef
+	"арьсемс" V IV Act PrsPrc
+"<,>"
+	"," CLB
+"<тона>"
+	"тона" Det
+"<няезе>"
+	"няемс" V TV Ind Prt1 ScSg3 OcSg3
+"<ков>"
+	"ков" N Sg Nom Indef
+	"ков" Adv Spat
+"<Ваня>"
+	"Ваня" N Prop Sem/Mal Sg Nom Indef
+	"Ваня" N Prop Sg Nom Indef
+"<тусь>"
+	"тумс" V TV Ind Prt1 ScSg3
+	"тумс" V IV Ind Prt1 ScSg3
+"<:>"
+	":" CLB
+"<Аст>"
+	"Аст" ?
+"<мондейне>"
+	"мон" Pron Pers Sg1 Dat
+"<коса>"
+	"коса" Adv Rel Ine
+	"коса" Adv Interr Ine
+"<Ваня>"
+	"Ваня" N Prop Sg Nom Indef
+	"Ваня" N Prop Sem/Mal Sg Nom Indef
+"<!>"
+	"!" CLB
+"<,>"
+	"," CLB
+"<стирсь>"
+	"стирь" N Sg Nom Def
+"<пшкади>"
+	"пшкади" ?
+"<тядянцты>"
+	"тядя" N Sem/Kin Sg Dat PxSg3
+"<.>"
+	"." CLB
+"<Аяф>"
+	"Аяф" ?
+"<,>"
+	"," CLB
+"<Маря>"
+	"марямс" V IV ConNeg
+	"Маря" N Prop Sem/Fem Sg Nom Indef
+	"марямс" V TV ConNeg
+"<,>"
+	"," CLB
+"<аф>"
+	"аф" Interj Neg
+	"аф" Pcle Neg
+"<маштови>"
+	"маштови" ?
+"<азомс>"
+	"азомс" V TV Inf
+	"азомс" V IV Inf
+"<тондейть>"
+	"тон" Pron Pers Sg2 Dat
+"<коса>"
+	"коса" Adv Rel Ine
+	"коса" Adv Interr Ine
+"<сон>"
+	"сон" Pron Pers Sg3 Nom
+"<!>"
+	"!" CLB
+"<,>"
+	"," CLB
+"<мярьги>"
+	"мярьгомс" V IV Ind Prs ScSg3
+	"мярьгомс" V IV NomAg Sg Nom Indef
+	"мярьгомс" V IV Act PrsPrc
+"<тядяц>"
+	"тядя" N Sem/Kin Sg Nom PxSg3
+"<.>"
+	"." CLB
+"<Пади>"
+	"пади" Pcle
+"<,>"
+	"," CLB
+"<маряви>"
+	"марявомс" V IV Ind Prs ScSg3
+	"марявомс" V IV Act PrsPrc
+	"марявомс" V IV NomAg Sg Nom Indef
+"<,>"
+	"," CLB
+"<тядяц>"
+	"тядя" N Sem/Kin Sg Nom PxSg3
+"<содай>"
+	"содамс" V TV Act PrsPrc
+	"содай" N Sg Nom Indef
+	"содамс" V IV Ind Prs ScSg3
+	"содамс" V TV NomAg Sg Nom Indef
+	"содамс" V IV NomAg Sg Nom Indef
+	"содамс" V TV Ind Prs ScSg3
+	"содамс" V IV Act PrsPrc
+"<коса>"
+	"коса" Adv Interr Ine
+	"коса" Adv Rel Ine
+"<цёранясь>"
+	"цёраня" N Sg Nom Def
+	"цёра" Ex/N Der/Dimin N Sg Nom Def
+"<,>"
+	"," CLB
+"<аш>"
+	"аш" Adv Neg Aux
+"<мялец>"
+	"мяль" N Sg Nom PxSg3
+"<азомс>"
+	"азомс" V TV Inf
+	"азомс" V IV Inf
+"<.>"
+	"." CLB
+"<9>"
+	"9" ?
+"<Маря>"
+	"марямс" V TV ConNeg
+	"Маря" N Prop Sem/Fem Sg Nom Indef
+	"марямс" V IV ConNeg
+"<ётай>"
+	"ётай" A Sg Nom Indef
+	"ётамс" V TV NomAg Sg Nom Indef
+	"ётамс" V IV Act PrsPrc
+	"ётай" N Sg Nom Indef
+	"ётамс" V TV Ind Prs ScSg3
+	"ётамс" V TV Act PrsPrc
+	"ётамс" V IV NomAg Sg Nom Indef
+	"ётамс" V IV Ind Prs ScSg3
+"<сяворня>"
+	"сявор" Ex/A Der/Dimin N Sg Nom Indef
+"<садбери>"
+	"садбери" ?
+"<.>"
+	"." CLB
+"<Сон>"
+	"сон" Pron Pers Sg3 Nom
+"<пара>"
+	"пара" A Sg Nom Indef
+	"пара" N Sg Nom Indef
+	"парамс" V IV ConNeg
+	"пара" Adv
+"<мяльса>"
+	"мяль" N SP Ine Indef
+"<мулезе>"
+	"мумс" V TV Ind Prt2 ScSg3 OcSg3
+	"мумс" V TV Conj ScSg3 OcSg3
+"<Ванянь>"
+	"Ваня" N Prop SP Gen Indef
+	"Ваня" N Prop Sem/Mal SP Gen Indef
+"<.>"
+	"." CLB
+"<Варжакстай>"
+	"Варжакстай" ?
+"<шра>"
+	"шра" N Sg Nom Indef
+"<алу>"
+	"ал" N SP Lat Indef
+	"ал" N Relator SP Lat Indef
+	"алу" Adp Lat
+	"алу" Adv Lat
+"<,>"
+	"," CLB
+"<стулхнень>"
+	"стул" N Pl Gen Def
+	"стул" N Pl Gen PxSg2
+"<алу>"
+	"алу" Adp Lat
+	"алу" Adv Lat
+	"ал" N SP Lat Indef
+	"ал" N Relator SP Lat Indef
+"<,>"
+	"," CLB
+"<Ваня>"
+	"Ваня" N Prop Sem/Mal Sg Nom Indef
+	"Ваня" N Prop Sg Nom Indef
+"<тоса>"
+	"тоса" Adv Ine
+"<аш>"
+	"аш" Adv Neg Aux
+"<.>"
+	"." CLB
+"<Маря>"
+	"Маря" N Prop Sem/Fem Sg Nom Indef
+	"марямс" V TV ConNeg
+	"марямс" V IV ConNeg
+"<вешенды>"
+	"вешенды" ?
+"<эрь>"
+	"эрь" Interj
+	"эрь" A Sg Nom Indef
+	"эрь" Det Sg Nom Indef
+"<кува>"
+	"куй" N SP Prl Indef
+	"кува" Adv
+	"кува" N Sg Nom Indef
+"<,>"
+	"," CLB
+"<аньцек>"
+	"аньцек" Adv
+"<Ваня>"
+	"Ваня" N Prop Sg Nom Indef
+	"Ваня" N Prop Sem/Mal Sg Nom Indef
+"<сондейнза>"
+	"сон" Pron Pers Sg3 Dat
+"<аф>"
+	"аф" Interj Neg
+	"аф" Pcle Neg
+"<муви>"
+	"мувомс" V IV NomAg Sg Nom Indef
+	"мувомс" V IV Act PrsPrc
+	"мувомс" V IV Ind Prs ScSg3
+"<.>"
+	"." CLB
+"<10>"
+	"10" ?
+"<Меле>"
+	"меле" Po
+	"меле" Adv
+"<маряй>"
+	"марямс" V IV NomAg Sg Nom Indef
+	"марямс" V TV Ind Prs ScSg3
+	"марямс" V TV Act PrsPrc
+	"марямс" V IV Act PrsPrc
+	"марямс" V TV NomAg Sg Nom Indef
+	"марямс" V IV Ind Prs ScSg3
+"<кашторф>"
+	"кашторф" N Sg Nom Indef
+"<,>"
+	"," CLB
+"<кашторфсь>"
+	"кашторф" N Sg Nom Def
+"<эрьхти>"
+	"эрьхтемс" V IV NomAg Sg Nom Indef
+	"эрьхтемс" V TV Ind Prs ScSg3
+	"эрьхтемс" V IV Ind Prs ScSg3
+	"эрьхтемс" V TV Act PrsPrc
+	"эрьхтемс" V TV NomAg Sg Nom Indef
+	"эрьхтемс" V IV Act PrsPrc
+"<сире>"
+	"сире" A Sg Nom Indef
+"<оцю>"
+	"оцю" N Sg Nom Indef
+	"оцю" A Sg Nom Indef
+"<шувтть>"
+	"шувтть" ?
+"<фталда>"
+	"фтал" N SP Abl Indef
+	"фталда" Adp Abl
+"<.>"
+	"." CLB
+"<Пади>"
+	"пади" Pcle
+"<тя>"
+	"тя" Pron Dem Sg Nom
+"<Ваня>"
+	"Ваня" N Prop Sem/Mal Sg Nom Indef
+	"Ваня" N Prop Sg Nom Indef
+"<?>"
+	"?" CLB
+"<Тага>"
+	"тага" Adv
+"<кашторф>"
+	"кашторф" N Sg Nom Indef
+"<!>"
+	"!" CLB
+"<Сон>"
+	"сон" Pron Pers Sg3 Nom
+"<лац>"
+	"лад" N SP Ill Indef
+	"лац" Adv
+"<кулцонды>"
+	"кулцонды" ?
+"<.>"
+	"." CLB
+"<Тя>"
+	"тя" Pron Dem Sg Nom
+"<аф>"
+	"аф" Interj Neg
+	"аф" Pcle Neg
+"<нармонь>"
+	"нармонь" N Sg Nom Indef
+"<,>"
+	"," CLB
+"<аф>"
+	"аф" Pcle Neg
+	"аф" Interj Neg
+"<иля>"
+	"илямс" V IV ConNeg
+"<ракша>"
+	"ракша" N Sg Nom Indef
+"<.>"
+	"." CLB
+"<Тяни>"
+	"тяни" Adv Temp
+"<маряй>"
+	"марямс" V IV Ind Prs ScSg3
+	"марямс" V TV NomAg Sg Nom Indef
+	"марямс" V IV Act PrsPrc
+	"марямс" V TV Act PrsPrc
+	"марямс" V IV NomAg Sg Nom Indef
+	"марямс" V TV Ind Prs ScSg3
+"<лац>"
+	"лац" Adv
+	"лад" N SP Ill Indef
+"<.>"
+	"." CLB
+"<Тя>"
+	"тя" Pron Dem Sg Nom
+"<Ваня>"
+	"Ваня" N Prop Sem/Mal Sg Nom Indef
+	"Ваня" N Prop Sg Nom Indef
+"<и>"
+	"и" N ABBR
+	"и" Pcle
+	"и" CC
+	"и" Interj
+"<ули>"
+	"улемс" V IV Act PrsPrc
+	"ули" N Sg Nom Indef
+	"уле" A SP Lat Indef
+	"улемс" V IV NomAg Sg Nom Indef
+	"улемс" V IV Ind Prs ScSg3
+"<!>"
+	"!" CLB
+"<11>"
+	"11" ?
+"<Меле>"
+	"меле" Po
+	"меле" Adv
+"<няй>"
+	"няй" ?
+"<ёмла>"
+	"ёмла" A Sg Nom Indef
+"<кядня>"
+	"кедня" N Sg Nom Indef
+	"кядь" Ex/N Der/Dimin N Sg Nom Indef
+	"кедь" Ex/N Der/Dimin N Sg Nom Indef
+"<,>"
+	"," CLB
+"<Маря>"
+	"Маря" N Prop Sem/Fem Sg Nom Indef
+	"марямс" V TV ConNeg
+	"марямс" V IV ConNeg
+"<моли>"
+	"молемс" V IV NomAg Sg Nom Indef
+	"молемс" V IV Act PrsPrc
+	"моли" A Sg Nom Indef
+	"моль" N SP Lat Indef
+	"молемс" V IV Ind Prs ScSg3
+"<сяда>"
+	"сяда" Pcle
+	"сяда" Num Card
+	"ся" Pron Dem SP Abl
+	"сяда" Num Card Sg Nom Indef
+"<малас>"
+	"мала" A SP Ill Indef
+	"мала" N Relator SP Ill Indef
+	"мала" N SP Ill Indef
+"<,>"
+	"," CLB
+"<няй>"
+	"няй" ?
+"<цёранять>"
+	"цёраня" N Sg Gen Def
+	"цёра" Ex/N Der/Dimin N Sg Gen Def
+"<прянцка>"
+	"пря" N Sg Gen PxSg3 Clt/Add
+"<!>"
+	"!" CLB
+"<Маря>"
+	"марямс" V IV ConNeg
+	"Маря" N Prop Sem/Fem Sg Nom Indef
+	"марямс" V TV ConNeg
+"<рахазевсь>"
+	"рахазевомс" V IV Ind Prt1 ScSg3
+"<и>"
+	"и" Interj
+	"и" CC
+	"и" Pcle
+	"и" N ABBR
+"<мярьги>"
+	"мярьгомс" V IV NomAg Sg Nom Indef
+	"мярьгомс" V IV Act PrsPrc
+	"мярьгомс" V IV Ind Prs ScSg3
+"<:>"
+	":" CLB
+"<Мон>"
+	"мон" Pron Pers Sg1 Nom
+"<тонь>"
+	"той" N SP Gen Indef
+	"тон" Pron Pers Sg2 Gen
+"<муйхтень>"
+	"муйхтень" ?
+"<!>"
+	"!" CLB
+"<.>"
+	"." CLB
+"<Синь>"
+	"си" N SP Gen Indef
+	"сон" Pron Pers Pl3 Gen
+	"Сий" N Prop Sem/Mal-Sur SP Gen Indef
+	"сон" Pron Pers Pl3 Nom
+"<кафцьке>"
+	"кафцьке" Num
+	"кафта" Num Coll Sg Nom
+	"кафта" Num Card Sg Nom Def Clt/Add
+"<кенярдихть>"
+	"кенярдемс" V IV Ind Prs ScPl3
+"<,>"
+	"," CLB
+"<молихть>"
+	"молемс" V IV Ind Prs ScPl3
+	"моли" A Pl Nom Indef
+"<кудс>"
+	"куд" N SP Ill Indef
+"<,>"
+	"," CLB
+"<пингец>"
+	"пингец" ?
+"<сась>"
+	"самс" V IV Ind Prt1 ScSg3
+"<ярхцамс>"
+	"ярхцамс" V IV Inf
+"<мезьдовок>"
+	"мезевок" Pron Indef SP Abl
+"<и>"
+	"и" Interj
+	"и" CC
+	"и" Pcle
+	"и" N ABBR
+"<симомс>"
+	"симомс" V IV Inf
+	"симомс" V TV Inf
+"<аф>"
+	"аф" Interj Neg
+	"аф" Pcle Neg
+"<ламня>"
+	"ламня" Adv
+"<ведня>"
+	"ведь" Ex/N Der/Dimin N Sg Nom Indef
+"<!>"
+	"!" CLB

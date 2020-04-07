@@ -128,6 +128,8 @@
     <sdef n="der_sto"    c=""/>
     <sdef n="der_tjks"    c=""/>
 
+    <sdef n="deg"    c="Degree verb big, very quickly"/>
+
     
     <sdef n="conneg"  c="Negation form of verb"/>
     <sdef n="connegii"  c="Negation form of verb"/>
@@ -2681,6 +2683,7 @@
       <e><p><l>пелевидьс<s n="adv"/></l><r>пялевидес<s n="adv"/></r></p></e>
       <e><p><l>пелевидьс<s n="adv"/></l><r>пялес<s n="adv"/></r></p></e>
       <e><p><l>пертьпеле<s n="adv"/></l><r>перьфпяле<s n="adv"/></r></p></e>
+      <e><p><l>пертьпельде<s n="adv"/></l><r>перьфпяльда<s n="adv"/></r></p></e>
       <e><p><l>пертьпелев<s n="adv"/></l><r>перьфпяли<s n="adv"/></r></p></e>
       <e><p><l>пертьпельга<s n="adv"/></l><r>перьфпяльге<s n="adv"/></r></p></e>
       <e><p><l>перька<s n="adv"/></l><r>перьф<s n="adv"/></r></p></e>
