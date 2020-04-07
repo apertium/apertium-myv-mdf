@@ -344,6 +344,7 @@
       <attr-item tags="@SPRED→"/>
       <attr-item tags="@SPRED←OBJ"/>
       <attr-item tags="@←SUBJ"/>
+      <attr-item tags="@←SUBJext"/>
       <attr-item tags="@SUBJ"/>
       <attr-item tags="@SUBJ→"/>
       <attr-item tags="@SUBJ←ADVL"/>
