@@ -15,6 +15,9 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
+    <def-cat n="prpers">
+      <cat-item tags="prn.*"/>
+    </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
@@ -430,14 +433,68 @@
       <choose>
 	<when>
 	  <test>
-	    <or>
+	    <and>
 	      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="pxpl1"/></equal>
-	      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="pxpl2"/></equal>
-	      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="pxpl3"/></equal>
-	    </or>
+	      <equal><clip pos="1" side="sl" part="a_number"/><lit-tag v="sg"/></equal>
+	    </and>
 	  </test>
 	  <let>
-	    <clip pos="1" side="tl" part="a_number"/><lit-tag v="sp"/>
+            <var n="number"/><lit-tag v="sp"/>
+          </let>
+	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="pxpl1"/></equal>
+	      <equal><clip pos="1" side="sl" part="a_number"/><lit-tag v="pl"/></equal>
+	    </and>
+	  </test>
+	  <let>
+            <var n="number"/><lit-tag v="sp"/>
+          </let>
+	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="pxpl2"/></equal>
+	      <equal><clip pos="1" side="sl" part="a_number"/><lit-tag v="sg"/></equal>
+	    </and>
+	  </test>
+	  <let>
+            <var n="number"/><lit-tag v="sp"/>
+          </let>
+	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="pxpl2"/></equal>
+	      <equal><clip pos="1" side="sl" part="a_number"/><lit-tag v="pl"/></equal>
+	    </and>
+	  </test>
+	  <let>
+            <var n="number"/><lit-tag v="sp"/>
+          </let>
+	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="pxpl3"/></equal>
+	      <equal><clip pos="1" side="sl" part="a_number"/><lit-tag v="sg"/></equal>
+	    </and>
+	  </test>
+	  <let>
+            <var n="number"/><lit-tag v="sp"/>
+          </let>
+	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="pxpl3"/></equal>
+	      <equal><clip pos="1" side="sl" part="a_number"/><lit-tag v="pl"/></equal>
+	    </and>
+	  </test>
+	  <let>
+            <var n="number"/><lit-tag v="sp"/>
           </let>
 	</when>
       </choose>
@@ -535,16 +592,14 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
-          <chunk name="np" case="caseFirstWord">
+          <chunk name="n" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="NP"/></tag>
+              <tag><lit-tag v="N"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_nom"/>
-              <clip pos="1" side="tl" part="a_number"/>
-              <clip pos="1" side="tl" part="a_case"/>
-              <clip pos="1" side="tl" part="a_definiteness"/>
+              <var n="number"/>
             </lu>
           </chunk>
         </out>
