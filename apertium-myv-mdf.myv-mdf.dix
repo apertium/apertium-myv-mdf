@@ -149,9 +149,10 @@
     <sdef n="imp"     c="Imperative"/>
     <sdef n="indic"    c="Indicative"/>
     <sdef n="opt"   c="Optative"/>
+    <sdef n="prec"   c="Precative"/>
 
     <sdef n="clt_cop"  c="Copula clitic"/>
-    <sdef n="clt_gak"  c="Additive clitic -Гак"/>
+    <sdef n="clt_add"  c="Additive clitic -Гак"/>
 
     <sdef n="cmp"      c="Compound"/>
     <sdef n="guio" 	c="Dash in split- or numeral compounds"/> 
@@ -175,18 +176,19 @@
       <!-- SECTION: Miscellaneous -->
       <e><p><l>э<s n="cop"/></l><r>э<s n="cop"/></r></p></e>
       <e><p><l>а<s n="pcle"/></l><r>аф<s n="pcle"/></r></p></e>
-      <e><p><l>аволь<s n="pcle"/></l><r>аф<s n="pcle"/></r></p></e>
+
+      <e><p><l>аволь<s n="pcle"/></l><r>афи<s n="pcle"/></r></p></e>
+      <e><p><l>арась<s n="vblex"/></l><r>аш<s n="vblex"/></r></p></e>
       <e><p><l>апак<s n="pcle"/></l><r>апак<s n="pcle"/></r></p></e>
       <e><p><l>арази<s n="pcle"/></l><r>деряй<s n="pcle"/></r></p></e>
       <e><p><l>арази<s n="pcle"/></l><r>рази<s n="pcle"/></r></p></e>
-      <e><p><l>арась<s n="pcle"/></l><r>аш<s n="pcle"/></r></p></e>
       <e><p><l>ды<s n="pcle"/></l><r>и<s n="pcle"/></r></p></e>
       <e><p><l>седе<s n="pcle"/></l><r>сяда<s n="pcle"/></r></p></e>
       <e><p><l>как<s n="adv"/></l><r>вок<s n="adv"/></r></p></e>
       <e><p><l>улема<s n="pcle"/></l><r>улема<s n="pcle"/></r></p></e>
       <e><p><l>улема<s n="pcle"/></l><r>шять<s n="pcle"/></r></p></e>
       <e><p><l>мик<s n="pcle"/></l><r>мяк<s n="pcle"/></r></p></e>
-      <e><p><l>паряк<s n="adv"/></l><r>маряк<s n="adv"/></r></p></e>
+      <e r="RL"><p><l>паряк<s n="adv"/></l><r>маряк<s n="adv"/></r></p></e>
       <e><p><l>паряк<s n="adv"/></l><r>пади<s n="adv"/></r></p></e>
       <e><p><l>сех<s n="pcle"/></l><r>инь<s n="pcle"/></r></p></e>
       <e><p><l>сех<s n="pcle"/></l><r>сембода<s n="pcle"/></r></p></e>
@@ -200,7 +202,7 @@
       <e><p><l>эли<s n="cnjcoo"/></l><r>или<s n="cnjcoo"/></r></p></e>
       <e><p><l>бути<s n="cnjsub"/></l><r>кда<s n="cnjsub"/></r></p></e>
       <e><p><l>зярдо<s n="cnjsub"/></l><r>кода<s n="cnjsub"/></r></p></e>
-      <e><p><l>зярдо<s n="cnjsub"/></l><r>мзярда<s n="cnjsub"/></r></p></e>
+      <e r="RL"><p><l>зярдо<s n="cnjsub"/></l><r>мзярда<s n="cnjsub"/></r></p></e>
 
       
       <!-- SECTION: Adpositions -->
@@ -703,7 +705,7 @@
       <e><p><l>идевкс<s n="n"/></l><r>идема<s n="n"/></r></p></e>
       <e><p><l>идевкс<s n="n"/></l><r>идефкс<b/>аралама<s n="n"/></r></p></e>
       <e><p><l>идем<b/>эвсь<s n="n"/></l><r>идемевозь<s n="n"/></r></p></e>
-      <e><p><l>идем<b/>эвсь<s n="n"/></l><r>шайтан<s n="n"/></r></p></e>
+      <e><p><l>шайтян<s n="n"/></l><r>шайтан<s n="n"/></r></p></e>
       <e><p><l>ие<s n="n"/></l><r>киза<s n="n"/></r></p></e>
       <e><p><l>изамо<s n="n"/></l><r>инзама<s n="n"/></r></p></e>
       <e><p><l>изнявкс<s n="n"/></l><r>сяськома<s n="n"/></r></p></e>
@@ -1554,7 +1556,7 @@
       <e><p><l>сабля<s n="n"/></l><r>сабля<s n="n"/></r></p></e>
       <e><p><l>садпире<s n="n"/></l><r>пере<s n="n"/></r></p></e>
       <e><p><l>сазор<s n="n"/></l><r>сазор<s n="n"/></r></p></e>
-      <e><p><l>сазорка<s n="n"/></l><r>сазорня<s n="n"/></r></p></e>
+<!--      <e><p><l>сазорка<s n="n"/></l><r>сазорня<s n="n"/></r></p></e> -->
       <e><p><l>сал<s n="n"/></l><r>сал<s n="n"/></r></p></e>
       <e><p><l>саламо<s n="n"/></l><r>салама<s n="n"/></r></p></e>
       <e><p><l>салведь<s n="n"/></l><r>салведь<s n="n"/></r></p></e>
@@ -2842,8 +2844,8 @@
       <e><p><l>варштамс<s n="vblex"/><s n="iv"/></l><r>варжакстамс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>вечкемс<s n="vblex"/><s n="tv"/></l><r>кельгемс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>вечкемс<s n="vblex"/><s n="iv"/></l><r>кельгемс<s n="vblex"/><s n="iv"/></r></p></e>
-      <e><p><l>вешнемс<s n="vblex"/><s n="tv"/></l><r>вешендомс<s n="vblex"/><s n="tv"/></r></p></e>
-      <e><p><l>вешнемс<s n="vblex"/><s n="iv"/></l><r>вешендомс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>вешнемс<s n="vblex"/><s n="tv"/></l><r>вешендемс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>вешнемс<s n="vblex"/><s n="iv"/></l><r>вешендемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>ёвтамс<s n="vblex"/><s n="tv"/></l><r>азомс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>каятомс<s n="vblex"/><s n="iv"/></l><r>эрьхтемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>кандомс<s n="vblex"/><s n="tv"/></l><r>кандомс<s n="vblex"/><s n="tv"/></r></p></e>
@@ -2856,8 +2858,8 @@
       <e><p><l>кецямс<s n="vblex"/><s n="iv"/></l><r>кенярдемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>кортамс<s n="vblex"/><s n="tv"/></l><r>корхтамс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>кортамс<s n="vblex"/><s n="iv"/></l><r>корхтамс<s n="vblex"/><s n="iv"/></r></p></e>
-      <e><p><l>кунсоломс<s n="vblex"/><s n="tv"/></l><r>кулцондомс<s n="vblex"/><s n="tv"/></r></p></e>
-      <e><p><l>кунсоломс<s n="vblex"/><s n="iv"/></l><r>кулцондомс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>кунсоломс<s n="vblex"/><s n="tv"/></l><r>кулхцондомс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>кунсоломс<s n="vblex"/><s n="iv"/></l><r>кулхцондомс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>ливтнемс<s n="vblex"/><s n="iv"/></l><r>лиендемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>лисевемс<s n="vblex"/><s n="iv"/></l><r>лисевомс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>лиядомс<s n="vblex"/><s n="iv"/></l><r>лядомс<s n="vblex"/><s n="iv"/></r></p></e>
@@ -5320,10 +5322,11 @@
       <e><p><l>азё<s n="ij"/></l><r>архт<s n="ij"/></r></p></e>
       <e><p><l>азёдо<s n="ij"/></l><r>арда<s n="ij"/></r></p></e>
       <e><p><l>арась<s n="ij"/></l><r>аяф<s n="ij"/></r></p></e>
+      <e><p><l>аволь<s n="ij"/></l><r>аяф<s n="ij"/></r></p></e>
       <e><p><l>аютко<s n="ij"/></l><r>аш<b/>пинге<s n="ij"/></r></p></e>
-      <e><p><l>вага<s n="ij"/></l><r>вага<s n="ij"/></r></p></e>
+      <e><p><l>вана<s n="ij"/></l><r>вага<s n="ij"/></r></p></e>
       <e><p><l>вай<s n="ij"/></l><r>вай<s n="ij"/></r></p></e>
-      <e><p><l>вана<s n="ij"/></l><r>вана<s n="ij"/></r></p></e>
+      <e r="LR"><p><l>вара<s n="ij"/></l><r>вага<s n="ij"/></r></p></e>
       <e><p><l>да<s n="ij"/></l><r>да<s n="ij"/></r></p></e>
       <e><p><l>инеськеть<s n="ij"/></l><r>эсь<s n="ij"/></r></p></e>
       <e><p><l>на<s n="ij"/></l><r>на<s n="ij"/></r></p></e>

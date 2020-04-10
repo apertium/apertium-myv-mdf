@@ -18,6 +18,9 @@
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
+    <def-cat n="vrb">
+      <cat-item tags="vblex.*"/>
+    </def-cat> 
   </section-def-cats>
 
   <section-def-attrs>
@@ -43,9 +46,28 @@
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+    </def-attr>
+    <def-attr n="a_number">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+    </def-attr>
+    <def-attr n="a_definiteness">
+      <attr-item tags="pxsg1"/>
+      <attr-item tags="pxsg2"/>
+      <attr-item tags="pxsg3"/>
+      <attr-item tags="pxpl1"/>
+      <attr-item tags="pxpl2"/>
+      <attr-item tags="pxpl3"/>
+      <attr-item tags="ind"/>
+      <attr-item tags="def"/>
     </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+    </def-attr>
+    <def-attr n="a_num">
+      <attr-item tags="num"/>
     </def-attr>
     
     <def-attr n="a_sem">
@@ -353,6 +375,43 @@
       <attr-item tags="@X"/>
 
     </def-attr>
+    <def-attr n="moods">
+      <attr-item tags="cond"/>
+      <attr-item tags="conj"/>
+      <attr-item tags="des"/>
+      <attr-item tags="imprt"/>
+      <attr-item tags="imp"/>
+      <attr-item tags="indic"/>
+      <attr-item tags="opt"/>
+      <attr-item tags="prec"/>
+    </def-attr>
+    <def-attr n="temps">
+      <attr-item tags="pres"/>
+    </def-attr>
+    <def-attr n="pers">
+      <attr-item tags="s_sg1"/>
+      <attr-item tags="s_sg2"/>
+      <attr-item tags="s_sg3"/>                                                                             <attr-item tags="s_pl1"/>
+      <attr-item tags="s_pl2"/>
+      <attr-item tags="s_pl3"/>                                                                         
+      <attr-item tags="a_sg1"/>
+      <attr-item tags="a_sg2"/>
+      <attr-item tags="a_sg3"/>                                                                             <attr-item tags="a_pl1"/>
+      <attr-item tags="a_pl2"/>
+      <attr-item tags="a_pl3"/>                                                                         
+      <attr-item tags="o_sg1"/>
+      <attr-item tags="o_sg2"/>
+      <attr-item tags="o_sg3"/>                                                                             <attr-item tags="o_pl1"/>
+      <attr-item tags="o_pl2"/>
+      <attr-item tags="o_pl3"/>                                                                       
+    </def-attr>
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>
+      <attr-item tags="vblex.neg"/>
+      <attr-item tags="vaux"/>
+      <attr-item tags="vbmod"/>
+    </def-attr>
+    
   </section-def-attrs>
 
   <section-def-vars>
@@ -366,6 +425,24 @@
             <lit v=""/>
           </let>
     </def-macro>
+    
+    <def-macro n="possessum-mangler" npar="1">
+      <choose>
+	<when>
+	  <test>
+	    <or>
+	      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="pxpl1"/></equal>
+	      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="pxpl2"/></equal>
+	      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="pxpl3"/></equal>
+	    </or>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="a_number"/><lit-tag v="sp"/>
+          </let>
+	</when>
+      </choose>
+    </def-macro>
+    
   </section-def-macros>
 
   <section-rules>
@@ -434,6 +511,61 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: NOUN">
+      <pattern>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="lem"/>
+	    <clip pos="1" side="tl" part="a_nom"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: Mangle number of possessa for possessors">
+      <pattern>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="possessum-mangler">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="np" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="NP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="a_number"/>
+              <clip pos="1" side="tl" part="a_case"/>
+              <clip pos="1" side="tl" part="a_definiteness"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+<!--    <rule comment="REGLA: VERB">
+      <pattern>
+	<pattern-item n="a_verb"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <clip pos="1" side="t1" part="lem"/>
+	    <clip pos="1" side="t1" part="a_verb"/>
+	    <clip pos="1" side="t1" part="temps"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+-->
   </section-rules>
 </transfer>
 
