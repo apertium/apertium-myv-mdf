@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transfer>
+  <section-def-cats>
+    <def-cat n="some_word_category">
+      <cat-item tags="mytag.*"/>
+    </def-cat>
+    <def-cat n="lp">
+      <cat-item tags="vblex.*.*.lp.*"/>
+    </def-cat>
+    <def-cat n="biti-clt">
+      <cat-item tags="vbser.clt.pres.*"/>
+    </def-cat>
+  </section-def-cats>
+  
+  <section-def-attrs>
+    <def-attr n="some_feature_of_a_word">
+      <attr-item tags="myfeature"/>
+      <attr-item tags="myotherfeature"/>
+    </def-attr>
+
+    <def-attr n="gender">
+      <attr-item tags="f"/>
+      <attr-item tags="m"/>
+    </def-attr>
+    
+    <def-attr n="number">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+    </def-attr>
+
+    <def-attr n="person">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+    </def-attr>
+
+    <def-attr n="tense">
+      <attr-item tags="lp"/>
+      <attr-item tags="past"/>
+    </def-attr>
+
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>
+      <attr-item tags="vbser"/>
+    </def-attr>
+</section-def-attrs>
+  
+  <section-def-vars>
+    <def-var n="blank"/>
+  </section-def-vars>
+  
+  <section-rules>
+    <rule>
+      <pattern>
+        <pattern-item n="some_word_category"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="some_feature_of_a_word"/><lit-tag v="myotherfeature"/></let>
+        <out>
+          <lu><clip pos="1" side="tl" part="whole"/></lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="lp"/>
+        <pattern-item n="biti-clt"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="tense"/><lit-tag v="past"/></let>
+        <let><clip pos="1" side="tl" part="gender"/><lit-tag v="m"/></let>
+        <let><clip pos="1" side="tl" part="number"/><lit-tag v="pl"/></let>
+        <out>
+<!--          <lu>
+	    <lit v="prpers"/>
+	    <lit-tag v="prn.subj"/>
+	    <clip pos="2" side="sl" part="person"/>
+	    <lit-tag v="mf"/>
+	    <clip pos="2" side="sl" part="number"/>
+	  </lu>
+	  <b/>
+    -->      <lu>
+	    <clip pos="1" side="tl" part="lem"/>
+	    <clip pos="1" side="tl" part="a_verb"/>
+	    <clip pos="1" side="tl" part="tense"/>
+	  </lu>
+        </out>
+      </action>
+    </rule>
+</section-rules>
+</transfer>

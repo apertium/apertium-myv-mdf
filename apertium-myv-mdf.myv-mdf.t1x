@@ -15,6 +15,14 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
+    <def-cat n="n.possa">
+      <cat-item tags="n.*.*.pxsg1.*"/>
+      <cat-item tags="n.*.*.pxsg2.*"/>
+      <cat-item tags="n.*.*.pxsg3.*"/>
+      <cat-item tags="n.*.*.pxpl1.*"/>
+      <cat-item tags="n.*.*.pxpl2.*"/>
+      <cat-item tags="n.*.*.pxpl3.*"/>
+    </def-cat>
     <def-cat n="prpers">
       <cat-item tags="prn.*"/>
     </def-cat>
@@ -46,6 +54,14 @@
       <attr-item tags="prl"/>
       <attr-item tags="tra"/>
     </def-attr>
+    <def-attr n="a_mood">
+      <attr-item tags="cond"/>
+      <attr-item tags="conj"/>
+      <attr-item tags="des"/>
+      <attr-item tags="imprt"/>
+      <attr-item tags="ind"/>
+      <attr-item tags="opt"/>
+    </def-attr>
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
@@ -55,6 +71,50 @@
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
+    </def-attr>
+    <def-attr n="a_obj">
+      <attr-item tags="o_sg1"/>
+      <attr-item tags="o_sg2"/>
+      <attr-item tags="o_sg3"/>
+      <attr-item tags="o_pl1"/>
+      <attr-item tags="o_pl2"/>
+      <attr-item tags="o_pl3"/>
+    </def-attr>
+    <def-attr n="all_pers">
+      <attr-item tags="impers"/>
+      <attr-item tags="p1.sg"/>
+      <attr-item tags="p2.sg"/>
+      <attr-item tags="p3.sg"/>
+      <attr-item tags="p1.pl"/>
+      <attr-item tags="p2.pl"/>
+      <attr-item tags="p3.pl"/>
+      <attr-item tags="s_sg1"/>
+      <attr-item tags="s_sg2"/>
+      <attr-item tags="s_sg3"/>
+      <attr-item tags="s_pl1"/>
+      <attr-item tags="s_pl2"/>
+      <attr-item tags="s_pl3"/>
+      <attr-item tags="a_sg1"/>
+      <attr-item tags="a_sg2"/>
+      <attr-item tags="a_sg3"/>
+      <attr-item tags="a_pl1"/>
+      <attr-item tags="a_pl2"/>
+      <attr-item tags="a_pl3"/>
+    </def-attr>
+    <def-attr n="a_px">
+      <attr-item tags="px1sg"/>
+      <attr-item tags="px2sg"/>
+      <attr-item tags="px3sg"/>
+      <attr-item tags="px1pl"/>
+      <attr-item tags="px2pl"/>
+      <attr-item tags="px3pl"/>
+
+      <attr-item tags="pxsg1"/>
+      <attr-item tags="pxsg2"/>
+      <attr-item tags="pxsg3"/>
+      <attr-item tags="pxpl1"/>
+      <attr-item tags="pxpl2"/>
+      <attr-item tags="pxpl3"/>
     </def-attr>
     <def-attr n="a_definiteness">
       <attr-item tags="pxsg1"/>
@@ -71,6 +131,14 @@
     </def-attr>
     <def-attr n="a_num">
       <attr-item tags="num"/>
+    </def-attr>
+    <def-attr n="a_subj">
+      <attr-item tags="s_sg1"/>
+      <attr-item tags="s_sg2"/>
+      <attr-item tags="s_sg3"/>
+      <attr-item tags="s_pl1"/>
+      <attr-item tags="s_pl2"/>
+      <attr-item tags="s_pl3"/>
     </def-attr>
     
     <def-attr n="a_sem">
@@ -394,17 +462,17 @@
     <def-attr n="pers">
       <attr-item tags="s_sg1"/>
       <attr-item tags="s_sg2"/>
-      <attr-item tags="s_sg3"/>                                                                             <attr-item tags="s_pl1"/>
+      <attr-item tags="s_sg3"/>                                                                     <attr-item tags="s_pl1"/>
       <attr-item tags="s_pl2"/>
       <attr-item tags="s_pl3"/>                                                                         
       <attr-item tags="a_sg1"/>
       <attr-item tags="a_sg2"/>
-      <attr-item tags="a_sg3"/>                                                                             <attr-item tags="a_pl1"/>
+      <attr-item tags="a_sg3"/>                                                                     <attr-item tags="a_pl1"/>
       <attr-item tags="a_pl2"/>
       <attr-item tags="a_pl3"/>                                                                         
       <attr-item tags="o_sg1"/>
       <attr-item tags="o_sg2"/>
-      <attr-item tags="o_sg3"/>                                                                             <attr-item tags="o_pl1"/>
+      <attr-item tags="o_sg3"/>                                                                     <attr-item tags="o_pl1"/>
       <attr-item tags="o_pl2"/>
       <attr-item tags="o_pl3"/>                                                                       
     </def-attr>
@@ -568,39 +636,57 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: NOUN">
-      <pattern>
-	<pattern-item n="nom"/>
-      </pattern>
-      <action>
-	<out>
-	  <lu>
-	    <clip pos="1" side="tl" part="lem"/>
-	    <clip pos="1" side="tl" part="a_nom"/>
-	    <clip pos="1" side="tl" part="nbr"/>
-	  </lu>
-	</out>
-      </action>
-    </rule>
-
-    <rule comment="REGLA: Mangle number of possessa for possessors">
+    <rule comment="REGLA: NUMBER OF POSSESSA">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
       <action>
-	<call-macro n="possessum-mangler">
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
+        <choose>
+          <when>
+            <test>
+		  <equal>
+                  <clip pos="1" side="sl" part="a_px"/>
+                  <lit-tag v="pxpl1"/></equal>
+	    </test>
+            <let>
+              <clip pos="1" side="tl" part="number"/>
+              <lit-tag v="sp"/>
+            </let>
+	  </when>
+	</choose>
+	<choose>
+          <when>
+            <test>
+                <equal><clip pos="1" side="sl" part="a_px"/>
+                <lit-tag v="pxpl2"/></equal>
+	    </test>
+            <let>
+              <clip pos="1" side="tl" part="number"/>
+              <lit-tag v="sp"/>
+            </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+                <equal><clip pos="1" side="sl" part="a_px"/>
+                <lit-tag v="pxpl3"/></equal>
+	    </test>
+            <let>
+              <clip pos="1" side="tl" part="number"/>
+              <lit-tag v="sp"/>
+            </let>
+          </when>
+          </choose>
+
+          <out>
           <chunk name="n" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="N"/></tag>
             </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_nom"/>
-              <var n="number"/>
-            </lu>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
           </chunk>
         </out>
       </action>

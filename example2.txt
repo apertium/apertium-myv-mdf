@@ -1,0 +1,4 @@
+^псака<n><sg><gen><pxpl1>/ката<n><sg><gen><pxpl1>$ 
+^киска<n><pl><gen><pxpl1>/пине<n><pl><gen><pxpl1>$ 
+^кудо<n><pl><gen><def>/куд<n><pl><gen><def>$ 
+^кал<n><sg><nom><ind>/кал<n><sg><nom><ind>$ 

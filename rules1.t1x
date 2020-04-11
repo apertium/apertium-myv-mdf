@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transfer>
+  <section-def-cats>
+    <def-cat n="some_word_category">
+      <cat-item tags="mytag.*"/>
+    </def-cat>
+    <def-cat n="nom">
+      <cat-item tags="n.*"/>
+    </def-cat>
+    <def-cat n="px.n">
+      <cat-item tags="n.*.*.pxsg1.*"/>
+      <cat-item tags="n.*.*.pxsg2.*"/>
+      <cat-item tags="n.*.*.pxsg3.*"/>
+      <cat-item tags="n.*.*.pxpl1.*"/>
+      <cat-item tags="n.*.*.pxpl2.*"/>
+      <cat-item tags="n.*.*.pxpl3.*"/>
+    </def-cat>
+    <def-cat n="pxpl.n">
+      <cat-item tags="n.*.*.pxpl1.*"/>
+      <cat-item tags="n.*.*.pxpl2.*"/>
+      <cat-item tags="n.*.*.pxpl3.*"/>
+    </def-cat>
+    <def-cat n="biti-clt">
+      <cat-item tags="vbser.clt.pres.*"/>
+    </def-cat>
+  </section-def-cats>
+  
+  <section-def-attrs>
+    <def-attr n="some_feature_of_a_word">
+      <attr-item tags="myfeature"/>
+      <attr-item tags="myotherfeature"/>
+    </def-attr>
+
+    <def-attr n="a_cas">
+      <attr-item tags="abe"/>
+      <attr-item tags="abl"/>
+      <attr-item tags="com"/>
+      <attr-item tags="cau"/>
+      <attr-item tags="cmpr"/>
+      <attr-item tags="com"/>
+      <attr-item tags="dat"/>
+      <attr-item tags="ela"/>
+      <attr-item tags="gen"/>
+      <attr-item tags="ill"/>
+      <attr-item tags="ine"/>
+      <attr-item tags="lat"/>
+      <attr-item tags="loc"/>
+      <attr-item tags="nom"/>
+      <attr-item tags="temp"/>
+      <attr-item tags="prl"/>
+      <attr-item tags="tra"/>
+    </def-attr>
+
+    <def-attr n="a_noun">
+      <attr-item tags="n"/>
+      <attr-item tags="np"/>
+    </def-attr>
+
+    <def-attr n="number">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+    </def-attr>
+
+    <def-attr n="person">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+    </def-attr>
+
+    <def-attr n="a_px">
+      <attr-item tags="pxpl1"/>
+      <attr-item tags="pxpl2"/>
+      <attr-item tags="pxpl3"/>
+    </def-attr>
+
+    <def-attr n="a_definiteness">
+      <attr-item tags="pxsg1"/>
+      <attr-item tags="pxsg2"/>
+      <attr-item tags="pxsg3"/>
+      <attr-item tags="pxpl1"/>
+      <attr-item tags="pxpl2"/>
+      <attr-item tags="pxpl3"/>
+      <attr-item tags="ind"/>
+      <attr-item tags="def"/>
+    </def-attr>
+
+    <def-attr n="tense">
+      <attr-item tags="lp"/>
+      <attr-item tags="past"/>
+    </def-attr>
+
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>
+      <attr-item tags="vbser"/>
+    </def-attr>
+</section-def-attrs>
+  
+  <section-def-vars>
+    <def-var n="blank"/>
+  </section-def-vars>
+  
+  <section-rules>
+    <rule>
+      <pattern>
+        <pattern-item n="some_word_category"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="some_feature_of_a_word"/><lit-tag v="myotherfeature"/></let>
+        <out>
+          <lu><clip pos="1" side="tl" part="whole"/></lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test><or><equal>
+                  <clip pos="1" side="sl" part="a_px"/>
+                  <lit-tag v="pxpl1"/></equal>
+                <equal><clip pos="1" side="sl" part="a_px"/>
+                <lit-tag v="pxpl2"/></equal>
+                <equal><clip pos="1" side="sl" part="a_px"/>
+                <lit-tag v="pxpl3"/></equal>
+	    </or></test>
+            <let>
+              <clip pos="1" side="tl" part="number"/>
+              <lit-tag v="sp"/>
+            </let>
+          </when>
+          </choose>
+        <out>
+          <lu>
+	    <clip pos="1" side="tl" part="lem"/>
+	    <clip pos="1" side="tl" part="a_noun"/>
+	    <clip pos="1" side="tl" part="number"/>
+	    <clip pos="1" side="tl" part="a_cas"/>
+	    <clip pos="1" side="tl" part="a_definiteness"/>
+	  </lu>
+        </out>
+      </action>
+    </rule>
+</section-rules>
+</transfer>

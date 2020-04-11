@@ -1,0 +1,6 @@
+^otići<vblex><perf><iv><lp><f><sg>/leave<vblex><lp><f><sg>$ 
+^biti<vbser><clt><pres><p2><sg>/be<vbser><clt><pres><p2><sg>$ 
+^tiho<adv>/quietly<adv>$ 
+^i<cnjcoo>/and<cnjcoo>$ 
+^bez<pr>/without<pr>$ 
+^pozdrav<n><mi><sg><gen>/word<n><sg><gen>$
