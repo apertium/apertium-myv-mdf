@@ -32,6 +32,11 @@
     <def-cat n="vrb">
       <cat-item tags="vblex.*"/>
     </def-cat> 
+    <def-cat n="tense.v">
+      <cat-item tags="vblex.*.*.pres.*"/>
+      <cat-item tags="vblex.*.*.pret1.*"/>
+      <cat-item tags="vblex.*.*.pret2.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -59,8 +64,10 @@
       <attr-item tags="conj"/>
       <attr-item tags="des"/>
       <attr-item tags="imprt"/>
-      <attr-item tags="ind"/>
+      <attr-item tags="imp"/>
+      <attr-item tags="indic"/>
       <attr-item tags="opt"/>
+      <attr-item tags="prec"/>
     </def-attr>
     <def-attr n="nbr">
       <attr-item tags="sg"/>
@@ -79,6 +86,32 @@
       <attr-item tags="o_pl1"/>
       <attr-item tags="o_pl2"/>
       <attr-item tags="o_pl3"/>
+    </def-attr>
+    <def-attr n="a_sbj-pers">
+      <attr-item tags="s_p1"/>
+      <attr-item tags="s_p2"/>
+      <attr-item tags="s_p3"/>
+      <attr-item tags="a_p1"/>
+      <attr-item tags="a_p2"/>
+      <attr-item tags="a_p3"/>
+    </def-attr>
+    <def-attr n="a_sbj-nbr">
+      <attr-item tags="s_sg"/>
+      <attr-item tags="s_pl"/>
+      <attr-item tags="s_sp"/>
+      <attr-item tags="a_sg"/>
+      <attr-item tags="a_pl"/>
+      <attr-item tags="a_sp"/>
+    </def-attr>
+    <def-attr n="a_obj-pers">
+      <attr-item tags="o_p1"/>
+      <attr-item tags="o_p2"/>
+      <attr-item tags="o_p3"/>
+    </def-attr>
+    <def-attr n="a_obj-nbr">
+      <attr-item tags="o_sg"/>
+      <attr-item tags="o_pl"/>
+      <attr-item tags="o_sp"/>
     </def-attr>
     <def-attr n="all_pers">
       <attr-item tags="impers"/>
@@ -446,33 +479,28 @@
       <attr-item tags="@X"/>
 
     </def-attr>
-    <def-attr n="moods">
-      <attr-item tags="cond"/>
-      <attr-item tags="conj"/>
-      <attr-item tags="des"/>
-      <attr-item tags="imprt"/>
-      <attr-item tags="imp"/>
-      <attr-item tags="indic"/>
-      <attr-item tags="opt"/>
-      <attr-item tags="prec"/>
-    </def-attr>
     <def-attr n="temps">
       <attr-item tags="pres"/>
+      <attr-item tags="pret1"/>
+      <attr-item tags="pret2"/>
     </def-attr>
     <def-attr n="pers">
       <attr-item tags="s_sg1"/>
       <attr-item tags="s_sg2"/>
-      <attr-item tags="s_sg3"/>                                                                     <attr-item tags="s_pl1"/>
+      <attr-item tags="s_sg3"/>
+      <attr-item tags="s_pl1"/>
       <attr-item tags="s_pl2"/>
       <attr-item tags="s_pl3"/>                                                                         
       <attr-item tags="a_sg1"/>
       <attr-item tags="a_sg2"/>
-      <attr-item tags="a_sg3"/>                                                                     <attr-item tags="a_pl1"/>
+      <attr-item tags="a_sg3"/>
+      <attr-item tags="a_pl1"/>
       <attr-item tags="a_pl2"/>
       <attr-item tags="a_pl3"/>                                                                         
       <attr-item tags="o_sg1"/>
       <attr-item tags="o_sg2"/>
-      <attr-item tags="o_sg3"/>                                                                     <attr-item tags="o_pl1"/>
+      <attr-item tags="o_sg3"/>
+      <attr-item tags="o_pl1"/>
       <attr-item tags="o_pl2"/>
       <attr-item tags="o_pl3"/>                                                                       
     </def-attr>

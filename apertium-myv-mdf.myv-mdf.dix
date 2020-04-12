@@ -36,6 +36,34 @@
     <sdef n="p2"       c="Second person"/>
     <sdef n="p3"       c="Third person"/>
 
+    <sdef n="s_p1"       c="First person subject"/>
+    <sdef n="s_p2"       c="Second person subject"/>
+    <sdef n="s_p3"       c="Third person subject"/>
+
+    <sdef n="a_p1"       c="First person agent"/>
+    <sdef n="a_p2"       c="Second person agent"/>
+    <sdef n="a_p3"       c="Third person agent"/>
+
+    <sdef n="o_p1"       c="First person object"/>
+    <sdef n="o_p2"       c="Second person object"/>
+    <sdef n="o_p3"       c="Third person object"/>
+
+    <sdef n="sg"       c="Singular"/>
+    <sdef n="pl"       c="Plural"/>
+    <sdef n="sp"      c="Singular/Plural"/>
+
+    <sdef n="s_sg"       c="Singular subject"/>
+    <sdef n="s_pl"       c="Plural subject"/>
+    <sdef n="s_sp"      c="Singular/Plural subject"/>
+
+    <sdef n="a_sg"       c="Singular agent"/>
+    <sdef n="a_pl"       c="Plural agent"/>
+    <sdef n="a_sp"      c="Singular/Plural agent"/>
+
+    <sdef n="o_sg"       c="Singular object"/>
+    <sdef n="o_pl"       c="Plural object"/>
+    <sdef n="o_sp"      c="Singular/Plural object"/>
+
     <sdef n="sg1"      c="First-person singular"/>
     <sdef n="sg2"      c="Second-person singular"/>
     <sdef n="sg3"      c="Third-person singular"/>
@@ -70,10 +98,6 @@
     <sdef n="o_pl1"    c="First-person plural object marker"/>
     <sdef n="o_pl2"    c="Second-person plural object marker"/>
     <sdef n="o_pl3"    c="Third-person plural object marker"/>
-
-    <sdef n="sg"       c="Singular"/>
-    <sdef n="pl"       c="Plural"/>
-    <sdef n="sp"      c="Singular/Plural"/>
 
     <sdef n="abe"      c="Abessive"/>
     <sdef n="abl"      c="Ablative"/>
