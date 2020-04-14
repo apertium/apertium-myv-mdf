@@ -4,6 +4,15 @@
     <def-cat n="default">
       <cat-item tags="*"/>
     </def-cat>
+    <def-cat n="n.prl.def">
+      <cat-item tags="n.*.prl.def.*"/>
+    </def-cat>
+    <def-cat n="kise">
+      <cat-item lemma="кисэ" tags="adp"/>
+    </def-cat>
+    <def-cat n="ezga">
+      <cat-item lemma="эзга" tags="adp"/>
+    </def-cat>
     <def-cat n="cop">
       <cat-item tags="cop.*"/>
     </def-cat>
@@ -14,6 +23,7 @@
     </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
+      <cat-item tags="np.*"/>
     </def-cat>
     <def-cat n="n.possa">
       <cat-item tags="n.*.*.pxsg1.*"/>
@@ -161,6 +171,7 @@
     </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+      <attr-item tags="np"/>
     </def-attr>
     <def-attr n="a_num">
       <attr-item tags="num"/>
@@ -624,6 +635,36 @@
     </rule>
 
 
+    <rule comment="noun in definite prolative: is definite noun with ezga">
+      <pattern>
+        <pattern-item n="n.prl.def"/>
+      </pattern>
+      <action>
+	
+<!--        <call-macro n="case-mangler">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="number-mangler">
+          <with-param pos="2"/>
+        </call-macro>
+-->        <out>
+            <mlu>
+              <lu>
+		<clip pos="1" side="tl" part="lem"/> <!-- Text -> teksti -->
+		<clip pos="1" side="tl" part="a_nom"/> <!-- n -->
+		<clip pos="1" side="tl" part="nbr"/> <!-- n -->
+		<lit-tag v="gen"/>
+		<clip pos="1" side="tl" part="a_definiteness"/> <!-- n -->
+		<b/>
+		<lit v="ezga"/>
+		<lit-tag v="adp"/>
+              </lu>
+	    </mlu>
+	  </out>
+      </action>
+    </rule>
+
+    
     <rule comment="REGLA: DEFAULT">
       <pattern>
         <pattern-item n="default"/>
@@ -666,7 +707,7 @@
 
     <rule comment="REGLA: NUMBER OF POSSESSA">
       <pattern>
-        <pattern-item n="nom"/>
+        <pattern-item n="n.possa"/>
       </pattern>
       <action>
         <choose>
@@ -720,7 +761,8 @@
       </action>
     </rule>
 
-<!--    <rule comment="REGLA: VERB">
+
+    <!--    <rule comment="REGLA: VERB">
       <pattern>
 	<pattern-item n="a_verb"/>
       </pattern>
