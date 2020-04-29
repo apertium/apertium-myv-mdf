@@ -4,6 +4,14 @@
 	    <def-cat n="default">
 	      <cat-item tags="*"/>
 	    </def-cat>
+	    <def-cat n="n.gen.px">
+	      <cat-item tags="n.*.gen.px1sg.*"/>
+	      <cat-item tags="n.*.gen.px2sg.*"/>
+	      <cat-item tags="n.*.gen.px3sg.*"/>
+	      <cat-item tags="n.*.gen.px1pl.*"/>
+	      <cat-item tags="n.*.gen.px2pl.*"/>
+	      <cat-item tags="n.*.gen.px3pl.*"/>
+	    </def-cat>
 	    <def-cat n="n.prl.def">
 	      <cat-item tags="n.*.prl.def.*"/>
 	    </def-cat>
@@ -12,6 +20,9 @@
 	    </def-cat>
 	    <def-cat n="ezga">
 	      <cat-item lemma="эзга" tags="adp"/>
+	    </def-cat>
+	    <def-cat n="turtov">
+	      <cat-item lemma="туртов" tags="adp.dat"/>
 	    </def-cat>
 	    <def-cat n="cop">
 	      <cat-item tags="cop.*"/>
@@ -79,7 +90,7 @@
 	      <attr-item tags="opt"/>
 	      <attr-item tags="prec"/>
 	    </def-attr>
-	    <def-attr n="nbr">
+	    <def-attr n="a_number">
 	      <attr-item tags="sg"/>
 	      <attr-item tags="pl"/>
 	      <attr-item tags="sp"/>
@@ -643,7 +654,7 @@
 	            <lu>
 		      <clip pos="1" side="tl" part="lem"/> <!-- Text -> teksti -->
 		      <clip pos="1" side="tl" part="a_nom"/> <!-- n -->
-		      <clip pos="1" side="tl" part="nbr"/> <!-- n -->
+		      <clip pos="1" side="tl" part="a_number"/> <!-- n -->
 		      <lit-tag v="gen"/>
 		      <clip pos="1" side="tl" part="a_definiteness"/> <!-- n -->
 		    </lu>
@@ -658,6 +669,31 @@
 	      </action>
 	    </rule>
 	
+    <rule comment="possessive genitive noun with turtov: becomes noun in possessive dative">
+      <pattern>
+        <pattern-item n="n.gen.px"/>
+        <pattern-item n="turtov"/>
+      </pattern>
+      <action>
+        <out>
+	  <chunk name="nomin" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	      <tag><lit-tag v="TURTOV"/></tag>
+	    </tags>
+	    
+            <lu>
+	      <clip pos="1" side="tl" part="lem"/> <!-- Text -> teksti -->
+	      <clip pos="1" side="tl" part="a_nom"/> <!-- n -->
+	      <clip pos="1" side="tl" part="a_number"/> <!-- n -->
+	      <lit-tag v="dat"/>
+	      <clip pos="1" side="tl" part="a_definiteness"/> <!-- n -->
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
 	    
 	    <rule comment="REGLA: DEFAULT">
 	      <pattern>

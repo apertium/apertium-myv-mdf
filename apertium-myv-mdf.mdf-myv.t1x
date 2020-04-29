@@ -7,8 +7,19 @@
 	    <def-cat n="n.gen.def">
 	      <cat-item tags="n.*.gen.def.*"/>
 	    </def-cat>
+	    <def-cat n="n.dat.px">
+	      <cat-item tags="n.*.dat.px1sg.*"/>
+	      <cat-item tags="n.*.dat.px2sg.*"/>
+	      <cat-item tags="n.*.dat.px3sg.*"/>
+	      <cat-item tags="n.*.dat.px1pl.*"/>
+	      <cat-item tags="n.*.dat.px2pl.*"/>
+	      <cat-item tags="n.*.dat.px3pl.*"/>
+	    </def-cat>
 	    <def-cat n="ezga">
 	      <cat-item lemma="эзга" tags="adp.prl"/>
+	    </def-cat>
+	    <def-cat n="turtov">
+	      <cat-item lemma="туртов" tags="adp.dat"/>
 	    </def-cat>
 	    <def-cat n="adp">
 	      <cat-item tags="adp.*"/>
@@ -26,12 +37,12 @@
 	      <cat-item tags="np.*"/>
 	    </def-cat>
 	    <def-cat n="n.possa">
-	      <cat-item tags="n.*.*.pxsg1.*"/>
-	      <cat-item tags="n.*.*.pxsg2.*"/>
-	      <cat-item tags="n.*.*.pxsg3.*"/>
-	      <cat-item tags="n.*.*.pxpl1.*"/>
-	      <cat-item tags="n.*.*.pxpl2.*"/>
-	      <cat-item tags="n.*.*.pxpl3.*"/>
+	      <cat-item tags="n.*.*.px1sg.*"/>
+	      <cat-item tags="n.*.*.px2sg.*"/>
+	      <cat-item tags="n.*.*.px3sg.*"/>
+	      <cat-item tags="n.*.*.px1pl.*"/>
+	      <cat-item tags="n.*.*.px2pl.*"/>
+	      <cat-item tags="n.*.*.px3pl.*"/>
 	    </def-cat>
 	    <def-cat n="prpers">
 	      <cat-item tags="prn.*"/>
@@ -147,20 +158,20 @@
 	      <attr-item tags="px2pl"/>
 	      <attr-item tags="px3pl"/>
 	
-	      <attr-item tags="pxsg1"/>
-	      <attr-item tags="pxsg2"/>
-	      <attr-item tags="pxsg3"/>
-	      <attr-item tags="pxpl1"/>
-	      <attr-item tags="pxpl2"/>
-	      <attr-item tags="pxpl3"/>
+	      <attr-item tags="px1sg"/>
+	      <attr-item tags="px2sg"/>
+	      <attr-item tags="px3sg"/>
+	      <attr-item tags="px1pl"/>
+	      <attr-item tags="px2pl"/>
+	      <attr-item tags="px3pl"/>
 	    </def-attr>
 	    <def-attr n="a_definiteness">
-	      <attr-item tags="pxsg1"/>
-	      <attr-item tags="pxsg2"/>
-	      <attr-item tags="pxsg3"/>
-	      <attr-item tags="pxpl1"/>
-	      <attr-item tags="pxpl2"/>
-	      <attr-item tags="pxpl3"/>
+	      <attr-item tags="px1sg"/>
+	      <attr-item tags="px2sg"/>
+	      <attr-item tags="px3sg"/>
+	      <attr-item tags="px1pl"/>
+	      <attr-item tags="px2pl"/>
+	      <attr-item tags="px3pl"/>
 	      <attr-item tags="ind"/>
 	      <attr-item tags="def"/>
 	    </def-attr>
@@ -581,6 +592,34 @@
 	</out>
       </action>
     </rule>
+
+    <rule comment="noun in dative with possessive: is possessive genitive noun with туртов">
+      <pattern>
+	        <pattern-item n="n.dat.px"/>
+	      </pattern>
+	      <action>
+	        <out>
+		  <chunk name="DatPx" case="caseFirstWord">
+		    <tags>
+		      <tag><lit-tag v="SN"/></tag>
+		    </tags>
+	            <lu>
+		      <clip pos="1" side="tl" part="lem"/> <!-- Text -> teksti -->
+		      <clip pos="1" side="tl" part="a_nom"/> <!-- n -->
+		      <clip pos="1" side="tl" part="a_number"/> <!-- n -->
+		      <lit-tag v="gen"/>
+		      <clip pos="1" side="tl" part="a_definiteness"/> <!-- n -->
+		    </lu>
+		    <b/>
+		    <lu>
+		      <lit v="туртов"/>
+		      <lit-tag v="adp"/>
+		      <lit-tag v="dat"/>
+	            </lu>
+		  </chunk>
+		</out>
+	      </action>
+	    </rule>
 
 
     <rule comment="REGLA: DEFAULT">

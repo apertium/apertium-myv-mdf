@@ -199,7 +199,7 @@
    <section id="main" type="standard">
       <!-- SECTION: Miscellaneous -->
       <e><p><l>э<s n="cop"/></l><r>э<s n="cop"/></r></p></e>
-      <e><p><l>а<s n="pcle"/></l><r>аф<s n="pcle"/></r></p></e>
+      <e><p><l>а<s n="vblex"/></l><r>аф<s n="vblex"/></r></p></e>
 
       <e><p><l>аволь<s n="pcle"/></l><r>афи<s n="pcle"/></r></p></e>
       <e><p><l>арась<s n="vblex"/></l><r>аш<s n="vblex"/></r></p></e>
@@ -220,6 +220,8 @@
       <e><p><l>хоть<s n="pcle"/></l><r>хуш<s n="pcle"/></r></p></e>
 
       <!-- SECTION: Conjunctions -->
+      <e r="RL"><p><l/><r>што<s n="cnjsub"/></r></p></e>
+
       <e><p><l>а<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
       <e><p><l>ды<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
       <e><p><l>марто<s n="cnjcoo"/></l><r>мархта<s n="cnjcoo"/></r></p></e>
@@ -230,6 +232,7 @@
 
       
       <!-- SECTION: Adpositions -->
+      <e r="LR"><p><l>туртов<s n="adp"/></l><r/></p></e>
       <e><p><l>вельде<s n="adp"/></l><r>вельде<s n="adp"/></r></p></e>
       <e><p><l>кисэ<s n="adp"/></l><r>инкса<s n="adp"/></r></p></e>
       <e><p><l>марто<s n="adp"/></l><r>мархта<s n="adp"/></r></p></e>
@@ -318,8 +321,10 @@
       <e><p><l>мезе<s n="prn"/></l><r>мезе<s n="prn"/></r></p></e>
       <e><p><l>мезень-бути<s n="prn"/></l><r>мезень-бди<s n="prn"/></r></p></e>
       <e><p><l>мезеяк<s n="prn"/></l><r>мезевок<s n="prn"/></r></p></e>
-      <e><p><l>минек<s n="prn"/></l><r>минь<s n="prn"/></r></p></e>
+      <e><p><l>минь<s n="prn"/></l><r>минь<s n="prn"/></r></p></e>
+      <e><p><l>минсь<s n="prn"/></l><r>минць<s n="prn"/></r></p></e>
       <e><p><l>мон<s n="prn"/></l><r>мон<s n="prn"/></r></p></e>
+      <e><p><l>монсь<s n="prn"/></l><r>монць<s n="prn"/></r></p></e>
       <e><p><l>не<s n="prn"/></l><r>ня<s n="prn"/></r></p></e>
       <e><p><l>неке<s n="prn"/></l><r>тяка<s n="prn"/></r></p></e>
       <e><p><l>се<s n="prn"/></l><r>ся<s n="prn"/></r></p></e>
@@ -327,10 +332,13 @@
       <e><p><l>сон<s n="prn"/></l><r>сон<s n="prn"/></r></p></e>
       <e><p><l>сонсь<s n="prn"/></l><r>сонць<s n="prn"/></r></p></e>
       <e><p><l>сынь<s n="prn"/></l><r>синь<s n="prn"/></r></p></e>
+      <e><p><l>сынсь<s n="prn"/></l><r>синць<s n="prn"/></r></p></e>
       <e><p><l>те<s n="prn"/></l><r>тя<s n="prn"/></r></p></e>
       <e><p><l>тон<s n="prn"/></l><r>тон<s n="prn"/></r></p></e>
       <e><p><l>тона<s n="prn"/></l><r>тона<s n="prn"/></r></p></e>
-      <e><p><l>тынк<s n="prn"/></l><r>тинь<s n="prn"/></r></p></e>
+      <e><p><l>тонсь<s n="prn"/></l><r>тонць<s n="prn"/></r></p></e>
+      <e><p><l>тынь<s n="prn"/></l><r>тинь<s n="prn"/></r></p></e>
+      <e><p><l>тынсь<s n="prn"/></l><r>тинць<s n="prn"/></r></p></e>
       <e><p><l>эрьва<b/>мезе<s n="prn"/></l><r>мезе<b/>кельк<s n="prn"/></r></p></e>
       <e><p><l>эрьва<b/>мезе<s n="prn"/></l><r>эрь<b/>мезе<s n="prn"/></r></p></e>
   
@@ -1703,6 +1711,7 @@
       <e><p><l>сундерьков<s n="n"/></l><r>ноябрь<s n="n"/></r></p></e>
       <e><p><l>сундерькс<s n="n"/></l><r>сюнерьгодома<s n="n"/></r></p></e>
       <e><p><l>сур<s n="n"/></l><r>сур<s n="n"/></r></p></e>
+      <e><p><l>суре<s n="n"/></l><r>сюре<s n="n"/></r></p></e>
       <e><p><l>суркс<s n="n"/></l><r>суркс<s n="n"/></r></p></e>
       <e><p><l>суркудо<s n="n"/></l><r>сургуд<s n="n"/></r></p></e>
       <e><p><l>суро<s n="n"/></l><r>сура<s n="n"/></r></p></e>
@@ -2130,7 +2139,7 @@
       <e><p><l>ян<s n="n"/></l><r>ян<s n="n"/></r></p></e>
       <e><p><l>ярка<s n="n"/></l><r>поярка<s n="n"/></r></p></e>
       <e><p><l>ярмак<s n="n"/></l><r>ярмак<s n="n"/></r></p></e>
-      <e><p><l>ярмунка<s n="n"/></l><r>ярмарка<s n="n"/></r></p></e>
+      <e r="RL"><p><l>ярмунка<s n="n"/></l><r>ярмарка<s n="n"/></r></p></e>
       <e><p><l>ярмунка<s n="n"/></l><r>ярмонка<s n="n"/></r></p></e>
       <e><p><l>ярсамопель<s n="n"/></l><r>ярхцамбяль<s n="n"/></r></p></e>
       <e><p><l>яходема<s n="n"/></l><r>яфодема<s n="n"/></r></p></e>
@@ -2143,12 +2152,17 @@
       <e><p><l>ёмавкс<s n="n"/></l><r>юмафкс<s n="n"/></r></p></e>
       <e><p><l>ёмамо<s n="n"/></l><r>юмама<s n="n"/></r></p></e>
       <e><p><l>ён<s n="n"/></l><r>шире<s n="n"/></r></p></e>
-      <e><p><l>ён<s n="n"/></l><r>ён<s n="n"/></r></p></e>
+      <e r="RL"><p><l>ён<s n="n"/></l><r>ён<s n="n"/></r></p></e>
       <e><p><l>ёндол<s n="n"/></l><r>ёндол<s n="n"/></r></p></e>
       <e><p><l>ёрокчи<s n="n"/></l><r>ёрокши<s n="n"/></r></p></e>
       <e><p><l>ёртовкст<s n="n"/></l><r>ёрдафкст<s n="n"/></r></p></e>
 
       <!-- SECTION: Proper nouns -->
+          <e><i>Анна<s n="np"/></i></e>
+          <e><i>Зина<s n="np"/></i></e>
+          <e><i>Лёня<s n="np"/></i></e>
+
+
       <e><p><l>Ваня<s n="np"/></l><r>Ваня<s n="np"/></r></p></e>
       <e><p><l>Маря<s n="np"/></l><r>Маря<s n="np"/></r></p></e>
 
@@ -3187,6 +3201,7 @@
       <e><p><l>калядамс<s n="vblex"/><s n="tv"/></l><r>калядамс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>канзедемс<s n="vblex"/><s n="tv"/></l><r>канзедемс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>капшамс<s n="vblex"/><s n="tv"/></l><r>кенордамс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>капшавтнемс<s n="vblex"/><s n="tv"/></l><r>эряскофнемс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>капшамс<s n="vblex"/><s n="tv"/></l><r>эряскодомс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>карамс<s n="vblex"/><s n="tv"/></l><r>карамс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>кардамс<s n="vblex"/><s n="tv"/></l><r>кардамс<s n="vblex"/><s n="tv"/></r></p></e>
@@ -3548,7 +3563,7 @@
       <e><p><l>пезнамс<s n="vblex"/><s n="tv"/></l><r>пезомс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>пезэмс<s n="vblex"/><s n="tv"/></l><r>пезомс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>пейдемс<s n="vblex"/><s n="tv"/></l><r>пейдемс<s n="vblex"/><s n="tv"/></r></p></e>
-      <e><p><l>пелемс<s n="vblex"/><s n="tv"/></l><r>пялемс<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>пелемс²<s n="vblex"/><s n="tv"/></l><r>пялемс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>пельдемс<s n="vblex"/><s n="tv"/></l><r>пяльдемс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>пелькстамс<s n="vblex"/><s n="tv"/></l><r>пялькстамс<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>пенгедемс<s n="vblex"/><s n="tv"/></l><r>пянгодемс<s n="vblex"/><s n="tv"/></r></p></e>
@@ -4757,8 +4772,8 @@
       <e><p><l>пезэмс<s n="vblex"/><s n="iv"/></l><r>пезомс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>пейдемс<s n="vblex"/><s n="iv"/></l><r>пейдемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>пекиямс<s n="vblex"/><s n="iv"/></l><r>пекиямс<s n="vblex"/><s n="iv"/></r></p></e>
-      <e><p><l>пелемс<s n="vblex"/><s n="iv"/></l><r>пелемс<s n="vblex"/><s n="iv"/></r></p></e>
-      <e><p><l>пелемс<s n="vblex"/><s n="iv"/></l><r>пялемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>пелемс¹<s n="vblex"/><s n="iv"/></l><r>пелемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>пелемс²<s n="vblex"/><s n="iv"/></l><r>пялемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>пельдемс<s n="vblex"/><s n="iv"/></l><r>пяльдемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>пелькстамс<s n="vblex"/><s n="iv"/></l><r>пялькстамс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>пенгедемс<s n="vblex"/><s n="iv"/></l><r>пянгодемс<s n="vblex"/><s n="iv"/></r></p></e>
@@ -4781,7 +4796,7 @@
       <e><p><l>пидсемс<s n="vblex"/><s n="iv"/></l><r>пицемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>пижелгадомс<s n="vblex"/><s n="iv"/></l><r>пижелгодомс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>пижелдомс<s n="vblex"/><s n="iv"/></l><r>пижелдомс<s n="vblex"/><s n="iv"/></r></p></e>
-      <e><p><l>пижелдэмс<s n="vblex"/><s n="iv"/></l><r>пижелдомс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e r="LR"><p><l>пижелдэмс<s n="vblex"/><s n="iv"/></l><r>пижелдомс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>пижнемс<s n="vblex"/><s n="iv"/></l><r>ювадемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>пижнемс<s n="vblex"/><s n="iv"/></l><r>пешкодомс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>пиземс<s n="vblex"/><s n="iv"/></l><r>пиземс<s n="vblex"/><s n="iv"/></r></p></e>
@@ -5275,6 +5290,7 @@
       <e><p><l>эрсемс<s n="vblex"/><s n="iv"/></l><r>эрсемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>эртемс<s n="vblex"/><s n="iv"/></l><r>эрьхтемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>эрявомс<s n="vblex"/><s n="iv"/></l><r>эрявомс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e r="RL"><p><l>эрявомс<s n="vblex"/><s n="iv"/></l><r>эрявкстомс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>эрязкадомс<s n="vblex"/><s n="iv"/></l><r>эряскодомс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>эрязкадомс<s n="vblex"/><s n="iv"/></l><r>кенордамс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>эрямс<s n="vblex"/><s n="iv"/></l><r>эрямс<s n="vblex"/><s n="iv"/></r></p></e>
@@ -5290,7 +5306,8 @@
       <e><p><l>эшксемс<s n="vblex"/><s n="iv"/></l><r>эрьхнемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>эшксемс<s n="vblex"/><s n="iv"/></l><r>ишколямс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>ювномс<s n="vblex"/><s n="iv"/></l><r>юрнамс<s n="vblex"/><s n="iv"/></r></p></e>
-      <e><p><l>ювномс<s n="vblex"/><s n="iv"/></l><r>либордемс<b/>нулхтыемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>ювномс<s n="vblex"/><s n="iv"/></l><r>либордемс<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>ювномс<s n="vblex"/><s n="iv"/></l><r>нулхтыемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>ювномс<s n="vblex"/><s n="iv"/></l><r>шаромс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>ювномс<s n="vblex"/><s n="iv"/></l><r>нулхтыемс<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>юводемс<s n="vblex"/><s n="iv"/></l><r>понжафтомс<s n="vblex"/><s n="iv"/></r></p></e>
