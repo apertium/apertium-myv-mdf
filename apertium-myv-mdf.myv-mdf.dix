@@ -4,27 +4,28 @@
   <alphabet></alphabet>
 
   <sdefs>
-    <sdef n="n"        c="Noun"/>
-    <sdef n="np"      c="Proper noun"/>
+    <sdef n="adj"     c="Adjective"/>
+    <sdef n="adv"     c="Adverb"/>
     <sdef n="cnjcoo"   c="Conjunction"/>
     <sdef n="cnjsub"   c="Subjunction"/>
-    <sdef n="post"    c="Postposition"/>
-    <sdef n="num"    c="Numeral"/>
-    <sdef n="ij"    c="Interjection"/>
     <sdef n="det"    c="Determiner"/>
-    <sdef n="adj"     c="Adjective"/>
-    <sdef n="def"     c="Definite"/>
-    <sdef n="ind"     c="Indefinite"/>
-    <sdef n="qnt"     c="Quantifier"/>
+    <sdef n="ij"    c="Interjection"/>
+    <sdef n="n"        c="Noun"/>
+    <sdef n="np"      c="Proper noun"/>
+    <sdef n="num"    c="Numeral"/>
+    <sdef n="pcle"     c="Particle"/>
+    <sdef n="post"    c="Postposition"/>
     <sdef n="prn"     c="Pronouns"/>
     <sdef n="vblex"     c="Verb"/>
     <sdef n="aux"     c="Auxiliary"/>
+    <sdef n="adp"     c="Adposition"/>
+    <sdef n="cop"     c="Copula"/>
+
+    <sdef n="def"     c="Definite"/>
+    <sdef n="ind"     c="Indefinite"/>
+    <sdef n="qnt"     c="Quantifier"/>
     <sdef n="iv"     c="Intransitive"/>
     <sdef n="tv"     c="Transitive"/>
-    <sdef n="adp"     c="Adposition"/>
-    <sdef n="adv"     c="Adverb"/>
-    <sdef n="cop"     c="Copula"/>
-    <sdef n="pcle"     c="Particle"/>
 
     <sdef n="rel"      c="Relative"/>
     <sdef n="ref"     c="Reflexive"/>
@@ -36,33 +37,9 @@
     <sdef n="p2"       c="Second person"/>
     <sdef n="p3"       c="Third person"/>
 
-    <sdef n="s_p1"       c="First person subject"/>
-    <sdef n="s_p2"       c="Second person subject"/>
-    <sdef n="s_p3"       c="Third person subject"/>
-
-    <sdef n="a_p1"       c="First person agent"/>
-    <sdef n="a_p2"       c="Second person agent"/>
-    <sdef n="a_p3"       c="Third person agent"/>
-
-    <sdef n="o_p1"       c="First person object"/>
-    <sdef n="o_p2"       c="Second person object"/>
-    <sdef n="o_p3"       c="Third person object"/>
-
     <sdef n="sg"       c="Singular"/>
     <sdef n="pl"       c="Plural"/>
     <sdef n="sp"      c="Singular/Plural"/>
-
-    <sdef n="s_sg"       c="Singular subject"/>
-    <sdef n="s_pl"       c="Plural subject"/>
-    <sdef n="s_sp"      c="Singular/Plural subject"/>
-
-    <sdef n="a_sg"       c="Singular agent"/>
-    <sdef n="a_pl"       c="Plural agent"/>
-    <sdef n="a_sp"      c="Singular/Plural agent"/>
-
-    <sdef n="o_sg"       c="Singular object"/>
-    <sdef n="o_pl"       c="Plural object"/>
-    <sdef n="o_sp"      c="Singular/Plural object"/>
 
     <sdef n="sg1"      c="First-person singular"/>
     <sdef n="sg2"      c="Second-person singular"/>
@@ -71,12 +48,12 @@
     <sdef n="pl2"      c="Second-person plural"/>
     <sdef n="pl3"      c="Third-person plural"/>
 
-    <sdef n="pxsg1"    c="First-person singular possessive suffix"/>
-    <sdef n="pxsg2"    c="Second-person singular possessive suffix"/>
-    <sdef n="pxsg3"    c="Third-person singular possessive suffix"/>
-    <sdef n="pxpl1"    c="First-person plural possessive suffix"/>
-    <sdef n="pxpl2"    c="Second-person plural possessive suffix"/>
-    <sdef n="pxpl3"    c="Third-person plural possessive suffix"/>
+    <sdef n="px1sg"    c="First-person singular possessive suffix"/>
+    <sdef n="px2sg"    c="Second-person singular possessive suffix"/>
+    <sdef n="px3sg"    c="Third-person singular possessive suffix"/>
+    <sdef n="px1pl"    c="First-person plural possessive suffix"/>
+    <sdef n="px2pl"    c="Second-person plural possessive suffix"/>
+    <sdef n="px3pl"    c="Third-person plural possessive suffix"/>
 
     <sdef n="s_sg1"    c="First-person singular subject marker"/>
     <sdef n="s_sg2"    c="Second-person singular subject marker"/>

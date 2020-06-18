@@ -37,12 +37,12 @@
 	      <cat-item tags="np.*"/>
 	    </def-cat>
 	    <def-cat n="n.possa">
-	      <cat-item tags="n.*.*.pxsg1.*"/>
-	      <cat-item tags="n.*.*.pxsg2.*"/>
-	      <cat-item tags="n.*.*.pxsg3.*"/>
-	      <cat-item tags="n.*.*.pxpl1.*"/>
-	      <cat-item tags="n.*.*.pxpl2.*"/>
-	      <cat-item tags="n.*.*.pxpl3.*"/>
+	      <cat-item tags="n.*.*.px1sg.*"/>
+	      <cat-item tags="n.*.*.px2sg.*"/>
+	      <cat-item tags="n.*.*.px3sg.*"/>
+	      <cat-item tags="n.*.*.px1pl.*"/>
+	      <cat-item tags="n.*.*.px2pl.*"/>
+	      <cat-item tags="n.*.*.px3pl.*"/>
 	    </def-cat>
 	    <def-cat n="prpers">
 	      <cat-item tags="prn.*"/>
@@ -103,14 +103,6 @@
 	      <attr-item tags="o_pl2"/>
 	      <attr-item tags="o_pl3"/>
 	    </def-attr>
-	    <def-attr n="a_sbj-pers">
-	      <attr-item tags="s_p1"/>
-	      <attr-item tags="s_p2"/>
-	      <attr-item tags="s_p3"/>
-	      <attr-item tags="a_p1"/>
-	      <attr-item tags="a_p2"/>
-	      <attr-item tags="a_p3"/>
-	    </def-attr>
 	    <def-attr n="a_sbj-nbr">
 	      <attr-item tags="s_sg"/>
 	      <attr-item tags="s_pl"/>
@@ -118,16 +110,6 @@
 	      <attr-item tags="a_sg"/>
 	      <attr-item tags="a_pl"/>
 	      <attr-item tags="a_sp"/>
-	    </def-attr>
-	    <def-attr n="a_obj-pers">
-	      <attr-item tags="o_p1"/>
-	      <attr-item tags="o_p2"/>
-	      <attr-item tags="o_p3"/>
-	    </def-attr>
-	    <def-attr n="a_obj-nbr">
-	      <attr-item tags="o_sg"/>
-	      <attr-item tags="o_pl"/>
-	      <attr-item tags="o_sp"/>
 	    </def-attr>
 	    <def-attr n="all_pers">
 	      <attr-item tags="impers"/>
@@ -157,21 +139,14 @@
 	      <attr-item tags="px1pl"/>
 	      <attr-item tags="px2pl"/>
 	      <attr-item tags="px3pl"/>
-	
-	      <attr-item tags="pxsg1"/>
-	      <attr-item tags="pxsg2"/>
-	      <attr-item tags="pxsg3"/>
-	      <attr-item tags="pxpl1"/>
-	      <attr-item tags="pxpl2"/>
-	      <attr-item tags="pxpl3"/>
 	    </def-attr>
 	    <def-attr n="a_definiteness">
-	      <attr-item tags="pxsg1"/>
-	      <attr-item tags="pxsg2"/>
-	      <attr-item tags="pxsg3"/>
-	      <attr-item tags="pxpl1"/>
-	      <attr-item tags="pxpl2"/>
-	      <attr-item tags="pxpl3"/>
+	      <attr-item tags="px1sg"/>
+	      <attr-item tags="px2sg"/>
+	      <attr-item tags="px3sg"/>
+	      <attr-item tags="px1pl"/>
+	      <attr-item tags="px2pl"/>
+	      <attr-item tags="px3pl"/>
 	      <attr-item tags="ind"/>
 	      <attr-item tags="def"/>
 	    </def-attr>
@@ -547,7 +522,7 @@
 		<when>
 		  <test>
 		    <and>
-		      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="pxpl1"/></equal>
+		      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="px1pl"/></equal>
 		      <equal><clip pos="1" side="sl" part="a_number"/><lit-tag v="sg"/></equal>
 		    </and>
 		  </test>
@@ -558,7 +533,7 @@
 		<when>
 		  <test>
 		    <and>
-		      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="pxpl1"/></equal>
+		      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="px1pl"/></equal>
 		      <equal><clip pos="1" side="sl" part="a_number"/><lit-tag v="pl"/></equal>
 		    </and>
 		  </test>
@@ -569,7 +544,7 @@
 		<when>
 		  <test>
 		    <and>
-		      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="pxpl2"/></equal>
+		      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="px2pl"/></equal>
 		      <equal><clip pos="1" side="sl" part="a_number"/><lit-tag v="sg"/></equal>
 		    </and>
 		  </test>
@@ -580,7 +555,7 @@
 		<when>
 		  <test>
 		    <and>
-		      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="pxpl2"/></equal>
+		      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="px2pl"/></equal>
 		      <equal><clip pos="1" side="sl" part="a_number"/><lit-tag v="pl"/></equal>
 		    </and>
 		  </test>
@@ -591,7 +566,7 @@
 		<when>
 		  <test>
 		    <and>
-		      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="pxpl3"/></equal>
+		      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="px3pl"/></equal>
 		      <equal><clip pos="1" side="sl" part="a_number"/><lit-tag v="sg"/></equal>
 		    </and>
 		  </test>
@@ -602,7 +577,7 @@
 		<when>
 		  <test>
 		    <and>
-		      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="pxpl3"/></equal>
+		      <equal><clip pos="1" side="sl" part="a_definiteness"/><lit-tag v="px3pl"/></equal>
 		      <equal><clip pos="1" side="sl" part="a_number"/><lit-tag v="pl"/></equal>
 		    </and>
 		  </test>
@@ -745,7 +720,7 @@
 	            <test>
 			  <equal>
 	                  <clip pos="1" side="sl" part="a_px"/>
-	                  <lit-tag v="pxpl1"/></equal>
+	                  <lit-tag v="px1pl"/></equal>
 		    </test>
 	            <let>
 	              <clip pos="1" side="tl" part="number"/>
@@ -757,7 +732,7 @@
 	          <when>
 	            <test>
 	                <equal><clip pos="1" side="sl" part="a_px"/>
-	                <lit-tag v="pxpl2"/></equal>
+	                <lit-tag v="px2pl"/></equal>
 		    </test>
 	            <let>
 	              <clip pos="1" side="tl" part="number"/>
@@ -769,7 +744,7 @@
 		  <when>
 		    <test>
 	                <equal><clip pos="1" side="sl" part="a_px"/>
-	                <lit-tag v="pxpl3"/></equal>
+	                <lit-tag v="px3pl"/></equal>
 		    </test>
 	            <let>
 	              <clip pos="1" side="tl" part="number"/>
