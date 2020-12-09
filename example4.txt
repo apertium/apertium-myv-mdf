@@ -1,0 +1,5 @@
+^цёра<n><sg><nom><def>/цёра<n><sg><nom><def>$
+^якамс<vblex><iv><indic><pret1><s_p3><s_sg>/якамс<vblex><iv><indic><pret1><s_p3><s_sg>$
+^куд<n><sg><gen><def>/кудо<n><sg><gen><def>$
+^эзга<adp><prl>/эзга<adp><prl>$
+^.<sent>/.<sent>$

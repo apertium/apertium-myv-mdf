@@ -1,4 +1,4 @@
 ^Цёра<n><sg><nom><def>/Цёра<n><sg><nom><def>$
 ^якамс<vblex><iv><indic><pret1><s_p3><s_sg>/якамс<vblex><iv><indic><pret1><s_p3><s_sg>$
-^кудо<n><sg><prl><def><@X>/куд<n><sg><prl><def>$
+^кудо<n><sg><prl><def>/куд<n><sg><prl><def>$
 ^.<sent>/.<sent>$

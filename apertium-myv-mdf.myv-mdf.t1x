@@ -627,11 +627,11 @@
 		      <tag><lit-tag v="SN"/></tag>
 		    </tags>
 	            <lu>
-		      <clip pos="1" side="tl" part="lem"/> <!-- Text -> teksti -->
-		      <clip pos="1" side="tl" part="a_nom"/> <!-- n -->
-		      <clip pos="1" side="tl" part="a_number"/> <!-- n -->
-		      <lit-tag v="gen"/>
-		      <clip pos="1" side="tl" part="a_definiteness"/> <!-- n -->
+		      <clip pos="1" side="tl" part="lem"/> <!-- sourceL lemma -> targetL lemma -->
+		      <clip pos="1" side="tl" part="a_nom"/> <!-- Part-of-Speech -->
+		      <clip pos="1" side="tl" part="a_number"/> <!-- Number category -->
+		      <lit-tag v="gen"/> <!-- Target language case requirement -->
+		      <clip pos="1" side="tl" part="a_definiteness"/> <!-- Category of definiteness -->
 		    </lu>
 		    <b/>
 		    <lu>
@@ -658,11 +658,11 @@
 	    </tags>
 	    
             <lu>
-	      <clip pos="1" side="tl" part="lem"/> <!-- Text -> teksti -->
-	      <clip pos="1" side="tl" part="a_nom"/> <!-- n -->
-	      <clip pos="1" side="tl" part="a_number"/> <!-- n -->
-	      <lit-tag v="dat"/>
-	      <clip pos="1" side="tl" part="a_definiteness"/> <!-- n -->
+	      <clip pos="1" side="tl" part="lem"/> <!-- sourceL lemma -> targetL lemma -->
+	      <clip pos="1" side="tl" part="a_nom"/> <!-- Part-of-Speech -->
+	      <clip pos="1" side="tl" part="a_number"/> <!-- Number category -->
+	      <lit-tag v="dat"/> <!-- Target language case requirement -->
+	      <clip pos="1" side="tl" part="a_definiteness"/> <!-- Category of definiteness -->
 	    </lu>
 	  </chunk>
 	</out>
