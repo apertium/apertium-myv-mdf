@@ -22,12 +22,12 @@ out from SVN, and compiled with support for Apertium.
 
 If you've already got the full Giellatekno setup as described at
 http://giellatekno.uit.no/doc/infra/GettingStarted.html you just need
-to compile langs/myv and langs/mdf with apertium-support, so do:
+to compile lang-myv and lang-mdf with apertium-support, so do:
 
-  cd $GTHOME/langs/myv
+  cd $GTHOME/lang-myv
   ./configure --enable-apertium --with-hfst
   make
-  cd $GTHOME/langs/mdf
+  cd $GTHOME/lang-mdf
   ./configure --enable-apertium --with-hfst
   make
 
@@ -73,7 +73,7 @@ Before compiling, you need to configure it to know where myv and mdf
 are. This should work if you've got the regular GTHOME svn setup (as
 described above, or using the regular Giellatekno setup):
 
-  ./autogen.sh --with-lang1=$GTHOME/langs/myv/tools/mt/apertium --with-lang2=$GTHOME/langs/mdf/tools/mt/apertium
+  ./autogen.sh --with-lang1=$GTHOME/lang-myv/tools/mt/apertium --with-lang2=$GTHOME/lang-mdf/tools/mt/apertium
 
 Then do
 

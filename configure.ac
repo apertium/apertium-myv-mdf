@@ -1,6 +1,6 @@
-AC_PREREQ(2.52)
+AC_PREREQ([2.71])
 
-AC_INIT([apertium-myv-mdf], [0.1.0], [trondtr@users.sourceforge.net])
+AC_INIT([apertium-myv-mdf],[0.1.0],[trondtr@users.sourceforge.net])
 AM_INIT_AUTOMAKE([apertium-myv-mdf], [0.1.0], no-define)
 AC_PROG_AWK
 
@@ -20,4 +20,5 @@ AP_CHECK_LING([2], [giella-mdf])
 
 AP_MKINCLUDE
 
-AC_OUTPUT([Makefile])
+AC_CONFIG_FILES([Makefile])
+AC_OUTPUT
