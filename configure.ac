@@ -1,4 +1,4 @@
-AC_PREREQ([2.71])
+AC_PREREQ([2.52])
 
 AC_INIT([apertium-myv-mdf],[0.1.0],[trondtr@users.sourceforge.net])
 AM_INIT_AUTOMAKE([apertium-myv-mdf], [0.1.0], no-define)
@@ -17,6 +17,9 @@ m4_ifdef([AP_CHECK_LING],[],[AC_MSG_ERROR([AP_CHECK_LING not defined, is apertiu
 
 AP_CHECK_LING([1], [giella-myv])
 AP_CHECK_LING([2], [giella-mdf])
+
+PKG_CHECK_MODULES(REGTEST, apertium-regtest >= 0.0.1, [],
+                  [AC_MSG_WARN([Running tests requires apertium-regtest])])
 
 AP_MKINCLUDE
 

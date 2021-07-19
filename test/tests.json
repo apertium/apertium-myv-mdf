@@ -1,0 +1,10 @@
+{
+    "mdf-myv": {
+        "input": "mdf-myv-input.txt",
+        "mode": "mdf-myv"
+    },
+    "myv-mdf": {
+        "input": "myv-mdf-input.txt",
+        "mode": "myv-mdf"
+    }
+}

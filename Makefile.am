@@ -223,10 +223,4 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "псакась" | apertium -d . myv-mdf | tee .test-mt
-	@echo "кискась" > .test-ref
-	@diff .test-ref .test-mt
-	echo "вастс" | apertium -d . mdf-myv | tee .test-mt
-	@echo "таркас" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
+	apertium-regtest test
