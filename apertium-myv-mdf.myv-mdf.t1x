@@ -636,6 +636,7 @@
 		    <b/>
 		    <lu>
 		      <lit v="эзга"/>
+<!--		      <clip pos="1" side="tl" part="a_cas"/>--> <!-- Category of Case -->
 		      <lit-tag v="adp"/>
 		      <lit-tag v="prl"/>
 	            </lu>
@@ -656,7 +657,6 @@
 	      <tag><lit-tag v="SN"/></tag>
 	      <tag><lit-tag v="TURTOV"/></tag>
 	    </tags>
-	    
             <lu>
 	      <clip pos="1" side="tl" part="lem"/> <!-- sourceL lemma -> targetL lemma -->
 	      <clip pos="1" side="tl" part="a_nom"/> <!-- Part-of-Speech -->
@@ -676,8 +676,8 @@
 	      </pattern>
 	      <action>
 	        <let><clip pos="1" side="tl" part="a_sem"/><lit v=""/></let>
-	        <let><clip pos="1" side="tl" part="x_func"/><lit v=""/></let>
-	        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+<!--	2023-01-11        <let><clip pos="1" side="tl" part="x_func"/><lit v=""/></let>
+-->	        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
 	        <out>
 	          <chunk name="default" case="caseFirstWord">
 	            <tags>
@@ -723,7 +723,7 @@
 	                  <lit-tag v="px1pl"/></equal>
 		    </test>
 	            <let>
-	              <clip pos="1" side="tl" part="number"/>
+	              <clip pos="1" side="tl" part="a_number"/>
 	              <lit-tag v="sp"/>
 	            </let>
 		  </when>
@@ -731,12 +731,20 @@
 		<choose>
 	          <when>
 	            <test>
+		      <!--		      <and>-->
+		      
 	                <equal><clip pos="1" side="sl" part="a_px"/>
 	                <lit-tag v="px2pl"/></equal>
+			
+<!--			<equal><clip pos="1" side="sl" part="a_number"/><lit-tag v="sp"/></equal>
+--><!--		    </and>-->
 		    </test>
 	            <let>
-	              <clip pos="1" side="tl" part="number"/>
+
+		      <!--		      <var n="number"/><lit-tag v="sp"/>
+-->	              <clip pos="1" side="tl" part="a_number"/>
 	              <lit-tag v="sp"/>
+
 	            </let>
 		  </when>
 		</choose>
@@ -747,7 +755,7 @@
 	                <lit-tag v="px3pl"/></equal>
 		    </test>
 	            <let>
-	              <clip pos="1" side="tl" part="number"/>
+	              <clip pos="1" side="tl" part="a_number"/>
 	              <lit-tag v="sp"/>
 	            </let>
 	          </when>
