@@ -7,6 +7,14 @@
 	    <def-cat n="n.gen.def">
 	      <cat-item tags="n.*.gen.def.*"/>
 	    </def-cat>
+	    <def-cat n="n.gen.px">
+	      <cat-item tags="n.*.gen.px1sg.*"/>
+	      <cat-item tags="n.*.gen.px2sg.*"/>
+	      <cat-item tags="n.*.gen.px3sg.*"/>
+	      <cat-item tags="n.*.gen.px1pl.*"/>
+	      <cat-item tags="n.*.gen.px2pl.*"/>
+	      <cat-item tags="n.*.gen.px3pl.*"/>
+	    </def-cat>
 	    <def-cat n="n.dat.px">
 	      <cat-item tags="n.*.dat.px1sg.*"/>
 	      <cat-item tags="n.*.dat.px2sg.*"/>
@@ -90,19 +98,6 @@
 	      <attr-item tags="opt"/>
 	      <attr-item tags="prec"/>
 	    </def-attr>
-	    <def-attr n="a_number">
-	      <attr-item tags="sg"/>
-	      <attr-item tags="pl"/>
-	      <attr-item tags="sp"/>
-	    </def-attr>
-	    <def-attr n="a_obj">
-	      <attr-item tags="o_sg1"/>
-	      <attr-item tags="o_sg2"/>
-	      <attr-item tags="o_sg3"/>
-	      <attr-item tags="o_pl1"/>
-	      <attr-item tags="o_pl2"/>
-	      <attr-item tags="o_pl3"/>
-	    </def-attr>
 	    <def-attr n="a_sbj-pers">
 	      <attr-item tags="s_p1"/>
 	      <attr-item tags="s_p2"/>
@@ -110,14 +105,6 @@
 	      <attr-item tags="a_p1"/>
 	      <attr-item tags="a_p2"/>
 	      <attr-item tags="a_p3"/>
-	    </def-attr>
-	    <def-attr n="a_sbj-nbr">
-	      <attr-item tags="s_sg"/>
-	      <attr-item tags="s_pl"/>
-	      <attr-item tags="s_sp"/>
-	      <attr-item tags="a_sg"/>
-	      <attr-item tags="a_pl"/>
-	      <attr-item tags="a_sp"/>
 	    </def-attr>
 	    <def-attr n="a_obj-pers">
 	      <attr-item tags="o_p1"/>
@@ -128,6 +115,27 @@
 	      <attr-item tags="o_sg"/>
 	      <attr-item tags="o_pl"/>
 	      <attr-item tags="o_sp"/>
+	    </def-attr>	    
+	    <def-attr n="a_number">
+	      <attr-item tags="sg"/>
+	      <attr-item tags="pl"/>
+	      <attr-item tags="sp"/>
+	    </def-attr>	    
+	    <def-attr n="a_obj">
+	      <attr-item tags="o_sg1"/>
+	      <attr-item tags="o_sg2"/>
+	      <attr-item tags="o_sg3"/>
+	      <attr-item tags="o_pl1"/>
+	      <attr-item tags="o_pl2"/>
+	      <attr-item tags="o_pl3"/>
+	    </def-attr>	    
+	    <def-attr n="a_sbj-nbr">
+	      <attr-item tags="s_sg"/>
+	      <attr-item tags="s_pl"/>
+	      <attr-item tags="s_sp"/>
+	      <attr-item tags="a_sg"/>
+	      <attr-item tags="a_pl"/>
+	      <attr-item tags="a_sp"/>
 	    </def-attr>
 	    <def-attr n="all_pers">
 	      <attr-item tags="impers"/>
@@ -151,13 +159,6 @@
 	      <attr-item tags="a_pl3"/>
 	    </def-attr>
 	    <def-attr n="a_px">
-	      <attr-item tags="px1sg"/>
-	      <attr-item tags="px2sg"/>
-	      <attr-item tags="px3sg"/>
-	      <attr-item tags="px1pl"/>
-	      <attr-item tags="px2pl"/>
-	      <attr-item tags="px3pl"/>
-	
 	      <attr-item tags="px1sg"/>
 	      <attr-item tags="px2sg"/>
 	      <attr-item tags="px3sg"/>
@@ -507,7 +508,8 @@
 	      <attr-item tags="s_sg3"/>
 	      <attr-item tags="s_pl1"/>
 	      <attr-item tags="s_pl2"/>
-	      <attr-item tags="s_pl3"/>                                                                         
+	      <attr-item tags="s_pl3"/>
+ 
 	      <attr-item tags="a_sg1"/>
 	      <attr-item tags="a_sg2"/>
 	      <attr-item tags="a_sg3"/>

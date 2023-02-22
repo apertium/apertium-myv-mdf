@@ -4,6 +4,9 @@
 	    <def-cat n="default">
 	      <cat-item tags="*"/>
 	    </def-cat>
+	    <def-cat n="n.gen.def">
+	      <cat-item tags="n.*.gen.def.*"/>
+	    </def-cat>
 	    <def-cat n="n.gen.px">
 	      <cat-item tags="n.*.gen.px1sg.*"/>
 	      <cat-item tags="n.*.gen.px2sg.*"/>
@@ -23,6 +26,9 @@
 	    </def-cat>
 	    <def-cat n="turtov">
 	      <cat-item lemma="туртов" tags="adp.dat"/>
+	    </def-cat>
+	    <def-cat n="adp">
+	      <cat-item tags="adp.*"/>
 	    </def-cat>
 	    <def-cat n="cop">
 	      <cat-item tags="cop.*"/>
@@ -90,6 +96,24 @@
 	      <attr-item tags="opt"/>
 	      <attr-item tags="prec"/>
 	    </def-attr>
+	    <def-attr n="a_sbj-pers">
+	      <attr-item tags="s_p1"/>
+	      <attr-item tags="s_p2"/>
+	      <attr-item tags="s_p3"/>
+	      <attr-item tags="a_p1"/>
+	      <attr-item tags="a_p2"/>
+	      <attr-item tags="a_p3"/>
+	    </def-attr>
+	    <def-attr n="a_obj-pers">
+	      <attr-item tags="o_p1"/>
+	      <attr-item tags="o_p2"/>
+	      <attr-item tags="o_p3"/>
+	    </def-attr>
+	    <def-attr n="a_obj-nbr">
+	      <attr-item tags="o_sg"/>
+	      <attr-item tags="o_pl"/>
+	      <attr-item tags="o_sp"/>
+	    </def-attr>	    
 	    <def-attr n="a_number">
 	      <attr-item tags="sg"/>
 	      <attr-item tags="pl"/>
@@ -482,7 +506,8 @@
 	      <attr-item tags="s_sg3"/>
 	      <attr-item tags="s_pl1"/>
 	      <attr-item tags="s_pl2"/>
-	      <attr-item tags="s_pl3"/>                                                                         
+	      <attr-item tags="s_pl3"/>
+
 	      <attr-item tags="a_sg1"/>
 	      <attr-item tags="a_sg2"/>
 	      <attr-item tags="a_sg3"/>
