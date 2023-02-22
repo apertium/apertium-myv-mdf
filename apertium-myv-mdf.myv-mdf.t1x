@@ -644,7 +644,7 @@
 		</out>
 	      </action>
 	    </rule>
-	
+
     <rule comment="possessive genitive noun with turtov: becomes noun in possessive dative">
       <pattern>
         <pattern-item n="n.gen.px"/>
@@ -669,15 +669,14 @@
       </action>
     </rule>
 
-	    
+
 	    <rule comment="REGLA: DEFAULT">
 	      <pattern>
 	        <pattern-item n="default"/>
 	      </pattern>
 	      <action>
 	        <let><clip pos="1" side="tl" part="a_sem"/><lit v=""/></let>
-<!--	2023-01-11        <let><clip pos="1" side="tl" part="x_func"/><lit v=""/></let>
--->	        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+	        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
 	        <out>
 	          <chunk name="default" case="caseFirstWord">
 	            <tags>

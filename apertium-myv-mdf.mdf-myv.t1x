@@ -628,7 +628,7 @@
       </pattern>
       <action>
         <let><clip pos="1" side="tl" part="a_sem"/><lit v=""/></let>
-        <let><clip pos="1" side="tl" part="x_func"/><lit v=""/></let>
+        <!-- <let><clip pos="1" side="tl" part="x_func"/><lit v=""/></let>-->
         <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
         <out>
           <chunk name="default" case="caseFirstWord">
