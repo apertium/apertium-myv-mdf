@@ -1,5 +1,5 @@
 ###############################################################################
-## Makefile for Northern Saami--Inari Saami
+## Makefile for Ersya Mordvin -- Moksha Mordvin
 ###############################################################################
 
 LANG1=myv
@@ -52,7 +52,7 @@ TARGETS_COMMON =			\
 
 
 # -------------------
-# Northern Saami analysis:
+# Erzya Mordvin analysis:
 # -------------------
 
 .deps/$(LANG1).automorf.hfst: $(AP_SRC1)/apertium-und.$(LANG1)-und.LR.att.gz .deps/.d
@@ -68,7 +68,7 @@ $(PREFIX1).automorf-untrimmed.hfst: .deps/$(LANG1).automorf.hfst
 	hfst-fst2fst -w -i $< -o $@
 
 # -------------------
-# Northern Saami generation:
+# Erzya Mordvin generation:
 # ---------------------
 
 .deps/$(LANG1).autogen.hfst: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).RL.att.gz .deps/.d
@@ -79,7 +79,7 @@ $(PREFIX2).autogen.hfst: .deps/$(LANG1).autogen.hfst
 
 
 # -------------------
-# Inari Saami analysis:
+# Moksha Mordvin analysis:
 # -------------------
 
 .deps/$(LANG2).automorf.hfst: $(AP_SRC2)/apertium-und.$(LANG2)-und.LR.att.gz .deps/.d
@@ -95,7 +95,7 @@ $(PREFIX2).automorf-untrimmed.hfst: .deps/$(LANG2).automorf.hfst
 	hfst-fst2fst -w -i $< -o $@
 
 # -------------------
-# Inari Saami generation:
+# Moksha Mordvin generation:
 # ---------------------
 
 .deps/$(LANG2).autogen.hfst: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).RL.att.gz .deps/.d
