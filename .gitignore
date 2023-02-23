@@ -27,3 +27,4 @@
 /*.zhfst
 /.DS_Store
 /test/*-output.txt
+*.status
