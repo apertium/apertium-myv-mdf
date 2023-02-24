@@ -2986,8 +2986,8 @@
       <e><p><l>важдямс<s n="vblex"/></l><r>басямс<s n="vblex"/></r></p></e>
       <e><p><l>важдямс<s n="vblex"/></l><r>важдамс<s n="vblex"/></r></p></e>
       <e><p><l>важдямс<s n="vblex"/></l><r>важдямс<s n="vblex"/></r></p></e>
-      <e><p><l>важодемс<s n="vblex"/></l><r>покадемс<s n="vblex"/></r></p></e>
-      <e><p><l>важодемс<s n="vblex"/></l><r>путомс<b/>вийхть<s n="vblex"/></r></p></e>
+      <e><p><l>важодемс<s n="vblex"/></l><r>покодемс<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>важодемс<s n="vblex"/></l><r>путомс<b/>вийхть<s n="vblex"/></r></p></e>
       <e><p><l>вазыямс<s n="vblex"/></l><r>вазыямс<s n="vblex"/></r></p></e>
       <e><p><l>вайкстамс<s n="vblex"/></l><r>вайкстомс<s n="vblex"/></r></p></e>
       <e><p><l>вайкстнемс<s n="vblex"/></l><r>вайкснемс<s n="vblex"/></r></p></e>
@@ -2999,13 +2999,13 @@
       <e><p><l>валдомомс<s n="vblex"/></l><r>валдомомс<s n="vblex"/></r></p></e>
       <e><p><l>валномс<s n="vblex"/></l><r>валондомс<s n="vblex"/></r></p></e>
       <e><p><l>валомс<s n="vblex"/></l><r>валомс<s n="vblex"/></r></p></e>
-      <e><p><l>валтомс<s n="vblex"/></l><r>валхтомс<s n="vblex"/></r></p></e>
+      <e r="LR"><p><l>валтомс<s n="vblex"/></l><r>валхтомс<s n="vblex"/></r></p></e>
       <e><p><l>вальсемс<s n="vblex"/></l><r>вальсемс<s n="vblex"/></r></p></e>
       <e><p><l>валямс<s n="vblex"/></l><r>валямс<s n="vblex"/></r></p></e>
       <e><p><l>валяямс<s n="vblex"/></l><r>валяндамс<s n="vblex"/></r></p></e>
       <e><p><l>вандолдомс<s n="vblex"/></l><r>вандолдомс<s n="vblex"/></r></p></e>
       <e><p><l>ваномс<s n="vblex"/></l><r>ваномс<s n="vblex"/></r></p></e>
-      <e><p><l>ваномс<s n="vblex"/></l><r>ванондомс<s n="vblex"/></r></p></e>
+      <e><p><l>ванномс<s n="vblex"/></l><r>ванондомс<s n="vblex"/></r></p></e>
       <e><p><l>ванстомс<s n="vblex"/></l><r>ванфтомс<s n="vblex"/></r></p></e>
       <e><p><l>ванськадомс<s n="vblex"/></l><r>аруямс<s n="vblex"/></r></p></e>
       <e><p><l>вариявтомс<s n="vblex"/></l><r>варяяфтомс<s n="vblex"/></r></p></e>
@@ -3020,7 +3020,7 @@
       <e><p><l>васькамс<s n="vblex"/></l><r>васькамс<s n="vblex"/></r></p></e>
       <e><p><l>ваткамс<s n="vblex"/></l><r>ваткамс<s n="vblex"/></r></p></e>
       <e><p><l>ватордомс<s n="vblex"/></l><r>ватордомс<s n="vblex"/></r></p></e>
-      <e><p><l>ватордомс<s n="vblex"/></l><r>вякнамс<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>ватордомс<s n="vblex"/></l><r>вякнамс<s n="vblex"/></r></p></e>
       <e><p><l>вачкамс<s n="vblex"/></l><r>вачкамс<s n="vblex"/></r></p></e>
       <e><p><l>вачкодемс<s n="vblex"/></l><r>вачкодемс<s n="vblex"/></r></p></e>
       <e><p><l>вачомс<s n="vblex"/></l><r>вачемс<s n="vblex"/></r></p></e>
