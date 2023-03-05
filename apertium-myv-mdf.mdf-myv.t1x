@@ -4,10 +4,16 @@
 	    <def-cat n="default">
 	      <cat-item tags="*"/>
 	    </def-cat>
-	    <def-cat n="n.gen.def">
+	    <def-cat n="n_gen_def">
 	      <cat-item tags="n.*.gen.def.*"/>
 	    </def-cat>
-	    <def-cat n="n.gen.px">
+	    <def-cat n="n_abl_def">
+	      <cat-item tags="n.*.abl.def.*"/>
+	    </def-cat>
+	    <def-cat n="n_prl_def">
+	      <cat-item tags="n.*.prl.def.*"/>
+	    </def-cat>
+	    <def-cat n="n_gen_px">
 	      <cat-item tags="n.*.gen.px1sg.*"/>
 	      <cat-item tags="n.*.gen.px2sg.*"/>
 	      <cat-item tags="n.*.gen.px3sg.*"/>
@@ -15,7 +21,7 @@
 	      <cat-item tags="n.*.gen.px2pl.*"/>
 	      <cat-item tags="n.*.gen.px3pl.*"/>
 	    </def-cat>
-	    <def-cat n="n.dat.px">
+	    <def-cat n="n_dat_px">
 	      <cat-item tags="n.*.dat.px1sg.*"/>
 	      <cat-item tags="n.*.dat.px2sg.*"/>
 	      <cat-item tags="n.*.dat.px3sg.*"/>
@@ -23,14 +29,21 @@
 	      <cat-item tags="n.*.dat.px2pl.*"/>
 	      <cat-item tags="n.*.dat.px3pl.*"/>
 	    </def-cat>
-	    <def-cat n="ezga">
-	      <cat-item lemma="эзга" tags="adp.prl"/>
+	    <def-cat n="ezga_post">
+	      <cat-item lemma="эзга" tags="post.prl"/>
 	    </def-cat>
-	    <def-cat n="turtov">
-	      <cat-item lemma="туртов" tags="adp.dat"/>
+	    <def-cat n="kolga_post">
+	      <cat-item lemma="колга" tags="post"/>
 	    </def-cat>
-	    <def-cat n="adp">
+	    <def-cat n="turtov_post">
+	      <cat-item lemma="туртов" tags="post"/>
+	    </def-cat>
+	    <def-cat n="post">
+	      <cat-item tags="post.*"/>
+	    </def-cat>
+	    <def-cat n="adpos">
 	      <cat-item tags="adp.*"/>
+	      <cat-item tags="post.*"/>
 	    </def-cat>
 	    <def-cat n="cop">
 	      <cat-item tags="cop.*"/>
@@ -44,7 +57,7 @@
 	      <cat-item tags="n.*"/>
 	      <cat-item tags="np.*"/>
 	    </def-cat>
-	    <def-cat n="n.possa">
+	    <def-cat n="n_possa">
 	      <cat-item tags="n.*.*.px1sg.*"/>
 	      <cat-item tags="n.*.*.px2sg.*"/>
 	      <cat-item tags="n.*.*.px3sg.*"/>
@@ -61,7 +74,7 @@
 	    <def-cat n="vrb">
 	      <cat-item tags="vblex.*"/>
 	    </def-cat> 
-	    <def-cat n="tense.v">
+	    <def-cat n="tense_v">
 	      <cat-item tags="vblex.*.*.pres.*"/>
 	      <cat-item tags="vblex.*.*.pret1.*"/>
 	      <cat-item tags="vblex.*.*.pret2.*"/>
@@ -570,10 +583,10 @@
     </rule>
 
 
-    <rule comment="definite genitive noun with ezga: becomes noun in definite prolative">
+    <rule comment="definite genitive noun with ezga_post: becomes noun in definite prolative">
       <pattern>
-        <pattern-item n="n.gen.def"/>
-        <pattern-item n="ezga"/>
+        <pattern-item n="n_gen_def"/>
+        <pattern-item n="ezga_post"/>
       </pattern>
       <action>
         <out>
@@ -595,9 +608,34 @@
       </action>
     </rule>
 
-    <rule comment="noun in dative with possessive: is possessive genitive noun with туртов">
+    <rule comment="definite genitive noun with kolga_post: becomes noun in definite ablative">
       <pattern>
-	        <pattern-item n="n.dat.px"/>
+        <pattern-item n="n_gen_def"/>
+        <pattern-item n="kolga_post"/>
+      </pattern>
+      <action>
+        <out>
+	          <chunk name="nomin" case="caseFirstWord">
+	            <tags>
+	              <tag><lit-tag v="SN"/></tag>
+	              <tag><lit-tag v="ABL"/></tag>
+	            </tags>
+	            
+          <lu>
+		<clip pos="1" side="tl" part="lem"/> <!-- Text -> teksti -->
+		<clip pos="1" side="tl" part="a_nom"/> <!-- Part-of-Speech -->
+		<clip pos="1" side="tl" part="a_number"/> <!-- Number category -->
+		<lit-tag v="abl"/> <!-- Target language case requirement -->
+		<clip pos="1" side="tl" part="a_definiteness"/> <!-- Category of definiteness -->
+	      </lu>
+		  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="noun in dative with possessive: is possessive genitive noun with turtov_post">
+      <pattern>
+	        <pattern-item n="n_dat_px"/>
 	      </pattern>
 	      <action>
 	        <out>
@@ -615,8 +653,8 @@
 		    <b/>
 		    <lu>
 		      <lit v="туртов"/>
-		      <lit-tag v="adp"/>
-		      <lit-tag v="dat"/>
+		      <lit-tag v="post"/>
+		  <!--    <lit-tag v="dat"/> -->
 	            </lu>
 		  </chunk>
 		</out>

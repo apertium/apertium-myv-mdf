@@ -4,10 +4,10 @@
 	    <def-cat n="default">
 	      <cat-item tags="*"/>
 	    </def-cat>
-	    <def-cat n="n.gen.def">
+	    <def-cat n="n_gen_def">
 	      <cat-item tags="n.*.gen.def.*"/>
 	    </def-cat>
-	    <def-cat n="n.gen.px">
+	    <def-cat n="n_gen_px">
 	      <cat-item tags="n.*.gen.px1sg.*"/>
 	      <cat-item tags="n.*.gen.px2sg.*"/>
 	      <cat-item tags="n.*.gen.px3sg.*"/>
@@ -15,20 +15,30 @@
 	      <cat-item tags="n.*.gen.px2pl.*"/>
 	      <cat-item tags="n.*.gen.px3pl.*"/>
 	    </def-cat>
-	    <def-cat n="n.prl.def">
+	    <def-cat n="n_abl_def">
+	      <cat-item tags="n.*.abl.def.*"/>
+	    </def-cat>
+	    <def-cat n="n_prl_def">
 	      <cat-item tags="n.*.prl.def.*"/>
 	    </def-cat>
-	    <def-cat n="kise">
-	      <cat-item lemma="кисэ" tags="adp"/>
+	    <def-cat n="kise_post">
+	      <cat-item lemma="кисэ" tags="post"/>
 	    </def-cat>
-	    <def-cat n="ezga">
-	      <cat-item lemma="эзга" tags="adp"/>
+	    <def-cat n="ezga_post">
+	      <cat-item lemma="эзга" tags="post.prl"/>
 	    </def-cat>
-	    <def-cat n="turtov">
-	      <cat-item lemma="туртов" tags="adp.dat"/>
+	    <def-cat n="kolga_post">
+	      <cat-item lemma="колга" tags="post"/>
 	    </def-cat>
-	    <def-cat n="adp">
+	    <def-cat n="turtov_post">
+	      <cat-item lemma="туртов" tags="post"/>
+	    </def-cat>
+	    <def-cat n="post">
+	      <cat-item tags="post.*"/>
+	    </def-cat>
+	    <def-cat n="adpos">
 	      <cat-item tags="adp.*"/>
+	      <cat-item tags="post.*"/>
 	    </def-cat>
 	    <def-cat n="cop">
 	      <cat-item tags="cop.*"/>
@@ -42,7 +52,7 @@
 	      <cat-item tags="n.*"/>
 	      <cat-item tags="np.*"/>
 	    </def-cat>
-	    <def-cat n="n.possa">
+	    <def-cat n="n_possa">
 	      <cat-item tags="n.*.*.px1sg.*"/>
 	      <cat-item tags="n.*.*.px2sg.*"/>
 	      <cat-item tags="n.*.*.px3sg.*"/>
@@ -59,7 +69,7 @@
 	    <def-cat n="vrb">
 	      <cat-item tags="vblex.*"/>
 	    </def-cat> 
-	    <def-cat n="tense.v">
+	    <def-cat n="tense_v">
 	      <cat-item tags="vblex.*.*.pres.*"/>
 	      <cat-item tags="vblex.*.*.pret1.*"/>
 	      <cat-item tags="vblex.*.*.pret2.*"/>
@@ -531,7 +541,15 @@
 	  </section-def-attrs>
 	
 	  <section-def-vars>
-	    <def-var n="number"/>
+	    <def-var n="number"/> <!-- copy from sme-smn begin -->
+	    <def-var n="current_verb"/>
+	    <def-var n="current_noun"/>
+	    <def-var n="chunk_name"/>
+	    <def-var n="object"/>
+	    <def-var n="subject"/>
+	    <def-var n="func"/> <!-- a_func -->
+	    <def-var n="spred"/>
+	    <def-var n="caseFirstword"/> <!-- added because of Omega-T --> <!-- copy from sme-smn end -->
 	  </section-def-vars>
 	
 	  <section-def-macros>
@@ -643,7 +661,7 @@
 	
 	    <rule comment="noun in definite prolative: is definite genitive noun with ezga">
 	      <pattern>
-	        <pattern-item n="n.prl.def"/>
+	        <pattern-item n="n_prl_def"/>
 	      </pattern>
 	      <action>
 	        <out>
@@ -662,7 +680,7 @@
 		    <lu>
 		      <lit v="эзга"/>
 <!--		      <clip pos="1" side="tl" part="a_cas"/>--> <!-- Category of Case -->
-		      <lit-tag v="adp"/>
+		      <lit-tag v="post"/>
 		      <lit-tag v="prl"/>
 	            </lu>
 		  </chunk>
@@ -670,14 +688,42 @@
 	      </action>
 	    </rule>
 
-    <rule comment="possessive genitive noun with turtov: becomes noun in possessive dative">
+	    <rule comment="noun in definite ablative: is definite genitive noun with kolga">
+	      <pattern>
+	        <pattern-item n="n_abl_def"/>
+	      </pattern>
+	      <action>
+	        <out>
+		  <chunk name="AblDef" case="caseFirstWord">
+		    <tags>
+		      <tag><lit-tag v="SN"/></tag>
+		    </tags>
+	            <lu>
+		      <clip pos="1" side="tl" part="lem"/> <!-- sourceL lemma -> targetL lemma -->
+		      <clip pos="1" side="tl" part="a_nom"/> <!-- Part-of-Speech -->
+		      <clip pos="1" side="tl" part="a_number"/> <!-- Number category -->
+		      <lit-tag v="gen"/> <!-- Target language case requirement -->
+		      <clip pos="1" side="tl" part="a_definiteness"/> <!-- Category of definiteness -->
+		    </lu>
+		    <b/>
+		    <lu>
+		      <lit v="колга"/>
+<!--		      <clip pos="1" side="tl" part="a_cas"/>--> <!-- Category of Case -->
+		      <lit-tag v="post"/>
+	            </lu>
+		  </chunk>
+		</out>
+	      </action>
+	    </rule>
+
+    <rule comment="possessive genitive noun n.gen.px with turtov_post: becomes noun in possessive dative">
       <pattern>
-        <pattern-item n="n.gen.px"/>
-        <pattern-item n="turtov"/>
+        <pattern-item n="n_gen_px"/>
+        <pattern-item n="turtov_post"/>
       </pattern>
       <action>
         <out>
-	  <chunk name="nomin" case="caseFirstWord">
+	  <chunk name="noun-dat-px" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	      <tag><lit-tag v="TURTOV"/></tag>
@@ -693,7 +739,31 @@
 	</out>
       </action>
     </rule>
-
+    <!--
+	    <rule comment="possessive genitive noun with turtov_post: becomes noun in possessive dative">
+      <pattern>
+        <pattern-item n="n_gen_px"/>
+        <pattern-item n="turtov_post"/>
+      </pattern>
+      <action>
+        <out>
+	  <chunk name="noun-dat-px" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	      <tag><lit-tag v="TURTOV"/></tag>
+	    </tags>
+            <lu>
+	      <clip pos="1" side="tl" part="lem"/>
+	      <clip pos="1" side="tl" part="a_nom"/>
+	      <clip pos="1" side="tl" part="a_number"/>
+	      <lit-tag v="dat"/>
+	      <clip pos="1" side="tl" part="a_definiteness"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+-->
 
 	    <rule comment="REGLA: DEFAULT">
 	      <pattern>
@@ -736,7 +806,7 @@
 	
 	    <rule comment="REGLA: NUMBER OF POSSESSA">
 	      <pattern>
-	        <pattern-item n="n.possa"/>
+	        <pattern-item n="n_possa"/>
 	      </pattern>
 	      <action>
 	        <choose>
