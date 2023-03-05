@@ -74,6 +74,22 @@
 	      <cat-item tags="vblex.*.*.pret1.*"/>
 	      <cat-item tags="vblex.*.*.pret2.*"/>
 	    </def-cat>
+
+	    <def-cat n="months_n">
+	      <cat-item lemma="якшамков" tags="n.*"/>
+	      <cat-item lemma="даволков" tags="n.*"/>
+	      <cat-item lemma="эйзюрков" tags="n.*"/>
+	      <cat-item lemma="чадыков" tags="n.*"/>
+	      <cat-item lemma="панжиков" tags="n.*"/>
+	      <cat-item lemma="аштемков" tags="n.*"/>
+	      <cat-item lemma="медьков" tags="n.*"/>
+	      <cat-item lemma="умарьков" tags="n.*"/>
+	      <cat-item lemma="таштамков" tags="n.*"/>
+	      <cat-item lemma="ожоков" tags="n.*"/>
+	      <cat-item lemma="сундерьков" tags="n.*"/>
+	      <cat-item lemma="ацамков" tags="n.*"/>
+	    </def-cat>
+		
 	  </section-def-cats>
 	
 	  <section-def-attrs>
@@ -551,7 +567,38 @@
 	    <def-var n="spred"/>
 	    <def-var n="caseFirstword"/> <!-- added because of Omega-T --> <!-- copy from sme-smn end -->
 	  </section-def-vars>
-	
+
+	  <section-def-lists>
+	    <def-list n="gennum">
+	      <list-item v="1"/>
+	      <list-item v="2"/>
+	      <list-item v="3"/>
+	      <list-item v="4"/>
+	      <list-item v="5"/>
+	      <list-item v="6"/>
+	      <list-item v="фкя"/>
+	      <list-item v="кафта"/>
+	      <list-item v="колма"/>
+	      <list-item v="ниле"/>
+	      <list-item v="вете"/>
+	      <list-item v="кота"/>
+	      <list-item v="вейке"/>
+	      <list-item v="кавто"/>
+	      <list-item v="колмо"/>
+	      <list-item v="ниле"/>
+	      <list-item v="вете"/>
+	      <list-item v="кото"/>
+	      <list-item v="мзяра"/>
+	      <list-item v="зяро"/>
+	    </def-list>
+	    <def-list n="abl_verbs">
+	      <list-item v="ловномс"/>
+	      <list-item v="кортамс"/>
+	      <list-item v="ледстемс"/>
+	      <list-item v="марямс"/>
+	    </def-list>
+	  </section-def-lists>
+	  
 	  <section-def-macros>
 	    <def-macro n="test" npar="1">
 	          <let>
