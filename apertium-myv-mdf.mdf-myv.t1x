@@ -583,27 +583,26 @@
     </rule>
 
 
-    <rule comment="definite genitive noun with ezga_post: becomes noun in definite prolative">
+    <rule comment=" -NP n_gen_def with ezga_post" c="кудть эзга : кудованть">
       <pattern>
         <pattern-item n="n_gen_def"/>
         <pattern-item n="ezga_post"/>
       </pattern>
       <action>
-        <out>
-	          <chunk name="nomin" case="caseFirstWord">
-	            <tags>
-	              <tag><lit-tag v="SN"/></tag>
-	              <tag><lit-tag v="PRL"/></tag>
-	            </tags>
-	            
-          <lu>
-		<clip pos="1" side="tl" part="lem"/> <!-- Text -> teksti -->
-		<clip pos="1" side="tl" part="a_nom"/> <!-- n -->
-		<clip pos="1" side="tl" part="a_number"/> <!-- n -->
-		<lit-tag v="prl"/>
-		<clip pos="1" side="tl" part="a_definiteness"/> <!-- n -->
-	      </lu>
-		  </chunk>
+        <out>	  
+	  <chunk name="nomin" case="caseFirstWord">
+	    <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="PRL"/></tag>
+            </tags>
+            <lu>
+	      <clip pos="1" side="tl" part="lem"/>
+	      <clip pos="1" side="tl" part="a_nom"/>
+	      <clip pos="1" side="tl" part="a_number"/>
+	      <lit-tag v="prl"/>
+	      <clip pos="1" side="tl" part="a_definiteness"/>
+	    </lu>
+	  </chunk>
 	</out>
       </action>
     </rule>
