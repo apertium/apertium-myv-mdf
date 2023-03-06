@@ -4,8 +4,17 @@
 	    <def-cat n="default">
 	      <cat-item tags="*"/>
 	    </def-cat>
+	    <def-cat n="n_abl_def">
+	      <cat-item tags="n.*.abl.def.*"/>
+	    </def-cat>
+	    <def-cat n="n_dat_def">
+	      <cat-item tags="n.*.dat.def.*"/>
+	    </def-cat>
 	    <def-cat n="n_gen_def">
 	      <cat-item tags="n.*.gen.def.*"/>
+	    </def-cat>
+	    <def-cat n="n_prl_def">
+	      <cat-item tags="n.*.prl.def.*"/>
 	    </def-cat>
 	    <def-cat n="n_gen_px">
 	      <cat-item tags="n.*.gen.px1sg.*"/>
@@ -15,25 +24,20 @@
 	      <cat-item tags="n.*.gen.px2pl.*"/>
 	      <cat-item tags="n.*.gen.px3pl.*"/>
 	    </def-cat>
-	    <def-cat n="n_abl_def">
-	      <cat-item tags="n.*.abl.def.*"/>
-	    </def-cat>
-	    <def-cat n="n_prl_def">
-	      <cat-item tags="n.*.prl.def.*"/>
-	    </def-cat>
 	    <def-cat n="kise_post">
-	      <cat-item lemma="кисэ" tags="post"/>
+	      <cat-item lemma="кисэ" tags="post.*"/>
 	    </def-cat>
 	    <def-cat n="ezga_post">
-	      <cat-item lemma="эзга" tags="post.prl"/>
+	      <cat-item lemma="эзга" tags="post.*"/>
 	    </def-cat>
 	    <def-cat n="kolga_post">
-	      <cat-item lemma="колга" tags="post"/>
+	      <cat-item lemma="колга" tags="post.*"/>
 	    </def-cat>
 	    <def-cat n="turtov_post">
-	      <cat-item lemma="туртов" tags="post"/>
+	      <cat-item lemma="туртов" tags="post.*"/>
 	    </def-cat>
 	    <def-cat n="post">
+	      <cat-item tags="post"/>
 	      <cat-item tags="post.*"/>
 	    </def-cat>
 	    <def-cat n="adpos">
@@ -786,31 +790,32 @@
 	</out>
       </action>
     </rule>
-    <!--
-	    <rule comment="possessive genitive noun with turtov_post: becomes noun in possessive dative">
+
+
+    <rule comment="n_gen_def with turtov_post" c=" кудонть туртов : кудти">
       <pattern>
-        <pattern-item n="n_gen_px"/>
+        <pattern-item n="n_gen_def"/>
         <pattern-item n="turtov_post"/>
       </pattern>
       <action>
         <out>
-	  <chunk name="noun-dat-px" case="caseFirstWord">
+	  <chunk name="nomin" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
-	      <tag><lit-tag v="TURTOV"/></tag>
+	      <tag><lit-tag v="DAT"/></tag>
 	    </tags>
             <lu>
-	      <clip pos="1" side="tl" part="lem"/>
-	      <clip pos="1" side="tl" part="a_nom"/>
-	      <clip pos="1" side="tl" part="a_number"/>
-	      <lit-tag v="dat"/>
-	      <clip pos="1" side="tl" part="a_definiteness"/>
+	      <clip pos="1" side="tl" part="lem"/> <!-- Text -> teksti -->
+	      <clip pos="1" side="tl" part="a_nom"/> <!-- Part-of-Speech -->
+	      <clip pos="1" side="tl" part="a_number"/> <!-- Number category -->
+	      <lit-tag v="dat"/> <!-- Target language case requirement -->
+	      <clip pos="1" side="tl" part="a_definiteness"/> <!-- Category of definiteness -->
 	    </lu>
 	  </chunk>
 	</out>
       </action>
     </rule>
--->
+
 
 	    <rule comment="REGLA: DEFAULT">
 	      <pattern>

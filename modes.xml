@@ -592,7 +592,7 @@
         <file name="apertium-myv-mdf.mdf-myv.t1x"/>
         <file name="mdf-myv.t1x.bin"/>
       </program>
-      <program name="apertium-interchunk">
+      <program name="apertium-interchunk -t">
         <file name="apertium-myv-mdf.mdf-myv.t2x"/>
         <file name="mdf-myv.t2x.bin"/>
       </program>
