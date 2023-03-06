@@ -32,6 +32,20 @@
 	      <cat-item tags="n.*.dat.px2pl.*"/>
 	      <cat-item tags="n.*.dat.px3pl.*"/>
 	    </def-cat>
+	    <def-cat n="prn">
+	      <cat-item tags="prn.*"/>
+	    </def-cat>
+	    <def-cat n="prn_pers">
+	      <cat-item tags="prn.pers.*"/>
+	    </def-cat>
+	    <def-cat n="prn_dat_aram">
+	      <cat-item tags="prn.pers.p1.sg.dat.short.clt_aram.*"/>
+	      <cat-item tags="prn.pers.p2.sg.dat.short.clt_aram.*"/>
+	      <cat-item tags="prn.pers.p3.sg.dat.short.clt_aram.*"/>
+	      <cat-item tags="prn.pers.p1.pl.dat.short.clt_aram.*"/>
+	      <cat-item tags="prn.pers.p2.pl.dat.short.clt_aram.*"/>
+	      <cat-item tags="prn.pers.p3.pl.dat.short.clt_aram.*"/>
+	    </def-cat>
 	    <def-cat n="ezga_post">
 	      <cat-item lemma="эзга" tags="post.*"/>
 	    </def-cat>
@@ -56,6 +70,7 @@
 	      <cat-item tags="n.*"/>
 	      <cat-item tags="adj"/>
 	      <cat-item tags="adj.*"/>
+	      <cat-item tags="prn.*"/>
 	    </def-cat>
 	    <def-cat n="nom">
 	      <cat-item tags="n.*"/>
@@ -193,12 +208,30 @@
 	      <attr-item tags="ind"/>
 	      <attr-item tags="def"/>
 	    </def-attr>
+	    <def-attr n="a_nbr">
+	      <attr-item tags="sg"/>
+	      <attr-item tags="pl"/>
+	    </def-attr>
 	    <def-attr n="a_nom">
 	      <attr-item tags="n"/>
 	      <attr-item tags="np"/>
 	    </def-attr>
 	    <def-attr n="a_num">
 	      <attr-item tags="num"/>
+	    </def-attr>
+	    <def-attr n="a_person">
+	      <attr-item tags="p1"/>
+	      <attr-item tags="p2"/>
+	      <attr-item tags="p3"/>
+	    </def-attr>
+	    <def-attr n="a_prn_type">
+	      <attr-item tags="rel"/>
+	      <attr-item tags="res"/>
+	      <attr-item tags="ind"/>
+	      <attr-item tags="dem"/>
+	      <attr-item tags="pers"/>
+	      <attr-item tags="itg"/>
+	      <attr-item tags="ref"/>
 	    </def-attr>
 	    <def-attr n="a_subj">
 	      <attr-item tags="s_sg1"/>
@@ -663,7 +696,40 @@
 	      </action>
 	    </rule>
 
+	    <!-- "мон" Pron Pers Sg1 Dat Short Clt/Aram : "мон" Pron Pers Sg1 Gen + "кой" N SP Ine Indef -->
 
+	    <rule comment="prn_dat_aram" c=" тейне-арам : монь койсэ">
+	      <pattern>
+	        <pattern-item n="prn_dat_aram"/>
+	      </pattern>
+	      <action>
+	        <out>
+		  <chunk name="prn" case="caseFirstWord">
+		    <tags>
+		      <tag><lit-tag v="SN"/></tag>
+		    </tags>
+	            <lu>
+		      <clip pos="1" side="tl" part="lem"/> <!-- Text -> teksti -->
+		      <lit-tag v="prn"/>
+		      <clip pos="1" side="tl" part="a_prn_type"/> <!-- n -->
+		      <clip pos="1" side="tl" part="a_person"/> <!-- n -->
+		      <clip pos="1" side="tl" part="a_nbr"/> <!-- n -->
+		      <lit-tag v="gen"/>
+		    </lu>
+		    <b/>
+		    <lu>
+		      <lit v="кой"/>
+		      <lit-tag v="n"/>
+		      <lit-tag v="sp"/>
+		      <lit-tag v="ine"/>
+		      <lit-tag v="ind"/>
+	            </lu>
+		  </chunk>
+		</out>
+	      </action>
+	    </rule>
+
+	    
     <rule comment="REGLA: DEFAULT">
       <pattern>
         <pattern-item n="default"/>

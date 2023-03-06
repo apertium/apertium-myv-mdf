@@ -128,6 +128,8 @@
     <sdef n="der_sje"    c=""/>
     <sdef n="der_sto"    c=""/>
     <sdef n="der_tjks"    c=""/>
+    <sdef n="long"    c="long dative personal pronoun: сонденза"/>
+    <sdef n="short"    c="short dative personal pronoun тейнза"/>
 
     <sdef n="deg"    c="Degree verb big, very quickly"/>
 
@@ -153,6 +155,7 @@
     <sdef n="prec"   c="Precative"/>
 
     <sdef n="clt_cop"  c="Copula clitic"/>
+    <sdef n="clt_aram"  c="opinion clitic"/>
     <sdef n="clt_add"  c="Additive clitic -Гак"/>
 
     <sdef n="cmp"      c="Compound"/>

@@ -211,6 +211,15 @@
 	    <def-attr n="a_num">
 	      <attr-item tags="num"/>
 	    </def-attr>
+	    <def-attr n="a_prn_type">
+	      <attr-item tags="rel"/>
+	      <attr-item tags="res"/>
+	      <attr-item tags="ind"/>
+	      <attr-item tags="dem"/>
+	      <attr-item tags="pers"/>
+	      <attr-item tags="itg"/>
+	      <attr-item tags="ref"/>
+	    </def-attr>
 	    <def-attr n="a_subj">
 	      <attr-item tags="s_sg1"/>
 	      <attr-item tags="s_sg2"/>
