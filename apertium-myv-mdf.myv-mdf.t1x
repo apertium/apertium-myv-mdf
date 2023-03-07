@@ -24,6 +24,23 @@
 	      <cat-item tags="n.*.gen.px2pl.*"/>
 	      <cat-item tags="n.*.gen.px3pl.*"/>
 	    </def-cat>
+	    <def-cat n="prn">
+	      <cat-item tags="prn.*"/>
+	    </def-cat>
+	    <def-cat n="prn_pers">
+	      <cat-item tags="prn.pers.*"/>
+	    </def-cat>
+	    <def-cat n="prn_gen">
+	      <cat-item tags="prn.pers.p1.sg.gen.*"/>
+	      <cat-item tags="prn.pers.p2.sg.gen.*"/>
+	      <cat-item tags="prn.pers.p3.sg.gen.*"/>
+	      <cat-item tags="prn.pers.p1.pl.gen.*"/>
+	      <cat-item tags="prn.pers.p2.pl.gen.*"/>
+	      <cat-item tags="prn.pers.p3.pl.gen.*"/>
+	    </def-cat>
+	    <def-cat n="koj_ine">
+	      <cat-item lemma="кой" tags="n.sp.ine.ind.*"/>
+	    </def-cat>
 	    <def-cat n="kise_post">
 	      <cat-item lemma="кисэ" tags="post.*"/>
 	    </def-cat>
@@ -204,12 +221,21 @@
 	      <attr-item tags="ind"/>
 	      <attr-item tags="def"/>
 	    </def-attr>
+	    <def-attr n="a_nbr">
+	      <attr-item tags="sg"/>
+	      <attr-item tags="pl"/>
+	    </def-attr>
 	    <def-attr n="a_nom">
 	      <attr-item tags="n"/>
 	      <attr-item tags="np"/>
 	    </def-attr>
 	    <def-attr n="a_num">
 	      <attr-item tags="num"/>
+	    </def-attr>
+	    <def-attr n="a_person">
+	      <attr-item tags="p1"/>
+	      <attr-item tags="p2"/>
+	      <attr-item tags="p3"/>
 	    </def-attr>
 	    <def-attr n="a_prn_type">
 	      <attr-item tags="rel"/>
@@ -824,6 +850,34 @@
 	</out>
       </action>
     </rule>
+
+	    <!-- "мон" Pron Pers Sg1 Gen + "кой" N SP Ine Indef : "мон" Pron Pers Sg1 Dat Short Clt/Aram -->
+
+	    <rule comment="prn_gen" c="монь койсэ : тейне-арам ">
+	      <pattern>
+	        <pattern-item n="prn_gen"/>
+	        <pattern-item n="koj_ine"/>
+	      </pattern>
+	      <action>
+	        <out>
+		  <chunk name="prn" case="caseFirstWord">
+		    <tags>
+		      <tag><lit-tag v="SN"/></tag>
+		    </tags>
+	            <lu>
+		      <clip pos="1" side="tl" part="lem"/> <!-- Text -> teksti -->
+		      <lit-tag v="prn"/>
+		      <clip pos="1" side="tl" part="a_prn_type"/> <!-- n -->
+		      <clip pos="1" side="tl" part="a_person"/> <!-- n -->
+		      <clip pos="1" side="tl" part="a_nbr"/> <!-- n -->
+		      <lit-tag v="dat"/>
+		      <lit-tag v="short"/>
+		      <lit-tag v="clt_aram"/>
+		    </lu>
+		  </chunk>
+		</out>
+	      </action>
+	    </rule>
 
 
 	    <rule comment="REGLA: DEFAULT">

@@ -45,12 +45,6 @@
 	      <cat-item tags="prn.pers.p1.pl.dat.short.clt_aram.*"/>
 	      <cat-item tags="prn.pers.p2.pl.dat.short.clt_aram.*"/>
 	      <cat-item tags="prn.pers.p3.pl.dat.short.clt_aram.*"/>
-	      <cat-item tags="prn.pers.sg1.dat.short.clt_aram.*"/>
-	      <cat-item tags="prn.pers.sg2.dat.short.clt_aram.*"/>
-	      <cat-item tags="prn.pers.sg3.dat.short.clt_aram.*"/>
-	      <cat-item tags="prn.pers.pl1.dat.short.clt_aram.*"/>
-	      <cat-item tags="prn.pers.pl2.dat.short.clt_aram.*"/>
-	      <cat-item tags="prn.pers.pl3.dat.short.clt_aram.*"/>
 	    </def-cat>
 	    <def-cat n="ezga_post">
 	      <cat-item lemma="эзга" tags="post.*"/>
