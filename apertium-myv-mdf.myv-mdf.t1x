@@ -13,6 +13,10 @@
 	    <def-cat n="n_gen_def">
 	      <cat-item tags="n.*.gen.def.*"/>
 	    </def-cat>
+	    <def-cat n="n_gen">
+	      <cat-item tags="n.*.gen.*"/>
+	      <cat-item tags="np.*.gen.*"/>
+	    </def-cat>
 	    <def-cat n="n_prl_def">
 	      <cat-item tags="n.*.prl.def.*"/>
 	    </def-cat>
@@ -872,6 +876,30 @@
 		      <clip pos="1" side="tl" part="a_nbr"/> <!-- n -->
 		      <lit-tag v="dat"/>
 		      <lit-tag v="short"/>
+		      <lit-tag v="clt_aram"/>
+		    </lu>
+		  </chunk>
+		</out>
+	      </action>
+	    </rule>
+
+	    <rule comment="n_gen" c="Аннань койсэ : Аннанди-арам ">
+	      <pattern>
+	        <pattern-item n="n_gen"/>
+	        <pattern-item n="koj_ine"/>
+	      </pattern>
+	      <action>
+	        <out>
+		  <chunk name="nomin" case="caseFirstWord">
+		    <tags>
+		      <tag><lit-tag v="SN"/></tag>
+		    </tags>
+	            <lu>
+		      <clip pos="1" side="tl" part="lem"/> <!-- Text -> teksti -->
+		      <clip pos="1" side="tl" part="a_nom"/> <!-- n -->
+		      <clip pos="1" side="tl" part="a_number"/> <!-- n -->
+		      <lit-tag v="dat"/>
+		      <clip pos="1" side="tl" part="a_definiteness"/> <!-- Category of definiteness -->
 		      <lit-tag v="clt_aram"/>
 		    </lu>
 		  </chunk>

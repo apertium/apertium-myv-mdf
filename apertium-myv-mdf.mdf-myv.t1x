@@ -32,6 +32,14 @@
 	      <cat-item tags="n.*.dat.px2pl.*"/>
 	      <cat-item tags="n.*.dat.px3pl.*"/>
 	    </def-cat>
+	    <def-cat n="n_dat_aram">
+	      <cat-item tags="n.sp.dat.ind.clt_aram.*"/>
+	      <cat-item tags="n.sg.dat.def.clt_aram.*"/>
+	      <cat-item tags="n.pl.dat.def.clt_aram.*"/>
+	      <cat-item tags="np.sp.dat.ind.clt_aram.*"/>
+	      <cat-item tags="np.sg.dat.def.clt_aram.*"/>
+	      <cat-item tags="np.pl.dat.def.clt_aram.*"/>
+	    </def-cat>
 	    <def-cat n="prn">
 	      <cat-item tags="prn.*"/>
 	    </def-cat>
@@ -715,6 +723,36 @@
 		      <clip pos="1" side="tl" part="a_person"/> <!-- n -->
 		      <clip pos="1" side="tl" part="a_nbr"/> <!-- n -->
 		      <lit-tag v="gen"/>
+		    </lu>
+		    <b/>
+		    <lu>
+		      <lit v="кой"/>
+		      <lit-tag v="n"/>
+		      <lit-tag v="sp"/>
+		      <lit-tag v="ine"/>
+		      <lit-tag v="ind"/>
+	            </lu>
+		  </chunk>
+		</out>
+	      </action>
+	    </rule>
+
+	    <rule comment="n_dat_aram" c=" Аннанди-арам : Аннань койсэ">
+	      <pattern>
+	        <pattern-item n="n_dat_aram"/>
+	      </pattern>
+	      <action>
+	        <out>
+		  <chunk name="nomin" case="caseFirstWord">
+		    <tags>
+		      <tag><lit-tag v="SN"/></tag>
+		    </tags>
+	            <lu>
+		      <clip pos="1" side="tl" part="lem"/> <!-- Text -> teksti -->
+		      <clip pos="1" side="tl" part="a_nom"/> <!-- n -->
+		      <clip pos="1" side="tl" part="a_number"/> <!-- n -->
+		      <lit-tag v="gen"/>
+		      <clip pos="1" side="tl" part="a_definiteness"/> <!-- n -->
 		    </lu>
 		    <b/>
 		    <lu>
