@@ -16,6 +16,7 @@
     <sdef n="pcle"     c="Particle"/>
     <sdef n="post"    c="Postposition"/>
     <sdef n="prn"     c="Pronouns"/>
+    <sdef n="relator"      c="Relator noun"/>
     <sdef n="vblex"     c="Verb"/>
     <sdef n="aux"     c="Auxiliary"/>
     <sdef n="adp"     c="Adposition"/>
@@ -233,7 +234,7 @@
       <e><p><l>лангс<s n="post"/></l><r>лангс<s n="post"/></r></p></e>
       <e><p><l>лангсо<s n="post"/></l><r>лангса<s n="post"/></r></p></e>
       <e><p><l>лангсто<s n="post"/></l><r>лангста<s n="post"/></r></p></e>
-      <e><p><l>малас<s n="post"/></l><r>малас<s n="post"/></r></p></e>
+      <e><p><l>малас<s n="post"/><s n="ill"/></l><r>мала<s n="n"/><s n="relator"/><s n="sp"/><s n="ill"/><s n="ind"/></r></p></e>
       <e><p><l>марто<s n="post"/></l><r>мархта<s n="post"/></r></p></e>
       <e><p><l>мельга<s n="post"/></l><r>мельге<s n="post"/></r></p></e>
       <e><p><l>пачк<s n="post"/></l><r>пачк<s n="post"/></r></p></e>
@@ -1414,6 +1415,7 @@
       <e r="LR"><p><l>нешке<s n="n"/></l><r>нешкопарь<s n="n"/></r></p></e>
       <e r="LR"><p><l>нешкепарь<s n="n"/></l><r>мешкуд<s n="n"/></r></p></e>
       <e r="LR"><p><l>нешкепарь<s n="n"/></l><r>нешкопарь<s n="n"/></r></p></e>
+      <e><p><l>нешкепире<s n="n"/></l><r>нешкопере<s n="n"/></r></p></e>
       <e r="LR"><p><l>ни<s n="n"/></l><r>пола<s n="n"/></r></p></e>
       <e r="LR"><p><l>ни<s n="n"/></l><r>ава<s n="n"/></r></p></e>
       <e><p><l>ни<s n="n"/></l><r>рьвя<s n="n"/></r></p></e>
