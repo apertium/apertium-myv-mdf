@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- -*- nxml -*- -->
 	<transfer default="chunk">
 	  <section-def-cats>
 	    <def-cat n="default">
@@ -512,8 +513,14 @@
 	      <attr-item tags="@-FADVL"/>
 	      <attr-item tags="@-FADVL→"/>
 	      <attr-item tags="@-FAUXV"/>
+	      <attr-item tags="@-FAUXV→"/>
+	      <attr-item tags="@-F←AUXV"/>
 	      <attr-item tags="@\+FAUXV"/>
 	      <attr-item tags="@+FAUXV"/>
+	      <attr-item tags="@\+FAUXV→"/>
+	      <attr-item tags="@+FAUXV→"/>
+	      <attr-item tags="@\+F←AUXV"/>
+	      <attr-item tags="@+F←AUXV"/>
 	      <attr-item tags="@-FMAINV"/>
 	      <attr-item tags="@\+FMAINV"/>
 	      <attr-item tags="@+FMAINV"/>
