@@ -7,13 +7,17 @@
       <program name="hfst-proc --weight-classes 1 -w -e">
         <file name="myv-mdf.automorf.hfst"/>
       </program>
+<!--      <program name="apertium-extract-caps"/> -->
+<!--      <program name="cg-proc -w">-->
       <program name="cg-proc -w">
         <file name="myv-mdf.mor.rlx.bin"/>
       </program>
+<!--      <program name="cg-proc -n -1 -w">-->
       <program name="cg-proc -n -1 -w">
         <file name="myv-mdf.syn.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
+<!--      <program name="lt-proc -b">-->
       <program name="lt-proc -b">
         <file name="myv-mdf.autobil.bin"/>
       </program>
@@ -32,6 +36,7 @@
         <file name="apertium-myv-mdf.myv-mdf.t3x"/>
         <file name="myv-mdf.t3x.bin"/>
       </program>
+<!--      <program name="hfst-proc $1">-->
       <program name="hfst-proc $1">
         <file name="myv-mdf.autogen.hfst"/>
       </program>
