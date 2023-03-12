@@ -1,5 +1,5 @@
 ###############################################################################
-## Makefile for Ersya Mordvin -- Moksha Mordvin
+## Makefile for Erzya Mordvin -- Moksha Mordvin
 ###############################################################################
 
 LANG1=myv
