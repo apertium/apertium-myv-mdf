@@ -138,6 +138,9 @@
 	      <attr-item tags="prl"/>
 	      <attr-item tags="tra"/>
 	    </def-attr>
+	    <def-attr n="a_abl_type">
+	      <attr-item tags="←about→"/>
+	    </def-attr>
 	    <def-attr n="a_mood">
 	      <attr-item tags="cond"/>
 	      <attr-item tags="conj"/>

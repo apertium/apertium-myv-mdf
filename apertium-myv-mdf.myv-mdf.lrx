@@ -3,6 +3,27 @@
     This rule chooses "energía" as the translation of "power" when it is preceded by "wind". 
     Add your own rules within <rule> here, using the resources below as a guide 
   -->
+<def-seqs>
+    <def-seq n="about_verbs_abl"><or>
+      <match lemma="ёвтамс" tags="vblex.*"/>
+      <match lemma="кортамс" tags="vblex.*"/>
+      <match lemma="кунсоломс" tags="vblex.*"/>
+      <match lemma="ловномс" tags="vblex.*"/>
+      <match lemma="марямс" tags="vblex.*"/>
+      <match lemma="сёрмадомс" tags="vblex.*"/>
+    </or>
+    </def-seq>
+    <def-seq n="ingestive_verbs_abl"><or>
+      <match lemma="андомс" tags="vblex.*"/>
+      <match lemma="лекстямс" tags="vblex.*"/>
+      <match lemma="симдемс" tags="vblex.*"/>
+      <match lemma="симемс" tags="vblex.*"/>
+      <match lemma="таргамс" tags="vblex.*"/>
+      <match lemma="ярсамс" tags="vblex.*"/>
+    </or>
+    </def-seq>
+</def-seqs>
+
 <!-- ава<n><sg><gen><px3pl>/ава<n><sg><gen><px3pl>/тядя<n><sg><gen><px3pl> -->
 
   <rule weight="0.2">
