@@ -10,6 +10,12 @@
       <select lemma="energía" tags="n.*"/>
     </match>
   </rule>
+  <rule>
+    <match lemma="катк" tags="n.*"><select lemma="псака" tags="n.*"/></match>
+  </rule>
+  <rule>
+    <match lemma="пине" tags="n.*"><select lemma="киска" tags="n.*"/></match>
+  </rule>
 </rules>
 
 <!-- 
