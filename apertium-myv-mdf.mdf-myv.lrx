@@ -1,4 +1,26 @@
-<rules>
+<lrx>
+  <def-seqs>
+    <def-seq n="about_verbs_abl"><or>
+      <match lemma="азомс" tags="vblex.*"/>
+      <match lemma="арьсемс" tags="vblex.*"/>
+      <match lemma="корхтамс" tags="vblex.*"/>
+      <match lemma="кулцономс" tags="vblex.*"/>
+      <match lemma="морафтомс" tags="vblex.*"/>
+      <match lemma="марямс" tags="vblex.*"/>
+      <match lemma="сёрмадомс" tags="vblex.*"/>
+    </or>
+    </def-seq>
+    <def-seq n="ingestive_verbs_abl"><or>
+      <match lemma="андомс" tags="vblex.*"/>
+      <match lemma="симондомс" tags="vblex.*"/>
+      <match lemma="симомс" tags="vblex.*"/>
+      <match lemma="таргамс" tags="vblex.*"/>
+      <match lemma="ярхцамс" tags="vblex.*"/>
+    </or>
+    </def-seq>
+</def-seqs>
+
+  <rules>
   <!-- 
     This rule chooses "energía" as the translation of "power" when it is preceded by "wind". 
     Add your own rules within <rule> here, using the resources below as a guide 
@@ -10,14 +32,82 @@
       <select lemma="energía" tags="n.*"/>
     </match>
   </rule>
+  <rule wieght="0.8"><match lemma="кувалма" tags="post.*"><select lemma="кувалма" tags="post.*"/></match></rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="about_verbs_abl"/>
+    </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags=""/>
+        <match tags="*"/>
+      </or>
+    </repeat>
+<!--      <match lemma="кувалма" tags="post.*"><select lemma="эйстэдензэ" tags="post.*"/></match>-->
+    <or>
+      <match lemma="кувалма" tags="post.px1sg.*">
+	<select lemma="эйстэдензэ" tags="post.*"/>
+      </match>
+      <match lemma="кувалма" tags="post.px2sg.*">
+	<select lemma="эйстэдензэ" tags="post.*"/>
+      </match>
+      <match lemma="кувалма" tags="post.px3sg.*">
+	<select lemma="эйстэдензэ" tags="post.*"/>
+      </match>
+      <match lemma="кувалма" tags="post.px1pl.*">
+	<select lemma="эйстэдензэ" tags="post.*"/>
+      </match>
+      <match lemma="кувалма" tags="post.px2pl.*">
+	<select lemma="эйстэдензэ" tags="post.*"/>
+      </match>
+      <match lemma="кувалма" tags="post.px3pl.*">
+	<select lemma="эйстэдензэ" tags="post.*"/>
+      </match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="кувалма" tags="post.px1sg.*">
+	<select lemma="эйстэдензэ" tags="post.*"/>
+      </match>
+      <match lemma="кувалма" tags="post.px2sg.*">
+	<select lemma="эйстэдензэ" tags="post.*"/>
+      </match>
+      <match lemma="кувалма" tags="post.px3sg.*">
+	<select lemma="эйстэдензэ" tags="post.*"/>
+      </match>
+      <match lemma="кувалма" tags="post.px1pl.*">
+	<select lemma="эйстэдензэ" tags="post.*"/>
+      </match>
+      <match lemma="кувалма" tags="post.px2pl.*">
+	<select lemma="эйстэдензэ" tags="post.*"/>
+      </match>
+      <match lemma="кувалма" tags="post.px3pl.*">
+	<select lemma="эйстэдензэ" tags="post.*"/>
+      </match>
+    </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags=""/>
+        <match tags="*"/>
+      </or>
+    </repeat>
+    <or>
+      <seq n="about_verbs_abl"/>
+    </or>
+  </rule>
+
   <rule>
-    <match lemma="катк" tags="n.*"><select lemma="псака" tags="n.*"/></match>
+    <match lemma="ката" tags="n.*"><select lemma="псака" tags="n.*"/></match>
   </rule>
   <rule>
     <match lemma="пине" tags="n.*"><select lemma="киска" tags="n.*"/></match>
   </rule>
+  <rule>
+    <match lemma="корхтамс" tags="vblex.*"><select lemma="кортамс" tags="vblex.*"/></match>
+  </rule>
 </rules>
-
+</lrx>
 <!-- 
 Resources: 
     https://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules

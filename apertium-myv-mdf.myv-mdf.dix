@@ -192,11 +192,6 @@
       <e r="LR"><p><l>арась<s n="pcle"/></l><r>аш<s n="pcle"/></r></p></e>
       <e><p><l>весемеде<s n="pcle"/></l><r>сембода</r></p></e>
       <e><p><l>ды<s n="pcle"/></l><r>и</r></p></e>
-      <e r="LR"><p><l>мабуть<s n="pcle"/></l><r>улема<s n="pcle"/></r></p></e>
-      <e r="LR"><p><l>мабуть<s n="pcle"/></l><r>шять<s n="pcle"/></r></p></e>
-      <e r="LR"><p><l>паряк<s n="pcle"/></l><r>пади<s n="pcle"/></r></p></e>
-      <e r="LR"><p><l>паряк<s n="pcle"/></l><r>маряк<s n="pcle"/></r></p></e>
-      <e r="LR"><p><l>паряк<s n="pcle"/></l><r>шять<s n="pcle"/></r></p></e>
       <e r="LR"><p><l>седе<s n="pcle"/></l><r>сяда<s n="pcle"/></r></p></e>
       <e r="LR"><p><l>хоть<s n="pcle"/></l><r>хуш<s n="cnjsub"/></r></p></e>
 
@@ -238,9 +233,14 @@
       <e r="LR"><p><l>туртов<s n="post"/></l><r/></p></e>
       <e r="RL"><p><l/><r>колга<s n="post"/></r></p></e>
       <e r="RL"><p><l/><r>эзга<s n="post"/></r></p></e>
+      <e><p><l>эйстэдензэ<s n="post"/></l><r>кувалма<s n="post"/></r></p></e> <!-- not postposition, relator with obligatory Px person marking -->
+<!--      <e><p><l>кувалма<s n="post"/></l><r>кувалма<s n="post"/></r></p></e> -->
 
       <e r="LR"><p><l>ало<s n="post"/></l><r>ала<s n="post"/></r></p></e>
+      <e><p><l>ало<s n="post"/></l><r>ала<s n="post"/></r></p></e>
       <e><p><l>алов<s n="post"/></l><r>алу<s n="post"/></r></p></e>
+      <e><p><l>алга<s n="post"/></l><r>алга<s n="post"/></r></p></e>
+      <e><p><l>алдо<s n="post"/></l><r>алда<s n="post"/></r></p></e>
       <e><p><l>вакска<s n="post"/></l><r>вакска<s n="post"/></r></p></e>
       <e><p><l>ваксс<s n="post"/></l><r>ваксс<s n="post"/></r></p></e>
       <e><p><l>вакссо<s n="post"/></l><r>ваксса<s n="post"/></r></p></e>
@@ -249,7 +249,11 @@
       <e><p><l>велькска<s n="post"/></l><r>вельхкска<s n="post"/></r></p></e>
       <e><p><l>видьс<s n="post"/></l><r>видес<s n="post"/></r></p></e>
       <e><p><l>икеле<s n="post"/></l><r>инголе<s n="post"/></r></p></e>
+      <e><p><l>икельга<s n="post"/></l><r>ингольга<s n="post"/></r></p></e>
+      <e><p><l>икелев<s n="post"/></l><r>инголи<s n="post"/></r></p></e>
+      <e><p><l>икельде<s n="post"/></l><r>ингольда<s n="post"/></r></p></e>
       <e><p><l>кисэ<s n="post"/></l><r>инкса<s n="post"/></r></p></e>
+      <e><p><l>ланга<s n="post"/></l><r>ланга<s n="post"/></r></p></e>
       <e><p><l>лангс<s n="post"/></l><r>лангс<s n="post"/></r></p></e>
       <e><p><l>лангсо<s n="post"/></l><r>лангса<s n="post"/></r></p></e>
       <e><p><l>лангсто<s n="post"/></l><r>лангста<s n="post"/></r></p></e>
@@ -1101,7 +1105,7 @@
       <e><p><l>кортавтома<s n="n"/></l><r>корхтафтома<s n="n"/></r></p></e>
       <e r="LR"><p><l>кортамо<s n="n"/></l><r>корхтама<s n="n"/></r></p></e>
       <e r="LR"><p><l>корты<b/>ялга<s n="n"/></l><r>корхтай<b/>ялга<s n="n"/></r></p></e>
-      <e><p><l>кортыялга<s n="n"/></l><r>корхтай<s n="n"/></r></p></e>
+<!--      <e><p><l>кортыялга<s n="n"/></l><r>корхтай<s n="n"/></r></p></e> -->
       <e><p><l>корш<s n="n"/></l><r>корож<s n="n"/></r></p></e>
       <e><p><l>корён<s n="n"/></l><r>ункс<s n="n"/></r></p></e>
       <e><p><l>корён<s n="n"/></l><r>юр<s n="n"/></r></p></e>
@@ -4223,10 +4227,9 @@
       <e><p><l>кончтнемс<s n="vblex"/></l><r>кончнемс<s n="vblex"/></r></p></e>
       <e><p><l>кончтнемс<s n="vblex"/></l><r>кончамс<s n="vblex"/></r></p></e>
       <e><p><l>кончтнемс<s n="vblex"/></l><r>чипорямс<s n="vblex"/></r></p></e>
-      <e><p><l>конямс<s n="vblex"/></l><r>конемс:<s n="vblex"/></r></p></e>
+      <e><p><l>конямс<s n="vblex"/></l><r>конемс<s n="vblex"/></r></p></e>
       <e><p><l>копордамс<s n="vblex"/></l><r>копордамс<s n="vblex"/></r></p></e>
       <e><p><l>копорямс<s n="vblex"/></l><r>копорямс<s n="vblex"/></r></p></e>
-      <e><p><l>кор<s n="vblex"/></l><r>кор<s n="vblex"/></r></p></e>
       <e><p><l>корномс<s n="vblex"/></l><r>корнамс<s n="vblex"/></r></p></e>
       <e><p><l>корномс<s n="vblex"/></l><r>крнамс<s n="vblex"/></r></p></e>
       <e><p><l>кортамс<s n="vblex"/></l><r>корхтамс<s n="vblex"/></r></p></e>
