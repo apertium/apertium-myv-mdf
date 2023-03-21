@@ -7,7 +7,7 @@
       <program name="hfst-proc --weight-classes 1 -w -e">
         <file name="myv-mdf.automorf.hfst"/>
       </program>
-<!--      <program name="apertium-extract-caps"/> -->
+<!--      <program name="apertium-extract-caps"/>-->
 <!--      <program name="cg-proc -w">-->
       <program name="cg-proc -w">
         <file name="myv-mdf.mor.rlx.bin"/>
@@ -40,6 +40,10 @@
       <program name="hfst-proc $1">
         <file name="myv-mdf.autogen.hfst"/>
       </program>
+      <!-- did not exist before -->
+<!--      <program name="apertium-restore-caps">
+	<file name="myv-mdf.crx.bin"/>
+      </program>-->
     </pipeline>
   </mode>
 

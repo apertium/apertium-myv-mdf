@@ -7,12 +7,15 @@
 	    </def-cat>
 	    <def-cat n="n_abl_def">
 	      <cat-item tags="n.*.abl.def.*"/>
+	      <cat-item tags="np.*.abl.def.*"/>
 	    </def-cat>
 	    <def-cat n="n_dat_def">
 	      <cat-item tags="n.*.dat.def.*"/>
+	      <cat-item tags="np.*.dat.def.*"/>
 	    </def-cat>
 	    <def-cat n="n_gen_def">
 	      <cat-item tags="n.*.gen.def.*"/>
+	      <cat-item tags="np.*.gen.def.*"/>
 	    </def-cat>
 	    <def-cat n="n_gen">
 	      <cat-item tags="n.*.gen.*"/>
@@ -20,6 +23,7 @@
 	    </def-cat>
 	    <def-cat n="n_prl_def">
 	      <cat-item tags="n.*.prl.def.*"/>
+	      <cat-item tags="np.*.prl.def.*"/>
 	    </def-cat>
 	    <def-cat n="n_gen_px">
 	      <cat-item tags="n.*.gen.px1sg.*"/>
@@ -34,6 +38,17 @@
 	    </def-cat>
 	    <def-cat n="prn_pers">
 	      <cat-item tags="prn.pers.*"/>
+	    </def-cat>
+	    <def-cat n="prn_dem_abl">
+	      <cat-item tags="prn.dem.*.abl.*"/>
+	    </def-cat>
+	    <def-cat n="prn_pers_abl">
+	      <cat-item tags="prn.pers.p1.sg.abl.*"/>
+	      <cat-item tags="prn.pers.p2.sg.abl.*"/>
+	      <cat-item tags="prn.pers.p3.sg.abl.*"/>
+	      <cat-item tags="prn.pers.p1.pl.abl.*"/>
+	      <cat-item tags="prn.pers.p2.pl.abl.*"/>
+	      <cat-item tags="prn.pers.p3.pl.abl.*"/>
 	    </def-cat>
 	    <def-cat n="prn_gen">
 	      <cat-item tags="prn.pers.p1.sg.gen.*"/>
@@ -236,6 +251,7 @@
 	    <def-attr n="a_nom">
 	      <attr-item tags="n"/>
 	      <attr-item tags="np"/>
+	      <attr-item tags="prn"/>
 	    </def-attr>
 	    <def-attr n="a_num">
 	      <attr-item tags="num"/>
@@ -807,6 +823,64 @@
 		      <clip pos="1" side="tl" part="a_number"/> <!-- Number category -->
 		      <lit-tag v="gen"/> <!-- Target language case requirement -->
 		      <clip pos="1" side="tl" part="a_definiteness"/> <!-- Category of definiteness -->
+		    </lu>
+		    <b/>
+		    <lu>
+		      <lit v="колга"/>
+<!--		      <clip pos="1" side="tl" part="a_cas"/>--> <!-- Category of Case -->
+		      <lit-tag v="post"/>
+	            </lu>
+		  </chunk>
+		</out>
+	      </action>
+	    </rule>
+
+	    <rule comment="pronoun in demonstrative  ablative: is demonstrative genitive pronoun with kolga">
+	      <pattern>
+	        <pattern-item n="prn_dem_abl"/>
+	      </pattern>
+	      <action>
+	        <out>
+		  <chunk name="PrnDemAbl" case="caseFirstWord">
+		    <tags>
+		      <tag><lit-tag v="SN"/></tag>
+		    </tags>
+	            <lu>
+		      <clip pos="1" side="tl" part="lem"/> <!-- sourceL lemma -> targetL lemma -->
+		      <clip pos="1" side="tl" part="a_nom"/> <!-- Part-of-Speech -->
+		      <clip pos="1" side="tl" part="a_prn_type"/> <!-- sub-type of pronoun -->
+		      <clip pos="1" side="tl" part="a_number"/> <!-- Number category -->
+		      <lit-tag v="gen"/> <!-- Target language case requirement -->
+		      <clip pos="1" side="tl" part="a_definiteness"/> <!-- Category of definiteness -->
+		    </lu>
+		    <b/>
+		    <lu>
+		      <lit v="колга"/>
+<!--		      <clip pos="1" side="tl" part="a_cas"/>--> <!-- Category of Case -->
+		      <lit-tag v="post"/>
+	            </lu>
+		  </chunk>
+		</out>
+	      </action>
+	    </rule>
+
+	    <rule comment="personal pronoun ablative: is personal genitive pronoun with kolga">
+	      <pattern>
+	        <pattern-item n="prn_pers_abl"/>
+	      </pattern>
+	      <action>
+	        <out>
+		  <chunk name="PrnPersAbl" case="caseFirstWord">
+		    <tags>
+		      <tag><lit-tag v="SN"/></tag>
+		    </tags>
+	            <lu>
+		      <clip pos="1" side="tl" part="lem"/> <!-- sourceL lemma -> targetL lemma -->
+		      <clip pos="1" side="tl" part="a_nom"/> <!-- Part-of-Speech -->
+		      <clip pos="1" side="tl" part="a_prn_type"/> <!-- sub-type of pronoun -->
+		      <clip pos="1" side="tl" part="a_person"/> <!-- Category of person -->
+		      <clip pos="1" side="tl" part="a_nbr"/> <!-- Category of number -->
+		      <lit-tag v="gen"/> <!-- Target language case requirement -->
 		    </lu>
 		    <b/>
 		    <lu>

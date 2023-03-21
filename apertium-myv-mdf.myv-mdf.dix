@@ -291,7 +291,6 @@
       <e><p><l>аламошка<s n="det"/></l><r>аф<b/>ламня<s n="det"/></r></p></e>
 
       <e><p><l>весе<s n="det"/></l><r>сембе<s n="det"/></r></p></e>
-      <e><p><l>весе<s n="det"/></l><r>сембе<s n="det"/></r></p></e>
       <e><p><l>зяро<s n="det"/></l><r>мзяра<s n="det"/></r></p></e>
       <e><p><l>ламо<s n="det"/></l><r>лама<s n="det"/></r></p></e>
       <e><p><l>эрьва<s n="det"/></l><r>эрь<s n="det"/></r></p></e>
@@ -308,6 +307,7 @@
 
 
       <!-- SECTION: Pronouns -->
+      <e><p><l>весе<s n="prn"/></l><r>сембе<s n="prn"/></r></p></e>
 
       <e><p><l>кие<s n="prn"/></l><r>кие<s n="prn"/></r></p></e>
       <e r="LR"><p><l>кие<s n="prn"/></l><r>кие<s n="prn"/></r></p></e>

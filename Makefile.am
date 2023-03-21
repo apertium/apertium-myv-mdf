@@ -77,6 +77,9 @@ $(PREFIX1).automorf-untrimmed.hfst: .deps/$(LANG1).automorf.hfst
 $(PREFIX2).autogen.hfst: .deps/$(LANG1).autogen.hfst
 	hfst-fst2fst -O -i $< -o $@
 
+#$(PREFIX1).crx.bin: $(BASENAME).$(PREFIX1).crx
+#	apertium-validate-crx $<
+#	apertium-compile-caps $< $@
 
 # -------------------
 # Moksha Mordvin analysis:
