@@ -1,0 +1,239 @@
+
+#=================================================== #
+# ERZYA extras
+#
+# Copyright Jack Rueter <rueter.jack@gmail.com>
+#
+# GNU General Public License v3
+#
+# =================================================== #
+#
+
+
+# ========== #
+# Delimiters #
+# ========== #
+
+SUBREADINGS = LTR ; 
+
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" "<..>" "<!.>" "<?.>" "<¶.>" "<❡>" (sent) sent ; 
+
+#PARENTHESES = "<$(>" "<$)>" "<$[>" "<$]>" "<${>" "<$}>" "<$«>" "<$»>" ;
+
+# ================== #
+#!! # TAGS AND SETS
+# ================== #
+
+
+SETS
+
+
+#!! ## Tags
+
+
+#!! This section lists all the tags inherited from the fst, and used as tags
+#!! in the syntactic analysis. The next section, **Sets**, contains sets defined
+#!! on the basis of the tags listed here, those set names are not visible in the output.
+
+
+
+# Tags declared as single-membered LISTs
+# ======================================
+
+#!! ### Beginning and end of sentence
+LIST BOS = (>>>) (<s>) (sent) ;  #!! BOS
+LIST EOS = (<<<) (</s>) (sent) ("❡") ("¬") ; #!! EOS
+
+# We define end of clause and beginning of clause in a way so that the file
+# may be read both by the CG-2 and the vislcg formalisms.
+# CG3 doesn´t function without >>> and <<< !
+
+
+#!! ### Parts of speech tags
+
+#!! * Sets for parts of speech
+# ---------------
+
+LIST adj = adj ;
+LIST adp = adp ;
+LIST adv = adv ;
+LIST cnjcoo = cnjcoo ;
+LIST cnjsub = cnjsub ;
+LIST det = det ;
+LIST ij = ij ;
+LIST n = n ;
+LIST np = np ;
+LIST num = num ;
+LIST pcle = pcle ;
+LIST post = post ;
+LIST prn = prn ;
+LIST relator = relator ;
+LIST vblex = vblex ;
+LIST aux = aux ;
+LIST cop = cop ;
+
+LIST def = def ;
+LIST ind = ind ;
+LIST qnt = qnt ;
+LIST iv = iv ;
+LIST tv = tv ;
+
+LIST dem = dem ;
+LIST itg = itg ;
+LIST pers = pers ;
+LIST ref = ref ;
+LIST rel = rel ;
+LIST res = res ;
+
+LIST p1 = p1 ;
+LIST p2 = p2 ;
+LIST p3 = p3 ;
+
+LIST sg = sg ;
+LIST pl = pl ;
+LIST sp = sp ;
+
+LIST px1sg = px1sg ;
+LIST px2sg = px2sg ;
+LIST px3sg = px3sg ;
+
+LIST px1pl = px1pl ;
+LIST px2pl = px2pl ;
+LIST px3pl = px3pl ;
+
+LIST s_sg1 = s_sg1 ;
+LIST s_sg2 = s_sg2 ;
+LIST s_sg3 = s_sg3 ;
+
+LIST s_pl1 = s_pl1 ;
+LIST s_pl2 = s_pl2 ;
+LIST s_pl3 = s_pl3 ;
+
+LIST a_sg1 = a_sg1 ;
+LIST a_sg2 = a_sg2 ;
+LIST a_sg3 = a_sg3 ;
+
+LIST a_pl1 = a_pl1 ;
+LIST a_pl2 = a_pl2 ;
+LIST a_pl3 = a_pl3 ;
+
+LIST o_sg1 = o_sg1 ;
+LIST o_sg2 = o_sg2 ;
+LIST o_sg3 = o_sg3 ;
+
+LIST o_pl1 = o_pl1 ;
+LIST o_pl2 = o_pl2 ;
+LIST o_pl3 = o_pl3 ;
+
+LIST abe = abe ;
+LIST abl = abl ;
+LIST caus = caus ;
+LIST com = com ;
+LIST cmpr = cmpr ;
+LIST dat = dat ;
+LIST gen = gen ;
+LIST ela = ela ;
+LIST ill = ill ;
+LIST ine = ine ;
+LIST lat = lat ;
+LIST loc = loc ;
+LIST nom = nom ;
+LIST prl = prl ;
+LIST tra = tra ;
+
+LIST der = der ;
+LIST der_y = der_y ;
+
+LIST long = long ;
+LIST short = short ;
+LIST deg = deg ;
+LIST conneg = conneg ;
+LIST neg = neg ;
+
+LIST inf = inf ;
+LIST pres = pres ;
+LIST pret1 = pret1 ;
+LIST pret2 = pret2 ;
+LIST prfprc = prfprc ;
+LIST prsprc = prsprc ;
+
+LIST cond = cond ;
+LIST conj = conj ;
+LIST des = des ;
+LIST imprt = imprt ;
+LIST imp = imp ;
+LIST indic = indic ;
+LIST opt = opt ;
+LIST prec = prec ;
+
+LIST clt_cop = clt_cop ;
+LIST clt_aram = clt_aram ;
+LIST clt_add = clt_add ;
+
+LIST cmp = cmp ;
+LIST guio = guio ;
+LIST punct = punct ;
+LIST cm = cm ;
+LIST sent = sent ;
+LIST lpar = lpar ;
+LIST rpar = rpar ;
+LIST left = left ;
+LIST lquot = lquot ;
+LIST right = right ;
+LIST clb = clb ;
+LIST quot = quot ;
+LIST apos = apos ;
+
+LIST DASH = "–" "—" "-" ;
+
+LIST ¶ = ¶;
+
+
+LIST coll = coll ;
+LIST nomag = nomag ;
+
+LIST ideoph = ideoph ; #тарск
+
+
+LIST Manner = Manner ;
+LIST AssocColl = AssocColl;
+
+#!! * ### Tags for morphosyntactic properties
+LIST voc = voc ;
+
+
+
+
+
+LIST AblNPHEAD = (n pl abl def) (n sp abl indef) (n sg abl def) (n sp abl pxsg1) (n sp abl pxsg2) (n sp abl pxsg3) (n sp abl pxpl1) (n sp abl pxpl2) (n sp abl pxpl3) (np pl abl def) (np sp abl indef) (np sg abl def) (np sp abl pxsg1) (np sp abl pxsg2) (np sp abl pxsg3) (np sp abl pxpl1) (np sp abl pxpl2) (np sp abl pxpl3) (prn pers sg1 abl) (prn pers sg2 abl) (prn pers sg3 abl) (prn pers pl1 abl) (prn pers pl2 abl) (prn pers pl3 abl)    ;#!! noun phrase heads
+
+LIST VERB_ABOUT_ABL = "арсемс" "бредямс" "видькстамс" "ёвтнемс" "кортамс" "кортнемс" "ледстнемс" "ледстямс" "ловномс" "марсемс" "марямс" "пачтнемс" "пачтямс" "сёрмадомс" "содамс" "толковамс" "энялдомс" ; 
+# Verbs that take ablative indicating aboutedness talk about, read abouts
+
+SET MOOD-V = cond OR conj OR condconj OR des OR imprt OR indic OR opt OR prec  ; #!! MOOD-V
+
+LIST VINF = inf ;
+SET VFIN =  MOOD-V - conneg ; #!! VFIN
+#LIST VFIN = prs prt1 prt2 cond conj condconj des imprt opt  ; 
+
+
+
+LIST @CVP = @CVP ;			   #!! * @CVP : Conjunction or subjunction that conjoins finite verb phrases.
+							   #!!     - go : Leago guhkes áigi dassá go Máreha oidnet? - Is it a long time since you saw Máret?
+LIST @CNP = @CNP ;			   #!! * @CNP : Local conjunction or subjunction.
+							   #!!     - vai : Leago nieida vai bárdni? - Is it a girl or a boy?
+
+
+MAP (@CVP) TARGET CC IF (*-1 VFIN BARRIER CLB OR BOS LINK *1 VFIN BARRIER CLB OR EOS);
+MAP (@CVP) TARGET CC IF (*1 VFIN BARRIER CLB OR EOS LINK *-1 VFIN BARRIER CLB OR BOS);
+    #и :тейсь прязонзо пизэ и ливтсь левкст.
+
+MAP (@CVP) TARGET CC IF (*-2 VFIN BARRIER CLB OR BOS) (-1 (",")) (*1 VFIN BARRIER CLB OR BOS);
+#а: , голой сови, а раужо сёлги.
+
+
+
+
+ADD:TalkAbout <ablabout> AblNPHEAD (NOT 0 <ablabout>) (0* VERB_ABOUT_ABL BARRIER BOS OR EOS OR @CVP);
+# this is for кортан кудодонть >> корхтан кудть колга
+# it requires 

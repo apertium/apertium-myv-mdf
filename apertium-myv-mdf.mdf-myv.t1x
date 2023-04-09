@@ -110,7 +110,25 @@
 	  </section-def-cats>
 	
 	  <section-def-attrs>
-	    <def-attr n="a_cas">
+	    <def-attr n="a_PoS">
+	      <attr-item tags="adj"/>
+	      <attr-item tags="adv"/>
+	      <attr-item tags="cnjcoo"/>
+	      <attr-item tags="cnjsub"/>
+	      <attr-item tags="ij"/>
+	      <attr-item tags="n"/>
+	      <attr-item tags="np"/>
+	      <attr-item tags="num"/>
+	      <attr-item tags="part"/>
+	      <attr-item tags="post"/>
+	      <attr-item tags="pr"/>
+	      <attr-item tags="prn"/>
+	      <attr-item tags="vblex"/>
+	      <attr-item tags="sent"/>
+	      <attr-item tags="cm"/>
+	    </def-attr> 
+  
+	    <def-attr n="a_case">
 	      <attr-item tags="abe"/>
 	      <attr-item tags="abl"/>
 	      <attr-item tags="com"/>
@@ -221,6 +239,9 @@
 	      <attr-item tags="sg"/>
 	      <attr-item tags="pl"/>
 	    </def-attr>
+	    <def-attr n="a_subqst">
+	      <attr-item tags="subqst"/>
+	    </def-attr>
 	    <def-attr n="a_nom">
 	      <attr-item tags="n"/>
 	      <attr-item tags="np"/>
@@ -250,6 +271,15 @@
 	      <attr-item tags="s_pl2"/>
 	      <attr-item tags="s_pl3"/>
 	    </def-attr>
+
+	    <def-attr n="a_deriv">
+	      <attr-item tags="der_dimin.n"/>
+	      <attr-item tags="der_pass"/>
+	      <attr-item tags="der_passs"/>
+	      <attr-item tags="der_passl"/>
+              <attr-item tags="der_shi"/>
+	    </def-attr>
+
 	    
 	    <def-attr n="a_sem">
 	      <attr-item tags="sem_act"/>
@@ -600,9 +630,48 @@
 	  </section-def-attrs>
 
   <section-def-vars>
-    <def-var n="number"/>
+    <def-var n="number"/> <!-- copy from sme-smn begin -->
+	    <def-var n="current_verb"/>
+	    <def-var n="current_noun"/>
+	    <def-var n="chunk_name"/>
+	    <def-var n="object"/>
+	    <def-var n="subject"/>
+	    <def-var n="func"/> <!-- a_func -->
+	    <def-var n="spred"/>
+	    <def-var n="caseFirstword"/> <!-- added because of Omega-T --> <!-- copy from sme-smn end -->
   </section-def-vars>
 
+	  <section-def-lists>
+	    <def-list n="gennum">
+	      <list-item v="1"/>
+	      <list-item v="2"/>
+	      <list-item v="3"/>
+	      <list-item v="4"/>
+	      <list-item v="5"/>
+	      <list-item v="6"/>
+	      <list-item v="фкя"/>
+	      <list-item v="кафта"/>
+	      <list-item v="колма"/>
+	      <list-item v="ниле"/>
+	      <list-item v="вете"/>
+	      <list-item v="кота"/>
+	      <list-item v="вейке"/>
+	      <list-item v="кавто"/>
+	      <list-item v="колмо"/>
+	      <list-item v="ниле"/>
+	      <list-item v="вете"/>
+	      <list-item v="кото"/>
+	      <list-item v="мзяра"/>
+	      <list-item v="зяро"/>
+	    </def-list>
+	    <def-list n="abl_about_verbs">
+	      <list-item v="морафтомс"/>
+	      <list-item v="корхтамс"/>
+	      <list-item v="ляцтемс"/>
+	      <list-item v="марямс"/>
+	    </def-list>
+	  </section-def-lists>
+	  
   <section-def-macros>
     <def-macro n="test" npar="1">
           <let>
@@ -610,6 +679,140 @@
             <lit v=""/>
           </let>
     </def-macro>
+    <!-- borrow from sme-smn to distinguish verbs ingestive vs talk kolga_post -->
+    <def-macro n="set_caseFirstword" npar="1"
+               c="Set the typographic case to be carried by the chunk.
+                  - if argument is _not_ a proper noun: caseFirstword is the case of the lemma, and the lemma gets lowercase.
+                  - if argument _is_ a proper noun: caseFirstword is lowercase, and lemma stays unchanged.
+
+                  We treat UPPERCASE as proper nouns.">
+      <let><var n="caseFirstword"/><lit v="aa"/></let>
+      <choose><when >
+        <test><not><or>
+          <begins-with><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np"/></begins-with>
+          <!-- <equal><clip pos="1" side="tl" part="lettercase"/><lit-tag v="fixedcase"/></equal> -->
+          <equal><get-case-from pos="1"><lit v="aa"/></get-case-from><lit v="AA"/></equal>
+        </or></not></test>
+        <let><var n="caseFirstword"/><get-case-from pos="1"><lit v="aa"/></get-case-from></let>
+        <modify-case><clip pos="1" side="tl" part="lemh"/><lit v="aa"/></modify-case>
+      </when></choose>
+    </def-macro>
+
+    <def-macro n="convert-deriv-1Param" npar="1">
+      <choose>
+         <when>
+          <test><equal><clip pos="1" side="sl" part="a_deriv"/><lit-tag v="der_passs"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_deriv"/><lit-tag v="der_pass"/></let>
+          <let><clip pos="1" side="tl" part="a_trans"/><lit v=""/></let>
+        </when>
+         <when>
+          <test><equal><clip pos="1" side="sl" part="a_deriv"/><lit-tag v="der_passl"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_deriv"/><lit-tag v="der_pass"/></let>
+          <let><clip pos="1" side="tl" part="a_trans"/><lit v=""/></let>
+        </when>
+         <when>
+          <test><equal><clip pos="1" side="sl" part="a_deriv"/><lit-tag v="der_Shi"/></equal></test>
+<!--          <let><clip pos="1" side="tl" part="a_attr"/><lit v=""/></let>-->
+        </when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="remove-semtag-1Param" npar="1">
+      <let>
+        <clip pos="1" side="tl" part="a_sem"/>
+        <lit v=""/>
+      </let>
+    </def-macro>
+
+
+    <def-macro n="convert-num-pl-1Param" npar="1">
+      <choose>
+        <when>
+          <test><and>
+            <equal><clip pos="1" side="sl" part="a_PoS"/><lit-tag v="num"/></equal>
+            <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+            <equal><clip pos="1" side="sl" part="a_sem"/><lit-tag v="sem_year"/></equal>
+          </and></test>
+          <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
+        <def-macro n="general-macro-1Param" npar="1" c="Use for all chunks of one pattern-item">
+      <call-macro n="set_caseFirstword"><with-param pos="1"/></call-macro>
+      <call-macro n="convert-num-pl-1Param"><with-param pos="1"/></call-macro>
+      <choose>
+        <when>
+          <test><not><equal><clip pos="1" side="tl" part="a_func"/><lit v=""/></equal></not></test>
+          <let><var n="func"/><clip pos="1" side="sl" part="a_func"/></let>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sh"/></equal></test>
+    <!--      <let><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sgnom"/></let>-->
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_PoS"/><lit-tag v="adv"/></equal></test>
+   <!--       <let><clip pos="1" side="tl" part="a_comp-sup"/><lit v=""/></let>-->
+            <let><clip pos="1" side="tl" part="a_subqst"/><lit v=""/></let>
+        </when>
+        <when><test><and>
+          <equal><clip pos="1" side="tl" part="a_prn_type"/><lit-tag v="dem"/></equal>
+          <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal>
+          <equal><clip pos="1" side="tl" part="a_case"/><lit-tag v="loc"/></equal>
+   <!--       <equal><clip pos="1" side="tl" part="a_attr"/><lit-tag v="attr"/></equal>-->
+          </and></test>
+       <!--   <let><clip pos="1" side="tl" part="a_attr"/><lit v=""/></let>-->
+        </when>
+<!--         <when c="buori boahtteáiggi vuosttaldit : šiev puátteevuođâ vyestilistiđ">-->
+<!--          <test><equal><clip pos="1" side="tl" part="lem"/><lit v="šiev"/></equal></test>-->
+<!--          <let><clip pos="1" side="tl" part="tags"/><lit-tag v="adj.attr"/></let>
+        </when>-->
+<!--         <when c="dalle čuvvot oahppit iešguđetge luohká : talle čuávuh uáppeeh jieškote-uv luoka">-->
+<!--          <test><equal><clip pos="1" side="tl" part="lem"/><lit v="jieškote"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></let>
+        </when>-->
+        <when><test><and>
+          <equal><clip pos="1" side="tl" part="a_PoS"/><lit-tag v="num"/></equal>
+          <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal>
+          <equal><clip pos="1" side="tl" part="a_case"/><lit-tag v="com"/></equal>
+<!--          <equal><clip pos="1" side="tl" part="a_attr"/><lit-tag v="attr"/></equal>-->
+          </and></test>
+          <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="gen"/></let>
+<!--          <let><clip pos="1" side="tl" part="a_attr"/><lit v=""/></let>-->
+        </when>
+     </choose>
+      <call-macro n="convert-deriv-1Param"><with-param pos="1"/></call-macro>
+      <!-- <call-macro n="foc-1Param"><with-param pos="1"/></call-macro> focus, maybe later вок/нга -->
+      <!--         <call-macro n="remove-advtag-1Param"><with-param pos="1"/></call-macro> this needs a test in the macro-->
+<!--      <let><clip pos="1" side="tl" part="a_spec_sme_tags1"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_spec_sme_tags2"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_sem"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_exthab"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_trans"/><lit v=""/></let>--> <!-- gč is an abbriviation with tv -->
+    </def-macro>
+	
+        <def-macro n="general-macro-2Param" npar="2" c="Use for all chunks of two pattern-items
+                                                    param1: first pattern-item; used to set caseFirstword
+                                                    param2: second pattern-item; used to set func variable">
+      <call-macro n="general-macro-1Param"><with-param pos="1"/></call-macro>
+      <call-macro n="general-macro-1Param"><with-param pos="2"/></call-macro>
+      <call-macro n="set_caseFirstword"><with-param pos="1"/></call-macro>
+      <choose>
+        <when>
+          <test><and>
+            <equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@-FMAINV"/></equal>
+            <equal><clip pos="2" side="sl" part="a_func"/><lit-tag v="@+FAUXV"/></equal>
+          </and></test>
+          <let><var n="func"/><lit-tag v="@+FMAINV"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
   </section-def-macros>
 
   <section-rules>
@@ -662,7 +865,56 @@
       </action>
     </rule>
 
-    <rule comment="definite genitive noun with kolga_post: becomes noun in definite ablative">
+    <rule comment="C[DT]-PP  n_gen kolga_post" c="Синь корхтайхть стирть колга. : Сынь кортыть тейтерденть.">
+      <pattern>
+        <pattern-item n="n_gen_def"/>
+        <pattern-item n="kolga_post"/>
+      </pattern>
+      <action>
+        <call-macro n="general-macro-2Param">
+           <with-param pos="1"/><with-param pos="2"/></call-macro>
+        <choose>
+          <when>
+            <test>
+                <in caseless="yes"><var n="current_verb"/><list n="abl_about_verbs" /></in>
+            </test>
+<!--	      <let><clip pos="1" side="tl" part="lem"/></let>
+	      <let><clip pos="1" side="tl" part="a_nom"/></let>
+	      <let><clip pos="1" side="tl" part="a_number"/></let>
+            <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="abl"/></let>
+	    <let><clip pos="1" side="tl" part="a_definiteness"/></let>-->
+
+          </when>
+<!--          <when>
+            <test>
+              <in caseless="yes"><var n="current_verb"/><list n="acc_verbs" /></in>
+            </test>
+            <let><clip pos="2" side="tl" part="whole"/><lit v=""/></let>
+            <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="acc"/></let>
+          </when>-->
+        </choose>
+        <call-macro n="remove-semtag-1Param"><with-param pos="1"/></call-macro>
+        <out>
+           <chunk name="n" case="caseFirstword">
+            <tags>
+              <tag><lit-tag v="NP"/></tag>
+<!--              <tag><var n="func"/></tag>-->
+              <tag><clip pos="1" side="tl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+	      <clip pos="1" side="tl" part="a_nom"/>
+	      <clip pos="1" side="tl" part="a_number"/> 
+	      <lit-tag v="abl"/>
+	      <clip pos="1" side="tl" part="a_definiteness"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+   
+<!--    <rule comment="definite genitive noun with kolga_post: becomes noun in definite ablative">
       <pattern>
         <pattern-item n="n_gen_def"/>
         <pattern-item n="kolga_post"/>
@@ -675,17 +927,17 @@
 	      <tag><lit-tag v="ABL"/></tag>
 	    </tags>
             <lu>
-	      <clip pos="1" side="tl" part="lem"/> <!-- Text -> teksti -->
-	      <clip pos="1" side="tl" part="a_nom"/> <!-- Part-of-Speech -->
-	      <clip pos="1" side="tl" part="a_number"/> <!-- Number category -->
-	      <lit-tag v="abl"/> <!-- Target language case requirement -->
-	      <clip pos="1" side="tl" part="a_definiteness"/> <!-- Category of definiteness -->
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_nom"/>
+	      <clip pos="1" side="tl" part="a_number"/> 
+	      <lit-tag v="abl"/>
+	      <clip pos="1" side="tl" part="a_definiteness"/>
 	    </lu>
 	  </chunk>
 	</out>
       </action>
     </rule>
-
+-->
     <rule comment="noun in dative with possessive: is possessive genitive noun with turtov_post">
       <pattern>
 	        <pattern-item n="n_dat_px"/>

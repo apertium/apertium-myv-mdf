@@ -22,6 +22,17 @@
       <match lemma="ярсамс" tags="vblex.*"/>
     </or>
     </def-seq>
+    <def-seq n="lang_gen_indef"><or>
+      <match lemma="эрзя" tags="n.sp.gen.*"/>
+      </or>  
+      </def-seq>
+    <def-seq n="tra_case"><or>
+      <match lemma="*" tags="n.*.tra.*"/>
+      <match lemma="*" tags="np.*.tra.*"/>
+      <match lemma="*" tags="prn.*.*.tra.*"/>
+      <match lemma="*" tags="adj.*.tra.*"/>
+    </or>
+    </def-seq>
 </def-seqs>
 
 <!-- ава<n><sg><gen><px3pl>/ава<n><sg><gen><px3pl>/тядя<n><sg><gen><px3pl> -->
@@ -49,9 +60,9 @@
   </or>
   </rule>
   <rule weight="0.9">
-  <or>
-	<match lemma="ава" tags="n.*.*.*.px1sg.*">
-	       <select lemma="тядя" tags="n.*"/>
+    <or>
+    <match lemma="ава" tags="n.*.*.*.px1sg.*">
+  <select lemma="тядя" tags="n.*"/>
 	</match>
 	<match lemma="ава" tags="n.*.*.*.px2sg.*">
 	<select lemma="тядя" tags="n.*"/>
@@ -70,6 +81,61 @@
     </match>
  </or>
   </rule>
+
+  <rule weight="1.0">
+    <or>
+      <seq n="lang_gen_indef"/>
+    </or>
+    <or>
+      <match lemma="кель" tags="n.">
+	<select lemma="кяль" tags="n.*"/>
+      </match>
+      <match lemma="келе" tags="n.*">
+	<select lemma="кяль" tags="n.*"/>
+      </match>
+    </or>
+  </rule>
+  <!-- теевемс мезекс-бути: арамс мезекска -->
+  <rule weight="1.0">
+    <or>
+        <seq n="tra_case"/>
+    </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags=""/>
+        <match tags="*"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="теевемс" tags="vblex.*">
+	<select lemma="арамс" tags="vblex.*"/>
+      </match>
+      <match lemma="теемс" tags="vblex.der.der_ovoms.vblex.*">
+	<select lemma="арамс" tags="vblex.*"/>
+      </match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="теевемс" tags="vblex.*">
+	<select lemma="арамс" tags="vblex.*"/>
+      </match>
+      <match lemma="теемс" tags="vblex.der.der_ovoms.vblex.*">
+	<select lemma="арамс" tags="vblex.*"/>
+      </match>
+    </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags=""/>
+        <match tags="*"/>
+      </or>
+    </repeat>
+    <or>
+        <seq n="tra_case"/>
+    </or>
+  </rule>
+
+
   <rule>
     <match lemma="пиже" tags="adj.*"><select lemma="сянгяря" tags="adj.*"/></match>
   </rule>

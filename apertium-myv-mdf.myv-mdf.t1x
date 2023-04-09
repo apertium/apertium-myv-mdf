@@ -134,7 +134,25 @@
 	  </section-def-cats>
 	
 	  <section-def-attrs>
-	    <def-attr n="a_cas">
+	    <def-attr n="a_PoS">
+	      <attr-item tags="adj"/>
+	      <attr-item tags="adv"/>
+	      <attr-item tags="cnjcoo"/>
+	      <attr-item tags="cnjsub"/>
+	      <attr-item tags="ij"/>
+	      <attr-item tags="n"/>
+	      <attr-item tags="np"/>
+	      <attr-item tags="num"/>
+	      <attr-item tags="part"/>
+	      <attr-item tags="post"/>
+	      <attr-item tags="pr"/>
+	      <attr-item tags="prn"/>
+	      <attr-item tags="vblex"/>
+	      <attr-item tags="sent"/>
+	      <attr-item tags="cm"/>
+	    </def-attr> 
+  
+	    <def-attr n="a_case">
 	      <attr-item tags="abe"/>
 	      <attr-item tags="abl"/>
 	      <attr-item tags="com"/>
@@ -155,6 +173,7 @@
 	    </def-attr>
 	    <def-attr n="a_abl_type">
 	      <attr-item tags="←about→"/>
+	      <attr-item tags="←ablabout→"/>
 	    </def-attr>
 	    <def-attr n="a_mood">
 	      <attr-item tags="cond"/>
@@ -248,6 +267,9 @@
 	      <attr-item tags="sg"/>
 	      <attr-item tags="pl"/>
 	    </def-attr>
+	    <def-attr n="a_subqst">
+	      <attr-item tags="subqst"/>
+	    </def-attr>
 	    <def-attr n="a_nom">
 	      <attr-item tags="n"/>
 	      <attr-item tags="np"/>
@@ -279,6 +301,14 @@
 	      <attr-item tags="s_pl3"/>
 	    </def-attr>
 	    
+	    <def-attr n="a_deriv">
+	      <attr-item tags="der_dimin.n"/>
+	      <attr-item tags="der_pass"/>
+	      <attr-item tags="der_passs"/>
+	      <attr-item tags="der_passl"/>
+              <attr-item tags="der_shi"/>
+	    </def-attr>
+
 	    <def-attr n="a_sem">
 	      <attr-item tags="sem_act"/>
 	      <attr-item tags="sem_act_group"/>
@@ -511,6 +541,8 @@
 	      <attr-item tags="@→A"/>
 	      <attr-item tags="@A←"/>
 	      <attr-item tags="@←ADVL"/>
+	      <attr-item tags="@←ADVL-about"/>
+	      <attr-item tags="@←ADVL-partitive"/>
 	      <attr-item tags="@→ADVL"/>
 	      <attr-item tags="@ADVL"/>
 	      <attr-item tags="@ADVL←"/>
@@ -518,7 +550,9 @@
 	      <attr-item tags="@ADVL→CS"/>
 	      <attr-item tags="@ADVL←OBJ"/>
 	      <attr-item tags="@ADVL→SUBJ"/>
+	      <attr-item tags="@ADVL-ablabout→"/>
 	      <attr-item tags="@ADVL-locative→"/>
+	      <attr-item tags="@ADVL-partitive→"/>
 	      <attr-item tags="@APP"/>
 	      <attr-item tags="@APP-ADVL←"/>
 	      <attr-item tags="@APP-N←"/>
@@ -625,6 +659,9 @@
 	      <attr-item tags="vaux"/>
 	      <attr-item tags="vbmod"/>
 	    </def-attr>
+	    <def-attr n="a_ablabout">
+	      <attr-item tags="ablabout"/>
+	    </def-attr>
 	    
 	  </section-def-attrs>
 	
@@ -663,7 +700,7 @@
 	      <list-item v="мзяра"/>
 	      <list-item v="зяро"/>
 	    </def-list>
-	    <def-list n="abl_verbs">
+	    <def-list n="abl_about_verbs">
 	      <list-item v="ловномс"/>
 	      <list-item v="кортамс"/>
 	      <list-item v="ледстемс"/>
@@ -749,7 +786,14 @@
 		</when>
 	      </choose>
 	    </def-macro>
-	    
+	    <def-macro n="remove-semtag-1Param" npar="1">
+              <let>
+		<clip pos="1" side="tl" part="a_sem"/>
+		<lit v=""/>
+              </let>
+	    </def-macro>
+
+
 	  </section-def-macros>
 	
 	  <section-rules>
@@ -798,7 +842,7 @@
 		    <b/>
 		    <lu>
 		      <lit v="эзга"/>
-<!--		      <clip pos="1" side="tl" part="a_cas"/>--> <!-- Category of Case -->
+<!--		      <clip pos="1" side="tl" part="a_case"/>--> <!-- Category of Case -->
 		      <lit-tag v="post"/>
 		      <lit-tag v="prl"/>
 	            </lu>
@@ -827,7 +871,7 @@
 		    <b/>
 		    <lu>
 		      <lit v="колга"/>
-<!--		      <clip pos="1" side="tl" part="a_cas"/>--> <!-- Category of Case -->
+<!--		      <clip pos="1" side="tl" part="a_case"/>--> <!-- Category of Case -->
 		      <lit-tag v="post"/>
 	            </lu>
 		  </chunk>
@@ -856,7 +900,7 @@
 		    <b/>
 		    <lu>
 		      <lit v="колга"/>
-<!--		      <clip pos="1" side="tl" part="a_cas"/>--> <!-- Category of Case -->
+<!--		      <clip pos="1" side="tl" part="a_case"/>--> <!-- Category of Case -->
 		      <lit-tag v="post"/>
 	            </lu>
 		  </chunk>
@@ -885,7 +929,7 @@
 		    <b/>
 		    <lu>
 		      <lit v="колга"/>
-<!--		      <clip pos="1" side="tl" part="a_cas"/>--> <!-- Category of Case -->
+<!--		      <clip pos="1" side="tl" part="a_case"/>--> <!-- Category of Case -->
 		      <lit-tag v="post"/>
 	            </lu>
 		  </chunk>

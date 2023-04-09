@@ -18,6 +18,13 @@
       <match lemma="ярхцамс" tags="vblex.*"/>
     </or>
     </def-seq>
+    <def-seq n="tra_case"><or>
+      <match lemma="*" tags="n.*.tra.*"/>
+      <match lemma="*" tags="np.*.tra.*"/>
+      <match lemma="*" tags="nrn.*.*.tra.*"/>
+      <match lemma="*" tags="adj.*.tra.*"/>
+    </or>
+    </def-seq>
 </def-seqs>
 
   <rules>
@@ -97,7 +104,42 @@
     </or>
   </rule>
 
-  <rule>
+  <!-- арамс мезекска теевемс мезекс-бути -->
+  <rule weight="1.0">
+    <or>
+        <seq n="tra_case"/>
+    </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags=""/>
+        <match tags="*"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="арамс" tags="vblex.*">
+	<select lemma="теевемс" tags="vblex.*"/>
+      </match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="арамс" tags="vblex.*">
+	<select lemma="теевемс" tags="vblex.*"/>
+      </match>
+    </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags=""/>
+        <match tags="*"/>
+      </or>
+    </repeat>
+    <or>
+        <seq n="tra_case"/>
+    </or>
+  </rule>
+
+<!-- вейте-вейте валсо полавтозь, individual words -->
+<rule>
     <match lemma="ката" tags="n.*"><select lemma="псака" tags="n.*"/></match>
   </rule>
   <rule>
