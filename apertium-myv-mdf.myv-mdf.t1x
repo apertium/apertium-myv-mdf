@@ -21,6 +21,18 @@
 	      <cat-item tags="n.*.gen.*"/>
 	      <cat-item tags="np.*.gen.*"/>
 	    </def-cat>
+	    <def-cat n="n_ela_def">
+	      <cat-item tags="n.*.ela.def.*"/>
+	      <cat-item tags="np.*.ela.def.*"/>
+	    </def-cat>
+	    <def-cat n="n_ill_def">
+	      <cat-item tags="n.*.ill.def.*"/>
+	      <cat-item tags="np.*.ill.def.*"/>
+	    </def-cat>
+	    <def-cat n="n_ine_def">
+	      <cat-item tags="n.*.ine.def.*"/>
+	      <cat-item tags="np.*.ine.def.*"/>
+	    </def-cat>
 	    <def-cat n="n_prl_def">
 	      <cat-item tags="n.*.prl.def.*"/>
 	      <cat-item tags="np.*.prl.def.*"/>
@@ -64,8 +76,17 @@
 	    <def-cat n="kise_post">
 	      <cat-item lemma="кисэ" tags="post.*"/>
 	    </def-cat>
+	    <def-cat n="ezda_post">
+	      <cat-item lemma="эзда" tags="post.*"/>
+	    </def-cat>
 	    <def-cat n="ezga_post">
 	      <cat-item lemma="эзга" tags="post.*"/>
+	    </def-cat>
+	    <def-cat n="es_post">
+	      <cat-item lemma="эс" tags="post.*"/>
+	    </def-cat>
+	    <def-cat n="esa_post">
+	      <cat-item lemma="эса" tags="post.*"/>
 	    </def-cat>
 	    <def-cat n="kolga_post">
 	      <cat-item lemma="колга" tags="post.*"/>
@@ -845,6 +866,93 @@
 <!--		      <clip pos="1" side="tl" part="a_case"/>--> <!-- Category of Case -->
 		      <lit-tag v="post"/>
 		      <lit-tag v="prl"/>
+	            </lu>
+		  </chunk>
+		</out>
+	      </action>
+	    </rule>
+
+	    <rule comment="noun in definite elative: is definite genitive noun with ezдa">
+	      <pattern>
+	        <pattern-item n="n_ela_def"/>
+	      </pattern>
+	      <action>
+	        <out>
+		  <chunk name="ElaDef" case="caseFirstWord">
+		    <tags>
+		      <tag><lit-tag v="SN"/></tag>
+		    </tags>
+	            <lu>
+		      <clip pos="1" side="tl" part="lem"/> <!-- sourceL lemma -> targetL lemma -->
+		      <clip pos="1" side="tl" part="a_nom"/> <!-- Part-of-Speech -->
+		      <clip pos="1" side="tl" part="a_number"/> <!-- Number category -->
+		      <lit-tag v="gen"/> <!-- Target language case requirement -->
+		      <clip pos="1" side="tl" part="a_definiteness"/> <!-- Category of definiteness -->
+		    </lu>
+		    <b/>
+		    <lu>
+		      <lit v="эзда"/>
+<!--		      <clip pos="1" side="tl" part="a_case"/>--> <!-- Category of Case -->
+		      <lit-tag v="post"/>
+		      <lit-tag v="abl"/>
+	            </lu>
+		  </chunk>
+		</out>
+	      </action>
+	    </rule>
+
+	    <rule comment="noun in definite illative: is definite genitive noun with es">
+	      <pattern>
+	        <pattern-item n="n_ill_def"/>
+	      </pattern>
+	      <action>
+	        <out>
+		  <chunk name="IllDef" case="caseFirstWord">
+		    <tags>
+		      <tag><lit-tag v="SN"/></tag>
+		    </tags>
+	            <lu>
+		      <clip pos="1" side="tl" part="lem"/> <!-- sourceL lemma -> targetL lemma -->
+		      <clip pos="1" side="tl" part="a_nom"/> <!-- Part-of-Speech -->
+		      <clip pos="1" side="tl" part="a_number"/> <!-- Number category -->
+		      <lit-tag v="gen"/> <!-- Target language case requirement -->
+		      <clip pos="1" side="tl" part="a_definiteness"/> <!-- Category of definiteness -->
+		    </lu>
+		    <b/>
+		    <lu>
+		      <lit v="эс"/>
+<!--		      <clip pos="1" side="tl" part="a_case"/>--> <!-- Category of Case -->
+		      <lit-tag v="post"/>
+		      <lit-tag v="ill"/>
+	            </lu>
+		  </chunk>
+		</out>
+	      </action>
+	    </rule>
+
+	    <rule comment="noun in definite inessive: is definite genitive noun with esa">
+	      <pattern>
+	        <pattern-item n="n_ine_def"/>
+	      </pattern>
+	      <action>
+	        <out>
+		  <chunk name="IneDef" case="caseFirstWord">
+		    <tags>
+		      <tag><lit-tag v="SN"/></tag>
+		    </tags>
+	            <lu>
+		      <clip pos="1" side="tl" part="lem"/> <!-- sourceL lemma -> targetL lemma -->
+		      <clip pos="1" side="tl" part="a_nom"/> <!-- Part-of-Speech -->
+		      <clip pos="1" side="tl" part="a_number"/> <!-- Number category -->
+		      <lit-tag v="gen"/> <!-- Target language case requirement -->
+		      <clip pos="1" side="tl" part="a_definiteness"/> <!-- Category of definiteness -->
+		    </lu>
+		    <b/>
+		    <lu>
+		      <lit v="эса"/>
+<!--		      <clip pos="1" side="tl" part="a_case"/>--> <!-- Category of Case -->
+		      <lit-tag v="post"/>
+		      <lit-tag v="ine"/>
 	            </lu>
 		  </chunk>
 		</out>

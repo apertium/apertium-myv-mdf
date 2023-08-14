@@ -1,0 +1,166 @@
+Alphabet
+
+%<cmp%>
+%<rcmpnd%>
+
+%<der%_a%>
+%<der%_aadv%>
+%<der%_adv%>
+%<der%_car%>
+%<der%_caus%>
+%<der%_dimin%>
+%<der%_inchl%>
+%<der%_nomact%>
+%<der%_nomag%>
+%<der%_passl%>
+%<der%_passs%>
+%<der%_adda%>
+%<der%_alla%>
+%<der%_amoš%>
+%<der%_d%>
+%<der%_eamoš%>
+%<der%_easti%>
+%<der%_geahtes%>
+%<der%_h%>
+%<der%_halla%>
+%<der%_has%>
+%<der%_huhtti%>
+%<der%_huvva%>
+%<der%_keahtta%>
+%<der%_l%>
+%<der%_laagasj%>
+%<der%_laakan%>
+%<der%_las%>
+%<der%_lasj%>
+%<der%_meahttun%>
+%<der%_muš%>
+%<der%_sasj%>
+%<der%_st%>
+%<der%_stuvva%>
+%<der%_supmi%>
+%<der%_t%>
+%<der%_upmi%>
+%<der%_veara%>
+%<der%_viđi%>
+%<der%_viđá%>
+%<der%_vuota%>
+%<der%_ár%>
+
+;				! end of Alphabet
+
+Sets
+
+Cmp =
+%<cmp%>
+%<rcmpnd%>
+;
+
+Derivations =
+%<der%_a%>
+%<der%_aadv%>
+%<der%_adv%>
+%<der%_car%>
+%<der%_caus%>
+%<der%_dimin%>
+%<der%_inchl%>
+%<der%_nomact%>
+%<der%_nomag%>
+%<der%_passl%>
+%<der%_passs%>
+%<der%_adda%>
+%<der%_alla%>
+%<der%_amoš%>
+%<der%_d%>
+%<der%_eamoš%>
+%<der%_easti%>
+%<der%_geahtes%>
+%<der%_h%>
+%<der%_halla%>
+%<der%_has%>
+%<der%_huhtti%>
+%<der%_huvva%>
+%<der%_keahtta%>
+%<der%_l%>
+%<der%_laagasj%>
+%<der%_laakan%>
+%<der%_las%>
+%<der%_lasj%>
+%<der%_meahttun%>
+%<der%_muš%>
+%<der%_sasj%>
+%<der%_st%>
+%<der%_stuvva%>
+%<der%_supmi%>
+%<der%_t%>
+%<der%_upmi%>
+%<der%_veara%>
+%<der%_viđi%>
+%<der%_viđá%>
+%<der%_vuota%>
+%<der%_ár%>
+;
+
+! TODO: what derivations do want to allow in sme-sma? Remove the ones that we don't handle:
+HandledDerivations =
+%<der%_a%>
+%<der%_aadv%>
+%<der%_adda%>
+%<der%_adv%>
+%<der%_alla%>
+%<der%_amoš%>
+%<der%_asti%>
+%<der%_d%>
+%<der%_dimin%>
+%<der%_eamoš%>
+%<der%_easti%>
+%<der%_geahtes%>
+%<der%_h%>
+%<der%_halla%>
+%<der%_huhtti%>
+%<der%_huvva%>
+%<der%_inchl%>
+%<der%_l%>
+%<der%_lasj%>
+%<der%_laagasj%>
+%<der%_laakan%>
+%<der%_meahttun%>
+%<der%_muš%>
+%<der%_nomact%>
+%<der%_nomag%>
+%<der%_passl%>
+%<der%_passs%>
+%<der%_st%>
+%<der%_t%>
+%<der%_veara%>
+%<der%_viđá%>
+%<der%_vuota%>
+;
+
+;				! end of Sets
+
+Definitions
+
+UnhandledDerivations = Derivations - HandledDerivations ;
+
+;				! end of Definitions
+
+Rules
+
+! "Don't allow compounds until we've fixed trimming, choosing-lexicalised-over-compounds, sem-tags-being-messed-up-in-compounds, etc. etc."
+! V /<= _ ; where V in Cmp ;
+
+"Only allow those derivations that we've made sure survive translation"
+: /<= _ UnhandledDerivations ;
+
+! TODO: do we want derivations as left-parts of compounds in sme-sma? if so, comment out this rule:
+!"Don't allow derivations as left-compounds"
+!: /<= _ Derivations :* Cmp ;
+
+"Don't allow more than three left-compounds"
+: /<= _ Cmp :* Cmp :* Cmp :* Cmp ;
+
+! TODO: do we want double derivations in sme-sma? if so, comment out this rule:
+!"Don't allow derivations of derivations"
+!: /<= _ Derivations :* Derivations ;
+
+;				! end of Rules
