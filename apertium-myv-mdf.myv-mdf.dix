@@ -190,8 +190,10 @@
       <e><p><l>арази<s n="pcle"/></l><r>деряй<s n="pcle"/></r></p></e>
       <e r="LR"><p><l>арази<s n="pcle"/></l><r>рази<s n="pcle"/></r></p></e>
       <e r="LR"><p><l>арась<s n="pcle"/></l><r>аш<s n="pcle"/></r></p></e>
+      <e><p><l>бу<s n="pcle"/></l><r>ба<s n="pcle"/></r></p></e>
       <e><p><l>весемеде<s n="pcle"/></l><r>сембода</r></p></e>
       <e r="RL"><p><l>ды<s n="pcle"/></l><r>и<s n="pcle"/></r></p></e>
+      <e><p><l>жо<s n="pcle"/></l><r>жа<s n="pcle"/></r></p></e>
       <e><p><l>ли<s n="pcle"/></l><r>ли<s n="pcle"/></r></p></e>
       <e r="LR"><p><l>мабуть<s n="pcle"/></l><r>шять<s n="pcle"/></r></p></e>
       <e r="LR"><p><l>мабуть<s n="pcle"/></l><r>улема<s n="pcle"/></r></p></e>
@@ -204,7 +206,7 @@
 
 
       <!-- SECTION: Conjunctions -->
-      <e r="RL"><p><l/><r>што<s n="cnjsub"/></r></p></e>
+      <e r="LR"><p><l>што<s n="cnjsub"/></l><r>што<s n="cnjsub"/></r></p></e>
 
       <e><p><l>а<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
       <e><p><l>ды<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
@@ -3172,6 +3174,7 @@
       <e><p><l>ушонь<s n="adj"/></l><r>ушень<s n="adj"/></r></p></e>
       <e r="RL"><p><l>филологической<s n="adj"/></l><r>филологическяй<s n="adj"/></r></p></e>
       <e><p><l>финнэнь<s n="adj"/></l><r>финнонь<s n="adj"/></r></p></e>
+      <e><p><l>мазый<s n="adj"/></l><r>цебярь<s n="adj"/></r></p></e>
       <e r="RL"><p><l>мазы<s n="adj"/></l><r>цебярь<s n="adj"/></r></p></e>
       <e><p><l>цецькав<s n="adj"/></l><r>панчфу<s n="adj"/></r></p></e>
       <e><p><l>цецькав<s n="adj"/></l><r>панчфу<s n="adj"/></r></p></e>
