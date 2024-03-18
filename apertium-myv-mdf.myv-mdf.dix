@@ -93,6 +93,8 @@
     <sdef n="prl"      c="Prolative"/>
     <sdef n="tra"      c="Translative"/>
 
+    <sdef n="sup"      c="Superlative"/>
+
     <sdef n="der"      c="Any derivation (just listed here for completeness)"/>
     <sdef n="der_y"    c="Agent short derivation"/>
     <sdef n="der_yj"   c="Agent long derivation"/>
@@ -313,7 +315,7 @@
       <e><p><l>не<s n="det"/></l><r>ня<s n="det"/></r></p></e>
       <e><p><l>пель<s n="det"/></l><r>пяле<s n="det"/></r></p></e>
       <e><p><l>те<s n="det"/></l><r>тя<s n="det"/></r></p></e>
-      <e><p><l>эрьва<s n="det"/></l><r>эрь<s n="det"/></r></p></e>
+      <e><p><l>эрьва<s n="det"/><s n="sg"/><s n="nom"/><s n="ind"/></l><r>эрь<s n="det"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
       
       <e r="RL"><p><l>лия<s n="det"/></l><r>лия<s n="det"/></r></p></e>
 
@@ -3496,7 +3498,7 @@
       <e><p><l>верев<s n="adv"/></l><r>вяри<s n="adv"/></r></p></e>
       <e><p><l>верьга<s n="adv"/></l><r>вярьге<s n="adv"/></r></p></e>
       <e><p><l>весемеде<s n="adv"/></l><r>инь<s n="adv"/></r></p></e>
-      <e r="LR"><p><l>весемеде<s n="adv"/></l><r>сехта<s n="adv"/></r></p></e>
+      <e r="LR"><p><l>весемеде<s n="adv"/></l><r>сембода<s n="adv"/></r></p></e>
       <e><p><l>весемеде<s n="adv"/></l><r>сембода<s n="adv"/></r></p></e>
       <e><p><l>весемезэ<s n="adv"/></l><r>сембоц<s n="adv"/></r></p></e>
       <e><p><l>весть<s n="adv"/></l><r>весть<s n="adv"/></r></p></e>
@@ -3742,10 +3744,10 @@
       <e><p><l>сестэ<s n="adv"/></l><r>эста<s n="adv"/></r></p></e>
       <e><p><l>сех<s n="adv"/></l><r>инь<s n="adv"/></r></p></e>
       <e r="LR"><p><l>сех<s n="adv"/></l><r>сембода<s n="adv"/></r></p></e>
-      <e r="LR"><p><l>сех<s n="adv"/></l><r>сехта<s n="adv"/></r></p></e>
-      <e><p><l>сехте<s n="adv"/></l><r>сехта<s n="adv"/></r></p></e>
-      <e r="LR"><p><l>сехте<s n="adv"/></l><r>инь<s n="adv"/></r></p></e>
-      <e><p><l>сехте<s n="adv"/></l><r>сембода<s n="adv"/></r></p></e>
+      <e><p><l>сехте<s n="adv"/><s n="sup"/></l><r>сембе<s n="prn"/><s n="sp"/><s n="abl"/><s n="ind"/></r></p></e>
+<!--      <e><p><l>сехте<s n="adv"/><s n="sup"/></l><r>сембода<s n="prn"/><s n="sp"/><s n="abl"/><s n="ind"/></r></p></e> -->
+      <e r="RL"><p><l>сехте<s n="adv"/><s n="sup"/></l><r>сехта<s n="adv"/></r></p></e>
+      <e r="RL"><p><l>сехте<s n="adv"/><s n="sup"/></l><r>инь<s n="adv"/></r></p></e>
       <e r="RL"><p><l>тувако<s n="adv"/></l><r>сияк<s n="adv"/></r></p></e>
       <e><p><l>склень<s n="adv"/></l><r>склень<s n="adv"/></r></p></e>
       <e><p><l>склень<s n="adv"/></l><r>вельф<s n="adv"/></r></p></e>
