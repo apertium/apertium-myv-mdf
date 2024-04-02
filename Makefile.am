@@ -107,7 +107,6 @@ $(PREFIX2).automorf-untrimmed.hfst: .deps/$(LANG2).automorf.hfst
 $(PREFIX1).autogen.hfst: .deps/$(LANG2).autogen.hfst
 	hfst-fst2fst -O -i $< -o $@
 
-
 ###############################################################################
 ## Disambiguation rules
 ###############################################################################
