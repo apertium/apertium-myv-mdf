@@ -221,7 +221,7 @@
       <e r="RL"><p><l>но<s n="cnjcoo"/></l><r>но<s n="cnjcoo"/></r></p></e>
       <e r="RL"><p><l>то</l><r>то<s n="cnjcoo"/></r></p></e>
       <e><p><l>эли<s n="cnjcoo"/></l><r>али<s n="cnjcoo"/></r></p></e>
-      <e><p><l>эли<s n="cnjcoo"/></l><r>или<s n="cnjcoo"/></r></p></e>
+      <e r="RL"><p><l>эли<s n="cnjcoo"/></l><r>или<s n="cnjcoo"/></r></p></e>
       <e r="RL"><p><l>бути<s n="cnjsub"/></l><r>бди<s n="cnjsub"/></r></p></e>
       <e><p><l>бути<s n="cnjsub"/></l><r>кда<s n="cnjsub"/></r></p></e>
       <e><p><l>зярдо<s n="cnjsub"/></l><r>кода<s n="cnjsub"/></r></p></e>
@@ -276,7 +276,7 @@
       <e><p><l>пачк<s n="post"/></l><r>пачк<s n="post"/></r></p></e>
       <e><p><l>перть<s n="post"/></l><r>перьф<s n="post"/></r></p></e>
       <e><p><l>перька<s n="post"/></l><r>перьф<s n="post"/></r></p></e>
-      <e r="LR"><p><l>потс<s n="post"/></l><r>потмос<s n="post"/></r></p></e>
+      <e><p><l>потс<s n="post"/></l><r>потмос<s n="post"/></r></p></e>
       <e><p><l>потсо<s n="post"/></l><r>потмоса<s n="post"/></r></p></e>
       <e><p><l>потсто<s n="post"/></l><r>потмоста<s n="post"/></r></p></e>
       <e><p><l>таркас<s n="post"/></l><r>вастс<s n="post"/></r></p></e>
@@ -322,7 +322,6 @@
 
       <!-- SECTION: Pronouns -->
       <e><p><l>весе<s n="prn"/></l><r>сембе<s n="prn"/></r></p></e>
-      <e><p><l>кие<s n="prn"/></l><r>кие<s n="prn"/></r></p></e>
       <e><p><l>кие<s n="prn"/></l><r>кие<s n="prn"/></r></p></e>
       <e><p><l>кие-бути<s n="prn"/></l><r>кие-бди<s n="prn"/></r></p></e>
       <e><p><l>кие-кие<s n="prn"/></l><r>кие-кие<s n="prn"/></r></p></e>
