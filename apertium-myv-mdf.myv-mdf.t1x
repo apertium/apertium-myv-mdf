@@ -9,6 +9,12 @@
 	      <cat-item tags="n.*.abl.def.*"/>
 	      <cat-item tags="np.*.abl.def.*"/>
 	    </def-cat>
+	    <def-cat n="n_abl_about">
+	      <cat-item tags="n.*.abl.*.@←ADVL-ablabout"/>
+	      <cat-item tags="np.*.abl.*.@←ADVL-ablabout"/>
+	      <cat-item tags="n.*.abl.*.@ADVL-ablabout→"/>
+	      <cat-item tags="np.*.abl.*.@ADVL-ablabout→"/>
+	    </def-cat>
 	    <def-cat n="n_dat_def">
 	      <cat-item tags="n.*.dat.def.*"/>
 	      <cat-item tags="np.*.dat.def.*"/>
@@ -562,7 +568,7 @@
 	      <attr-item tags="@→A"/>
 	      <attr-item tags="@A←"/>
 	      <attr-item tags="@←ADVL"/>
-	      <attr-item tags="@←ADVL-about"/>
+	      <attr-item tags="@←ADVL-ablabout"/>
 	      <attr-item tags="@←ADVL-partitive"/>
 	      <attr-item tags="@→ADVL"/>
 	      <attr-item tags="@ADVL"/>
@@ -980,6 +986,34 @@
 		    <lu>
 		      <lit v="колга"/>
 <!--		      <clip pos="1" side="tl" part="a_case"/>--> <!-- Category of Case -->
+		      <lit-tag v="post"/>
+	            </lu>
+		  </chunk>
+		</out>
+	      </action>
+	    </rule>
+
+	    <rule comment="noun in ablative with @ADVL-ablabout: is indefinite genitive noun with kolga">
+	      <pattern>
+	        <pattern-item n="n_abl_about"/>
+	      </pattern>
+	      <action>
+	        <out>
+		  <chunk name="AblAbout" case="caseFirstWord">
+		    <tags>
+		      <tag><lit-tag v="SN"/></tag>
+		    </tags>
+	            <lu>
+		      <clip part="lem" pos="1" side="tl"/> <!-- sourceL lemma -> targetL lemma -->
+		      <clip part="a_nom" pos="1" side="tl"/> <!-- Part-of-Speech -->
+		      <clip part="a_number" pos="1" side="tl"/> <!-- Number category -->
+		      <lit-tag v="gen"/> <!-- Target language case requirement -->
+		      <clip part="a_definiteness" pos="1" side="tl"/> <!-- Category of definiteness -->
+		    </lu>
+		    <b/>
+		    <lu>
+		      <lit v="колга"/>
+<!--		      <clip part="a_case" pos="1" side="tl"/>--> <!-- Category of Case -->
 		      <lit-tag v="post"/>
 	            </lu>
 		  </chunk>
