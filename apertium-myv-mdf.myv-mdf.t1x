@@ -10,10 +10,10 @@
 	      <cat-item tags="np.*.abl.def.*"/>
 	    </def-cat>
 	    <def-cat n="n_abl_about">
-	      <cat-item tags="n.*.abl.*.@←ADVL-ablabout"/>
-	      <cat-item tags="np.*.abl.*.@←ADVL-ablabout"/>
-	      <cat-item tags="n.*.abl.*.@ADVL-ablabout→"/>
-	      <cat-item tags="np.*.abl.*.@ADVL-ablabout→"/>
+	      <cat-item tags="n.*.abl.*.@←ADVL"/>
+	      <cat-item tags="np.*.abl.*.@←ADVL"/>
+	      <cat-item tags="n.*.abl.*.@ADVL→"/>
+	      <cat-item tags="np.*.abl.*.@ADVL→"/>
 	    </def-cat>
 	    <def-cat n="n_dat_def">
 	      <cat-item tags="n.*.dat.def.*"/>
