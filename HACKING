@@ -57,12 +57,12 @@ in the file ~/.bashrc, then open a new terminal and do
   svn checkout https://victorio.uit.no/langtech/trunk/langs/myv
   svn checkout https://victorio.uit.no/langtech/trunk/langs/mdf
 
-  cd $GTHOME/langs/myv
+  cd $GTHOME/lang-myv
   ./autogen.sh
   ./configure --enable-apertium --with-hfst --without-xfst  --disable-spellers --disable-analysers --disable-generators
   make
 
-  cd $GTHOME/langs/mdf
+  cd $GTHOME/lang-mdf
   ./autogen.sh
   ./configure --enable-apertium --with-hfst --without-xfst  --disable-spellers --disable-analysers --disable-generators
   make
